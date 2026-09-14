@@ -1,0 +1,3886 @@
+[
+  {
+    "root": "ك-ت-ب",
+    "classical_definition": "schreiben, aufzeichnen, vorschreiben; auch zusammenfügen (daher كِتَاب (kitāb) „Buch“, wörtlich ein Zusammengebundenes)",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      1,
+      123
+    ],
+    "example_noun_arabic": "كِتَابٌ"
+  },
+  {
+    "root": "ق-ر-أ",
+    "classical_definition": "lesen, vorlesen, rezitieren, (Verse) zusammenstellen - daher قُرْآن (qurʾān) „Rezitation, Lesung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      2
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ق-و-ل",
+    "classical_definition": "sagen, sprechen, eine Aussage machen - قَوْل (qawl) „Wort, Aussage“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      3
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ذ-ه-ب",
+    "classical_definition": "weggehen, fortgehen, sich entfernen; eigenständig auch ذَهَب (dhahab) „Gold“ (dieselbe Wurzel, andere Bedeutungsrichtung)",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      4,
+      247
+    ],
+    "example_noun_arabic": "ذَهَبٌ"
+  },
+  {
+    "root": "ج-ي-أ",
+    "classical_definition": "kommen, ankommen, herbeikommen",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      5
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ع-ل-م",
+    "classical_definition": "wissen, kennen, Kenntnis haben - عِلْم (ʿilm) „Wissen“, عَلَم (ʿalam) „Kennzeichen, Fahne“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      6,
+      125,
+      297,
+      380,
+      387
+    ],
+    "example_noun_arabic": "عِلْمٌ / عَلِيمٌ"
+  },
+  {
+    "root": "ف-ع-ل",
+    "classical_definition": "tun, machen, handeln - فِعْل (fiʿl) „Tat, Verb“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      7
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-أ-ي",
+    "classical_definition": "sehen, erblicken, eine Ansicht haben - رَأْي (raʾy) „Meinung, Ansicht“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      8,
+      308
+    ],
+    "example_noun_arabic": "مِرْآةٌ"
+  },
+  {
+    "root": "س-م-ع",
+    "classical_definition": "hören, vernehmen, zuhören - سَمْع (samʿ) „Gehör“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      9,
+      472
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "أ-ك-ل",
+    "classical_definition": "essen, verzehren - أَكْل (akl) „Speise, das Essen“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      10
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ش-ر-ب",
+    "classical_definition": "trinken - شَرَاب (sharāb) „Getränk“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      11
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "خ-ل-ق",
+    "classical_definition": "erschaffen, hervorbringen, formen - خَلْق (khalq) „Schöpfung“; خُلُق (khuluq) „Charakter, Wesensart“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      12
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ع-ب-د",
+    "classical_definition": "dienen, anbeten, verehren - عَبْد (ʿabd) „Diener, Knecht/Sklave“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      13
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "أ-م-ن",
+    "classical_definition": "sicher/geborgen sein, vertrauen, glauben - أَمْن (amn) „Sicherheit“, إِيمَان (īmān) „Glaube“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      14,
+      39,
+      256,
+      278,
+      317,
+      378
+    ],
+    "example_noun_arabic": "مُؤْمِنٌ / إِيمَانٌ / آمِنٌ / أَمِينٌ"
+  },
+  {
+    "root": "ك-ف-ر",
+    "classical_definition": "bedecken, verdecken; verleugnen, undankbar/ungläubig sein - كُفْر (kufr) „Unglaube“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      15
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-ح-م",
+    "classical_definition": "sich erbarmen, gnädig sein - رَحْمَة (raḥma) „Barmherzigkeit“; رِحْم (riḥm) „Mutterleib, Verwandtschaft“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      16,
+      275,
+      374
+    ],
+    "example_noun_arabic": "رَحْمَةٌ / رَحِيمٌ"
+  },
+  {
+    "root": "غ-ف-ر",
+    "classical_definition": "bedecken, verhüllen; daher vergeben - غُفْرَان (ghufrān) „Vergebung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      17,
+      375
+    ],
+    "example_noun_arabic": "غَفُورٌ"
+  },
+  {
+    "root": "ه-د-ي",
+    "classical_definition": "leiten, führen, rechtleiten - هُدًى (hudā) „Rechtleitung“; هَدِيَّة (hadiyya) „Geschenk“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      18
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ض-ل-ل",
+    "classical_definition": "abirren, sich verirren, in die Irre gehen - ضَلَال (ḍalāl) „Irrtum, Verirrung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      19
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ن-ز-ل",
+    "classical_definition": "herabsteigen, absteigen, als Gast einkehren - مَنْزِل (manzil) „Wohnstätte, Rastplatz“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      20
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ص-ع-د",
+    "classical_definition": "aufsteigen, emporsteigen - صُعُود (ṣuʿūd) „Aufstieg“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      21
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "د-خ-ل",
+    "classical_definition": "eintreten, hineingehen - دُخُول (dukhūl) „Eintritt“; دَخْل (dakhl) „Einkommen“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      22
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "خ-ر-ج",
+    "classical_definition": "hinausgehen, herauskommen - خُرُوج (khurūj) „Auszug“; خَرَاج (kharāj) „Ertrag, Abgabe“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      23
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ج-ل-س",
+    "classical_definition": "sitzen, sich setzen - مَجْلِس (majlis) „Sitzung, Rat, Versammlungsort“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      24
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ق-و-م",
+    "classical_definition": "aufstehen, sich erheben, geradestehen - قَوْم (qawm) „Volk, Stamm“; قِيَام (qiyām) „das Stehen“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      25
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "م-ش-ي",
+    "classical_definition": "gehen, schreiten, laufen - مَشْي (mashy) „das Gehen“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      26
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "و-ج-د",
+    "classical_definition": "finden, vorfinden, antreffen - وُجُود (wujūd) „Sein, Existenz“; وَجْد (wajd) „Ekstase, Empfindung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      27
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ط-ل-ب",
+    "classical_definition": "suchen, verlangen, fordern - طَلَب (ṭalab) „Verlangen, Bitte“; طَالِب (ṭālib) „Suchender, Student“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      28,
+      173
+    ],
+    "example_noun_arabic": "طَالِبٌ"
+  },
+  {
+    "root": "س-أ-ل",
+    "classical_definition": "fragen, bitten, verlangen - سُؤَال (suʾāl) „Frage“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      29
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ج-و-ب",
+    "classical_definition": "antworten, erwidern; auch durchqueren/durchziehen - جَوَاب (jawāb) „Antwort“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      30
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ف-ه-م",
+    "classical_definition": "verstehen, begreifen - فَهْم (fahm) „Verständnis“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      31
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ظ-ن-ن",
+    "classical_definition": "meinen, vermuten, argwöhnen - ظَنّ (ẓann) „Vermutung, Meinung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      32
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-س-ب",
+    "classical_definition": "rechnen, zählen; meinen, halten für - حِسَاب (ḥisāb) „Rechnung, Abrechnung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      33
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-و-د",
+    "classical_definition": "wollen, beabsichtigen, umwerben; hin- und herstreifen - إِرَادَة (irāda) „Wille, Absicht“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      34
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ط-و-ع",
+    "classical_definition": "gehorchen, sich fügen; fähig/imstande sein - طَاعَة (ṭāʿa) „Gehorsam“; طَاقَة (ṭāqa) „Kraft, Vermögen“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      35
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-ب-ب",
+    "classical_definition": "lieben, liebhaben - حُبّ (ḥubb) „Liebe“; حَبَّة (ḥabba) „Korn, Samenkorn“ (eigenständige Nebenbedeutung derselben Wurzel)",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      36,
+      280
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ك-ر-ه",
+    "classical_definition": "hassen, verabscheuen, widerwillig sein - كَرَاهِيَة (karāhiya) „Abneigung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      37
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "خ-و-ف",
+    "classical_definition": "sich fürchten, Angst haben - خَوْف (khawf) „Furcht“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      38,
+      279
+    ],
+    "example_noun_arabic": "خَوْفٌ"
+  },
+  {
+    "root": "ص-ب-ر",
+    "classical_definition": "geduldig sein, standhaft ausharren - صَبْر (ṣabr) „Geduld, Standhaftigkeit“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      40,
+      276,
+      376
+    ],
+    "example_noun_arabic": "صَبْرٌ / صَابِرٌ"
+  },
+  {
+    "root": "ش-ك-ر",
+    "classical_definition": "danken, dankbar sein - شُكْر (shukr) „Dank, Dankbarkeit“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      41,
+      277,
+      377
+    ],
+    "example_noun_arabic": "شُكْرٌ / شَاكِرٌ"
+  },
+  {
+    "root": "ع-م-ل",
+    "classical_definition": "arbeiten, handeln, tun - عَمَل (ʿamal) „Werk, Tat, Handlung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      42,
+      489
+    ],
+    "example_noun_arabic": "عَامِلٌ"
+  },
+  {
+    "root": "ب-ن-ي",
+    "classical_definition": "bauen, errichten, konstruieren - بِنَاء (binā') „Bau, Gebäude, Konstruktion“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      43
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ه-ل-ك",
+    "classical_definition": "untergehen, zugrunde gehen, umkommen - هَلَاك (halāk) „Untergang, Verderben“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      44
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ع-ي-ش",
+    "classical_definition": "leben, sein Leben führen - عَيْش (ʿaysh) „Leben, Lebensunterhalt“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      45
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "م-و-ت",
+    "classical_definition": "sterben - مَوْت (mawt) „Tod“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      46
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "و-ل-د",
+    "classical_definition": "gebären, zeugen, hervorbringen - وَلَد (walad) „Kind“; وَالِد (wālid) „Erzeuger, Vater“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      47,
+      170
+    ],
+    "example_noun_arabic": "وَلَدٌ"
+  },
+  {
+    "root": "ن-ص-ر",
+    "classical_definition": "helfen, beistehen, zum Sieg verhelfen - نَصْر (naṣr) „Hilfe, Sieg“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      48
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-ك-م",
+    "classical_definition": "urteilen, richten, herrschen - حُكْم (ḥukm) „Urteil, Herrschaft“; حِكْمَة (ḥikma) „Weisheit“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      49,
+      379
+    ],
+    "example_noun_arabic": "حَكِيمٌ"
+  },
+  {
+    "root": "ع-د-ل",
+    "classical_definition": "gerecht sein, ausgleichen, geradebiegen; als Nebenbedeutung auch abweichen - عَدْل (ʿadl) „Gerechtigkeit“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      50,
+      271
+    ],
+    "example_noun_arabic": "عَدْلٌ"
+  },
+  {
+    "root": "ذ-ك-ر",
+    "classical_definition": "erinnern, erwähnen, gedenken; auch Ruf/Ansehen - ذِكْر (ḏikr) „Erwähnung, Gottgedenken“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      51,
+      388
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ن-ظ-ر",
+    "classical_definition": "schauen, betrachten; auch nachdenken/erwägen und warten - نَظَر (naẓar) „Blick, Betrachtung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      52
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ف-ت-ح",
+    "classical_definition": "öffnen, aufschließen; auch erobern und (durch Gott) beistehen - فَتْح (fatḥ) „Öffnung, Eroberung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      53,
+      299
+    ],
+    "example_noun_arabic": "مِفْتَاحٌ"
+  },
+  {
+    "root": "غ-ل-ق",
+    "classical_definition": "schließen, verriegeln - غَلْق (ghalq) „das Verschließen“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      54
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ك-س-ر",
+    "classical_definition": "brechen, zerbrechen; auch (im Kampf) schlagen/besiegen - كَسْر (kasr) „Bruch“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      55
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-م-ل",
+    "classical_definition": "tragen, befördern; auch schwanger sein und (eine Bürde) auf sich nehmen - حَمْل (ḥaml) „das Tragen, Bürde“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      56
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-م-ي",
+    "classical_definition": "werfen, schleudern; auch (mit dem Bogen) schießen - رَمْي (ramy) „das Werfen“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      57
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "أ-خ-ذ",
+    "classical_definition": "nehmen, ergreifen, in Besitz nehmen; Gegenteil von geben - أَخْذ (akhdh) „das Nehmen“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      58
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ع-ط-و",
+    "classical_definition": "geben, schenken, darreichen - عَطَاء (ʿaṭāʾ) „Gabe, Geschenk“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      59
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ب-ي-ع",
+    "classical_definition": "verkaufen (klassisch als Gegensatzwort/aḍdād auch: kaufen) - بَيْع (bayʿ) „Verkauf, Handel“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      60
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ش-ر-ي",
+    "classical_definition": "kaufen (klassisch als Gegensatzwort/aḍdād auch: verkaufen) - شِرَاء (shirāʾ) „Kauf“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      61
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ض-ر-ب",
+    "classical_definition": "schlagen, treffen; auch reisen/ziehen und (Münzen) prägen - ضَرْب (ḍarb) „Schlag“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      62
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ق-ت-ل",
+    "classical_definition": "töten - قَتْل (qatl) „Tötung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      63
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-ف-ظ",
+    "classical_definition": "bewahren, behüten; auch auswendig lernen - حِفْظ (ḥifẓ) „Bewahrung, Auswendiglernen“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      64
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ن-س-ي",
+    "classical_definition": "vergessen; auch (etwas) vernachlässigen - نِسْيَان (nisyān) „das Vergessen“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      65
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ك-ت-م",
+    "classical_definition": "verbergen, geheim halten - كَتْم (katm) / كِتْمَان (kitmān) „Verheimlichung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      66
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ل-ب-س",
+    "classical_definition": "(Kleidung) anziehen; auch vermischen/verwirren - لِبَاس (libās) „Kleidung“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      67
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ن-و-م",
+    "classical_definition": "schlafen - نَوْم (nawm) „Schlaf“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      68
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ي-ق-ظ",
+    "classical_definition": "wach sein/werden, aufwachen; auch wachsam/aufmerksam sein - يَقْظَة (yaqẓa) „Wachheit, Wachsamkeit“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - keine wörtliche Übernahme aus hawramani.com",
+    "related_word_ids": [
+      69
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ض-ح-ك",
+    "classical_definition": "lachen - ضَحِك (ḍaḥik) „das Lachen“ (Gegensatzwort zu بكى weinen)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      70
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ب-ك-ي",
+    "classical_definition": "weinen - بُكَاء (bukāʾ) „das Weinen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      71
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ل-ع-ب",
+    "classical_definition": "spielen, scherzen (Gegensatzwort zu جدّ ernst sein) - لَعِب (laʿib) „Spiel“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      72
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "د-ر-س",
+    "classical_definition": "(eine Spur) verblassen, vergehen; Form II درّس „unterrichten, lehren“ - دَرْس (dars) „Lektion, Unterricht“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      73,
+      179
+    ],
+    "example_noun_arabic": "مَدْرَسَةٌ"
+  },
+  {
+    "root": "ر-ج-ع",
+    "classical_definition": "zurückkehren, umkehren - رُجُوع (rujūʿ) „Rückkehr“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      74
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ت-ر-ك",
+    "classical_definition": "verlassen, zurücklassen, aufgeben - تَرْك (tark) „das Verlassen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      75
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ب-د-أ",
+    "classical_definition": "beginnen, den Vorrang haben, voranstellen - بَدْء (badʾ) „Anfang, Beginn“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      76
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ن-ه-ي",
+    "classical_definition": "verbieten; Form VIII انتهى „enden, an die Grenze/den äußersten Punkt gelangen“ - نِهَايَة (nihāya) „Ende, Grenze“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      77
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ف-و-ز",
+    "classical_definition": "Erfolg haben, gewinnen, siegen; auch in Sicherheit gelangen, entkommen - فَوْز (fawz) „Sieg, Erfolg“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      78
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "خ-س-ر",
+    "classical_definition": "verlieren, Verlust erleiden (v.a. im Handel) - خُسْرَان (khusrān) „Verlust“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      79
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ل-ق-ي",
+    "classical_definition": "treffen, begegnen, vorfinden - لِقَاء (liqāʾ) „Begegnung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      80
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ع-ر-ف",
+    "classical_definition": "kennen, erkennen, wissen (durch Erfahrung/Wahrnehmung, feiner als علم allgemeines Wissen) - مَعْرِفَة (maʿrifa) „Kenntnis“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      81
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-و-ج",
+    "classical_definition": "brauchen, nötig haben; Form VIII احتاج „brauchen“ - حَاجَة (ḥāǧa) „Bedürfnis“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      82
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "م-ل-ك",
+    "classical_definition": "besitzen, in Besitz/Verfügung haben; auch Herrschaft/Befehlsgewalt ausüben - مُلْك (mulk) „Besitz, Herrschaft“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      83,
+      124
+    ],
+    "example_noun_arabic": "مَلِكٌ"
+  },
+  {
+    "root": "غ-ض-ب",
+    "classical_definition": "zornig sein, sich ärgern - غَضَب (ghaḍab) „Zorn“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      84
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-ض-و",
+    "classical_definition": "zufrieden sein, gutheißen, Wohlgefallen haben (Gegensatzwort zu سخط zürnen) - رِضَا (riḍā) „Zufriedenheit, Wohlgefallen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      85
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ج-ه-د",
+    "classical_definition": "sich anstrengen, seine Kraft/Mühe einsetzen; Form III جاهد „kämpfen, sich abmühen“ - جَهْد/جُهْد (jahd/juhd) „Anstrengung, Mühe“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      86
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ص-ن-ع",
+    "classical_definition": "machen, herstellen, kunstvoll anfertigen - صُنْع (ṣunʿ) „Herstellung, Werk“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      87
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ز-ر-ع",
+    "classical_definition": "säen, pflanzen - زَرْع (zarʿ) „Saat, Pflanzung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      88
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-ص-د",
+    "classical_definition": "(Getreide, Pflanzen) ernten, mähen - حَصَاد (ḥaṣād) „Ernte“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      89
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ط-ب-خ",
+    "classical_definition": "kochen, garen (durch Sieden, Braten oder Backen) - طَبْخ (ṭabkh) „das Kochen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      90
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "غ-س-ل",
+    "classical_definition": "waschen (mit Wasser) - غَسْل (ghasl) „das Waschen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      91
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ل-ب-ث",
+    "classical_definition": "verweilen, verharren, warten - لُبْث (lubṯ) „Verweilen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      92
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "س-ف-ر",
+    "classical_definition": "(Grundbedeutung: fegen/aufdecken); Form III سافر „reisen, aufbrechen“ - سَفَر (safar) „Reise“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      93
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-ج-و",
+    "classical_definition": "hoffen, erhoffen - رَجَاء (rajāʾ) „Hoffnung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      94
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ط-ي-ر",
+    "classical_definition": "fliegen - طَيَرَان (ṭayarān) „das Fliegen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      95,
+      248
+    ],
+    "example_noun_arabic": "طَيْرٌ"
+  },
+  {
+    "root": "س-ب-ح",
+    "classical_definition": "schwimmen - سِبَاحَة (sibāḥa) „das Schwimmen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      96
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ج-ر-ي",
+    "classical_definition": "laufen, fließen, dahinziehen (von Wasser, Pferden, Schiffen, Gestirnen) - جَرْي (jary) „das Laufen, Fließen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      97
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-ر-ق",
+    "classical_definition": "(Grundbedeutung: feilen/reiben); Form IV أحرق „verbrennen“ - حَرِيق (ḥarīq) „Brand“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      98
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ق-ط-ع",
+    "classical_definition": "schneiden, abschneiden, durchtrennen - قَطْع (qaṭʿ) „das Schneiden“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - Grundform in der lokalen Lane's-Datenbank lückenhaft, Bedeutung über die abgeleiteten Formen (قطّع) und allgemein bekannten klassischen Gebrauch abgesichert",
+    "related_word_ids": [
+      99
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ص-ل-ح",
+    "classical_definition": "gut, richtig, tauglich, in Ordnung sein (Gegensatzwort zu فسد verderben) - صَلَاح (ṣalāḥ) „Rechtschaffenheit, guter Zustand“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      100,
+      473
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-ج-ل",
+    "classical_definition": "Mann (Gegensatzwort zu امرأة Frau); als Verb auch: zu Fuß gehen; auch: das Bein, der Fuß - رَجُل (raǧul) „Mann“; رِجْل (riǧl) „Bein, Fuß“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      101,
+      487
+    ],
+    "example_noun_arabic": "رَجُلٌ / رِجْلٌ"
+  },
+  {
+    "root": "م-ر-أ",
+    "classical_definition": "Frau (اِمْرَأَة, imraʾa); Gegensatzwort zu رجل Mann",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - Grundform in der lokalen Lane's-Datenbank lückenhaft (nur Wurzel-Stub ohne Volltext), Bedeutung durch allgemein bekannten klassischen Gebrauch abgesichert (u.a. sehr häufiges Koran-Wort)",
+    "related_word_ids": [
+      102
+    ],
+    "example_noun_arabic": "اِمْرَأَةٌ"
+  },
+  {
+    "root": "ب-ي-ت",
+    "classical_definition": "Haus, Zelt, Wohnstätte; als Verb auch: die Nacht verbringen - بَيْت (bayt) „Haus“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      103
+    ],
+    "example_noun_arabic": "بَيْتٌ"
+  },
+  {
+    "root": "م-و-ه",
+    "classical_definition": "Wasser (unregelmäßige/„schwache“ Wurzel) - مَاء (māʾ) „Wasser“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - Grundform in der lokalen Lane's-Datenbank lückenhaft, Bedeutung durch allgemein bekannten klassischen Gebrauch abgesichert (eines der häufigsten Wörter im Koran)",
+    "related_word_ids": [
+      104
+    ],
+    "example_noun_arabic": "مَاءٌ"
+  },
+  {
+    "root": "ي-و-م",
+    "classical_definition": "Tag, Zeit(punkt) - يَوْم (yawm) „Tag“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      105
+    ],
+    "example_noun_arabic": "يَوْمٌ"
+  },
+  {
+    "root": "ق-ل-ب",
+    "classical_definition": "Herz; als Verb auch: wenden, umdrehen - قَلْب (qalb) „Herz“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      106
+    ],
+    "example_noun_arabic": "قَلْبٌ"
+  },
+  {
+    "root": "ع-ي-ن",
+    "classical_definition": "Auge; auch: Quelle - عَيْن (ʿayn) „Auge“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      107
+    ],
+    "example_noun_arabic": "عَيْنٌ"
+  },
+  {
+    "root": "ب-ح-ر",
+    "classical_definition": "Meer, großes Gewässer - بَحْر (baḥr) „Meer“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      108
+    ],
+    "example_noun_arabic": "بَحْرٌ"
+  },
+  {
+    "root": "ج-ب-ل",
+    "classical_definition": "Berg - جَبَل (ǧabal) „Berg“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      109
+    ],
+    "example_noun_arabic": "جَبَلٌ"
+  },
+  {
+    "root": "ش-م-س",
+    "classical_definition": "Sonne (immer mit bestimmtem Artikel, da einzigartig) - شَمْس (šams) „Sonne“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      110
+    ],
+    "example_noun_arabic": "شَمْسٌ"
+  },
+  {
+    "root": "ق-م-ر",
+    "classical_definition": "Mond - قَمَر (qamar) „Mond“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      111
+    ],
+    "example_noun_arabic": "قَمَرٌ"
+  },
+  {
+    "root": "ل-ي-ل",
+    "classical_definition": "Nacht (Gegensatzwort zu نهار Tag) - لَيْل (layl) „Nacht“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      112
+    ],
+    "example_noun_arabic": "لَيْلٌ"
+  },
+  {
+    "root": "ن-ه-ر",
+    "classical_definition": "Tag(eszeit) (Gegensatzwort zu ليل Nacht); dieselbe Wurzel wie نهر „Fluss“ - نَهَار (nahār) „Tag“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      113,
+      181
+    ],
+    "example_noun_arabic": "نَهَارٌ / نَهْرٌ"
+  },
+  {
+    "root": "م-د-ن",
+    "classical_definition": "Stadt; wörtlich etwa „das, was in Besitz/unter Autorität steht“ - مَدِينَة (madīna) „Stadt“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      114
+    ],
+    "example_noun_arabic": "مَدِينَةٌ"
+  },
+  {
+    "root": "ط-ر-ق",
+    "classical_definition": "Weg, Pfad - طَرِيق (ṭarīq) „Weg“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      115,
+      448
+    ],
+    "example_noun_arabic": "طَرِيقٌ"
+  },
+  {
+    "root": "ب-و-ب",
+    "classical_definition": "Tür, Tor, Zugang - بَاب (bāb) „Tür“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      116
+    ],
+    "example_noun_arabic": "بَابٌ"
+  },
+  {
+    "root": "ر-ب-ب",
+    "classical_definition": "Herr, Meister; im religiösen Kontext: Gott als Herr der Welten - رَبّ (rabb) „Herr“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - Grundform in der lokalen Lane's-Datenbank lückenhaft, Bedeutung durch allgemein bekannten klassischen Gebrauch abgesichert (eines der häufigsten Wörter im Koran)",
+    "related_word_ids": [
+      117
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ك-ل-م",
+    "classical_definition": "Wort, Ausdruck, Aussage - كَلِمَة (kalima) „Wort“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      118
+    ],
+    "example_noun_arabic": "كَلِمَةٌ"
+  },
+  {
+    "root": "ح-ق-ق",
+    "classical_definition": "Wahrheit, Recht, Anrecht (Gegensatzwort zu باطل Falschheit) - حَقّ (ḥaqq) „Wahrheit, Recht“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - Grundform in der lokalen Lane's-Datenbank lückenhaft, Bedeutung durch allgemein bekannten klassischen Gebrauch abgesichert (eines der häufigsten Wörter im Koran)",
+    "related_word_ids": [
+      119
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ن-و-ر",
+    "classical_definition": "Feuer; dieselbe Wurzel wie نور „Licht“ - نَار (nār) „Feuer“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      120,
+      211
+    ],
+    "example_noun_arabic": "نَارٌ / نُورٌ"
+  },
+  {
+    "root": "م-و-ل",
+    "classical_definition": "Besitz, Vermögen, Eigentum (alles, was ein Mensch besitzt) - مَال (māl) „Besitz“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      121
+    ],
+    "example_noun_arabic": "مَالٌ"
+  },
+  {
+    "root": "و-ق-ت",
+    "classical_definition": "Zeit, festgesetzter Zeitpunkt - وَقْت (waqt) „Zeit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      122
+    ],
+    "example_noun_arabic": "وَقْتٌ"
+  },
+  {
+    "root": "م-ن-ع",
+    "classical_definition": "verhindern, hindern, verweigern (Gegensatzwort zu أعطى geben) - مَنْع (manʿ) „Verhinderung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      126
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "أ-م-ر",
+    "classical_definition": "befehlen, anordnen (Gegensatzwort zu نهى verbieten) - أَمْر (amr) „Befehl, Angelegenheit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      127
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "و-ع-د",
+    "classical_definition": "versprechen (Gutes oder auch drohend Schlechtes ankündigen) - وَعْد (waʿd) „Versprechen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      128
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "د-ع-و",
+    "classical_definition": "rufen, anrufen, beten, einladen - دُعَاء (duʿāʾ) „Bittgebet, Anrufung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      129
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ش-ه-د",
+    "classical_definition": "bezeugen, Zeuge sein, aussagen - شَهَادَة (šahāda) „Zeugnis, Glaubensbekenntnis“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      130
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ك-ذ-ب",
+    "classical_definition": "lügen (Gegensatzwort zu صدق wahrhaftig sein) - كَذِب (kaḏib) „Lüge“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      131,
+      274
+    ],
+    "example_noun_arabic": "كَذِبٌ"
+  },
+  {
+    "root": "ص-د-ق",
+    "classical_definition": "wahrhaftig, aufrichtig sein (Gegensatzwort zu كذب lügen) - صِدْق (ṣidq) „Wahrhaftigkeit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      132,
+      172,
+      273
+    ],
+    "example_noun_arabic": "صَدِيقٌ / صِدْقٌ"
+  },
+  {
+    "root": "ح-ر-س",
+    "classical_definition": "bewachen, behüten, beschützen - حِرَاسَة (ḥirāsa) „Bewachung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      133
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ج-م-ع",
+    "classical_definition": "sammeln, versammeln, zusammenbringen - جَمْع (ǧamʿ) „Sammlung, Versammlung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      134,
+      169
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ف-ر-ق",
+    "classical_definition": "trennen, unterscheiden - فُرْقَان (furqān) „Unterscheidung(skriterium)“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      135
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "س-م-و",
+    "classical_definition": "hoch/erhaben sein; Himmel (wörtlich das Erhabene) - سَمَاء (samāʾ) „Himmel“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - das Nomen سماء selbst ist in der lokalen Lane's-Datenbank nicht als eigener Eintrag erfasst (nur abgeleitete Verbformen), Bedeutung durch allgemein bekannten klassischen Gebrauch abgesichert (eines der häufigsten Wörter im Koran)",
+    "related_word_ids": [
+      136
+    ],
+    "example_noun_arabic": "سَمَاءٌ"
+  },
+  {
+    "root": "أ-ر-ض",
+    "classical_definition": "Erde, Boden, Land - أَرْض (arḍ) „Erde“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      137
+    ],
+    "example_noun_arabic": "أَرْضٌ"
+  },
+  {
+    "root": "ن-ف-س",
+    "classical_definition": "Seele, Selbst, Person, Atem - نَفْس (nafs) „Seele, Selbst“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      138
+    ],
+    "example_noun_arabic": "نَفْسٌ"
+  },
+  {
+    "root": "ي-د-ي",
+    "classical_definition": "Hand - يَد (yad) „Hand“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      139
+    ],
+    "example_noun_arabic": "يَدٌ"
+  },
+  {
+    "root": "و-ج-ه",
+    "classical_definition": "Gesicht, Angesicht; auch: Richtung, Absicht - وَجْه (waǧh) „Gesicht“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      140
+    ],
+    "example_noun_arabic": "وَجْهٌ"
+  },
+  {
+    "root": "ر-أ-س",
+    "classical_definition": "Kopf; auch übertragen: Anführer, Gipfel - رَأْس (raʾs) „Kopf“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      141,
+      488
+    ],
+    "example_noun_arabic": "رَأْسٌ / رَئِيسٌ"
+  },
+  {
+    "root": "ج-ن-ن",
+    "classical_definition": "verhüllen, verbergen; جنّة Garten/Paradies (wörtlich das Verhüllte, Dichtbewachsene) - جَنَّة (ǧanna) „Garten, Paradies“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - für diese Wurzel liegt in der lokalen Lane's-Datenbank kein Eintrag vor, Bedeutung durch allgemein bekannten klassischen Gebrauch abgesichert (eines der häufigsten Wörter im Koran)",
+    "related_word_ids": [
+      142
+    ],
+    "example_noun_arabic": "جَنَّةٌ"
+  },
+  {
+    "root": "د-ي-ن",
+    "classical_definition": "Religion, Glaube; auch: Schuld, Gericht (am Jüngsten Tag) - دِين (dīn) „Religion“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      143
+    ],
+    "example_noun_arabic": "دِينٌ"
+  },
+  {
+    "root": "ش-ه-ر",
+    "classical_definition": "bekannt/berühmt machen; شهر Monat (nach dem sichtbaren Mondzyklus benannt) - شَهْر (šahr) „Monat“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      144,
+      439
+    ],
+    "example_noun_arabic": "شَهْرٌ / شَهِيرٌ"
+  },
+  {
+    "root": "س-ن-و",
+    "classical_definition": "Jahr - سَنَة (sana) „Jahr“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      145
+    ],
+    "example_noun_arabic": "سَنَةٌ"
+  },
+  {
+    "root": "م-ن",
+    "classical_definition": "Präposition: von, aus, seit — kein Verb-/Nomen-Wurzel im lexikalischen Sinn, sondern ein Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab — Präpositionen werden in der klassischen Lexikographie nicht wie Inhaltswörter behandelt",
+    "related_word_ids": [
+      146,
+      197
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ف-ي",
+    "classical_definition": "Präposition: in, innerhalb — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      147
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ع-ل-ى",
+    "classical_definition": "Präposition: auf, über — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      148
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "إ-ل-ى",
+    "classical_definition": "Präposition: zu, nach, bis (Richtung/Ziel) — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      149
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ع-ن",
+    "classical_definition": "Präposition: über, von (weg) — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      150
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "م-ع",
+    "classical_definition": "Präposition: mit, zusammen mit — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      151
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ب-ع-د",
+    "classical_definition": "Präposition/Adverb: nach, danach (zeitlich) — Funktionswort der arabischen Grammatik; dieselbe Wurzel wie بعيد „fern, entfernt“ (baʿīd) und بُعْد „Ferne, Distanz“",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      152,
+      228
+    ],
+    "example_noun_arabic": "بَعِيدٌ"
+  },
+  {
+    "root": "ق-ب-ل",
+    "classical_definition": "Präposition/Adverb: vor, davor (zeitlich) — Funktionswort der arabischen Grammatik; Form X اِسْتَقْبَلَ (istaqbala) „empfangen, jemandem entgegengehen“ (wörtlich: sich vor jemanden stellen) - اِسْتِقْبَال (istiqbāl) „der Empfang“",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw); Verbbedeutung nach Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      153,
+      476
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ع-ن-د",
+    "classical_definition": "Präposition: bei, in Besitz/Gegenwart von — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      154
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ب-ي-ن",
+    "classical_definition": "Präposition/Adverb: zwischen — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      155
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-ت-ى",
+    "classical_definition": "Präposition/Konjunktion: bis, sogar — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      156
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "إ-ذ-ا",
+    "classical_definition": "Konjunktion: wenn, als, sobald (Bedingungs-/Zeitpartikel) — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      157
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ط-ل-ع",
+    "classical_definition": "aufgehen, erscheinen (Sonne, Mond, Sterne) - طُلُوع (ṭulūʿ) „Aufgang“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      158
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "غ-ر-ب",
+    "classical_definition": "untergehen (Sonne), sich entfernen, fern sein - غُرُوب (ġurūb) „Untergang“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      159,
+      437
+    ],
+    "example_noun_arabic": "غَرِيبٌ"
+  },
+  {
+    "root": "و-ص-ل",
+    "classical_definition": "ankommen, erreichen, verbinden - وُصُول (wuṣūl) „Ankunft“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      160
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "و-ض-ع",
+    "classical_definition": "legen, stellen, niederlegen (Gegensatzwort zu رفع erheben) - وَضْع (waḍʿ) „das Legen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      161
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-ف-ع",
+    "classical_definition": "erheben, heben, anheben (Gegensatzwort zu وضع/خفض senken) - رَفْع (rafʿ) „das Erheben“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      162
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "خ-ف-ض",
+    "classical_definition": "senken, erniedrigen (Gegensatzwort zu رفع erheben) - خَفْض (khafḍ) „das Senken“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      163,
+      496
+    ],
+    "example_noun_arabic": "مُنْخَفِضٌ"
+  },
+  {
+    "root": "ن-ظ-ف",
+    "classical_definition": "reinigen, sauber machen - نَظَافَة (naẓāfa) „Sauberkeit“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - für die Form II (نظّف) liegt in der lokalen Lane's-Datenbank kein eigener Volltext-Eintrag vor, Bedeutung durch allgemein bekannten Gebrauch abgesichert",
+    "related_word_ids": [
+      164,
+      290
+    ],
+    "example_noun_arabic": "نَظِيفٌ"
+  },
+  {
+    "root": "ف-ك-ر",
+    "classical_definition": "nachdenken, überlegen, betrachten - فِكْر (fikr) „Gedanke“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      165
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ش-و-ر",
+    "classical_definition": "(Grundbedeutung: zeigen/Honig sammeln); Form IV أشار „zeigen, hinweisen“ - إِشَارَة (išāra) „Zeichen, Hinweis“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      166
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ز-و-ر",
+    "classical_definition": "besuchen - زِيَارَة (ziyāra) „Besuch“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      167
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "د-ف-ع",
+    "classical_definition": "stoßen, zurückdrängen, abwehren; Form III دافع „verteidigen“ - دِفَاع (difāʿ) „Verteidigung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      168
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ط-ف-ل",
+    "classical_definition": "Kind, Kleinkind - طِفْل (ṭifl) „Kind“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      171
+    ],
+    "example_noun_arabic": "طِفْلٌ"
+  },
+  {
+    "root": "أ-م",
+    "classical_definition": "Mutter - أُمّ (umm) „Mutter“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      174
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "أ-ب",
+    "classical_definition": "Vater - أَب (ab) „Vater“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      175
+    ],
+    "example_noun_arabic": "أَبٌ"
+  },
+  {
+    "root": "أ-خ",
+    "classical_definition": "Bruder; Schwester - أَخ (aḫ) „Bruder“; أُخْت (uḫt) „Schwester“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      176,
+      482
+    ],
+    "example_noun_arabic": "أَخٌ / أُخْتٌ"
+  },
+  {
+    "root": "ش-ج-ر",
+    "classical_definition": "Baum, Bäume (Kollektivum) - شَجَر (šaǧar) „Bäume“, شَجَرَة (šaǧara) „ein Baum“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      177
+    ],
+    "example_noun_arabic": "شَجَرَةٌ"
+  },
+  {
+    "root": "ح-د-ق",
+    "classical_definition": "umringen, umgeben; حَدِيقَة (ḥadīqa) „Garten“ (wörtlich: das Umfriedete)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      178
+    ],
+    "example_noun_arabic": "حَدِيقَةٌ"
+  },
+  {
+    "root": "س-و-ق",
+    "classical_definition": "treiben, antreiben; سُوق (sūq) „Markt“ (Ort, wohin Waren getrieben werden)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      180,
+      397
+    ],
+    "example_noun_arabic": "سُوقٌ / سَاقٌ"
+  },
+  {
+    "root": "ك-ب-ر",
+    "classical_definition": "groß sein/werden - كَبِير (kabīr) „groß“, كِبْر (kibr) „Größe, Stolz“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      182
+    ],
+    "example_noun_arabic": "كَبِيرٌ"
+  },
+  {
+    "root": "ص-غ-ر",
+    "classical_definition": "klein sein/werden (Gegensatzwort zu كبر groß sein) - صَغِير (ṣaġīr) „klein“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      183
+    ],
+    "example_noun_arabic": "صَغِيرٌ"
+  },
+  {
+    "root": "ج-م-ل",
+    "classical_definition": "schön/gut sein; auch: Kamel (dieselbe Wurzel, andere Bedeutungsrichtung) - جَمِيل (ǧamīl) „schön“, جَمَال (ǧamāl) „Schönheit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      184
+    ],
+    "example_noun_arabic": "جَمِيلٌ"
+  },
+  {
+    "root": "ط-و-ل",
+    "classical_definition": "lang sein/werden - طَوِيل (ṭawīl) „lang“, طُول (ṭūl) „Länge“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      185,
+      382
+    ],
+    "example_noun_arabic": "طَوِيلٌ"
+  },
+  {
+    "root": "ج-د-د",
+    "classical_definition": "neu sein; auch: Ernsthaftigkeit/Eifer (verwandte Bedeutungsrichtung); als eigenständige Bedeutung auch: Glück, gutes Schicksal, sowie der Großvater/die Großmutter - جَدِيد (ǧadīd) „neu“; جَدّ (ǧadd) „Großvater“; جَدَّة (ǧadda) „Großmutter“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      186,
+      479,
+      480
+    ],
+    "example_noun_arabic": "جَدِيدٌ / جَدَّةٌ"
+  },
+  {
+    "root": "ق-د-م",
+    "classical_definition": "vorangehen, alt/früher sein (Gegensatzwort zu جديد neu); auch: Fuß (dieselbe Wurzel) - قَدِيم (qadīm) „alt“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      187
+    ],
+    "example_noun_arabic": "قَدِيمٌ"
+  },
+  {
+    "root": "ك-ث-ر",
+    "classical_definition": "viel/zahlreich sein (Gegensatzwort zu قلّ wenig sein) - كَثِير (kaṯīr) „viel“, كَثْرَة (kaṯra) „Menge“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      188
+    ],
+    "example_noun_arabic": "كَثِيرٌ"
+  },
+  {
+    "root": "ج-و-د",
+    "classical_definition": "großzügig/gut sein, von hoher Qualität sein - جَيِّد (ǧayyid) „gut“, جُود (ǧūd) „Großzügigkeit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      189
+    ],
+    "example_noun_arabic": "جَيِّدٌ"
+  },
+  {
+    "root": "ح-ر-ر",
+    "classical_definition": "heiß sein; auch: frei sein (verwandte Bedeutungsrichtung) - حَارّ (ḥārr) „heiß“, حَرّ (ḥarr) „Hitze“",
+    "source": "Eigene Zusammenfassung nach klassischer arabischer Lexikographie (Lisān al-ʿArab, Lane's Lexicon) - für diese Wurzel liegt in der lokalen Lane's-Datenbank kein Eintrag vor, Bedeutung durch allgemein bekannten, unstrittigen klassischen Gebrauch abgesichert",
+    "related_word_ids": [
+      190
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ب-ر-د",
+    "classical_definition": "kalt sein/werden (Gegensatzwort zu حرّ heiß sein) - بَارِد (bārid) „kalt“, بَرْد (bard) „Kälte“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      191
+    ],
+    "example_noun_arabic": "بَارِدٌ"
+  },
+  {
+    "root": "ه-ل",
+    "classical_definition": "Fragepartikel für Ja/Nein-Fragen — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      192
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ك-ي-ف",
+    "classical_definition": "Frage-/Adverbialpartikel: wie — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      193
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "أ-ي-ن",
+    "classical_definition": "Frage-/Adverbialpartikel: wo, wohin — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      194
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "م-ت-ى",
+    "classical_definition": "Frage-/Adverbialpartikel: wann — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      195
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ل-م-ا-ذ-ا",
+    "classical_definition": "Fragepartikel: warum (zusammengesetzt aus لِ + مَا + ذَا) — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      196
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "م-ا-ذ-ا",
+    "classical_definition": "Fragepartikel: was (zusammengesetzt aus مَا + ذَا) — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      198
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ك-ل-ل",
+    "classical_definition": "jeder, alle, ganz (Totalitätspartikel/-nomen) — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      199
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ل-ا",
+    "classical_definition": "Negationspartikel: nicht, nein — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      200
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ك-و-ن",
+    "classical_definition": "sein, existieren, geschehen, werden - كَوْن (kawn) „Sein, Dasein, Existenz“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      201
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ج-ع-ل",
+    "classical_definition": "machen, tun, setzen, einsetzen (auch: machen zu, ernennen als) - جَعْل/جُعْل (ǧaʿl/ǧuʿl) „das Machen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      202
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ظ-ه-ر",
+    "classical_definition": "erscheinen, sichtbar werden, siegen; auch: den Rücken zeigen - ظُهُور (ẓuhūr) „Erscheinen“; ظَهْر (ẓahr) „Rücken“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      203,
+      391,
+      459
+    ],
+    "example_noun_arabic": "ظَهْرٌ / ظُهْرٌ"
+  },
+  {
+    "root": "و-ق-ف",
+    "classical_definition": "stehen, anhalten, stehen bleiben; auch (etwas) anhalten/stiften - وَقْف (waqf) „das Anhalten; (religiöse) Stiftung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      204
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "س-ب-ق",
+    "classical_definition": "vorangehen, vorauseilen, übertreffen (in einem Wettlauf) - سَبْق/سَبَق (sabq/sabaq) „das Vorangehen, Wettlauf“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      205
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ن-ج-و",
+    "classical_definition": "gerettet werden, entkommen, sich retten - نَجَاة (naǧāh) „Rettung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      206
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ه-ر-ب",
+    "classical_definition": "fliehen, entfliehen - هَرَب/هُرُوب (harab/hurūb) „Flucht“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      207
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "س-ك-ن",
+    "classical_definition": "wohnen, sich niederlassen; auch: ruhig/still werden - سَكَن (sakan) „Wohnstätte“; سُكُون (sukūn) „Ruhe, Stille“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      208,
+      500
+    ],
+    "example_noun_arabic": "سَاكِنٌ"
+  },
+  {
+    "root": "م-ر-ر",
+    "classical_definition": "vorbeigehen, vorübergehen; auch: bitter sein (verwandte Bedeutungsrichtung) - مَرّ (marr) „das Vorbeigehen“; مُرّ (murr) „bitter“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      209
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-ي-ي",
+    "classical_definition": "leben, am Leben sein; auch: grüßen - حَيَاة (ḥayāh) „Leben“; تَحِيَّة (taḥiyya) „Gruß“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      210
+    ],
+    "example_noun_arabic": "حَيَاةٌ"
+  },
+  {
+    "root": "خ-ي-ر",
+    "classical_definition": "wählen, das Bessere vorziehen - خَيْر (ḫayr) „das Gute, Vorzügliches“ (Gegensatzwort zu شر Böses)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      212,
+      471
+    ],
+    "example_noun_arabic": "خَيْرٌ"
+  },
+  {
+    "root": "ع-ق-ل",
+    "classical_definition": "verstehen, begreifen, mit Vernunft erfassen; auch: fesseln (Grundbedeutung) - عَقْل (ʿaql) „Verstand, Vernunft“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      213,
+      253
+    ],
+    "example_noun_arabic": "عَقْلٌ / عَاقِلٌ"
+  },
+  {
+    "root": "ر-و-ح",
+    "classical_definition": "sich erholen, Ruhe finden; verwandte Bedeutungen: Wind wehen, Geist/Seele - رُوح (rūḥ) „Geist, Seele“; رِيح (rīḥ) „Wind“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      214,
+      218,
+      268
+    ],
+    "example_noun_arabic": "رُوحٌ / رِيحٌ"
+  },
+  {
+    "root": "ل-س-ن",
+    "classical_definition": "(Grundbedeutung: die Zunge betreffen); eloquent sein - لِسَان (lisān) „Zunge, Sprache“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      215
+    ],
+    "example_noun_arabic": "لِسَانٌ"
+  },
+  {
+    "root": "د-م-ي",
+    "classical_definition": "bluten - دَم (dam) „Blut“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      216
+    ],
+    "example_noun_arabic": "دَمٌ"
+  },
+  {
+    "root": "ح-ج-ر",
+    "classical_definition": "verbieten, einschränken (Grundbedeutung); daher auch: Stein (das Feste, Abgegrenzte) - حَجَر (ḥaǧar) „Stein“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      217
+    ],
+    "example_noun_arabic": "حَجَرٌ"
+  },
+  {
+    "root": "م-ط-ر",
+    "classical_definition": "regnen - مَطَر (maṭar) „Regen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      219
+    ],
+    "example_noun_arabic": "مَطَرٌ"
+  },
+  {
+    "root": "ن-ج-م",
+    "classical_definition": "hervortreten, aufgehen (Gestirn); daher: Stern - نَجْم (naǧm) „Stern“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      220
+    ],
+    "example_noun_arabic": "نَجْمٌ"
+  },
+  {
+    "root": "ط-ع-م",
+    "classical_definition": "essen, kosten, schmecken - طَعَام (ṭaʿām) „Speise, Essen“; طَعْم (ṭaʿm) „Geschmack“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      221
+    ],
+    "example_noun_arabic": "طَعَامٌ"
+  },
+  {
+    "root": "ع-ظ-م",
+    "classical_definition": "groß/gewaltig sein; auch: Knochen (verwandte Bedeutungsrichtung) - عَظَمَة (ʿaẓama) „Größe“; عَظْم (ʿaẓm) „Knochen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      222,
+      336
+    ],
+    "example_noun_arabic": "عَظِيمٌ / عَظْمٌ"
+  },
+  {
+    "root": "ق-و-ي",
+    "classical_definition": "stark/kräftig sein - قُوَّة (quwwa) „Kraft, Stärke“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      223
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ض-ع-ف",
+    "classical_definition": "schwach sein, an Kraft mangeln - ضَعْف (ḍaʿf) „Schwäche“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      224
+    ],
+    "example_noun_arabic": "ضَعِيفٌ"
+  },
+  {
+    "root": "غ-ن-ي",
+    "classical_definition": "reich sein, keinen Mangel haben - غِنًى (ġinan) „Reichtum“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      225,
+      446
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ف-ق-ر",
+    "classical_definition": "arm sein, Mangel leiden; Grundbedeutung: das Rückgrat betreffen - فَقْر (faqr) „Armut“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      226
+    ],
+    "example_noun_arabic": "فَقِيرٌ"
+  },
+  {
+    "root": "س-ه-ل",
+    "classical_definition": "leicht/einfach sein (Gegensatzwort zu صعب schwierig) - سُهُولَة (suhūla) „Leichtigkeit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      227
+    ],
+    "example_noun_arabic": "سَهْلٌ"
+  },
+  {
+    "root": "ق-ر-ب",
+    "classical_definition": "nahe sein, sich nähern (Gegensatzwort zu بعد fern sein) - قُرْب (qurb) „Nähe“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      229
+    ],
+    "example_noun_arabic": "قَرِيبٌ"
+  },
+  {
+    "root": "ن-ع-م",
+    "classical_definition": "wohlergehen, angenehm/behaglich leben; als Antwortpartikel: ja - نَعِيم (naʿīm) „Wohlleben, Wonne“; نِعْمَة (niʿma) „Wohltat, Gunst“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      230
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "و-ج-ب",
+    "classical_definition": "verpflichtend/notwendig sein, feststehen; auch: fallen, niederfallen (Grundbedeutung) - وَاجِب (wāǧib) „Pflicht, notwendig“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      231
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-د-ث",
+    "classical_definition": "geschehen, sich ereignen, neu entstehen; auch: erzählen, berichten - حَدِيث (ḥadīṯ) „Bericht, Ausspruch“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      232
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ب-ق-ي",
+    "classical_definition": "bleiben, fortbestehen, übrig bleiben - بَاقٍ (bāqin) „bleibend, fortbestehend“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      233
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ت-ب-ع",
+    "classical_definition": "folgen, nachfolgen - تَابِع (tābiʿ) „Nachfolger, Anhänger“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      234
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-س-ل",
+    "classical_definition": "senden, schicken; sich in Ruhe/gelassen bewegen (Grundbedeutung) - رَسُول (rasūl) „Gesandter“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      235,
+      241
+    ],
+    "example_noun_arabic": "رَسُولٌ"
+  },
+  {
+    "root": "ن-د-و",
+    "classical_definition": "rufen, anrufen; sich versammeln - نَادِي (nādī) „Versammlungsort, Klub“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      236
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ز-ي-د",
+    "classical_definition": "zunehmen, sich vermehren, hinzufügen - زِيَادَة (ziyāda) „Zunahme, Vermehrung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      237
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ك-ش-ف",
+    "classical_definition": "aufdecken, enthüllen, offenbaren - كَشْف (kašf) „Enthüllung, Aufdeckung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      238
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ع-د-و",
+    "classical_definition": "feindlich sein, überschreiten; auch: laufen, rennen (Grundbedeutung) - عَدُوّ (ʿaduww) „Feind“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      239
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ص-و-ت",
+    "classical_definition": "tönen, schallen - صَوْت (ṣawt) „Stimme, Laut, Ton“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      240
+    ],
+    "example_noun_arabic": "صَوْتٌ"
+  },
+  {
+    "root": "ح-ر-ب",
+    "classical_definition": "Krieg führen, bekämpfen - حَرْب (ḥarb) „Krieg“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      242
+    ],
+    "example_noun_arabic": "حَرْبٌ"
+  },
+  {
+    "root": "س-ل-م",
+    "classical_definition": "unversehrt/heil sein, sich ergeben, Frieden schließen - سِلْم/سَلَام (silm/salām) „Frieden, Unversehrtheit“ (dieselbe Wurzel wie إِسْلَام, islām „Ergebung“)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      243,
+      406
+    ],
+    "example_noun_arabic": "سِلْمٌ / سَلِيمٌ"
+  },
+  {
+    "root": "ل-ح-م",
+    "classical_definition": "zusammenfügen, verbinden (Grundbedeutung); auch: Fleisch - لَحْم (laḥm) „Fleisch“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      244
+    ],
+    "example_noun_arabic": "لَحْمٌ"
+  },
+  {
+    "root": "خ-ب-ز",
+    "classical_definition": "Brot backen - خُبْز (ḫubz) „Brot“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      245
+    ],
+    "example_noun_arabic": "خُبْزٌ"
+  },
+  {
+    "root": "ع-س-ل",
+    "classical_definition": "honigsüß sein, mit Honig versehen - عَسَل (ʿasal) „Honig“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      246
+    ],
+    "example_noun_arabic": "عَسَلٌ"
+  },
+  {
+    "root": "ص-ح-ح",
+    "classical_definition": "gesund/richtig/echt sein - صَحِيح (ṣaḥīḥ) „gesund, richtig, echt (z. B. authentischer Hadith)“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      249
+    ],
+    "example_noun_arabic": "صَحِيحٌ"
+  },
+  {
+    "root": "س-ع-د",
+    "classical_definition": "glücklich/beglückt sein, Beistand leisten - سَعَادَة (saʿāda) „Glück“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      250,
+      386
+    ],
+    "example_noun_arabic": "سَعِيدٌ"
+  },
+  {
+    "root": "ح-ز-ن",
+    "classical_definition": "traurig/betrübt sein, sich grämen - حُزْن (ḥuzn) „Trauer, Kummer“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      251
+    ],
+    "example_noun_arabic": "حَزِينٌ"
+  },
+  {
+    "root": "ج-ه-ل",
+    "classical_definition": "unwissend sein, nicht wissen; auch: leichtfertig/ungestüm handeln (Grundbedeutung) - جَهْل (ǧahl) „Unwissenheit“ (daher الْجَاهِلِيَّة, al-ǧāhiliyya, die vorislamische Zeit)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      252
+    ],
+    "example_noun_arabic": "جَاهِلٌ"
+  },
+  {
+    "root": "ح-ل-ل",
+    "classical_definition": "erlaubt/frei sein, lösen, sich niederlassen - حَلَال (ḥalāl) „erlaubt“ (Gegenteil von حَرَام, ḥarām)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      254,
+      312
+    ],
+    "example_noun_arabic": "حَلَالٌ"
+  },
+  {
+    "root": "ح-ر-م",
+    "classical_definition": "verboten/unantastbar sein, heilig sein - حَرَام (ḥarām) „verboten, heilig“ (dieselbe Wurzel wie حَرَم, ḥaram, „heiliger Bezirk“, z. B. Mekka/Medina)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      255
+    ],
+    "example_noun_arabic": "حَرَامٌ"
+  },
+  {
+    "root": "أ-و",
+    "classical_definition": "Konjunktion: oder — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      257
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ث-م",
+    "classical_definition": "Konjunktion: dann, danach (mit zeitlichem Abstand) — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      258
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ل-ك-ن",
+    "classical_definition": "Konjunktion: aber, jedoch — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      259
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ق-د",
+    "classical_definition": "Partikel vor dem Verb: schon, bereits (mit Perfekt) bzw. manchmal, möglicherweise (mit Imperfekt) — Funktionswort der arabischen Grammatik",
+    "source": "Grammatikalische Funktion nach klassischer arabischer Grammatik (naḥw), nicht nach Lane's Lexicon oder Lisān al-ʿArab",
+    "related_word_ids": [
+      260
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "و-ه-ب",
+    "classical_definition": "schenken, gewähren (ohne Gegenleistung) - هِبَة (hiba) „Geschenk“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      261
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ق-ص-د",
+    "classical_definition": "beabsichtigen, anstreben, sich zu etwas hinwenden - قَصْد (qaṣd) „Absicht“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      262
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ش-ر-ح",
+    "classical_definition": "erklären, auslegen; auch: (die Brust) weiten - شَرْح (šarḥ) „Erklärung, Kommentar“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      263
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "س-ر-ق",
+    "classical_definition": "stehlen - سَرِقَة (sariqa) „Diebstahl“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      264
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "خ-و-ن",
+    "classical_definition": "verraten, untreu sein - خِيَانَة (ḫiyāna) „Verrat, Untreue“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      265
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ه-ج-ر",
+    "classical_definition": "verlassen, sich abwenden, auswandern - هِجْرَة (hiǧra) „Auswanderung“ (daher die islamische Zeitrechnung, al-hiǧra)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      266
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ف-ر-ح",
+    "classical_definition": "sich freuen, froh sein - فَرَح (faraḥ) „Freude“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      267
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "س-ي-ف",
+    "classical_definition": "mit dem Schwert schlagen (Grundbedeutung); vor allem als Substantiv gebräuchlich - سَيْف (sayf) „Schwert“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      269
+    ],
+    "example_noun_arabic": "سَيْفٌ"
+  },
+  {
+    "root": "ج-ي-ش",
+    "classical_definition": "wallen, aufwallen (Grundbedeutung, z. B. vom Meer); vor allem als Substantiv gebräuchlich - جَيْش (ǧayš) „Heer“ (ein aufwallender, sich bewegender Menschenstrom)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      270
+    ],
+    "example_noun_arabic": "جَيْشٌ"
+  },
+  {
+    "root": "ظ-ل-م",
+    "classical_definition": "unrecht handeln, unterdrücken, an den falschen Platz setzen (Grundbedeutung) - ظُلْم (ẓulm) „Unrecht, Unterdrückung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      272,
+      346
+    ],
+    "example_noun_arabic": "ظُلْمٌ / مُظْلِمٌ"
+  },
+  {
+    "root": "ش-ي-خ",
+    "classical_definition": "alt werden, ergrauen - شَيْخ (šayḫ) „alter Mann, Ältester, Scheich (Ehrentitel)“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      281
+    ],
+    "example_noun_arabic": "شَيْخٌ"
+  },
+  {
+    "root": "أ-ج-ر",
+    "classical_definition": "belohnen, entlohnen, vermieten - أَجْر (aǧr) „Lohn“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      282
+    ],
+    "example_noun_arabic": "أَجْرٌ"
+  },
+  {
+    "root": "ط-ه-ر",
+    "classical_definition": "rein sein, sich reinigen - طَهَارَة (ṭahāra) „Reinheit“ (wichtiger Begriff der islamischen Ritualreinheit)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      283
+    ],
+    "example_noun_arabic": "طَاهِرٌ"
+  },
+  {
+    "root": "ش-ر-ف",
+    "classical_definition": "erhaben/edel sein, hohen Rang haben - شَرَف (šaraf) „Ehre, hoher Rang“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      284
+    ],
+    "example_noun_arabic": "شَرِيفٌ"
+  },
+  {
+    "root": "ش-ج-ع",
+    "classical_definition": "mutig sein - شَجَاعَة (šaǧāʿa) „Mut, Tapferkeit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      285
+    ],
+    "example_noun_arabic": "شُجَاعٌ"
+  },
+  {
+    "root": "ج-ب-ن",
+    "classical_definition": "feige sein - جُبْن (ǧubn) „Feigheit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      286
+    ],
+    "example_noun_arabic": "جَبَانٌ"
+  },
+  {
+    "root": "ك-ر-م",
+    "classical_definition": "edel/großzügig sein, hochwertig sein - كَرَم (karam) „Großzügigkeit, Edelmut“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      287
+    ],
+    "example_noun_arabic": "كَرِيمٌ"
+  },
+  {
+    "root": "ب-خ-ل",
+    "classical_definition": "geizig sein - بُخْل (buḫl) „Geiz“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      288
+    ],
+    "example_noun_arabic": "بَخِيلٌ"
+  },
+  {
+    "root": "ذ-ل-ل",
+    "classical_definition": "erniedrigt/unterworfen sein, sich fügen - ذُلّ (ḏull) „Erniedrigung, Unterwerfung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      289
+    ],
+    "example_noun_arabic": "ذَلِيلٌ"
+  },
+  {
+    "root": "ف-ق-د",
+    "classical_definition": "verlieren, vermissen - فِقْدَان (fiqdān) „Verlust“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      291
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-ص-ل",
+    "classical_definition": "entstehen, sich ergeben, erlangt werden - حُصُول (ḥuṣūl) „das Erlangen, Zustandekommen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      292
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ب-ح-ث",
+    "classical_definition": "suchen, forschen, untersuchen - بَحْث (baḥṯ) „Untersuchung, Forschung“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      293
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "غ-ي-ر",
+    "classical_definition": "eifersüchtig/besorgt sein (Grundbedeutung); die Form II غيّر (ġayyara) „ändern“ - غَيْر (ġayr) „anders, ungleich“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      294
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ع-و-د",
+    "classical_definition": "zurückkehren, wiederholen, sich angewöhnen - عَادَة (ʿāda) „Gewohnheit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      295
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-د-د",
+    "classical_definition": "zurückgeben, zurückschicken, antworten - رَدّ (radd) „Antwort, Rückgabe“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      296
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ل-ح-ظ",
+    "classical_definition": "bemerken, einen Blick werfen - لَحْظَة (laḥẓa) „Augenblick, Blick“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      298
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "غ-ر-ف",
+    "classical_definition": "schöpfen (Wasser mit der Hand); غُرْفَة (ġurfa) als abgeleiteter Raum-Begriff „Zimmer“ (ein „ausgeschöpfter“, abgeteilter Raum)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      300
+    ],
+    "example_noun_arabic": "غُرْفَةٌ"
+  },
+  {
+    "root": "ن-ف-ذ",
+    "classical_definition": "durchdringen, hindurchgehen, in Kraft treten - نَافِذَة (nāfiḏa) „Fenster“ (eine Öffnung, durch die man hindurchsieht)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      301
+    ],
+    "example_noun_arabic": "نَافِذَةٌ"
+  },
+  {
+    "root": "ج-د-ر",
+    "classical_definition": "würdig/geeignet sein (Grundbedeutung); auch: mit einer Mauer umgeben - جِدَار (ǧidār) „Wand, Mauer“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      302,
+      438
+    ],
+    "example_noun_arabic": "جِدَارٌ / جَدِيرٌ"
+  },
+  {
+    "root": "ك-ر-س",
+    "classical_definition": "sich verfestigen, sich häufen (Grundbedeutung); vor allem als Substantiv gebräuchlich - كُرْسِيّ (kursiyy) „Stuhl, Thron“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      303
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ف-ر-ش",
+    "classical_definition": "ausbreiten, ein Lager herrichten - فِرَاش (firāš) „Bett, Lager“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      304
+    ],
+    "example_noun_arabic": "فِرَاشٌ"
+  },
+  {
+    "root": "ص-ب-ح",
+    "classical_definition": "morgens sein/werden, den Morgen erleben; مِصْبَاح (miṣbāḥ) als abgeleiteter Substantiv-Begriff „Lampe“ (Licht wie das des Morgens)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      305
+    ],
+    "example_noun_arabic": "مِصْبَاحٌ"
+  },
+  {
+    "root": "ح-ب-ل",
+    "classical_definition": "schwanger sein/werden (Grundbedeutung); vor allem als Substantiv gebräuchlich - حَبْل (ḥabl) „Seil, Strick“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      306
+    ],
+    "example_noun_arabic": "حَبْلٌ"
+  },
+  {
+    "root": "أ-ب-ر",
+    "classical_definition": "stechen (mit einer Nadel), bestäuben (Palmen) - إِبْرَة (ibra) „Nadel“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      307
+    ],
+    "example_noun_arabic": "إِبْرَةٌ"
+  },
+  {
+    "root": "س-و-ع",
+    "classical_definition": "Zeit verstreichen lassen (Grundbedeutung); vor allem als Substantiv gebräuchlich - سَاعَة (sāʿa) „Stunde, Uhr“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      309
+    ],
+    "example_noun_arabic": "سَاعَةٌ"
+  },
+  {
+    "root": "ف-ر-ص",
+    "classical_definition": "eine Gelegenheit ergreifen (Grundbedeutung); vor allem als Substantiv gebräuchlich - فُرْصَة (furṣa) „Gelegenheit, Chance“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      310
+    ],
+    "example_noun_arabic": "فُرْصَةٌ"
+  },
+  {
+    "root": "ش-ك-ل",
+    "classical_definition": "formen, gestalten, ähnlich sein - شَكْل (šakl) „Form, Gestalt“ (daher مُشْكِلَة, muškila „Problem“, wörtlich ein Fall unklarer Form)",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      311
+    ],
+    "example_noun_arabic": "مُشْكِلَةٌ"
+  },
+  {
+    "root": "ص-ع-ب",
+    "classical_definition": "schwierig/widerspenstig sein - صُعُوبَة (ṣuʿūba) „Schwierigkeit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      313
+    ],
+    "example_noun_arabic": "صَعْبٌ"
+  },
+  {
+    "root": "م-ك-ن",
+    "classical_definition": "befähigen, ermöglichen, Macht über etwas geben - مَكَانَة (makāna) „Stellung, Vermögen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      314
+    ],
+    "example_noun_arabic": "مُمْكِنٌ"
+  },
+  {
+    "root": "ه-م-م",
+    "classical_definition": "sich sorgen, beabsichtigen, von Bedeutung sein - هَمّ (hamm) „Sorge, Anliegen“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      315
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "خ-ط-ر",
+    "classical_definition": "in den Sinn kommen (Grundbedeutung); auch: gefährlich sein - خَطَر (ḫaṭar) „Gefahr“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      316
+    ],
+    "example_noun_arabic": "خَطِيرٌ"
+  },
+  {
+    "root": "خ-ل-ف",
+    "classical_definition": "hinter etwas zurückbleiben, nachfolgen, sich unterscheiden - خِلَاف (ḫilāf) „Unterschied, Uneinigkeit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      318,
+      363
+    ],
+    "example_noun_arabic": "مُخْتَلِفٌ / خَلِيفَةٌ"
+  },
+  {
+    "root": "ش-ب-ه",
+    "classical_definition": "ähneln, gleichen - شَبَه (šabah) „Ähnlichkeit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      319
+    ],
+    "example_noun_arabic": "مُشَابِهٌ"
+  },
+  {
+    "root": "و-ض-ح",
+    "classical_definition": "klar/deutlich sein, sich zeigen - وُضُوح (wuḍūḥ) „Klarheit, Deutlichkeit“",
+    "source": "Eigene Zusammenfassung nach Lane's Arabic-English Lexicon (lokale Datenbank, assets/LexiconDatabase) - keine wörtliche Übernahme",
+    "related_word_ids": [
+      320
+    ],
+    "example_noun_arabic": "وَاضِحٌ"
+  },
+  {
+    "root": "س-ر-ع",
+    "classical_definition": "schnell sein; Form IV أَسْرَعَ „eilen, beschleunigen“ - إِسْرَاع (isrāʿ) „das Eilen“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      321,
+      433
+    ],
+    "example_noun_arabic": "سَرِيعٌ"
+  },
+  {
+    "root": "ب-ط-أ",
+    "classical_definition": "langsam, träge, zögerlich sein — Gegenteil von أَسْرَعَ - بُطْء (buṭʾ) „Langsamkeit“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      322
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "د-ن-و",
+    "classical_definition": "nahe sein, sich nähern - دُنُوّ (dunuww) „Annäherung“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      323
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ب-ع-ث",
+    "classical_definition": "senden, aussenden; auch: die Toten auferwecken (yawm al-baʿṯ, der Tag der Auferstehung) - بَعْث (baʿṯ) „das Senden/die Auferweckung“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      324
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ب-ل-غ",
+    "classical_definition": "erreichen, gelangen, an das äußerste Ziel von etwas ankommen - بُلُوغ (bulūġ) „das Erreichen“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      325
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "خ-ت-م",
+    "classical_definition": "versiegeln, stempeln; auch: beenden, zu Ende bringen (z. B. خَتَمَ الْقُرْآنَ, ḫatama al-qurʾāna, den Koran zu Ende rezitieren) - خَتْم (ḫatm) „Versiegelung“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      326
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "س-ق-ط",
+    "classical_definition": "fallen, herabfallen - سُقُوط (suqūṭ) „das Fallen“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      327
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-ب-ط",
+    "classical_definition": "binden, festbinden, festmachen - رَبْط (rabṭ) „das Binden“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      328
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "س-ح-ب",
+    "classical_definition": "ziehen, schleppen (Grundbedeutung); vor allem als Kollektiv-Substantiv gebräuchlich - سَحَاب (saḥāb) „Wolke(n)“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      329
+    ],
+    "example_noun_arabic": "سَحَابٌ"
+  },
+  {
+    "root": "ب-ر-ق",
+    "classical_definition": "aufblitzen, glänzen (Grundbedeutung); vor allem als Substantiv gebräuchlich - بَرْق (barq) „Blitz, was in den Wolken aufleuchtet“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      330
+    ],
+    "example_noun_arabic": "بَرْقٌ"
+  },
+  {
+    "root": "ر-ع-د",
+    "classical_definition": "donnern (Grundbedeutung); vor allem als Substantiv gebräuchlich - رَعْد (raʿd) „Donner, der aus den Wolken vernommene Laut“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      331
+    ],
+    "example_noun_arabic": "رَعْدٌ"
+  },
+  {
+    "root": "ث-ل-ج",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - ثَلْج (ṯalj) „Schnee, das vom Himmel Fallende“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      332
+    ],
+    "example_noun_arabic": "ثَلْجٌ"
+  },
+  {
+    "root": "ج-ز-ر",
+    "classical_definition": "abschneiden, abtrennen (Grundbedeutung); daher جَزِيرَة (ǧazīra) „Insel“ (vom Festland abgeschnittenes Land)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      333
+    ],
+    "example_noun_arabic": "جَزِيرَةٌ"
+  },
+  {
+    "root": "ب-أ-ر",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - بِئْر (biʾr) „Brunnen“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      334
+    ],
+    "example_noun_arabic": "بِئْرٌ"
+  },
+  {
+    "root": "ج-س-ر",
+    "classical_definition": "kühn/wagemutig sein (Grundbedeutung); daher جِسْر (ǧisr) „Brücke“ (das, worüber man einen Fluss überquert)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      335
+    ],
+    "example_noun_arabic": "جِسْرٌ"
+  },
+  {
+    "root": "ش-ع-ر",
+    "classical_definition": "wahrnehmen, spüren (Grundbedeutung); vor allem als Substantiv gebräuchlich - شَعْر (šaʿr) „Haar“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      337
+    ],
+    "example_noun_arabic": "شَعْرٌ"
+  },
+  {
+    "root": "ظ-ف-ر",
+    "classical_definition": "siegen, Erfolg haben (Grundbedeutung); vor allem als Substantiv gebräuchlich - ظُفْر (ẓufr) „Fingernagel“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      338
+    ],
+    "example_noun_arabic": "ظُفْرٌ"
+  },
+  {
+    "root": "ج-ن-ح",
+    "classical_definition": "sich neigen, abweichen (Grundbedeutung); vor allem als Substantiv gebräuchlich - جَنَاح (ǧanāḥ) „Flügel eines Vogels; auch: Arm/Oberarm des Menschen“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      339
+    ],
+    "example_noun_arabic": "جَنَاحٌ"
+  },
+  {
+    "root": "ت-ر-ب",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - تُرَاب (turāb) „Staub, Erde“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      340
+    ],
+    "example_noun_arabic": "تُرَابٌ"
+  },
+  {
+    "root": "ر-م-ل",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - رَمْل (raml) „Sand“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      341
+    ],
+    "example_noun_arabic": "رَمْلٌ"
+  },
+  {
+    "root": "غ-و-ر",
+    "classical_definition": "tief eindringen, versinken (Grundbedeutung); daher غَار (ġār) „Höhle“ (in einem Berg) - laut Lane's Lexicon Synonym zu كَهْفٌ",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      342
+    ],
+    "example_noun_arabic": "غَارٌ"
+  },
+  {
+    "root": "ع-ر-ض",
+    "classical_definition": "breit/weit sein - عَرِيض (ʿarīḍ) „breit“ (Gegenteil von طَوِيل, ṭawīl)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      343
+    ],
+    "example_noun_arabic": "عَرِيضٌ"
+  },
+  {
+    "root": "ع-م-ق",
+    "classical_definition": "tief sein - عَمِيق (ʿamīq) „tief“ (z. B. بِئْرٌ عَمِيقَةٌ, biʾrun ʿamīqatun, ein tiefer Brunnen)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      344
+    ],
+    "example_noun_arabic": "عَمِيقٌ"
+  },
+  {
+    "root": "خ-ش-ن",
+    "classical_definition": "rau, grob sein - خَشِن (ḫašin) „rau, grob“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      345
+    ],
+    "example_noun_arabic": "خَشِنٌ"
+  },
+  {
+    "root": "ق-ص-ر",
+    "classical_definition": "kurz sein (Grundbedeutung); daher قَصِير (qaṣīr) „kurz“ (Gegenteil von طَوِيل, ṭawīl)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      347,
+      368
+    ],
+    "example_noun_arabic": "قَصِيرٌ / قَصْرٌ"
+  },
+  {
+    "root": "ي-ب-س",
+    "classical_definition": "trocken sein/werden - يَابِس (yābis) „trocken, ausgetrocknet“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      348
+    ],
+    "example_noun_arabic": "يَابِسٌ"
+  },
+  {
+    "root": "ر-ط-ب",
+    "classical_definition": "feucht/saftig sein — Gegenteil von يَابِسٌ - رَطْب (raṭb) „feucht, weich, saftig“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      349
+    ],
+    "example_noun_arabic": "رَطْبٌ"
+  },
+  {
+    "root": "ق-ل-ل",
+    "classical_definition": "wenig/gering sein (an Zahl oder Menge) - قَلِيل (qalīl) „wenig, gering“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      350
+    ],
+    "example_noun_arabic": "قَلِيلٌ"
+  },
+  {
+    "root": "ح-ج-ج",
+    "classical_definition": "sich zu etwas hinwenden, sich zu einem Ort/einer verehrten Sache begeben - حَجّ (ḥajj) „die Pilgerfahrt (nach Mekka)“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      351
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ص-و-م",
+    "classical_definition": "sich enthalten (Grundbedeutung); im religiösen Sprachgebrauch: eine bestimmte Art der Enthaltsamkeit einhalten - صَوْم (ṣawm) „das Fasten“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      352
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ص-ل-و",
+    "classical_definition": "beten, bitten, das gottesdienstliche Gebet verrichten - صَلَاة (ṣalāh) „das (rituelle) Gebet“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      353
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ز-ك-و",
+    "classical_definition": "wachsen, zunehmen; durch Gottes Segen gedeihen - زَكَاة (zakāh) „Wachstum, Segen“; auch زَكَاة (zakāt) „die Almosensteuer“ (eigener Substantiv-Eintrag)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      354,
+      361
+    ],
+    "example_noun_arabic": "زَكَاةٌ"
+  },
+  {
+    "root": "ط-و-ف",
+    "classical_definition": "gehen, umhergehen (Grundbedeutung); daher: um etwas herumgehen (z. B. um die Kaaba) - طَوَاف (ṭawāf) „das Umrunden“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      355
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "س-ج-د",
+    "classical_definition": "sich demütig neigen, sich zu Boden beugen - سُجُود (suǧūd) „die Niederwerfung“; مَسْجِد (masǧid) „Ort der Niederwerfung, Moschee“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      356,
+      359
+    ],
+    "example_noun_arabic": "مَسْجِدٌ"
+  },
+  {
+    "root": "ح-م-ي",
+    "classical_definition": "verbieten, untersagen; auch: beschützen, verteidigen - حِمَايَة (ḥimāya) „der Schutz“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      357
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "و-ل-ي",
+    "classical_definition": "die Befehlsgewalt/Aufsicht über etwas innehaben, verwalten - وِلَايَة (wilāya) „die Aufsicht, Herrschaft“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      358
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-م-ح",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - رُمْح (rumḥ) „Speer, Lanze“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      360
+    ],
+    "example_noun_arabic": "رُمْحٌ"
+  },
+  {
+    "root": "أ-م-م",
+    "classical_definition": "vorangehen, anführen (Grundbedeutung); daher إِمَام (imām) „Vorbild, Anführer, Vorbeter“ - jemand, dessen Beispiel gefolgt wird",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      362
+    ],
+    "example_noun_arabic": "إِمَامٌ"
+  },
+  {
+    "root": "ج-ن-د",
+    "classical_definition": "vor allem als Kollektiv-Substantiv gebräuchlich - جُنْد (ǧund) „Heer“; جُنْدِيّ (ǧundiyy) „Soldat“ (Einzelform)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      364
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "س-ل-ح",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - سِلَاح (silāḥ) „Waffe“, das Gerät, mit dem man im Krieg kämpft und sich verteidigt",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      365
+    ],
+    "example_noun_arabic": "سِلَاحٌ"
+  },
+  {
+    "root": "ت-و-ج",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - تَاج (tāǧ) „Krone“, aus Gold und Edelsteinen gefertigter Kopfschmuck von Königen",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      366
+    ],
+    "example_noun_arabic": "تَاجٌ"
+  },
+  {
+    "root": "ع-ر-ش",
+    "classical_definition": "errichten, bauen (Grundbedeutung); vor allem als Substantiv gebräuchlich - عَرْش (ʿarš) „Thron“ (u. a. der Thron Gottes)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      367
+    ],
+    "example_noun_arabic": "عَرْشٌ"
+  },
+  {
+    "root": "ت-ج-ر",
+    "classical_definition": "Handel treiben - تِجَارَة (tiǧāra) „der Handel, das Kaufen und Verkaufen zum Gewinn“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      369
+    ],
+    "example_noun_arabic": "تِجَارَةٌ"
+  },
+  {
+    "root": "ف-ض-ض",
+    "classical_definition": "zerstreuen, verteilen (Grundbedeutung); vor allem als Substantiv gebräuchlich - فِضَّة (fiḍḍa) „Silber“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      370
+    ],
+    "example_noun_arabic": "فِضَّةٌ"
+  },
+  {
+    "root": "ج-ه-ر",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - جَوْهَر (ǧawhar) „Juwel, Edelstein“ (jeder Stein, aus dem etwas Wertvolles gewonnen wird)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      371
+    ],
+    "example_noun_arabic": "جَوْهَرٌ"
+  },
+  {
+    "root": "ق-د-س",
+    "classical_definition": "rein sein - قُدْس (quds) „Heiligkeit, Reinheit“ (daher al-Quds, Jerusalem)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      372
+    ],
+    "example_noun_arabic": "قُدْسٌ"
+  },
+  {
+    "root": "ح-ل-م",
+    "classical_definition": "träumen (Grundbedeutung); auch: Nachsicht/Langmut besitzen - حَلِيم (ḥalīm) „nachsichtig, langmütig“ (einer der Namen Gottes)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      373
+    ],
+    "example_noun_arabic": "حَلِيمٌ"
+  },
+  {
+    "root": "ن-ظ-م",
+    "classical_definition": "durchbohren und aufreihen (z. B. Perlen an einer Schnur); daher übertragen: ordnen, anordnen - نَظْم (naẓm) „das Aufreihen, Ordnen“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      381
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ث-ق-ل",
+    "classical_definition": "schwer, gewichtig sein oder werden - ثِقَل (ṯiqal) „Schwere“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      383,
+      470
+    ],
+    "example_noun_arabic": "ثَقِيلٌ"
+  },
+  {
+    "root": "خ-ف-ف",
+    "classical_definition": "leicht sein oder werden — Gegenteil von ثَقُلَ - خِفَّة (ḫiffa) „Leichtigkeit“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      384
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-ل-و",
+    "classical_definition": "süß sein oder werden - حَلَاوَة (ḥalāwa) „Süße“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      385
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "أ-ذ-ن",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - أُذُن (uḏun) „Ohr“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      389
+    ],
+    "example_noun_arabic": "أُذُنٌ"
+  },
+  {
+    "root": "ع-ن-ق",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - عُنُق (ʿunuq) „Hals“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      390
+    ],
+    "example_noun_arabic": "عُنُقٌ"
+  },
+  {
+    "root": "ب-ط-ن",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - بَطْن (baṭn) „Bauch, Unterleib“ (Gegenteil von ظَهْر, ẓahr „Rücken“)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      392
+    ],
+    "example_noun_arabic": "بَطْنٌ"
+  },
+  {
+    "root": "ص-ب-ع",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - إِصْبَع (iṣbaʿ) „Finger“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      393
+    ],
+    "example_noun_arabic": "إِصْبَعٌ"
+  },
+  {
+    "root": "ف-م-م",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - فَم (fam) „Mund“ (ursprünglich fawah, das و wird zu م)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      394
+    ],
+    "example_noun_arabic": "فَمٌ"
+  },
+  {
+    "root": "أ-ن-ف",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - أَنْف (anf) „Nase“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      395
+    ],
+    "example_noun_arabic": "أَنْفٌ"
+  },
+  {
+    "root": "خ-د-د",
+    "classical_definition": "eine Furche/Rinne in die Erde graben (Grundbedeutung); vor allem als Substantiv gebräuchlich - خَدّ (ḫadd) „Wange“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      396
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ك-ت-ف",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - كَتِف (katif) „Schulterblatt, Schulter“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      398
+    ],
+    "example_noun_arabic": "كَتِفٌ"
+  },
+  {
+    "root": "ز-و-ج",
+    "classical_definition": "paaren, verbinden (Grundbedeutung: eines von zwei zusammengehörigen Dingen); daher زَوْج (zawj) „Ehepartner“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      399,
+      485
+    ],
+    "example_noun_arabic": "زَوْجٌ / زَوْجَةٌ"
+  },
+  {
+    "root": "ع-ر-س",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - عَرُوس (ʿarūs) „Braut/Bräutigam“ (während der Hochzeitszeit, für beide Geschlechter verwendet)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      400
+    ],
+    "example_noun_arabic": "عَرُوسٌ"
+  },
+  {
+    "root": "ج-ل-د",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - جِلْد (jild) „Haut, Fell“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      401
+    ],
+    "example_noun_arabic": "جِلْدٌ"
+  },
+  {
+    "root": "ش-ف-ه",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - شَفَة (šafa) „Lippe“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      402
+    ],
+    "example_noun_arabic": "شَفَةٌ"
+  },
+  {
+    "root": "ج-و-ع",
+    "classical_definition": "hungrig sein, leer im Bauch sein - جَائِع (ǧāʾiʿ) „hungrig“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      403
+    ],
+    "example_noun_arabic": "جَائِعٌ"
+  },
+  {
+    "root": "ع-ط-ش",
+    "classical_definition": "vor allem als Adjektiv gebräuchlich - عَطْشَان (ʿaṭšān) „durstig“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      404
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "م-ر-ض",
+    "classical_definition": "krank sein, ein verändertes Befinden haben - مَرِيض (marīḍ) „krank“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      405
+    ],
+    "example_noun_arabic": "مَرِيضٌ"
+  },
+  {
+    "root": "ت-ع-ب",
+    "classical_definition": "vor allem als Adjektiv gebräuchlich - تَعْبَان (taʿbān) „müde“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      407
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "و-س-خ",
+    "classical_definition": "schmutzig, verunreinigt sein (aus Mangel an Pflege) - وَسِخ (wasiḫ) „schmutzig“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      408
+    ],
+    "example_noun_arabic": "وَسِخٌ"
+  },
+  {
+    "root": "ح-م-ض",
+    "classical_definition": "sauer/scharf im Geschmack sein - حَامِض (ḥāmiḍ) „sauer“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      409
+    ],
+    "example_noun_arabic": "حَامِضٌ"
+  },
+  {
+    "root": "ن-ش-ط",
+    "classical_definition": "lebhaft, munter, energiegeladen sein - نَشِيط (našīṭ) „aktiv, lebhaft“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      410
+    ],
+    "example_noun_arabic": "نَشِيطٌ"
+  },
+  {
+    "root": "ر-ب-ح",
+    "classical_definition": "Gewinn machen im Handel - رِبْح (ribḥ) „Gewinn“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      411
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "غ-د-ر",
+    "classical_definition": "verlassen, zurücklassen; Form III غَادَرَ (ġādara) „verlassen, abreisen“ - مُغَادَرَة (muġādara) „das Verlassen“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      412
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-ذ-ر",
+    "classical_definition": "vorsichtig sein; Form II حَذَّرَ (ḥaḏḏara) „warnen, auf der Hut setzen“ - تَحْذِير (taḥḏīr) „die Warnung“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      413
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ن-ذ-ر",
+    "classical_definition": "sich selbst etwas zur Pflicht machen, geloben - نَذْر (naḏr) „das Gelübde“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      414
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "س-ت-ر",
+    "classical_definition": "verhüllen, verbergen, bedecken - سَتْر (satr) „die Verhüllung“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      415
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ن-ج-ح",
+    "classical_definition": "erfolgreich sein, ein Anliegen erreichen - إِنْجَاح (inǧāḥ) „der Erfolg“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      416
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ف-ش-ل",
+    "classical_definition": "schwach, furchtsam werden und scheitern - فَشَل (fašal) „das Scheitern“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      417
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ك-م-ل",
+    "classical_definition": "vollkommen, vollständig sein oder werden - كَمَال (kamāl) „die Vollkommenheit“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      418
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ط-ب-ب",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - طَبِيب (ṭabīb) „Arzt“, kundig in der Heilkunst (الطِّبّ, aṭ-ṭibb)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      419
+    ],
+    "example_noun_arabic": "طَبِيبٌ"
+  },
+  {
+    "root": "ح-ص-ن",
+    "classical_definition": "befestigen, uneinnehmbar machen (Grundbedeutung); حِصَان (ḥiṣān) „edles, hochgezüchtetes Pferd“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      420
+    ],
+    "example_noun_arabic": "حِصَانٌ"
+  },
+  {
+    "root": "ق-م-ص",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - قَمِيص (qamīṣ) „Hemd“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      421
+    ],
+    "example_noun_arabic": "قَمِيصٌ"
+  },
+  {
+    "root": "ك-و-ب",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - كُوب (kūb) „Becher, Trinkgefäß ohne Henkel“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      422
+    ],
+    "example_noun_arabic": "كُوبٌ"
+  },
+  {
+    "root": "م-ي-د",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - مَائِدَة (māʾida) „Tisch mit Speisen darauf“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      423
+    ],
+    "example_noun_arabic": "مَائِدَةٌ"
+  },
+  {
+    "root": "ص-ح-ن",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - صَحْن (ṣaḥn) „Schale, Gefäß“, heute auch „Teller“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      424
+    ],
+    "example_noun_arabic": "صَحْنٌ"
+  },
+  {
+    "root": "م-ل-ح",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - مِلْح (milḥ) „Salz“ (z. B. أَمْوَاهٌ مِلْحٌ, amwāhun milḥun, „salziges Wasser“)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      425
+    ],
+    "example_noun_arabic": "مِلْحٌ"
+  },
+  {
+    "root": "ز-ي-ت",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - زَيْت (zayt) „Öl“ (ursprünglich Olivenöl)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      426
+    ],
+    "example_noun_arabic": "زَيْتٌ"
+  },
+  {
+    "root": "ت-ف-ح",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - تُفَّاح (tuffāḥ) „Apfel“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      427
+    ],
+    "example_noun_arabic": "تُفَّاحٌ"
+  },
+  {
+    "root": "ع-ن-ب",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - عِنَب (ʿinab) „Trauben“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      428
+    ],
+    "example_noun_arabic": "عِنَبٌ"
+  },
+  {
+    "root": "ت-م-ر",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - تَمْر (tamr) „Datteln“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      429
+    ],
+    "example_noun_arabic": "تَمْرٌ"
+  },
+  {
+    "root": "ه-ن-د-س",
+    "classical_definition": "aus dem Persischen entlehnte Wurzel (handāz, „Maß nehmen“) - مُهَنْدِس (muhandis) „Ingenieur, Architekt, Geometer“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      430
+    ],
+    "example_noun_arabic": "مُهَنْدِسٌ"
+  },
+  {
+    "root": "س-ك-ر",
+    "classical_definition": "trunken sein (Grundbedeutung); aus dem Persischen entlehnt: سُكَّر (sukkar) „Zucker“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      431
+    ],
+    "example_noun_arabic": "سُكَّرٌ"
+  },
+  {
+    "root": "ق-ل-م",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - قَلَم (qalam) „Schreibrohr, Feder“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      432
+    ],
+    "example_noun_arabic": "قَلَمٌ"
+  },
+  {
+    "root": "ر-خ-ص",
+    "classical_definition": "billig, niedrigpreisig sein - رَخِيص (raḫīṣ) „billig“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      434
+    ],
+    "example_noun_arabic": "رَخِيصٌ"
+  },
+  {
+    "root": "ل-ط-ف",
+    "classical_definition": "sanft, gütig, freundlich sein - لَطِيف (laṭīf) „sanft, gütig“ (einer der Namen Gottes)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      435
+    ],
+    "example_noun_arabic": "لَطِيفٌ"
+  },
+  {
+    "root": "ع-ج-ب",
+    "classical_definition": "sich wundern, etwas als ungewöhnlich empfinden - عَجَب (ʿaǧab) „Verwunderung“; عَجِيب (ʿaǧīb) „erstaunlich, seltsam“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      436
+    ],
+    "example_noun_arabic": "عَجِيبٌ"
+  },
+  {
+    "root": "ح-ض-ر",
+    "classical_definition": "anwesend, gegenwärtig sein - حَاضِر (ḥāḍir) „anwesend“ (Gegenteil von غَائِبٌ)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      440
+    ],
+    "example_noun_arabic": "حَاضِرٌ"
+  },
+  {
+    "root": "ق-ف-ز",
+    "classical_definition": "springen, hüpfen, sich hochschnellen - قَفْز (qafz) „das Springen“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      441
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ز-ح-ف",
+    "classical_definition": "kriechen, sich langsam und mühevoll vorwärtsbewegen (z. B. ein Heer, ein Kleinkind) - زَحْف (zaḥf) „das Kriechen“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      442
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ص-ر-خ",
+    "classical_definition": "laut rufen oder schreien, bes. bei Schreck oder Not - صُرَاخ (ṣurāḫ) „das Schreien“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      443
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ه-م-س",
+    "classical_definition": "leise, undeutlich und sanft sprechen - هَمْس (hams) „das Flüstern“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      444
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-ق-ص",
+    "classical_definition": "tanzen, sich spielerisch bewegen - رَقْص (raqṣ) „das Tanzen“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      445
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ك-ن-س",
+    "classical_definition": "(einen Raum) mit einem Besen fegen, kehren - كَنْس (kans) „das Fegen“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      447
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "غ-ي-م",
+    "classical_definition": "Wolken, von Wolken bedeckt sein - غَيْم (ġaym) „die Wolke“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      449
+    ],
+    "example_noun_arabic": "غَيْمٌ"
+  },
+  {
+    "root": "ف-ص-ل",
+    "classical_definition": "trennen, abtrennen; auch: Abschnitt des Jahres - فَصْل (faṣl) „die Jahreszeit, der Abschnitt“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      450
+    ],
+    "example_noun_arabic": "فَصْلٌ"
+  },
+  {
+    "root": "ص-ي-ف",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - صَيْف (ṣayf) „der Sommer“ (eine der vier Jahreszeiten)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      451
+    ],
+    "example_noun_arabic": "صَيْفٌ"
+  },
+  {
+    "root": "ش-ت-و",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - شِتَاء (šitāʾ) „der Winter“ (eine der vier Jahreszeiten)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      452
+    ],
+    "example_noun_arabic": "شِتَاءٌ"
+  },
+  {
+    "root": "ر-ب-ع",
+    "classical_definition": "vierteln, in Viertel teilen (Grundbedeutung); رَبِيع (rabīʿ) „der Frühling“ (die Jahreszeit, in der Kräuter und Blüten hervorkommen)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      453
+    ],
+    "example_noun_arabic": "رَبِيعٌ"
+  },
+  {
+    "root": "خ-ر-ف",
+    "classical_definition": "Früchte pflücken (Grundbedeutung); خَرِيف (ḫarīf) „der Herbst“ (die Jahreszeit, in der die Früchte reifen)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      454
+    ],
+    "example_noun_arabic": "خَرِيفٌ"
+  },
+  {
+    "root": "ه-ل-ل",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - هِلَال (hilāl) „die Mondsichel, der Neumond“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      455
+    ],
+    "example_noun_arabic": "هِلَالٌ"
+  },
+  {
+    "root": "غ-ي-ب",
+    "classical_definition": "verborgen, unsichtbar sein (Grundbedeutung); غَابَة (ġāba) „dichtes Dickicht aus Bäumen, Wald“ (weil es verbirgt, was in ihm ist)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      456
+    ],
+    "example_noun_arabic": "غَابَةٌ"
+  },
+  {
+    "root": "ص-خ-ر",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - صَخْرَة (ṣaḫra) „Felsblock, Fels“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      457
+    ],
+    "example_noun_arabic": "صَخْرَةٌ"
+  },
+  {
+    "root": "ف-ج-ر",
+    "classical_definition": "aufbrechen, hervorbrechen (Grundbedeutung); فَجْر (faǧr) „die Morgendämmerung“ (das Aufbrechen des Lichts aus der Dunkelheit)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      458
+    ],
+    "example_noun_arabic": "فَجْرٌ"
+  },
+  {
+    "root": "م-س-و",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - مَسَاء (masāʾ) „der Abend“, Gegenteil von صَبَاح",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      460
+    ],
+    "example_noun_arabic": "مَسَاءٌ"
+  },
+  {
+    "root": "ض-و-ء",
+    "classical_definition": "leuchten, strahlen (Grundbedeutung); ضَوْء (ḍawʾ) „das Licht“ (Synonym zu نُور)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      461
+    ],
+    "example_noun_arabic": "ضَوْءٌ"
+  },
+  {
+    "root": "ظ-ل-ل",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - ظِلّ (ẓill) „der Schatten“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      462
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-م-ر",
+    "classical_definition": "rot sein oder werden, rote Farbe (ḥumra) - أَحْمَر (aḥmar) „rot“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      463
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ز-ر-ق",
+    "classical_definition": "blau sein, die Farbe des blauen Auges (zurqa) - أَزْرَق (azraq) „blau“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      464
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ص-ف-ر",
+    "classical_definition": "gelb sein, gelbe Farbe (ṣufra) - أَصْفَر (aṣfar) „gelb“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      465
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "خ-ض-ر",
+    "classical_definition": "grün sein, grüne Farbe (ḫuḍra) - أَخْضَر (aḫḍar) „grün“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      466
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "س-و-د",
+    "classical_definition": "schwarz sein, schwarze Farbe (sawād), Gegenteil von بَيَاض - أَسْوَد (aswad) „schwarz“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      467
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ب-ي-ض",
+    "classical_definition": "weiß sein, weiße Farbe (bayāḍ), Gegenteil von أَسْوَد - أَبْيَض (abyaḍ) „weiß“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      468
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ج-ف-ف",
+    "classical_definition": "trocken sein oder werden - جَافّ (ǧāff) „trocken“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      469
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ر-س-م",
+    "classical_definition": "zeichnen, skizzieren, aufzeichnen (im selben Lane's-Eintrag auch die ältere Grundbedeutung: eine Spur/einen Grundriss hinterlassen) - رَسْم (rasm) „die Zeichnung“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      474
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ع-ذ-ر",
+    "classical_definition": "sich entschuldigen, einen Vorwand oder eine Entschuldigung für sich vorbringen - اِعْتِذَار (iʿtiḏār) „die Entschuldigung“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      475
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ه-د-م",
+    "classical_definition": "niederreißen, abreißen, zerstören (ein Gebäude) - هَدْم (hadm) „der Abriss“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      477
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ن-ح-ت",
+    "classical_definition": "schnitzen, behauen, aus Holz oder Stein herausarbeiten - نَحْت (naḥt) „das Schnitzen“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      478
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "ح-ف-د",
+    "classical_definition": "dienen, eifrig für jemanden arbeiten (Grundbedeutung); daher auch: das Enkelkind, weil es (bildlich) wie ein Diener zum Großvater steht - حَفِيد (ḥafīd) „Enkel(kind)“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      481
+    ],
+    "example_noun_arabic": "حَفِيدٌ"
+  },
+  {
+    "root": "ع-م-م",
+    "classical_definition": "allgemein, umfassend sein (Grundbedeutung); als eigenständige Bedeutung daher auch: der Onkel väterlicherseits (Teil der weiteren Familie) - عَمّ (ʿamm) „Onkel väterlicherseits“; عَامّ (ʿāmm) „allgemein“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      483,
+      499
+    ],
+    "example_noun_arabic": ""
+  },
+  {
+    "root": "خ-و-ل",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - خَال (ḫāl) „Onkel mütterlicherseits“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      484
+    ],
+    "example_noun_arabic": "خَالٌ"
+  },
+  {
+    "root": "ص-د-ر",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - صَدْر (ṣadr) „Brust“ (bei Lane auch übertragen für Gemüt/Sinn)",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      486
+    ],
+    "example_noun_arabic": "صَدْرٌ"
+  },
+  {
+    "root": "ف-ل-ح",
+    "classical_definition": "das Land pflügen, bestellen, aufreißen (Grundbedeutung); daher فَلَّاح (fallāḥ) „Bauer, Landwirt“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      490
+    ],
+    "example_noun_arabic": "فَلَّاحٌ"
+  },
+  {
+    "root": "ذ-ن-ب",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - ذَنَب (ḏanab) „der Schwanz“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      491
+    ],
+    "example_noun_arabic": "ذَنَبٌ"
+  },
+  {
+    "root": "ح-ب-ر",
+    "classical_definition": "vor allem als Substantiv gebräuchlich - حِبْر (ḥibr) „die Tinte“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      492
+    ],
+    "example_noun_arabic": "حِبْرٌ"
+  },
+  {
+    "root": "ش-غ-ل",
+    "classical_definition": "beschäftigt, mit etwas befasst sein - مَشْغُول (mašġūl) „beschäftigt“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      493
+    ],
+    "example_noun_arabic": "مَشْغُولٌ"
+  },
+  {
+    "root": "ف-ر-غ",
+    "classical_definition": "leer, frei (auch: frei von einer Beschäftigung) sein - فَارِغ (fāriġ) „leer, frei“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      494
+    ],
+    "example_noun_arabic": "فَارِغٌ"
+  },
+  {
+    "root": "ع-ل-و",
+    "classical_definition": "hoch, erhaben sein (Grundbedeutung) - عَالٍ (ʿāl) „hoch“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      495
+    ],
+    "example_noun_arabic": "عَالٍ"
+  },
+  {
+    "root": "م-ل-أ",
+    "classical_definition": "voll sein oder werden (ein Gefäß o. Ä.) - مُمْتَلِئ (mumtaliʾ) „voll“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      497
+    ],
+    "example_noun_arabic": "مُمْتَلِئٌ"
+  },
+  {
+    "root": "خ-ص-ص",
+    "classical_definition": "besonders, eigen sein, sich von anderen unterscheiden (Gegensatzwort zu عامّ allgemein) - خَاصّ (ḫāṣṣ) „speziell, privat“",
+    "source": "Übersetzung des relevanten Lane's-Lexicon-Eintrags (lokale Datenbank, assets/LexiconDatabase) ins Deutsche",
+    "related_word_ids": [
+      498
+    ],
+    "example_noun_arabic": ""
+  }
+]

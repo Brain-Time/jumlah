@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App-Design-System (app_theme.dart): dark #0D1117 — App erzwingt
+         ThemeMode.dark, daher hier fest statt hell/dunkel-abhängig. -->
+    <color name="jumlah_dark_background">#FF0D1117</color>
+</resources>

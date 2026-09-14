@@ -1,0 +1,76 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Python virtual env (scripts/.venv + systemweit)
+.venv/
+venv/
+env/
+.conda/
+__pycache__/
+*.egg-info/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Release-Signing (Task F1) — geheim, niemals einchecken
+/android/key.properties
+/android/app/upload-keystore.jks
+
+
+
+# Lane's Lexicon reference database (264 MB, local content-generation
+# resource for scripts/ — NOT a Flutter asset, never bundled into the app,
+# not referenced in pubspec.yaml)
+/assets/LexiconDatabase/
+
+# ── Internal / planning — kept private, never published ──────────────────
+/docs/
+/implementation_plan*.md
+/Open-Source Arabisch-TTS für Offline-Lern-Apps_ Forschungsbericht 2026.md
+/.clinerules
+/.clineignore
+/.claude/
+/scripts/server/
+/integration_test/
+/test_driver/
+/assets/audio/test_silma/

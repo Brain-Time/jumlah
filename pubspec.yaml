@@ -1,0 +1,145 @@
+name: jumlah
+description: "Jumlah - Klassisches Arabisch Lern-App"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.2+3
+
+environment:
+  sdk: ^3.8.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.3.2
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  sqflite_common_ffi: ^2.3.6
+  sqlite3: ^2.9.4
+  audioplayers: ^6.1.0
+  # Öffnet Support-/Rechts-URLs (Info-Menü) im Standard-Browser der
+  # Plattform (Android/Desktop) bzw. im sicheren In-App-Browser
+  # (iOS SafariViewController) — siehe lib/screens/info/info_screen.dart.
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+  # Testplattform-Fake für audioplayers (siehe test/fake_audioplayers_platform.dart)
+  audioplayers_platform_interface: ^7.1.1
+  plugin_platform_interface: ^2.1.8
+  # Test-Fake für url_launcher (siehe test/info_screen_test.dart)
+  url_launcher_platform_interface: ^2.3.2
+  # F1 — Play-Store-Screenshots: deterministischer Geräte-Test, der durch die
+  # App navigiert und echte PNGs per flutter drive erzeugt
+  # (integration_test/screenshots_test.dart + test_driver/integration_test.dart).
+  integration_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/data/words.json
+    - assets/data/sentences.json
+    - assets/data/roots.json
+    - assets/branding/jumla_logo.png
+    - assets/audio/lektion_1/
+    - assets/audio/lektion_2/
+    - assets/audio/lektion_3/
+    - assets/audio/lektion_4/
+    - assets/audio/lektion_5/
+    - assets/audio/lektion_6/
+    - assets/audio/lektion_7/
+    - assets/audio/lektion_8/
+    - assets/audio/lektion_9/
+    - assets/audio/lektion_10/
+    - assets/audio/lektion_11/
+    - assets/audio/lektion_12/
+    - assets/audio/lektion_13/
+    - assets/audio/lektion_14/
+    - assets/audio/lektion_15/
+    - assets/audio/lektion_16/
+    - assets/audio/lektion_17/
+    - assets/audio/lektion_18/
+    - assets/audio/lektion_19/
+    - assets/audio/lektion_20/
+    - assets/audio/lektion_21/
+    - assets/audio/lektion_22/
+    - assets/audio/lektion_23/
+    - assets/audio/lektion_24/
+    - assets/audio/lektion_25/
+    - assets/audio/lektion_26/
+    - assets/audio/lektion_27/
+    - assets/audio/lektion_28/
+    - assets/audio/lektion_29/
+    - assets/audio/lektion_30/
+    - assets/audio/lektion_31/
+    - assets/audio/lektion_32/
+    - assets/audio/lektion_33/
+    - assets/audio/lektion_34/
+    - assets/audio/lektion_35/
+    - assets/audio/lektion_36/
+    - assets/audio/lektion_37/
+    - assets/audio/lektion_38/
+    - assets/audio/lektion_39/
+    - assets/audio/lektion_40/
+    - assets/audio/lektion_41/
+    - assets/audio/lektion_42/
+    - assets/audio/lektion_43/
+    - assets/audio/lektion_44/
+    - assets/audio/lektion_45/
+    - assets/audio/lektion_46/
+    - assets/audio/lektion_47/
+    - assets/audio/lektion_48/
+    - assets/audio/lektion_49/
+    - assets/audio/lektion_50/
+
+  # ACHTUNG: assets/fonts/Amiri-Regular.ttf ist aktuell eine leere
+  # Platzhalter-Datei (0 Bytes). Die echte Schriftdatei muss noch von
+  # https://github.com/aliftype/amiri (SIL Open Font License) besorgt und
+  # ersetzt werden, sonst schlaegt das Rendering mit dieser Font fehl.
+  fonts:
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri-Regular.ttf
