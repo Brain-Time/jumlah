@@ -1,19 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../core/theme/app_theme.dart';
+import '../../l10n/l10n.dart';
+import '../../providers/locale_provider.dart';
 
-/// Info-/Rechts-Menü der App: klassische Einstellungs-Liste mit zwei Einträgen
-/// — Support (Ko-fi-Spende) und Impressum & Datenschutz. Beide öffnen beim
-/// Antippen ihre URL über `package:url_launcher` asynchron und modusabhängig:
-/// auf Android/Desktop den Standard-Browser, auf iOS den sicheren In-App-
-/// Browser (SafariViewController).
+/// Info-/Rechts-Menü der App: Einstellungs-Liste mit UI-Sprachwahl (H1 —
+/// Mehrsprachige UI) sowie zwei Einträgen — Support (Ko-fi-Spende) und
+/// Impressum & Datenschutz. Die Link-Einträge öffnen beim Antippen ihre URL
+/// über `package:url_launcher` async und modusabhängig: auf Android/Desktop
+/// den Standard-Browser, auf iOS den sicheren In-App-Browser
+/// (SafariViewController).
 ///
 /// Erreichbar über den vierten Tab „Info“ in der Bottom Navigation
 /// (siehe `home_screen.dart`). Das Design greift ausschließlich auf die
 /// zentralen Design-Tokens zu (AppColors/AppTheme) und zieht damit auch bei
 /// einer späteren Light-Theme-Variante automatisch mit.
-class InfoScreen extends StatelessWidget {
+class InfoScreen extends ConsumerWidget {
   const InfoScreen({super.key});
 
   /// Ziel-URL des Support-Eintrags (freiwillige Spende).
@@ -23,9 +27,11 @@ class InfoScreen extends StatelessWidget {
   static const String legalUrl = 'https://derman.dev/impressum';
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final activeLocale = ref.watch(localeProvider);
+    final l10n = context.l10n;
     return Scaffold(
-      appBar: AppBar(title: const Text('Info')),
+      appBar: AppBar(title: Text(l10n.tabInfo)),
       body: SafeArea(
         child: ListView(
           padding: const EdgeInsets.all(24),
@@ -34,18 +40,25 @@ class InfoScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Support & Rechtliches',
+                  l10n.supportLegalHeading,
                   style: AppTheme.headingStyle(fontSize: 20),
                 ),
                 const SizedBox(height: 6),
                 Text(
-                  'Unterstütze die Entwicklung oder rufe die gesetzlich '
-                  'erforderlichen Angaben auf.',
+                  l10n.supportLegalBody,
                   style: AppTheme.secondaryStyle(),
                 ),
               ],
             ),
             const SizedBox(height: 18),
+            // H1 — Sprachwahl: wechselt die UI-Sprache sofort und global.
+            _LanguageCard(
+              activeLocale: activeLocale,
+              onSelect: (locale) {
+                ref.read(localeProvider.notifier).setLocale(locale);
+              },
+            ),
+            const SizedBox(height: 14),
             Container(
               decoration: AppTheme.cardDecoration(),
               child: Column(
@@ -54,9 +67,8 @@ class InfoScreen extends StatelessWidget {
                   _InfoLinkTile(
                     icon: Icons.coffee,
                     accent: AppColors.gold,
-                    title: 'Entwickler unterstützen ☕',
-                    subtitle: 'Freiwillige Spende über Ko-fi — '
-                        'die App bleibt kostenlos.',
+                    title: l10n.supportTitle,
+                    subtitle: l10n.supportSubtitle,
                     url: InfoScreen.supportUrl,
                   ),
                   const Divider(
@@ -69,8 +81,8 @@ class InfoScreen extends StatelessWidget {
                   _InfoLinkTile(
                     icon: Icons.gavel,
                     accent: AppColors.primary,
-                    title: 'Impressum & Datenschutz',
-                    subtitle: 'Rechtliche Angaben und Datenschutzhinweise.',
+                    title: l10n.legalTitle,
+                    subtitle: l10n.legalSubtitle,
                     url: InfoScreen.legalUrl,
                   ),
                 ],
@@ -78,6 +90,79 @@ class InfoScreen extends StatelessWidget {
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+/// H1 — Karte für die UI-Sprachwahl: drei antippbare Einträge (Deutsch /
+/// English / العربية); die aktive Sprache ist markiert und wird bei Auswahl
+/// sofort über den [localeProvider] umgestellt.
+class _LanguageCard extends StatelessWidget {
+  const _LanguageCard({required this.activeLocale, required this.onSelect});
+
+  final Locale activeLocale;
+  final ValueChanged<Locale> onSelect;
+
+  /// Die von der App unterstützten Sprachen mit muttersprachlichem Namen.
+  static const List<MapEntry<Locale, String>> _options = [
+    MapEntry(Locale('de'), 'Deutsch'),
+    MapEntry(Locale('en'), 'English'),
+    MapEntry(Locale('ar'), 'العربية'),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = context.l10n;
+    return Container(
+      padding: const EdgeInsets.all(AppTheme.cardPadding),
+      decoration: AppTheme.cardDecoration(
+        color: AppColors.surfaceElevated,
+        borderColor: AppColors.primary.withValues(alpha: 0.35),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            l10n.languageHeading,
+            style: AppTheme.titleStyle(fontSize: 15, color: AppColors.primary),
+          ),
+          const SizedBox(height: 2),
+          Text(
+            l10n.languageBody,
+            style: AppTheme.secondaryStyle(fontSize: 12),
+          ),
+          const SizedBox(height: 10),
+          for (final option in _options)
+            ListTile(
+              dense: true,
+              contentPadding: EdgeInsets.zero,
+              leading: Icon(
+                option.key.languageCode == 'ar'
+                    ? Icons.translate
+                    : Icons.language,
+                color: activeLocale.languageCode == option.key.languageCode
+                    ? AppColors.gold
+                    : AppColors.textSecondary,
+              ),
+              title: Text(
+                option.value,
+                style: TextStyle(
+                  color: activeLocale.languageCode == option.key.languageCode
+                      ? AppColors.gold
+                      : AppColors.textPrimary,
+                  fontWeight:
+                      activeLocale.languageCode == option.key.languageCode
+                      ? FontWeight.bold
+                      : FontWeight.normal,
+                ),
+              ),
+              trailing: activeLocale.languageCode == option.key.languageCode
+                  ? const Icon(Icons.check, color: AppColors.gold, size: 20)
+                  : null,
+              onTap: () => onSelect(option.key),
+            ),
+        ],
       ),
     );
   }

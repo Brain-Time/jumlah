@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/database/database_helper.dart';
 import '../../core/theme/app_theme.dart';
+import '../../l10n/l10n.dart';
 import '../../models/sentence.dart';
 import '../../models/word.dart';
 import '../../providers/learn_provider.dart' show sentencesForWords;
@@ -67,7 +68,7 @@ class _GroupCompleteScreenState extends ConsumerState<GroupCompleteScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('${widget.group} abgeschlossen')),
+      appBar: AppBar(title: Text(context.l10n.groupCompletedTitle(widget.group))),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(24),
@@ -98,23 +99,23 @@ class _FinalExamPrompt extends StatelessWidget {
       children: [
         const Icon(Icons.emoji_events, color: AppColors.gold, size: 64),
         const SizedBox(height: 16),
-        const Text(
-          'Alle Lektionen geschafft!',
+        Text(
+          context.l10n.allLessonsDone,
           textAlign: TextAlign.center,
-          style: TextStyle(fontSize: 22, color: Colors.white),
+          style: const TextStyle(fontSize: 22, color: Colors.white),
         ),
         const SizedBox(height: 8),
         Text(
           attemptFailed
-              ? 'Die Gesamtprüfung war noch nicht fehlerfrei — versuch es nochmal.'
-              : 'Zum Abschluss folgt eine Gesamtprüfung über alle Wörter dieser Gruppe.',
+              ? context.l10n.finalExamFailed
+              : context.l10n.finalExamIntro,
           textAlign: TextAlign.center,
           style: const TextStyle(color: Colors.white70),
         ),
         const SizedBox(height: 24),
         FilledButton(
           onPressed: onStart,
-          child: const Text('Gesamtprüfung starten'),
+          child: Text(context.l10n.startFinalExam),
         ),
       ],
     );
@@ -135,25 +136,23 @@ class _UnlockNextGroupPrompt extends StatelessWidget {
           size: 64,
         ),
         const SizedBox(height: 16),
-        const Text(
-          'Gesamtprüfung bestanden!',
+        Text(
+          context.l10n.finalExamPassedTitle,
           textAlign: TextAlign.center,
-          style: TextStyle(fontSize: 22, color: Colors.white),
+          style: const TextStyle(fontSize: 22, color: Colors.white),
         ),
         const SizedBox(height: 8),
-        const Text(
-          'Das Sprachniveau ist abgeschlossen — die nächste Stufe ist '
-          'freigeschaltet. Weitere Stufen folgen, sobald ihre Inhalte '
-          'verfügbar sind.',
+        Text(
+          context.l10n.levelUnlockedText,
           textAlign: TextAlign.center,
-          style: TextStyle(color: Colors.white70),
+          style: const TextStyle(color: Colors.white70),
         ),
         const SizedBox(height: 24),
         FilledButton(
           onPressed: () {
             Navigator.of(context).pop();
           },
-          child: const Text('Zur Lektionsübersicht'),
+          child: Text(context.l10n.backToLessons),
         ),
       ],
     );

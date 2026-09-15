@@ -4,6 +4,7 @@ import '../../core/database/database_helper.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/word_groups.dart'
     show groupTitleHeroTag, learnBatchSize;
+import '../../l10n/l10n.dart';
 import '../../models/sentence.dart';
 import '../../models/word.dart';
 import '../../providers/learn_provider.dart' show sentencesForWords;
@@ -159,14 +160,11 @@ class _BatchListScreenState extends State<BatchListScreen> {
   void _showLockedHint(int index) {
     late final String message;
     if (!_levelUnlocked) {
-      message = 'Schließe zuerst das vorherige Sprachniveau ab, um dieses '
-          'freizuschalten.';
+      message = context.l10n.levelLockedHint;
     } else if (!_prevPassed(index)) {
-      message =
-          'Erst die vorherige Lektion fehlerfrei bestehen, um diese '
-          'freizuschalten.';
+      message = context.l10n.lessonLockedHint;
     } else {
-      message = 'Zuerst diese Lektion lernen, bevor du das Quiz machst.';
+      message = context.l10n.lessonNotLearnedHint;
     }
     ScaffoldMessenger.of(
       context,
@@ -176,7 +174,7 @@ class _BatchListScreenState extends State<BatchListScreen> {
   @override
   Widget build(BuildContext context) {
     final isQuiz = widget.mode == BatchListMode.quiz;
-    final title = isQuiz ? 'Quiz' : 'Lernen';
+    final title = isQuiz ? context.l10n.tabQuiz : context.l10n.tabLearn;
     return Scaffold(
       appBar: AppBar(
         title: Hero(
@@ -198,13 +196,13 @@ class _BatchListScreenState extends State<BatchListScreen> {
       return const Center(child: CircularProgressIndicator());
     }
     if (_words.isEmpty) {
-      return const Center(
+      return Center(
         child: Padding(
-          padding: EdgeInsets.all(24),
+          padding: const EdgeInsets.all(24),
           child: Text(
-            'Keine Wörter in dieser Gruppe gefunden.',
+            context.l10n.batchListNoWords,
             textAlign: TextAlign.center,
-            style: TextStyle(color: Colors.white70),
+            style: const TextStyle(color: Colors.white70),
           ),
         ),
       );
@@ -224,9 +222,9 @@ class _BatchListScreenState extends State<BatchListScreen> {
             child: ListTile(
               onTap: _openGroupComplete,
               leading: const Icon(Icons.emoji_events, color: AppColors.gold),
-              title: const Text(
-                'Gesamtprüfung',
-                style: TextStyle(color: Colors.white),
+              title: Text(
+                context.l10n.finalExam,
+                style: const TextStyle(color: Colors.white),
               ),
               trailing: const Icon(Icons.chevron_right, color: Colors.white38),
             ),
@@ -273,7 +271,7 @@ class _BatchTile extends StatelessWidget {
       child: ListTile(
         onTap: unlocked ? onTap : onLockedTap,
         title: Text(
-          'Lektion ${index + 1} · Wörter $start–$end',
+          context.l10n.lessonRange(index + 1, start, end),
           style: const TextStyle(color: Colors.white),
         ),
         trailing: Icon(

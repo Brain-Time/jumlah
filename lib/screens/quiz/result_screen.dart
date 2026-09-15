@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show Clipboard, ClipboardData;
 
 import '../../core/theme/app_theme.dart';
+import '../../l10n/l10n.dart';
 import '../../models/word.dart';
 
 /// Ergebnis-Anzeige nach Abschluss aller 6 Quiz-Stufen („Prüfung",
@@ -47,8 +48,9 @@ class ResultScreen extends StatelessWidget {
 
   /// Baut den Teil-Text für das Quiz-Ergebnis („Ergebnis teilen“-Button).
   /// Bewusst als reine Funktion gehalten, damit der Text ohne echte
-  /// Clipboard-Interaktion testbar ist.
+  /// Clipboard-Interaktion testbar ist. [l10n] liefert die aktive UI-Sprache.
   static String buildShareText({
+    required AppLocalizations l10n,
     required int score,
     required int totalWords,
     required int wrongCount,
@@ -56,14 +58,14 @@ class ResultScreen extends StatelessWidget {
     required bool? passed,
   }) {
     final status = passed == true
-        ? 'Bestanden ✅'
+        ? l10n.sharePassed
         : passed == false
-        ? 'Nicht bestanden'
-        : 'Abgeschlossen';
+        ? l10n.shareFailed
+        : l10n.shareCompleted;
     return 'Jumlah — Arabisch lernen 📚\n'
-        'Ergebnis: $status\n'
-        'Richtige Antworten: $score von $totalWords\n'
-        'Fehler: $wrongCount von $allowedErrors erlaubten';
+        '${l10n.shareResultLine(status)}\n'
+        '${l10n.shareCorrectLine(score, totalWords)}\n'
+        '${l10n.shareErrorsLine(wrongCount, allowedErrors)}';
   }
 
   /// Kopiert das Quiz-Ergebnis als Text in die Zwischenablage und bestätigt
@@ -71,7 +73,9 @@ class ResultScreen extends StatelessWidget {
   /// Gerät) werden still geschluckt, damit der Bildschirm bedienbar bleibt.
   Future<void> _shareResult(BuildContext context) async {
     final messenger = ScaffoldMessenger.of(context);
+    final l10n = context.l10n;
     final text = buildShareText(
+      l10n: l10n,
       score: score,
       totalWords: totalWords,
       wrongCount: wrongCount,
@@ -84,9 +88,7 @@ class ResultScreen extends StatelessWidget {
       // Absichtlich leer — siehe Doc-Kommentar oben.
     }
     messenger.showSnackBar(
-      const SnackBar(
-        content: Text('Ergebnis in die Zwischenablage kopiert.'),
-      ),
+      SnackBar(content: Text(l10n.copiedToClipboard)),
     );
   }
 
@@ -94,10 +96,10 @@ class ResultScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final passed = this.passed;
     final title = (passed == true)
-        ? 'Bestanden!'
+        ? context.l10n.passedTitle
         : (passed == false)
-        ? 'Nicht bestanden'
-        : 'Ergebnis';
+        ? context.l10n.failedTitle
+        : context.l10n.resultTitle;
     return Scaffold(
       appBar: AppBar(title: Text(title)),
       body: SafeArea(child: _buildContent(context)),
@@ -113,13 +115,13 @@ class ResultScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Text(
-            '$score richtige Antworten',
+            context.l10n.scoreCorrectAnswers(score),
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 24, color: Colors.white),
           ),
           const SizedBox(height: 8),
           Text(
-            '$wrongCount Fehler von $allowedErrors erlaubten',
+            context.l10n.errorsSummary(wrongCount, allowedErrors),
             textAlign: TextAlign.center,
             style: const TextStyle(color: Colors.white70),
           ),
@@ -138,8 +140,8 @@ class ResultScreen extends StatelessWidget {
               ),
               child: Text(
                 isPassed
-                    ? 'Lektion bestanden — nächste Lektion ist freigeschaltet!'
-                    : 'Lektion nicht bestanden — bitte wiederholen, um die nächste Lektion freizuschalten.',
+                    ? context.l10n.lessonPassedUnlock
+                    : context.l10n.lessonFailedRetry,
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: isPassed ? AppColors.success : AppColors.error,
@@ -150,9 +152,9 @@ class ResultScreen extends StatelessWidget {
           ],
           const SizedBox(height: 24),
           if (wrongWords.isNotEmpty) ...[
-            const Text(
-              'Nochmal üben:',
-              style: TextStyle(color: Colors.white70),
+            Text(
+              context.l10n.practiceAgain,
+              style: const TextStyle(color: Colors.white70),
             ),
             const SizedBox(height: 8),
             Expanded(
@@ -187,9 +189,9 @@ class ResultScreen extends StatelessWidget {
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Icon(Icons.share, size: 18),
+                  const Icon(Icons.share, size: 18),
                   const SizedBox(width: 6),
-                  const Text('Ergebnis teilen'),
+                  Text(context.l10n.shareResult),
                 ],
               ),
             ),
@@ -201,7 +203,7 @@ class ResultScreen extends StatelessWidget {
                 Expanded(
                   child: OutlinedButton(
                     onPressed: onRepeat,
-                    child: const Text('Wiederholen'),
+                    child: Text(context.l10n.retry),
                   ),
                 ),
               if (onRepeat != null) const SizedBox(width: 16),
@@ -216,7 +218,7 @@ class ResultScreen extends StatelessWidget {
                           navigator.pop();
                         }
                       },
-                  child: const Text('Weiter'),
+                  child: Text(context.l10n.continueButton),
                 ),
               ),
             ],

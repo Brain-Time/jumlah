@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../core/theme/app_theme.dart';
+import '../../l10n/l10n.dart';
 
 class _LetterEntry {
   const _LetterEntry(this.arabic, this.symbol, this.note);
@@ -10,47 +11,49 @@ class _LetterEntry {
   final String note;
 }
 
-const List<_LetterEntry> _letters = [
-  _LetterEntry('ء', 'ʾ', 'Stimmritzenverschluss (Hamza) — der Knacklaut vor Vokalen wie in „Verein“'),
-  _LetterEntry('ا', 'ā', 'langes „a“ wie in „Vater“'),
-  _LetterEntry('ب', 'b', 'wie deutsches „b“'),
-  _LetterEntry('ت', 't', 'wie deutsches „t“'),
-  _LetterEntry('ث', 'ṯ', 'stimmloses „th“ wie engl. „think“'),
-  _LetterEntry('ج', 'ǧ', 'wie „dsch“ in „Dschungel“'),
-  _LetterEntry('ح', 'ḥ', 'gepresster Rachen-h-Laut, schärfer als deutsches „h“'),
-  _LetterEntry('خ', 'ḫ', 'wie „ch“ in „Bach“'),
-  _LetterEntry('د', 'd', 'wie deutsches „d“'),
-  _LetterEntry('ذ', 'ḏ', 'stimmhaftes „th“ wie engl. „this“'),
-  _LetterEntry('ر', 'r', 'gerolltes „r“'),
-  _LetterEntry('ز', 'z', 'stimmhaftes „s“ wie in „Sonne“'),
-  _LetterEntry('س', 's', 'stimmloses „s“ wie in „Wasser“'),
-  _LetterEntry('ش', 'š', 'wie deutsches „sch“'),
-  _LetterEntry('ص', 'ṣ', 'emphatisches (velarisiertes) „s“'),
-  _LetterEntry('ض', 'ḍ', 'emphatisches „d“'),
-  _LetterEntry('ط', 'ṭ', 'emphatisches „t“'),
-  _LetterEntry('ظ', 'ẓ', 'emphatisches „th“ (wie ذ, aber velarisiert)'),
-  _LetterEntry('ع', 'ʿ', 'stimmhafter Rachenlaut ohne deutsches Äquivalent (ʿAin)'),
-  _LetterEntry('غ', 'ġ', 'wie das französische „r“ (Reibelaut im Rachen)'),
-  _LetterEntry('ف', 'f', 'wie deutsches „f“'),
-  _LetterEntry('ق', 'q', 'wie „k“, aber tief im Rachen gebildet (Uvular)'),
-  _LetterEntry('ك', 'k', 'wie deutsches „k“'),
-  _LetterEntry('ل', 'l', 'wie deutsches „l“'),
-  _LetterEntry('م', 'm', 'wie deutsches „m“'),
-  _LetterEntry('ن', 'n', 'wie deutsches „n“'),
-  _LetterEntry('ه', 'h', 'wie deutsches „h“'),
-  _LetterEntry('و', 'w / ū', 'Halbvokal „w“ oder langes „u“'),
-  _LetterEntry('ي', 'y / ī', 'Halbvokal „j“ oder langes „i“'),
-  _LetterEntry('ة', '-a / -at', 'Tāʾ marbūṭa: „a“ am Wortende, vor Folgewort oft „-at“'),
-  _LetterEntry('ى', 'ā', 'Alif maqṣūra: langes „a“ am Wortende'),
-];
+/// Buchstaben-Tabelle in der aktiven UI-Sprache (H1 — Mehrsprachige UI):
+/// die Erklärungen sind Übersetzungs-Keys, die Schriftzeichen bleiben fix.
+List<_LetterEntry> _letters(AppLocalizations l10n) => [
+      _LetterEntry('ء', 'ʾ', l10n.tlHamza),
+      _LetterEntry('ا', 'ā', l10n.tlAlef),
+      _LetterEntry('ب', 'b', l10n.tlBa),
+      _LetterEntry('ت', 't', l10n.tlTa),
+      _LetterEntry('ث', 'ṯ', l10n.tlTha),
+      _LetterEntry('ج', 'ǧ', l10n.tlJim),
+      _LetterEntry('ح', 'ḥ', l10n.tlHa),
+      _LetterEntry('خ', 'ḫ', l10n.tlKha),
+      _LetterEntry('د', 'd', l10n.tlDal),
+      _LetterEntry('ذ', 'ḏ', l10n.tlDhal),
+      _LetterEntry('ر', 'r', l10n.tlRa),
+      _LetterEntry('ز', 'z', l10n.tlZay),
+      _LetterEntry('س', 's', l10n.tlSin),
+      _LetterEntry('ش', 'š', l10n.tlShin),
+      _LetterEntry('ص', 'ṣ', l10n.tlSad),
+      _LetterEntry('ض', 'ḍ', l10n.tlDad),
+      _LetterEntry('ط', 'ṭ', l10n.tlTaEmph),
+      _LetterEntry('ظ', 'ẓ', l10n.tlZa),
+      _LetterEntry('ع', 'ʿ', l10n.tlAyn),
+      _LetterEntry('غ', 'ġ', l10n.tlGhayn),
+      _LetterEntry('ف', 'f', l10n.tlFa),
+      _LetterEntry('ق', 'q', l10n.tlQaf),
+      _LetterEntry('ك', 'k', l10n.tlKaf),
+      _LetterEntry('ل', 'l', l10n.tlLam),
+      _LetterEntry('م', 'm', l10n.tlMim),
+      _LetterEntry('ن', 'n', l10n.tlNun),
+      _LetterEntry('ه', 'h', l10n.tlHeh),
+      _LetterEntry('و', 'w / ū', l10n.tlWaw),
+      _LetterEntry('ي', 'y / ī', l10n.tlYa),
+      _LetterEntry('ة', '-a / -at', l10n.tlTaMarbuta),
+      _LetterEntry('ى', 'ā', l10n.tlAlifMaqsura),
+    ];
 
-const List<_LetterEntry> _diacritics = [
-  _LetterEntry('َ', 'a', 'Fatha — kurzes „a“'),
-  _LetterEntry('ِ', 'i', 'Kasra — kurzes „i“'),
-  _LetterEntry('ُ', 'u', 'Damma — kurzes „u“'),
-  _LetterEntry('ْ', '(kein Vokal)', 'Sukun — der Konsonant trägt keinen Vokal'),
-  _LetterEntry('ّ', '(Verdopplung)', 'Shadda — der Konsonant wird doppelt gesprochen'),
-];
+List<_LetterEntry> _diacritics(AppLocalizations l10n) => [
+      _LetterEntry('َ', 'a', l10n.tdFatha),
+      _LetterEntry('ِ', 'i', l10n.tdKasra),
+      _LetterEntry('ُ', 'u', l10n.tdDamma),
+      _LetterEntry('ْ', l10n.tdSukunSymbol, l10n.tdSukun),
+      _LetterEntry('ّ', l10n.tdShaddaSymbol, l10n.tdShadda),
+    ];
 
 /// Erklärt die in der App verwendete wissenschaftliche Transliteration nach
 /// DIN 31635 — erreichbar über das Info-Icon im Learn Screen (nur bei
@@ -60,43 +63,39 @@ class TransliterationInfoScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
     return Scaffold(
-      appBar: AppBar(title: const Text('Transliteration (DIN 31635)')),
+      appBar: AppBar(title: Text(l10n.transliterationTitle)),
       body: SafeArea(
         child: ListView(
           padding: const EdgeInsets.all(24),
           children: [
-            const Text(
-              'Die arabische Umschrift in dieser App folgt DIN 31635, dem '
-              'wissenschaftlichen Standard der Arabistik. Sie zeigt exakt, '
-              'wie ein Wort geschrieben und gesprochen wird — inklusive '
-              'Laute, die es im Deutschen nicht gibt. Ab Stufe B1 wird die '
-              'Umschrift bewusst nicht mehr angezeigt, da du dann die '
-              'arabische Schrift direkt lesen sollst.',
-              style: TextStyle(color: Colors.white70, height: 1.4),
+            Text(
+              l10n.transliterationIntro,
+              style: const TextStyle(color: Colors.white70, height: 1.4),
             ),
             const SizedBox(height: 24),
-            const Text(
-              'Buchstaben',
-              style: TextStyle(
+            Text(
+              l10n.lettersHeading,
+              style: const TextStyle(
                 color: AppColors.gold,
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
               ),
             ),
             const SizedBox(height: 8),
-            for (final entry in _letters) _LetterRow(entry: entry),
+            for (final entry in _letters(l10n)) _LetterRow(entry: entry),
             const SizedBox(height: 24),
-            const Text(
-              'Kurzvokale & Zeichen',
-              style: TextStyle(
+            Text(
+              l10n.diacriticsHeading,
+              style: const TextStyle(
                 color: AppColors.gold,
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
               ),
             ),
             const SizedBox(height: 8),
-            for (final entry in _diacritics) _LetterRow(entry: entry),
+            for (final entry in _diacritics(l10n)) _LetterRow(entry: entry),
           ],
         ),
       ),

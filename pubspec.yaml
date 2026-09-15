@@ -30,6 +30,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # H1 — Mehrsprachige UI (DE/EN/AR): Material/Built-in-Widget-Sprachen und
+  # RTL-Unterstützung für Arabisch. Strings kommen aus den ARB-Dateien in
+  # lib/l10n/ (gen_l10n, siehe l10n.yaml).
+  flutter_localizations:
+    sdk: flutter
+  # H1 — wird von gen_l10n für die generierte AppLocalizations-Klasse benötigt.
+  intl: any
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -73,6 +80,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  # H1 — ARB-Dateien in lib/l10n/ beim Build automatisch zu
+  # AppLocalizations kompilieren (gen_l10n, siehe l10n.yaml).
+  generate: true
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

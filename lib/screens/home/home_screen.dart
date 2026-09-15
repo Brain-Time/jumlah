@@ -11,6 +11,7 @@ import '../learn/learn_screen.dart';
 import '../review/review_screen.dart';
 import '../stats/stats_screen.dart';
 import 'batch_list_screen.dart';
+import '../../l10n/l10n.dart';
 
 /// Hauptmenü mit Bottom Navigation (Task C4): Lernen · Quiz · Statistik · Info.
 /// Erste Anlaufstelle der App, verbindet alle zuvor gebauten Screens.
@@ -37,14 +38,14 @@ class _HomeScreenState extends State<HomeScreen> {
       bottomNavigationBar: NavigationBar(
         selectedIndex: _currentIndex,
         onDestinationSelected: (index) => setState(() => _currentIndex = index),
-        destinations: const [
-          NavigationDestination(icon: Icon(Icons.school), label: 'Lernen'),
-          NavigationDestination(icon: Icon(Icons.quiz), label: 'Quiz'),
+        destinations: [
+          NavigationDestination(icon: const Icon(Icons.school), label: context.l10n.tabLearn),
+          NavigationDestination(icon: const Icon(Icons.quiz), label: context.l10n.tabQuiz),
           // Statistik-Tab (Task: Lernstatistiken Heatmap/Streak): Serie,
           // aktive Tage und 16-Wochen-Heatmap — siehe stats_screen.dart.
-          NavigationDestination(icon: Icon(Icons.insert_chart), label: 'Statistik'),
+          NavigationDestination(icon: const Icon(Icons.insert_chart), label: context.l10n.tabStats),
           // Task „Info“-Menü: Support- & Rechts-Einträge (siehe info_screen.dart).
-          NavigationDestination(icon: Icon(Icons.info), label: 'Info'),
+          NavigationDestination(icon: const Icon(Icons.info), label: context.l10n.tabInfo),
         ],
       ),
     );
@@ -194,9 +195,7 @@ abstract class _LevelsTabState<T extends ConsumerStatefulWidget>
     if (info.planned) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text(
-            'Sprachniveau ${info.group} ist in Vorbereitung — kommt bald.',
-          ),
+          content: Text(context.l10n.levelPlannedSnack(info.group)),
         ),
       );
       return;
@@ -204,10 +203,7 @@ abstract class _LevelsTabState<T extends ConsumerStatefulWidget>
     if (!_unlockedLevels.contains(info.group)) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text(
-            'Schließe zuerst das vorherige Sprachniveau ab, um '
-            '${info.group} freizuschalten.',
-          ),
+          content: Text(context.l10n.levelLockedSnack(info.group)),
         ),
       );
       return;
@@ -246,12 +242,12 @@ abstract class _LevelsTabState<T extends ConsumerStatefulWidget>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(isQuiz ? 'Quiz' : 'Lernen'),
+        title: Text(isQuiz ? context.l10n.tabQuiz : context.l10n.tabLearn),
         actions: [
           if (!isQuiz)
             IconButton(
               icon: const Icon(Icons.search),
-              tooltip: 'Wörterbuch',
+              tooltip: context.l10n.dictionaryTooltip,
               onPressed: () => Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (_) => const DictionaryScreen(),
@@ -277,12 +273,12 @@ abstract class _LevelsTabState<T extends ConsumerStatefulWidget>
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Prüfung',
+                context.l10n.examTitle,
                 style: AppTheme.headingStyle(fontSize: 24),
               ),
               const SizedBox(height: 4),
               Text(
-                'Prüfe dein Wissen Stufe für Stufe.',
+                context.l10n.examSubtitle,
                 style: AppTheme.secondaryStyle(),
               ),
             ],
@@ -306,7 +302,7 @@ abstract class _LevelsTabState<T extends ConsumerStatefulWidget>
         const SizedBox(height: 12),
         _ReviewCard(dueCount: _dueReviewWords, onTap: _openReview),
         const SizedBox(height: 22),
-        Text('Sprachniveaus', style: AppTheme.headingStyle(fontSize: 18)),
+        Text(context.l10n.levelsHeading, style: AppTheme.headingStyle(fontSize: 18)),
         const SizedBox(height: 12),
         for (final info in allLevels)
           GroupProgressTile(
@@ -368,8 +364,10 @@ class GroupProgressTile extends StatelessWidget {
   /// gesetzt (siehe `levelTitleHeroTag`).
   final Object? heroTag;
 
-  /// „Sprachniveau A1 · Label“ — Text exakt so belassen (Hero-/Test-Kompatibilität).
-  String get _title => 'Sprachniveau ${info.group} · ${info.label}';
+  /// „Sprachniveau A1 · Label“ — Label in der aktiven UI-Sprache.
+  /// Text-Hülle exakt so belassen (Hero-/Test-Kompatibilität).
+  String _title(BuildContext context) =>
+      context.l10n.levelTitle(info.group, levelLabelForGroup(context, info.group));
 
   @override
   Widget build(BuildContext context) {
@@ -410,7 +408,7 @@ class GroupProgressTile extends StatelessWidget {
   }
 
   Widget _buildContent(BuildContext context) {
-    final title = Text(_title, style: AppTheme.titleStyle(fontSize: 15));
+    final title = Text(_title(context), style: AppTheme.titleStyle(fontSize: 15));
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -438,12 +436,12 @@ class GroupProgressTile extends StatelessWidget {
                 Row(
                   children: [
                     Text(
-                      'Wörter ${info.startRank}–${info.endRank}',
+                      context.l10n.wordsRange(info.startRank, info.endRank),
                       style: AppTheme.secondaryStyle(fontSize: 12),
                     ),
                     const Spacer(),
                     Text(
-                      '$percent %',
+                      context.l10n.percentValue(percent),
                       style: AppTheme.secondaryStyle(
                         fontSize: 12,
                         color: AppColors.textPrimary,
@@ -465,13 +463,13 @@ class GroupProgressTile extends StatelessWidget {
                 if (!unlocked) ...[
                   const SizedBox(height: 8),
                   _MiniChip(
-                    label: 'Vorheriges Niveau abschließen',
+                    label: context.l10n.previousLevelLocked,
                     icon: Icons.lock_clock,
                   ),
                 ] else if (planned) ...[
                   const SizedBox(height: 8),
                   _MiniChip(
-                    label: 'Bald verfügbar',
+                    label: context.l10n.comingSoon,
                     icon: Icons.schedule,
                   ),
                 ],
@@ -555,10 +553,10 @@ class _Milestone extends StatelessWidget {
         .round();
     final label =
         lessonsDone >= lessonsPerLevel
-            ? 'Sprachniveau abgeschlossen ✅'
+            ? context.l10n.levelComplete
             : lessonsDone == 0
-            ? 'Beginne die erste Lektion'
-            : 'Lektion $lessonsDone von $lessonsPerLevel im Sprachniveau';
+            ? context.l10n.startFirstLesson
+            : context.l10n.lessonsOfLevel(lessonsDone, lessonsPerLevel);
     return Row(
       children: [
         Icon(
@@ -627,12 +625,12 @@ class _HeroBanner extends StatelessWidget {
                     ),
                     const SizedBox(height: 2),
                     Text(
-                      'Willkommen bei Jumlah',
+                      context.l10n.heroWelcome,
                       style: AppTheme.titleStyle(fontSize: 16),
                     ),
                     const SizedBox(height: 2),
                     Text(
-                      'Lerne klassisches Arabisch — offline & kostenlos.',
+                      context.l10n.heroSubtitle,
                       style: AppTheme.secondaryStyle(fontSize: 12),
                     ),
                   ],
@@ -645,20 +643,20 @@ class _HeroBanner extends StatelessWidget {
             children: [
               _StatItem(
                 icon: Icons.menu_book,
-                label: 'Wörter',
+                label: context.l10n.statWords,
                 value: '${stats.words}',
               ),
               const SizedBox(width: 8),
               _StatItem(
                 icon: Icons.list_alt,
-                label: 'Lektionen',
+                label: context.l10n.statLessons,
                 value: '${stats.lessons}',
               ),
               const SizedBox(width: 8),
               _StatItem(
                 icon: Icons.trending_up,
-                label: 'Fortschritt',
-                value: '$percent %',
+                label: context.l10n.statProgress,
+                value: context.l10n.percentValue(percent),
               ),
             ],
           ),
@@ -704,6 +702,27 @@ class _StatItem extends StatelessWidget {
 }
 
 
+/// H1 — Localisiertes Label eines Sprachniveaus (z. B. „Grundstufe“ für A1)
+/// in der aktiven UI-Sprache. `word_groups.dart` hält weiterhin die deutsche
+/// Beschreibung als Datenfeld; die Übersetzung erfolgt hier über die
+/// ARB-Schlüssel, damit die Lerninhalte und -daten sprachunabhängig bleiben.
+String levelLabelForGroup(BuildContext context, String group) {
+  final l10n = context.l10n;
+  switch (group) {
+    case 'A1':
+      return l10n.levelLabelA1;
+    case 'A2':
+      return l10n.levelLabelA2;
+    case 'B1':
+      return l10n.levelLabelB1;
+    case 'B2':
+      return l10n.levelLabelB2;
+    case 'C1':
+      return l10n.levelLabelC1;
+  }
+  return group;
+}
+
 /// „Weiter lernen“-Resume-Karte: springt direkt in die zuletzt geöffnete
 /// Lektion (mit Wort-Position); ohne gespeicherte Lernposition als
 /// „Beginne zu lernen“ (erste Lektion des Einstiegs-Niveaus).
@@ -722,8 +741,8 @@ class _ContinueCard extends StatelessWidget {
     final lesson = (pos?.batchIndex ?? 0) + 1;
     final word = pos == null ? 1 : pos.currentIndex + 1;
     final subtitle = hasPosition
-        ? 'Lektion $lesson · Wort $word von 10 · $group'
-        : 'Lektion 1 · Wörter 1–10 · $group';
+        ? context.l10n.continueSubtitleResume(lesson, word, group)
+        : context.l10n.continueSubtitleStart(group);
 
     return Material(
       color: Colors.transparent,
@@ -749,7 +768,9 @@ class _ContinueCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      hasPosition ? 'Weiter lernen' : 'Beginne zu lernen',
+                      hasPosition
+                          ? context.l10n.continueLearning
+                          : context.l10n.startLearning,
                       style: AppTheme.titleStyle(fontSize: 16),
                     ),
                     const SizedBox(height: 2),
@@ -788,9 +809,10 @@ class _ReviewCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final hasDue = dueCount > 0;
     final subtitle = hasDue
-        ? '$dueCount ${dueCount == 1 ? 'Wort' : 'Wörter'} fällig — Zeit für '
-            'eine Wiederholung.'
-        : 'Bestehe Lektionen, um Wörter hier zu wiederholen.';
+        ? dueCount == 1
+            ? context.l10n.reviewDueOne(dueCount)
+            : context.l10n.reviewDueMany(dueCount)
+        : context.l10n.reviewEmptyHint;
     return Material(
       color: Colors.transparent,
       child: InkWell(
@@ -819,7 +841,7 @@ class _ReviewCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Wiederholen',
+                      context.l10n.reviewCardTitle,
                       style: AppTheme.titleStyle(fontSize: 16),
                     ),
                     const SizedBox(height: 2),

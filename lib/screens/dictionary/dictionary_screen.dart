@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/database/database_helper.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/word_groups.dart' show showsTransliteration;
+import '../../l10n/l10n.dart';
 import '../../models/root.dart';
 import '../../models/sentence.dart';
 import '../../models/word.dart';
@@ -61,7 +62,7 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
     final queryEmpty = _controller.text.trim().isEmpty;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Wörterbuch')),
+      appBar: AppBar(title: Text(context.l10n.dictionaryTitle)),
       body: SafeArea(
         child: Column(
           children: [
@@ -73,7 +74,7 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
                 onChanged: _onQueryChanged,
                 textInputAction: TextInputAction.search,
                 decoration: InputDecoration(
-                  hintText: 'Wort suchen (Arabisch, Deutsch, Umschrift)…',
+                  hintText: context.l10n.dictionaryHint,
                   prefixIcon: const Icon(Icons.search),
                   suffixIcon: _controller.text.isEmpty
                       ? null
@@ -107,14 +108,13 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
 
   Widget _buildResults(BuildContext context, bool queryEmpty) {
     if (queryEmpty) {
-      return const _Hint(
+      return _Hint(
         icon: Icons.menu_book,
-        text: 'Suche nach einem arabischen Wort, seiner deutschen Bedeutung '
-            'oder der wissenschaftlichen Umschrift.',
+        text: context.l10n.dictionaryEmptyHint,
       );
     }
     if (_found.isEmpty) {
-      return const _Hint(icon: Icons.search_off, text: 'Keine Treffer gefunden.');
+      return _Hint(icon: Icons.search_off, text: context.l10n.noResults);
     }
     return ListView.builder(
       padding: const EdgeInsets.fromLTRB(16, 4, 16, 16),
@@ -184,7 +184,7 @@ class _ResultTile extends StatelessWidget {
                       ),
                       const SizedBox(height: 6),
                       Text(
-                        'Wurzel ${word.root}'
+                        '${context.l10n.rootTitle(word.root)}'
                         '${word.transliteration.isNotEmpty ? ' · ${word.transliteration}' : ''}',
                         style: AppTheme.secondaryStyle(fontSize: 12),
                       ),
@@ -301,7 +301,7 @@ class _WordDetailScreenState extends ConsumerState<_WordDetailScreen> {
             if (word.masdar.isNotEmpty) ...[
               const SizedBox(height: 16),
               _SectionCard(
-                title: 'Masdar (Verbalnomen)',
+                title: context.l10n.masdarSection,
                 accent: AppColors.gold,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -338,14 +338,14 @@ class _WordDetailScreenState extends ConsumerState<_WordDetailScreen> {
             if (_root != null) ...[
               const SizedBox(height: 16),
               _SectionCard(
-                title: 'Wurzel ${_root!.root}',
+                title: context.l10n.rootTitle(_root!.root),
                 child: Text(_root!.classicalDefinition, style: AppTheme.bodyStyle()),
               ),
             ],
 if (_sentences.isNotEmpty) ...[
               const SizedBox(height: 16),
               _SectionCard(
-                title: 'Kontext-Sätze',
+                title: context.l10n.contextSentences,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [

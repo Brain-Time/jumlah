@@ -1,0 +1,13 @@
+# H1 — Mehrsprachige UI (DE/EN/AR): Konfiguration für Flutter gen_l10n.
+# Deutsch ist die Vorlage (template-arb-file); English und Arabisch sind die
+# Übersetzungen. Die generierte Klasse heißt AppLocalizations und landet im
+# synthetischen Package `flutter_gen` (Import siehe lib/l10n/l10n.dart).
+arb-dir: lib/l10n
+template-arb-file: app_de.arb
+output-localizations-file: app_localizations.dart
+# Determinismus: generierte Dateien als normale, committete Quelldateien
+# nach lib/l10n/ ausgeben (kein synthetisches flutter_gen-Package).
+synthetic-package: false
+# `of` darf null liefern (kein Localizations-Kontext, z.B. in Widget-Tests ohne
+# Delegates) — die Fallback-Auflösung auf Deutsch macht `lib/l10n/l10n.dart`.
+nullable-getter: true

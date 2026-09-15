@@ -5,6 +5,7 @@ import '../../core/spaced_repetition.dart' show Sm2ReviewItem;
 import '../../core/theme/app_theme.dart';
 import '../../core/widgets/animated_progress_bar.dart';
 import '../../core/word_groups.dart' show showsTransliteration;
+import '../../l10n/l10n.dart';
 import '../../models/word.dart';
 
 /// Wiederholungs-Screen der Spaced-Repetition (Task: SM-2). Zeigt alle
@@ -106,7 +107,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Wiederholen')),
+      appBar: AppBar(title: Text(context.l10n.reviewAppBarTitle)),
       body: SafeArea(child: _buildBody()),
     );
   }
@@ -117,7 +118,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
         child: Padding(
           padding: const EdgeInsets.all(24),
           child: Text(
-            'Fehler beim Laden: $_errorMessage',
+            context.l10n.loadError(_errorMessage!),
             style: const TextStyle(color: AppColors.error),
             textAlign: TextAlign.center,
           ),
@@ -151,7 +152,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
           Row(
             children: [
               Text(
-                'Wiederholung',
+                context.l10n.reviewAppBarTitle,
                 style: AppTheme.secondaryStyle(fontSize: 12),
               ),
               const Spacer(),
@@ -184,22 +185,22 @@ class _ReviewScreenState extends State<ReviewScreen> {
     if (!_revealed) {
       return FilledButton(
         onPressed: _reveal,
-        child: const Text('Antwort zeigen'),
+        child: Text(context.l10n.revealAnswer),
       );
     }
     final ratings = [
-      (0, 'Vergessen', AppColors.error),
-      (1, 'Fast', AppColors.error),
-      (2, 'Schwer', AppColors.textSecondary),
-      (3, 'Knapp', AppColors.success),
-      (4, 'Gut', AppColors.success),
-      (5, 'Perfekt', AppColors.gold),
+      (0, context.l10n.quality0, AppColors.error),
+      (1, context.l10n.quality1, AppColors.error),
+      (2, context.l10n.quality2, AppColors.textSecondary),
+      (3, context.l10n.quality3, AppColors.success),
+      (4, context.l10n.quality4, AppColors.success),
+      (5, context.l10n.quality5, AppColors.gold),
     ];
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Text(
-          'Wie gut hast du es gewusst?',
+          context.l10n.howWellQuestion,
           style: AppTheme.secondaryStyle(fontSize: 13),
           textAlign: TextAlign.center,
         ),
@@ -301,7 +302,7 @@ class _EmptyState extends StatelessWidget {
                   const SizedBox(width: 10),
                   Expanded(
                     child: Text(
-                      'Alles erledigt',
+                      context.l10n.reviewAllDone,
                       style: AppTheme.titleStyle(fontSize: 16),
                     ),
                   ),
@@ -309,9 +310,7 @@ class _EmptyState extends StatelessWidget {
               ),
               const SizedBox(height: 6),
               Text(
-                'Gerade sind keine Wörter fällig. Bestehe Lektionen im Quiz, '
-                'um ihre Wörter in die Wiederholung aufzunehmen — und komm '
-                'morgen wieder vorbei.',
+                context.l10n.reviewNoDue,
                 style: AppTheme.secondaryStyle(fontSize: 12),
               ),
             ],
@@ -355,7 +354,7 @@ class _Summary extends StatelessWidget {
                     const SizedBox(width: 10),
                     Expanded(
                       child: Text(
-                        'Session abgeschlossen',
+                        context.l10n.sessionComplete,
                         style: AppTheme.headingStyle(fontSize: 20),
                       ),
                     ),
@@ -363,13 +362,12 @@ class _Summary extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  '$correctCount von $totalAnswered Wörtern erinnert.',
+                  context.l10n.rememberedSummary(correctCount, totalAnswered),
                   style: AppTheme.bodyStyle(),
                 ),
                 if (correctCount == 0)
                   Text(
-                    'Kein Problem — die vergessenen Wörter kommen morgen '
-                    'automatisch wieder.',
+                    context.l10n.forgottenHint,
                     style: AppTheme.secondaryStyle(fontSize: 12),
                   ),
               ],
@@ -378,7 +376,7 @@ class _Summary extends StatelessWidget {
           const SizedBox(height: 18),
           FilledButton(
             onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Fertig'),
+            child: Text(context.l10n.done),
           ),
         ],
       ),

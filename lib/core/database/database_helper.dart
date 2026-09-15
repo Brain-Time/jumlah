@@ -104,6 +104,7 @@ class DatabaseHelper {
   static const String _dataAssetVersionKey = 'data_asset_version';
   static const String _deviceIdKey = 'device_id';
   static const String _onboardingSeenKey = 'onboarding_seen';
+  static const String _localeKey = 'locale';
 
   Database? _database;
 
@@ -982,6 +983,38 @@ class DatabaseHelper {
     await db.insert(tableMetadata, {
       'key': _onboardingSeenKey,
       'value': 'true',
+    }, conflictAlgorithm: ConflictAlgorithm.replace);
+  }
+
+  /// H1 — UI-Sprache: liest die zuletzt gespeicherte Sprach-Kennung (z. B.
+  /// `'en'`, `'ar'`) aus der `metadata`-Tabelle; `null` beim allerersten Start
+  /// (dann gilt Deutsch als Standard, siehe `locale_provider.dart`).
+  Future<String?> getLocaleCode() async => getSetting(_localeKey);
+
+  /// H1 — UI-Sprache: persistiert die gewählte Sprach-Kennung.
+  Future<void> saveLocaleCode(String code) => setSetting(_localeKey, code);
+
+  /// Liest einen Wert aus der `metadata`-Tabelle; `null`, wenn (noch) nicht
+  /// gesetzt. Bewusst generisch gehalten (Onboarding-Flag nutzt eigene,
+  /// spezialisierte Methoden).
+  Future<String?> getSetting(String key) async {
+    final db = await database;
+    final rows = await db.query(
+      tableMetadata,
+      where: 'key = ?',
+      whereArgs: [key],
+      limit: 1,
+    );
+    return rows.isEmpty ? null : rows.first['value'] as String?;
+  }
+
+  /// Schreibt einen Wert in die `metadata`-Tabelle (ersetzen bei gleichem
+  /// Schlüssel).
+  Future<void> setSetting(String key, String value) async {
+    final db = await database;
+    await db.insert(tableMetadata, {
+      'key': key,
+      'value': value,
     }, conflictAlgorithm: ConflictAlgorithm.replace);
   }
 

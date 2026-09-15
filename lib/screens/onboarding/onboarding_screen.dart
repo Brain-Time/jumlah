@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../core/theme/app_theme.dart';
+import '../../l10n/l10n.dart';
 import '../home/home_screen.dart';
 import '../info/info_screen.dart';
 
@@ -29,91 +30,71 @@ class OnboardingScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             Text(
-              'Willkommen bei Jumlah',
+              context.l10n.welcomeTitle,
               textAlign: TextAlign.center,
               style: AppTheme.headingStyle(fontSize: 24),
             ),
             const SizedBox(height: 6),
             Text(
-              'Lerne klassisches Arabisch (Fusha / Qur’anisch) — Schritt für '
-              'Schritt, offline & kostenlos, in deinem eigenen Tempo.',
+              context.l10n.welcomeSubtitle,
               textAlign: TextAlign.center,
               style: AppTheme.secondaryStyle(fontSize: 14),
             ),
             const SizedBox(height: 24),
             // Motivation: warum sich das tägliche Lernen lohnt.
-            const _OnboardingSection(
+            _OnboardingSection(
               icon: Icons.local_fire_department,
               accent: AppColors.gold,
-              title: 'Bleib am Ball 🔥',
-              description:
-                  'Konsequenz schlägt Talent: Schon 10 Minuten am Tag bringen '
-                  'dich Woche für Woche weiter — von den ersten Verben bis zu '
-                  'seltenen koranischen Ausdrücken.',
+              title: context.l10n.motivationTitle,
+              description: context.l10n.motivationBody,
             ),
             const SizedBox(height: 16),
             Text(
-              'Das erwartet dich:',
+              context.l10n.whatToExpect,
               style: AppTheme.titleStyle(fontSize: 16),
             ),
             const SizedBox(height: 12),
-            const _OnboardingSection(
+            _OnboardingSection(
               icon: Icons.menu_book,
               accent: AppColors.gold,
-              title: 'Klassisches Arabisch',
-              description:
-                  'Die 500 häufigsten Wörter des klassischen Arabisch — jedes '
-                  'mit 3 echten Kontext-Sätzen, Wurzel-Familie, Masdar und '
-                  'DIN-31635-Umschrift.',
+              title: context.l10n.featureClassicalTitle,
+              description: context.l10n.featureClassicalBody,
             ),
-            const _OnboardingSection(
+            _OnboardingSection(
               icon: Icons.headphones,
               accent: AppColors.primary,
-              title: 'Audio-Aussprache',
-              description:
-                  'Jeder Kontext-Satz wird dir vorgelesen — lokal gebündelte '
-                  'Audios, ganz ohne Internet.',
+              title: context.l10n.featureAudioTitle,
+              description: context.l10n.featureAudioBody,
             ),
-            const _OnboardingSection(
+            _OnboardingSection(
               icon: Icons.school,
               accent: AppColors.primary,
-              title: 'Lektion für Lektion mit Prüfung',
-              description:
-                  '50 Lektionen à 10 Wörter. Nach jeder Lektion folgt die '
-                  'Prüfung in 6 Stufen (Wort, Sätze, Audio, Geschichte) mit '
-                  'höchstens 3 Fehlern — wer besteht, schaltet frei.',
+              title: context.l10n.featureLessonsTitle,
+              description: context.l10n.featureLessonsBody,
             ),
-            const _OnboardingSection(
+            _OnboardingSection(
               icon: Icons.search,
               accent: AppColors.success,
-              title: 'Offline-Wörterbuch',
-              description:
-                  'Suche arabische Wörter und Sätze — harakat- und '
-                  'umschrift-insensitiv, damit du auch ohne Diakritik findest.',
+              title: context.l10n.featureDictTitle,
+              description: context.l10n.featureDictBody,
             ),
-            const _OnboardingSection(
+            _OnboardingSection(
               icon: Icons.insights,
               accent: AppColors.success,
-              title: 'Lernstatistik',
-              description:
-                  'Behalte deine Serie 🔥, aktiven Tage und eine '
-                  '16-Wochen-Aktivitäts-Heatmap im Überblick.',
+              title: context.l10n.featureStatsTitle,
+              description: context.l10n.featureStatsBody,
             ),
-            const _OnboardingSection(
+            _OnboardingSection(
               icon: Icons.autorenew,
               accent: AppColors.gold,
-              title: 'Wiederholungen',
-              description:
-                  'Fällige Wörter werden dir nach dem SM-2-Lernabstand erneut '
-                  'vorgelegt — für langfristigen Wortschatz.',
+              title: context.l10n.featureReviewTitle,
+              description: context.l10n.featureReviewBody,
             ),
-            const _OnboardingSection(
+            _OnboardingSection(
               icon: Icons.offline_bolt,
               accent: AppColors.success,
-              title: 'Offline & kostenlos',
-              description:
-                  'Alles funktioniert ohne Internet, dein Fortschritt bleibt '
-                  'auf deinem Gerät — und die App ist komplett kostenlos.',
+              title: context.l10n.featureOfflineTitle,
+              description: context.l10n.featureOfflineBody,
             ),
             const SizedBox(height: 8),
             // Die App wird aktiv weiterentwickelt.
@@ -127,23 +108,22 @@ class OnboardingScreen extends StatelessWidget {
                 children: [
                   const Icon(Icons.rocket_launch, color: AppColors.primary, size: 22),
                   const SizedBox(width: 12),
-                  const Expanded(
+                  Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Jumlah wird aktiv weiterentwickelt',
-                          style: TextStyle(
+                          context.l10n.devNoteTitle,
+                          style: const TextStyle(
                             color: AppColors.textPrimary,
                             fontWeight: FontWeight.w600,
                             fontSize: 15,
                           ),
                         ),
-                        SizedBox(height: 4),
+                        const SizedBox(height: 4),
                         Text(
-                          'Neue Lektionen, Sprachniveaus und Funktionen folgen '
-                          'regelmäßig — bleib dran und wachse mit der App mit.',
-                          style: TextStyle(
+                          context.l10n.devNoteBody,
+                          style: const TextStyle(
                             color: AppColors.textSecondary,
                             fontSize: 13,
                           ),
@@ -165,13 +145,12 @@ class OnboardingScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Unterstütze die Entwicklung',
+                    context.l10n.supportHeading,
                     style: AppTheme.titleStyle(fontSize: 16),
                   ),
                   const SizedBox(height: 6),
                   Text(
-                    'Jumlah ist kostenlos. Wenn dir die App gefällt, kannst du '
-                    'die Entwicklung freiwillig unterstützen:',
+                    context.l10n.supportBody,
                     style: AppTheme.secondaryStyle(),
                   ),
                   const SizedBox(height: 14),
@@ -185,7 +164,7 @@ class OnboardingScreen extends StatelessWidget {
               style: FilledButton.styleFrom(
                 minimumSize: const Size.fromHeight(52),
               ),
-              child: const Text('Los geht’s'),
+              child: Text(context.l10n.letsGo),
             ),
           ],
         ),
@@ -294,21 +273,21 @@ class _SupportTile extends StatelessWidget {
             borderRadius: BorderRadius.circular(12),
             border: Border.all(color: AppColors.gold.withValues(alpha: 0.4)),
           ),
-          child: const Row(
+          child: Row(
             children: [
-              Icon(Icons.coffee, color: AppColors.gold, size: 22),
-              SizedBox(width: 12),
+              const Icon(Icons.coffee, color: AppColors.gold, size: 22),
+              const SizedBox(width: 12),
               Expanded(
                 child: Text(
-                  'Entwickler unterstützen ☕',
-                  style: TextStyle(
+                  context.l10n.supportTitle,
+                  style: const TextStyle(
                     color: AppColors.textPrimary,
                     fontWeight: FontWeight.w600,
                     fontSize: 15,
                   ),
                 ),
               ),
-              Icon(Icons.chevron_right, size: 20, color: AppColors.gold),
+              const Icon(Icons.chevron_right, size: 20, color: AppColors.gold),
             ],
           ),
         ),

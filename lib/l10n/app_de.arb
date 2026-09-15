@@ -1,0 +1,370 @@
+{
+  "@@locale": "de",
+  "appTitle": "Jumlah — Klassisches Arabisch Lern-App",
+  "cancel": "Abbrechen",
+  "restart": "Neu starten",
+  "next": "Weiter",
+  "back": "Zurück",
+  "done": "Fertig",
+  "retry": "Wiederholen",
+  "loadError": "Fehler beim Laden: {message}",
+  "@loadError": {
+    "placeholders": {
+      "message": { "type": "String" }
+    }
+  },
+  "tabLearn": "Lernen",
+  "tabQuiz": "Quiz",
+  "tabStats": "Statistik",
+  "tabInfo": "Info",
+
+  "dictionaryTooltip": "Wörterbuch",
+  "examTitle": "Prüfung",
+  "examSubtitle": "Prüfe dein Wissen Stufe für Stufe.",
+  "levelsHeading": "Sprachniveaus",
+  "levelPlannedSnack": "Sprachniveau {group} ist in Vorbereitung — kommt bald.",
+  "@levelPlannedSnack": {
+    "placeholders": {
+      "group": { "type": "String" }
+    }
+  },
+  "levelLockedSnack": "Schließe zuerst das vorherige Sprachniveau ab, um {group} freizuschalten.",
+  "@levelLockedSnack": {
+    "placeholders": {
+      "group": { "type": "String" }
+    }
+  },
+  "levelTitle": "Sprachniveau {group} · {label}",
+  "@levelTitle": {
+    "placeholders": {
+      "group": { "type": "String" },
+      "label": { "type": "String" }
+    }
+  },
+  "levelLabelA1": "Grundstufe",
+  "levelLabelA2": "Sehr häufig",
+  "levelLabelB1": "Häufig",
+  "levelLabelB2": "Mittel",
+  "levelLabelC1": "Selten / Klassisch",
+  "wordsRange": "Wörter {start}–{end}",
+  "@wordsRange": {
+    "placeholders": {
+      "start": { "type": "int" },
+      "end": { "type": "int" }
+    }
+  },
+  "percentValue": "{percent} %",
+  "@percentValue": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "previousLevelLocked": "Vorheriges Niveau abschließen",
+  "comingSoon": "Bald verfügbar",
+  "levelComplete": "Sprachniveau abgeschlossen ✅",
+  "startFirstLesson": "Beginne die erste Lektion",
+  "lessonsOfLevel": "Lektion {done} von {total} im Sprachniveau",
+  "@lessonsOfLevel": {
+    "placeholders": {
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "heroWelcome": "Willkommen bei Jumlah",
+  "heroSubtitle": "Lerne klassisches Arabisch — offline & kostenlos.",
+  "statWords": "Wörter",
+  "statLessons": "Lektionen",
+  "statProgress": "Fortschritt",
+  "continueLearning": "Weiter lernen",
+  "startLearning": "Beginne zu lernen",
+  "continueSubtitleResume": "Lektion {lesson} · Wort {word} von 10 · {group}",
+  "@continueSubtitleResume": {
+    "placeholders": {
+      "lesson": { "type": "int" },
+      "word": { "type": "int" },
+      "group": { "type": "String" }
+    }
+  },
+  "continueSubtitleStart": "Lektion 1 · Wörter 1–10 · {group}",
+  "@continueSubtitleStart": {
+    "placeholders": {
+      "group": { "type": "String" }
+    }
+  },
+  "reviewDueOne": "{count} Wort fällig — Zeit für eine Wiederholung.",
+  "@reviewDueOne": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "reviewDueMany": "{count} Wörter fällig — Zeit für eine Wiederholung.",
+  "@reviewDueMany": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "reviewEmptyHint": "Bestehe Lektionen, um Wörter hier zu wiederholen.",
+  "reviewCardTitle": "Wiederholen",
+
+  "batchListNoWords": "Keine Wörter in dieser Gruppe gefunden.",
+  "finalExam": "Gesamtprüfung",
+  "lessonRange": "Lektion {lesson} · Wörter {start}–{end}",
+  "@lessonRange": {
+    "placeholders": {
+      "lesson": { "type": "int" },
+      "start": { "type": "int" },
+      "end": { "type": "int" }
+    }
+  },
+  "lessonLockedHint": "Erst die vorherige Lektion fehlerfrei bestehen, um diese freizuschalten.",
+  "lessonNotLearnedHint": "Zuerst diese Lektion lernen, bevor du das Quiz machst.",
+  "levelLockedHint": "Schließe zuerst das vorherige Sprachniveau ab, um dieses freizuschalten.",
+
+  "learnTitle": "Lernen · {group}",
+  "@learnTitle": {
+    "placeholders": {
+      "group": { "type": "String" }
+    }
+  },
+  "transliterationTooltip": "Transliteration erklärt",
+  "restartTitle": "Von vorne beginnen?",
+  "restartLearnBody": "Der gespeicherte Zwischenstand dieser Lektion geht verloren.",
+  "restartQuizBody": "Der bisherige Fortschritt in diesem Quiz geht verloren.",
+  "restartTooltip": "Von vorne beginnen",
+  "learnNoWords": "Keine Wörter in dieser Gruppe gefunden.\n(words.json muss zuerst importiert werden — Task D1)",
+  "lessonTitle": "Lektion {lesson}",
+  "@lessonTitle": {
+    "placeholders": {
+      "lesson": { "type": "int" }
+    }
+  },
+  "noContextSentence": "Für dieses Wort ist noch kein Kontext-Satz verfügbar.",
+  "sentenceCounter": "Satz {index}/{total}",
+  "@sentenceCounter": {
+    "placeholders": {
+      "index": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "rootSection": "Wurzel",
+  "masdarSection": "Masdar (Verbalnomen)",
+  "toQuiz": "Zum Quiz",
+
+  "stageArabicToGerman": "Stufe 1/6 · Arabisch → Deutsch",
+  "stageGermanToArabic": "Stufe 2/6 · Deutsch → Arabisch",
+  "stageMixed": "Stufe 3/6 · Abwechselnd",
+  "stageSentences": "Stufe 4/6 · Sätze",
+  "stageAudio": "Stufe 5/6 · Audio",
+  "stageStory": "Stufe 6/6 · Geschichte",
+  "readStory": "Lies die Geschichte:",
+  "continueToMatching": "Weiter zur Zuordnung",
+  "audioPrompt": "Höre zu und wähle die deutsche Bedeutung:",
+  "listenSentence": "Satz anhören",
+  "sentencePrompt": "Welche Bedeutung passt zu diesem Satz?",
+
+  "sharePassed": "Bestanden ✅",
+  "shareFailed": "Nicht bestanden",
+  "shareCompleted": "Abgeschlossen",
+  "shareResultLine": "Ergebnis: {status}",
+  "@shareResultLine": {
+    "placeholders": {
+      "status": { "type": "String" }
+    }
+  },
+  "shareCorrectLine": "Richtige Antworten: {score} von {total}",
+  "@shareCorrectLine": {
+    "placeholders": {
+      "score": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "shareErrorsLine": "Fehler: {wrong} von {allowed} erlaubten",
+  "@shareErrorsLine": {
+    "placeholders": {
+      "wrong": { "type": "int" },
+      "allowed": { "type": "int" }
+    }
+  },
+  "copiedToClipboard": "Ergebnis in die Zwischenablage kopiert.",
+  "passedTitle": "Bestanden!",
+  "failedTitle": "Nicht bestanden",
+  "resultTitle": "Ergebnis",
+  "errorsSummary": "{wrong} Fehler von {allowed} erlaubten",
+  "@errorsSummary": {
+    "placeholders": {
+      "wrong": { "type": "int" },
+      "allowed": { "type": "int" }
+    }
+  },
+  "scoreCorrectAnswers": "{score} richtige Antworten",
+  "@scoreCorrectAnswers": {
+    "placeholders": {
+      "score": { "type": "int" }
+    }
+  },
+  "lessonPassedUnlock": "Lektion bestanden — nächste Lektion ist freigeschaltet!",
+  "lessonFailedRetry": "Lektion nicht bestanden — bitte wiederholen, um die nächste Lektion freizuschalten.",
+  "practiceAgain": "Nochmal üben:",
+  "shareResult": "Ergebnis teilen",
+  "continueButton": "Weiter",
+
+  "groupCompletedTitle": "{group} abgeschlossen",
+  "@groupCompletedTitle": {
+    "placeholders": {
+      "group": { "type": "String" }
+    }
+  },
+  "allLessonsDone": "Alle Lektionen geschafft!",
+  "finalExamFailed": "Die Gesamtprüfung war noch nicht fehlerfrei — versuch es nochmal.",
+  "finalExamIntro": "Zum Abschluss folgt eine Gesamtprüfung über alle Wörter dieser Gruppe.",
+  "startFinalExam": "Gesamtprüfung starten",
+  "finalExamPassedTitle": "Gesamtprüfung bestanden!",
+  "levelUnlockedText": "Das Sprachniveau ist abgeschlossen — die nächste Stufe ist freigeschaltet. Weitere Stufen folgen, sobald ihre Inhalte verfügbar sind.",
+  "backToLessons": "Zur Lektionsübersicht",
+
+  "reviewAppBarTitle": "Wiederholung",
+  "revealAnswer": "Antwort zeigen",
+  "quality0": "Vergessen",
+  "quality1": "Fast",
+  "quality2": "Schwer",
+  "quality3": "Knapp",
+  "quality4": "Gut",
+  "quality5": "Perfekt",
+  "howWellQuestion": "Wie gut hast du es gewusst?",
+  "reviewAllDone": "Alles erledigt",
+  "reviewNoDue": "Gerade sind keine Wörter fällig. Bestehe Lektionen im Quiz, um ihre Wörter in die Wiederholung aufzunehmen — und komm morgen wieder vorbei.",
+  "sessionComplete": "Session abgeschlossen",
+  "rememberedSummary": "{correct} von {total} Wörtern erinnert.",
+  "@rememberedSummary": {
+    "placeholders": {
+      "correct": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "forgottenHint": "Kein Problem — die vergessenen Wörter kommen morgen automatisch wieder.",
+
+  "noActivityTitle": "Noch keine Lernaktivität",
+  "noActivityBody": "Sobald du eine Lektion durchblätterst oder eine Quiz-Frage beantwortest, wertet Jumlah deine Serie und diese Heatmap aus — automatisch und komplett offline.",
+  "currentStreak": "Tage Serie",
+  "bestStreak": "Beste Serie",
+  "activeDays": "Aktive Tage",
+  "today": "Heute",
+  "wordsViewed": "Wörter angesehen",
+  "quizAnswers": "Quiz-Antworten",
+  "lessonsCompleted": "Lektionen bestanden",
+  "heatmapTitle": "Deine Lernaktivität",
+  "heatmapSubtitle": "Letzte {weeks} Wochen — jeden Tag eine Zelle",
+  "@heatmapSubtitle": {
+    "placeholders": {
+      "weeks": { "type": "int" }
+    }
+  },
+  "weekdayMo": "Mo",
+  "weekdayDi": "Di",
+  "weekdayMi": "Mi",
+  "weekdayDo": "Do",
+  "weekdayFr": "Fr",
+  "weekdaySa": "Sa",
+  "weekdaySo": "So",
+  "heatmapTooltip": "{date} · {count} Aktivitäten",
+  "@heatmapTooltip": {
+    "placeholders": {
+      "date": { "type": "String" },
+      "count": { "type": "int" }
+    }
+  },
+  "legendLittle": "wenig",
+  "legendMuch": "viel",
+
+  "dictionaryTitle": "Wörterbuch",
+  "dictionaryHint": "Wort suchen (Arabisch, Deutsch, Umschrift)…",
+  "dictionaryEmptyHint": "Suche nach einem arabischen Wort, seiner deutschen Bedeutung oder der wissenschaftlichen Umschrift.",
+  "noResults": "Keine Treffer gefunden.",
+  "rootTitle": "Wurzel {root}",
+  "@rootTitle": {
+    "placeholders": {
+      "root": { "type": "String" }
+    }
+  },
+  "contextSentences": "Kontext-Sätze",
+
+  "supportLegalHeading": "Support & Rechtliches",
+  "supportLegalBody": "Unterstütze die Entwicklung oder rufe die gesetzlich erforderlichen Angaben auf.",
+  "supportTitle": "Entwickler unterstützen ☕",
+  "supportSubtitle": "Freiwillige Spende über Ko-fi — die App bleibt kostenlos.",
+  "legalTitle": "Impressum & Datenschutz",
+  "legalSubtitle": "Rechtliche Angaben und Datenschutzhinweise.",
+  "languageHeading": "Sprache",
+  "languageBody": "App-Oberfläche wählen — die Lerninhalte bleiben unverändert Arabisch ↔ Deutsch.",
+  "languageDe": "Deutsch",
+  "languageEn": "English",
+  "languageAr": "العربية",
+
+  "welcomeTitle": "Willkommen bei Jumlah",
+  "welcomeSubtitle": "Lerne klassisches Arabisch (Fusha / Qur’anisch) — Schritt für Schritt, offline & kostenlos, in deinem eigenen Tempo.",
+  "motivationTitle": "Bleib am Ball 🔥",
+  "motivationBody": "Konsequenz schlägt Talent: Schon 10 Minuten am Tag bringen dich Woche für Woche weiter — von den ersten Verben bis zu seltenen koranischen Ausdrücken.",
+  "whatToExpect": "Das erwartet dich:",
+  "featureClassicalTitle": "Klassisches Arabisch",
+  "featureClassicalBody": "Die 500 häufigsten Wörter des klassischen Arabisch — jedes mit 3 echten Kontext-Sätzen, Wurzel-Familie, Masdar und DIN-31635-Umschrift.",
+  "featureAudioTitle": "Audio-Aussprache",
+  "featureAudioBody": "Jeder Kontext-Satz wird dir vorgelesen — lokal gebündelte Audios, ganz ohne Internet.",
+  "featureLessonsTitle": "Lektion für Lektion mit Prüfung",
+  "featureLessonsBody": "50 Lektionen à 10 Wörter. Nach jeder Lektion folgt die Prüfung in 6 Stufen (Wort, Sätze, Audio, Geschichte) mit höchstens 3 Fehlern — wer besteht, schaltet frei.",
+  "featureDictTitle": "Offline-Wörterbuch",
+  "featureDictBody": "Suche arabische Wörter und Sätze — harakat- und umschrift-insensitiv, damit du auch ohne Diakritik findest.",
+  "featureStatsTitle": "Lernstatistik",
+  "featureStatsBody": "Behalte deine Serie 🔥, aktiven Tage und eine 16-Wochen-Aktivitäts-Heatmap im Überblick.",
+  "featureReviewTitle": "Wiederholungen",
+  "featureReviewBody": "Fällige Wörter werden dir nach dem SM-2-Lernabstand erneut vorgelegt — für langfristigen Wortschatz.",
+  "featureOfflineTitle": "Offline & kostenlos",
+  "featureOfflineBody": "Alles funktioniert ohne Internet, dein Fortschritt bleibt auf deinem Gerät — und die App ist komplett kostenlos.",
+  "devNoteTitle": "Jumlah wird aktiv weiterentwickelt",
+  "devNoteBody": "Neue Lektionen, Sprachniveaus und Funktionen folgen regelmäßig — bleib dran und wachse mit der App mit.",
+  "supportHeading": "Unterstütze die Entwicklung",
+  "supportBody": "Jumlah ist kostenlos. Wenn dir die App gefällt, kannst du die Entwicklung freiwillig unterstützen:",
+  "letsGo": "Los geht’s",
+
+  "transliterationTitle": "Transliteration (DIN 31635)",
+  "transliterationIntro": "Die arabische Umschrift in dieser App folgt DIN 31635, dem wissenschaftlichen Standard der Arabistik. Sie zeigt exakt, wie ein Wort geschrieben und gesprochen wird — inklusive Laute, die es im Deutschen nicht gibt. Ab Stufe B1 wird die Umschrift bewusst nicht mehr angezeigt, da du dann die arabische Schrift direkt lesen sollst.",
+  "lettersHeading": "Buchstaben",
+  "diacriticsHeading": "Kurzvokale & Zeichen",
+  "tlHamza": "Stimmritzenverschluss (Hamza) — der Knacklaut vor Vokalen wie in „Verein“",
+  "tlAlef": "langes „a“ wie in „Vater“",
+  "tlBa": "wie deutsches „b“",
+  "tlTa": "wie deutsches „t“",
+  "tlTha": "stimmloses „th“ wie engl. „think“",
+  "tlJim": "wie „dsch“ in „Dschungel“",
+  "tlHa": "gepresster Rachen-h-Laut, schärfer als deutsches „h“",
+  "tlKha": "wie „ch“ in „Bach“",
+  "tlDal": "wie deutsches „d“",
+  "tlDhal": "stimmhaftes „th“ wie engl. „this“",
+  "tlRa": "gerolltes „r“",
+  "tlZay": "stimmhaftes „s“ wie in „Sonne“",
+  "tlSin": "stimmloses „s“ wie in „Wasser“",
+  "tlShin": "wie deutsches „sch“",
+  "tlSad": "emphatisches (velarisiertes) „s“",
+  "tlDad": "emphatisches „d“",
+  "tlTaEmph": "emphatisches „t“",
+  "tlZa": "emphatisches „th“ (wie ذ, aber velarisiert)",
+  "tlAyn": "stimmhafter Rachenlaut ohne deutsches Äquivalent (ʿAin)",
+  "tlGhayn": "wie das französische „r“ (Reibelaut im Rachen)",
+  "tlFa": "wie deutsches „f“",
+  "tlQaf": "wie „k“, aber tief im Rachen gebildet (Uvular)",
+  "tlKaf": "wie deutsches „k“",
+  "tlLam": "wie deutsches „l“",
+  "tlMim": "wie deutsches „m“",
+  "tlNun": "wie deutsches „n“",
+  "tlHeh": "wie deutsches „h“",
+  "tlWaw": "Halbvokal „w“ oder langes „u“",
+  "tlYa": "Halbvokal „j“ oder langes „i“",
+  "tlTaMarbuta": "Tāʾ marbūṭa: „a“ am Wortende, vor Folgewort oft „-at“",
+  "tlAlifMaqsura": "Alif maqṣūra: langes „a“ am Wortende",
+  "tdFatha": "Fatha — kurzes „a“",
+  "tdKasra": "Kasra — kurzes „i“",
+  "tdDamma": "Damma — kurzes „u“",
+  "tdSukun": "Sukun — der Konsonant trägt keinen Vokal",
+  "tdShadda": "Shadda — der Konsonant wird doppelt gesprochen",
+  "tdSukunSymbol": "(kein Vokal)",
+  "tdShaddaSymbol": "(Verdopplung)"
+}

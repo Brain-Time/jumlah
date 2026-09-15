@@ -5,6 +5,7 @@ import '../../core/audio_service.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/widgets/animated_progress_bar.dart';
 import '../../core/word_groups.dart' show showsTransliteration;
+import '../../l10n/l10n.dart';
 import '../../models/sentence.dart';
 import '../../models/word.dart';
 import '../../providers/quiz_provider.dart';
@@ -100,18 +101,16 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Von vorne beginnen?'),
-        content: const Text(
-          'Der bisherige Fortschritt in diesem Quiz geht verloren.',
-        ),
+        title: Text(context.l10n.restartTitle),
+        content: Text(context.l10n.restartQuizBody),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(false),
-            child: const Text('Abbrechen'),
+            child: Text(context.l10n.cancel),
           ),
           FilledButton(
             onPressed: () => Navigator.of(context).pop(true),
-            child: const Text('Neu starten'),
+            child: Text(context.l10n.restart),
           ),
         ],
       ),
@@ -131,20 +130,21 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
         );
   }
 
-  String _stageLabel(QuizStage stage) {
+  String _stageLabel(BuildContext context, QuizStage stage) {
+    final l10n = context.l10n;
     switch (stage) {
       case QuizStage.arabicToGerman:
-        return 'Stufe 1/6 · Arabisch → Deutsch';
+        return l10n.stageArabicToGerman;
       case QuizStage.germanToArabic:
-        return 'Stufe 2/6 · Deutsch → Arabisch';
+        return l10n.stageGermanToArabic;
       case QuizStage.mixed:
-        return 'Stufe 3/6 · Abwechselnd';
+        return l10n.stageMixed;
       case QuizStage.wholeSentence:
-        return 'Stufe 4/6 · Sätze';
+        return l10n.stageSentences;
       case QuizStage.audio:
-        return 'Stufe 5/6 · Audio';
+        return l10n.stageAudio;
       case QuizStage.story:
-        return 'Stufe 6/6 · Geschichte';
+        return l10n.stageStory;
     }
   }
 
@@ -233,11 +233,11 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(_stageLabel(state.stage)),
+        title: Text(_stageLabel(context, state.stage)),
         actions: [
           IconButton(
             icon: const Icon(Icons.restart_alt),
-            tooltip: 'Von vorne beginnen',
+            tooltip: context.l10n.restartTooltip,
             onPressed: _confirmRestart,
           ),
         ],
@@ -339,7 +339,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
           ),
           if (answered) ...[
             const SizedBox(height: 16),
-            FilledButton(onPressed: _next, child: const Text('Weiter')),
+            FilledButton(onPressed: _next, child: Text(context.l10n.next)),
           ],
         ],
       ),
@@ -358,10 +358,10 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
           children: [
             AnimatedProgressBar(value: state.stageProgress),
             const SizedBox(height: 12),
-            const Text(
-              'Lies die Geschichte:',
+            Text(
+              context.l10n.readStory,
               textAlign: TextAlign.center,
-              style: TextStyle(color: AppColors.gold, fontSize: 16),
+              style: const TextStyle(color: AppColors.gold, fontSize: 16),
             ),
             const SizedBox(height: 12),
             Expanded(
@@ -399,7 +399,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
             const SizedBox(height: 12),
             FilledButton(
               onPressed: () => setState(() => _storyIntroShown = true),
-              child: const Text('Weiter zur Zuordnung'),
+              child: Text(context.l10n.continueToMatching),
             ),
           ],
         ),
@@ -421,15 +421,15 @@ class _AudioPrompt extends StatelessWidget {
     final sentence = question.sentence!;
     return Column(
       children: [
-        const Text(
-          'Höre zu und wähle die deutsche Bedeutung:',
+        Text(
+          context.l10n.audioPrompt,
           textAlign: TextAlign.center,
-          style: TextStyle(color: Colors.white70, fontSize: 14),
+          style: const TextStyle(color: Colors.white70, fontSize: 14),
         ),
         const SizedBox(height: 16),
         IconButton(
           iconSize: 64,
-          tooltip: 'Satz anhören',
+          tooltip: context.l10n.listenSentence,
           onPressed: () =>
               AudioService.instance.playSentence(sentence, _sentenceIndex),
           icon: const Icon(Icons.play_circle_fill, color: AppColors.gold),
@@ -460,10 +460,10 @@ class _StoryPrompt extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const Text(
-          'Welche Bedeutung passt zu diesem Satz?',
+        Text(
+          context.l10n.sentencePrompt,
           textAlign: TextAlign.center,
-          style: TextStyle(color: Colors.white70, fontSize: 14),
+          style: const TextStyle(color: Colors.white70, fontSize: 14),
         ),
         const SizedBox(height: 20),
         Directionality(

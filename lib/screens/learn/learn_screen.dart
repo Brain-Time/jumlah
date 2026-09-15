@@ -6,6 +6,7 @@ import '../../core/audio_service.dart';
 import '../../core/widgets/animated_progress_bar.dart';
 import '../../core/widgets/flip_card.dart';
 import '../../core/word_groups.dart' show showsTransliteration;
+import '../../l10n/l10n.dart';
 import '../../models/root.dart';
 import '../../models/sentence.dart';
 import '../../models/word.dart';
@@ -42,18 +43,16 @@ class _LearnScreenState extends ConsumerState<LearnScreen> {
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Von vorne beginnen?'),
-        content: const Text(
-          'Der gespeicherte Zwischenstand dieser Lektion geht verloren.',
-        ),
+        title: Text(context.l10n.restartTitle),
+        content: Text(context.l10n.restartLearnBody),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(false),
-            child: const Text('Abbrechen'),
+            child: Text(context.l10n.cancel),
           ),
           FilledButton(
             onPressed: () => Navigator.of(context).pop(true),
-            child: const Text('Neu starten'),
+            child: Text(context.l10n.restart),
           ),
         ],
       ),
@@ -84,12 +83,12 @@ class _LearnScreenState extends ConsumerState<LearnScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Lernen · ${widget.group}'),
+        title: Text(context.l10n.learnTitle(widget.group)),
         actions: [
           if (showsTransliteration(widget.group))
             IconButton(
               icon: const Icon(Icons.info_outline),
-              tooltip: 'Transliteration erklärt',
+              tooltip: context.l10n.transliterationTooltip,
               onPressed: () => Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (_) => const TransliterationInfoScreen(),
@@ -98,7 +97,7 @@ class _LearnScreenState extends ConsumerState<LearnScreen> {
             ),
           IconButton(
             icon: const Icon(Icons.restart_alt),
-            tooltip: 'Von vorne beginnen',
+            tooltip: context.l10n.restartTooltip,
             onPressed: _confirmRestart,
           ),
         ],
@@ -116,7 +115,7 @@ class _LearnScreenState extends ConsumerState<LearnScreen> {
         child: Padding(
           padding: const EdgeInsets.all(24),
           child: Text(
-            'Fehler beim Laden: ${state.errorMessage}',
+            context.l10n.loadError(state.errorMessage!),
             style: const TextStyle(color: AppColors.error),
             textAlign: TextAlign.center,
           ),
@@ -124,14 +123,13 @@ class _LearnScreenState extends ConsumerState<LearnScreen> {
       );
     }
     if (state.words.isEmpty) {
-      return const Center(
+      return Center(
         child: Padding(
-          padding: EdgeInsets.all(24),
+          padding: const EdgeInsets.all(24),
           child: Text(
-            'Keine Wörter in dieser Gruppe gefunden.\n'
-            '(words.json muss zuerst importiert werden — Task D1)',
+            context.l10n.learnNoWords,
             textAlign: TextAlign.center,
-            style: TextStyle(color: Colors.white70),
+            style: const TextStyle(color: Colors.white70),
           ),
         ),
       );
@@ -152,7 +150,7 @@ class _LearnScreenState extends ConsumerState<LearnScreen> {
           Row(
             children: [
               Text(
-                'Lektion ${widget.batchIndex + 1}',
+                context.l10n.lessonTitle(widget.batchIndex + 1),
                 style: AppTheme.secondaryStyle(fontSize: 12),
               ),
               const Spacer(),
@@ -195,7 +193,7 @@ class _LearnScreenState extends ConsumerState<LearnScreen> {
               Expanded(
                 child: OutlinedButton(
                   onPressed: state.hasPrevious ? notifier.prevWord : null,
-                  child: const Text('Zurück'),
+                  child: Text(context.l10n.back),
                 ),
               ),
               const SizedBox(width: 16),
@@ -203,11 +201,11 @@ class _LearnScreenState extends ConsumerState<LearnScreen> {
                 child: state.hasNext
                     ? FilledButton(
                         onPressed: notifier.nextWord,
-                        child: const Text('Weiter'),
+                        child: Text(context.l10n.next),
                       )
                     : FilledButton(
                         onPressed: () => _openQuiz(state),
-                        child: const Text('Zum Quiz'),
+                        child: Text(context.l10n.toQuiz),
                       ),
               ),
             ],
@@ -234,10 +232,10 @@ class _SentenceSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (sentences.isEmpty) {
-      return const Text(
-        'Für dieses Wort ist noch kein Kontext-Satz verfügbar.',
+      return Text(
+        context.l10n.noContextSentence,
         textAlign: TextAlign.center,
-        style: TextStyle(color: Colors.white38, fontStyle: FontStyle.italic),
+        style: const TextStyle(color: Colors.white38, fontStyle: FontStyle.italic),
       );
     }
     return Column(
@@ -287,7 +285,7 @@ class _SingleSentence extends StatelessWidget {
           children: [
             if (total > 1)
               Text(
-                'Satz $index/$total',
+                context.l10n.sentenceCounter(index, total),
                 style: const TextStyle(color: Colors.white38, fontSize: 11),
               ),
             const SizedBox(width: 8),
@@ -415,9 +413,9 @@ class _RootSection extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 8),
-              const Text(
-                'Wurzel',
-                style: TextStyle(color: Colors.white38, fontSize: 12),
+              Text(
+                context.l10n.rootSection,
+                style: const TextStyle(color: Colors.white38, fontSize: 12),
               ),
             ],
           ),
@@ -463,9 +461,9 @@ class _MasdarSection extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 8),
-              const Text(
-                'Masdar (Verbalnomen)',
-                style: TextStyle(color: Colors.white38, fontSize: 12),
+              Text(
+                context.l10n.masdarSection,
+                style: const TextStyle(color: Colors.white38, fontSize: 12),
               ),
             ],
           ),

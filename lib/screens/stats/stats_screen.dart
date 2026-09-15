@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../core/database/database_helper.dart';
 import '../../core/theme/app_theme.dart';
+import '../../l10n/l10n.dart';
 
 /// Statistik-Tab der Startseite (Task: Lernstatistiken Heatmap/Streak).
 /// Zeigt aktuelle Serie, beste Serie, aktive Tage, die heutige Aktivität und
@@ -21,7 +22,7 @@ class StatsTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Statistik')),
+      appBar: AppBar(title: Text(context.l10n.tabStats)),
       body: SafeArea(
         child: FutureBuilder<StudyOverview>(
           future: DatabaseHelper.instance.getStudyOverview(
@@ -77,7 +78,7 @@ class _EmptyHint extends StatelessWidget {
               const SizedBox(width: 10),
               Expanded(
                 child: Text(
-                  'Noch keine Lernaktivität',
+                  context.l10n.noActivityTitle,
                   style: AppTheme.titleStyle(fontSize: 16),
                 ),
               ),
@@ -85,9 +86,7 @@ class _EmptyHint extends StatelessWidget {
           ),
           const SizedBox(height: 6),
           Text(
-            'Sobald du eine Lektion durchblätterst oder eine Quiz-Frage '
-            'beantwortest, wertet Jumlah deine Serie und diese Heatmap aus — '
-            'automatisch und komplett offline.',
+            context.l10n.noActivityBody,
             style: AppTheme.secondaryStyle(fontSize: 12),
           ),
         ],
@@ -109,25 +108,25 @@ class _StatRow extends StatelessWidget {
       children: [
         _StatTile(
           icon: Icons.local_fire_department,
-          label: 'Tage Serie',
+          label: context.l10n.currentStreak,
           value: '${stats.currentStreak}',
         ),
         const SizedBox(width: 7),
         _StatTile(
           icon: Icons.emoji_events,
-          label: 'Beste Serie',
+          label: context.l10n.bestStreak,
           value: '${stats.bestStreak}',
         ),
         const SizedBox(width: 7),
         _StatTile(
           icon: Icons.calendar_today,
-          label: 'Aktive Tage',
+          label: context.l10n.activeDays,
           value: '${stats.activeDays}',
         ),
         const SizedBox(width: 7),
         _StatTile(
           icon: Icons.bolt,
-          label: 'Heute',
+          label: context.l10n.today,
           value: '$todayCount',
         ),
       ],
@@ -185,25 +184,25 @@ class _TodayCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('Heute', style: AppTheme.headingStyle(fontSize: 16)),
+          Text(context.l10n.today, style: AppTheme.headingStyle(fontSize: 16)),
           const SizedBox(height: 10),
           Row(
             children: [
               _TodayItem(
                 icon: Icons.menu_book,
-                label: 'Wörter angesehen',
+                label: context.l10n.wordsViewed,
                 value: '${today.wordsViewed}',
               ),
               const SizedBox(width: 8),
               _TodayItem(
                 icon: Icons.quiz,
-                label: 'Quiz-Antworten',
+                label: context.l10n.quizAnswers,
                 value: '${today.quizAnswers}',
               ),
               const SizedBox(width: 8),
               _TodayItem(
                 icon: Icons.flag,
-                label: 'Lektionen bestanden',
+                label: context.l10n.lessonsCompleted,
                 value: '${today.lessonsCompleted}',
               ),
             ],
@@ -264,14 +263,14 @@ class _HeatmapCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('Deine Lernaktivität', style: AppTheme.headingStyle(fontSize: 16)),
+          Text(context.l10n.heatmapTitle, style: AppTheme.headingStyle(fontSize: 16)),
           const SizedBox(height: 2),
           Text(
-            'Letzte ${StatsTab.heatmapWeeks} Wochen — jeden Tag eine Zelle',
+            context.l10n.heatmapSubtitle(StatsTab.heatmapWeeks),
             style: AppTheme.secondaryStyle(fontSize: 12),
           ),
           const SizedBox(height: 10),
-          _buildGrid(),
+          _buildGrid(context),
           const SizedBox(height: 10),
           const _Legend(),
         ],
@@ -282,7 +281,7 @@ class _HeatmapCard extends StatelessWidget {
   /// 7×16-Zeilen-Grid: links die Wochentags-Beschriftung, rechts die Wochen-
   /// Spalten (neueste Woche ganz rechts). Beginnt am Montag der ersten Woche,
   /// endet mit der Woche von heute.
-  Widget _buildGrid() {
+  Widget _buildGrid(BuildContext context) {
     final now = DateTime.now();
     final todayDate = DateTime(now.year, now.month, now.day);
     final firstDay = todayDate.subtract(
@@ -292,7 +291,16 @@ class _HeatmapCard extends StatelessWidget {
       Duration(days: firstDay.weekday - 1),
     );
     final todayKey = DatabaseHelper.studyDateKey(todayDate);
-    const rowLabels = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
+    final l10n = context.l10n;
+    final rowLabels = [
+      l10n.weekdayMo,
+      l10n.weekdayDi,
+      l10n.weekdayMi,
+      l10n.weekdayDo,
+      l10n.weekdayFr,
+      l10n.weekdaySa,
+      l10n.weekdaySo,
+    ];
 
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -319,6 +327,7 @@ class _HeatmapCard extends StatelessWidget {
                         _buildCell(
                           gridStart.add(Duration(days: week * 7 + row)),
                           todayKey,
+                          context,
                         ),
                     ],
                   ),
@@ -330,7 +339,7 @@ class _HeatmapCard extends StatelessWidget {
     );
   }
 
-  Widget _buildCell(DateTime day, String todayKey) {
+  Widget _buildCell(DateTime day, String todayKey, BuildContext context) {
     final dateKey = DatabaseHelper.studyDateKey(day);
     final count = activityByDate[dateKey] ?? 0;
     final cell = Container(
@@ -348,7 +357,7 @@ class _HeatmapCard extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 2),
       child: count > 0
           ? Tooltip(
-              message: '$dateKey · $count Aktivitäten',
+              message: context.l10n.heatmapTooltip(dateKey, count),
               child: cell,
             )
           : cell,
@@ -404,7 +413,7 @@ class _Legend extends StatelessWidget {
         const SizedBox(width: 6),
         Expanded(
           child: Text(
-            'wenig          viel',
+            '${context.l10n.legendLittle}    ${context.l10n.legendMuch}',
             style: AppTheme.secondaryStyle(fontSize: 9),
           ),
         ),
