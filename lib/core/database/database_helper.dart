@@ -1054,8 +1054,16 @@ class DatabaseHelper {
 
   /// Zählt Lernaktivität für den heutigen lokalen Tag (Task: Lernstatistiken).
   /// Mehrere Aufrufe am selben Tag erhöhen die Zähler der vorhandenen Zeile
-  /// (UPSERT statt Duplikat). Aufruf ist bewusst fire-and-forget aus den
+  /// statt ein Duplikat anzulegen. Aufruf ist bewusst fire-and-forget aus den
   /// Lern-/Quiz-Providern — analog zu `saveLearnPosition`/`saveQuizSession`.
+  ///
+  /// Kompatibilitäts-Hinweis: bewusst **kein** `INSERT … ON CONFLICT … DO
+  /// UPDATE` (UPSERT-Syntax) — das wird auf SQLite-Versionen mancher Geräte
+  /// (z.B. Huawei mit Android 10) mit `near "ON": syntax error` abgelehnt.
+  /// Stattdessen hier ein atomares UPDATE + bedingtes INSERT innerhalb einer
+  /// Transaktion: sqflite serialisiert alle Operationen je Transaktion, damit
+  /// bleiben parallele fire-and-forget-Aufrufe (Lern-/Quiz-Provider) race-frei
+  /// und erzeugen keine Duplikate am `date`-Primärschlüssel.
   Future<void> trackStudyActivity({
     int wordsViewed = 0,
     int quizAnswers = 0,
@@ -1067,32 +1075,28 @@ class DatabaseHelper {
     }
     final db = await database;
     final today = studyDateKey(DateTime.now());
-    // Atomares UPSERT: fire-and-forget-Aufrufe (Lern-/Quiz-Provider) können
-    // parallel laufen — ein read-modify-write würde bei zwei gleichzeitigen
-    // Erstaufrufen desselben Tages auf einen UNIQUE-Constraint-Fehler laufen.
-    // `ON CONFLICT(date) DO UPDATE` inkrementiert die vorhandene Zeile
-    // atomar, bzw. legt sie beim ersten Aufruf an.
-    await db.rawInsert(
-      'INSERT INTO $tableStudyActivity '
-      '(date, activity_count, words_viewed, quiz_answers, lessons_completed) '
-      'VALUES (?, ?, ?, ?, ?) '
-      'ON CONFLICT(date) DO UPDATE SET '
-      'activity_count = activity_count + ?, '
-      'words_viewed = words_viewed + ?, '
-      'quiz_answers = quiz_answers + ?, '
-      'lessons_completed = lessons_completed + ?',
-      [
-        today,
-        increments,
-        wordsViewed,
-        quizAnswers,
-        lessonsCompleted,
-        increments,
-        wordsViewed,
-        quizAnswers,
-        lessonsCompleted,
-      ],
-    );
+    await db.transaction((txn) async {
+      // Atomare Erhöhung der vorhandenen Zeile (falls es sie gibt).
+      final updatedRows = await txn.rawUpdate(
+        'UPDATE $tableStudyActivity SET '
+        'activity_count = activity_count + ?, '
+        'words_viewed = words_viewed + ?, '
+        'quiz_answers = quiz_answers + ?, '
+        'lessons_completed = lessons_completed + ? '
+        'WHERE date = ?',
+        [increments, wordsViewed, quizAnswers, lessonsCompleted, today],
+      );
+      // Zeile für heute existiert noch nicht -> beim ersten Aufruf anlegen.
+      if (updatedRows == 0) {
+        await txn.insert(tableStudyActivity, {
+          'date': today,
+          'activity_count': increments,
+          'words_viewed': wordsViewed,
+          'quiz_answers': quizAnswers,
+          'lessons_completed': lessonsCompleted,
+        });
+      }
+    });
   }
 
   /// Aktivität (Interaktionen je lokalam Tag) im Datumsfenster [start]–[end]

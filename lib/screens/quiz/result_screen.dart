@@ -4,7 +4,7 @@ import 'package:flutter/services.dart' show Clipboard, ClipboardData;
 import '../../core/theme/app_theme.dart';
 import '../../models/word.dart';
 
-/// Ergebnis-Anzeige nach Abschluss aller 6 Quiz-Stufen („Schulprüfung",
+/// Ergebnis-Anzeige nach Abschluss aller 6 Quiz-Stufen („Prüfung",
 /// Nutzer-Vorgabe 29. August 2026). Bestanden gilt bei
 /// [wrongCount] ≤ [allowedErrors]; nur bei Bestehen wird die nächste
 /// Lektion/Gruppe freigeschaltet.

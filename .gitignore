@@ -74,3 +74,5 @@ app.*.map.json
 /integration_test/
 /test_driver/
 /assets/audio/test_silma/
+
+/.gitignore

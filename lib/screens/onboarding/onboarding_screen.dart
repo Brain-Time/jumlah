@@ -35,37 +35,124 @@ class OnboardingScreen extends StatelessWidget {
             ),
             const SizedBox(height: 6),
             Text(
-              'Dein Einstieg ins klassische Arabisch — '
-              'offline, kostenlos und Schritt für Schritt.',
+              'Lerne klassisches Arabisch (Fusha / Qur’anisch) — Schritt für '
+              'Schritt, offline & kostenlos, in deinem eigenen Tempo.',
               textAlign: TextAlign.center,
               style: AppTheme.secondaryStyle(fontSize: 14),
             ),
-            const SizedBox(height: 28),
+            const SizedBox(height: 24),
+            // Motivation: warum sich das tägliche Lernen lohnt.
+            const _OnboardingSection(
+              icon: Icons.local_fire_department,
+              accent: AppColors.gold,
+              title: 'Bleib am Ball 🔥',
+              description:
+                  'Konsequenz schlägt Talent: Schon 10 Minuten am Tag bringen '
+                  'dich Woche für Woche weiter — von den ersten Verben bis zu '
+                  'seltenen koranischen Ausdrücken.',
+            ),
+            const SizedBox(height: 16),
+            Text(
+              'Das erwartet dich:',
+              style: AppTheme.titleStyle(fontSize: 16),
+            ),
+            const SizedBox(height: 12),
             const _OnboardingSection(
               icon: Icons.menu_book,
               accent: AppColors.gold,
               title: 'Klassisches Arabisch',
               description:
-                  'Lerne die 500 häufigsten Wörter des klassischen Arabisch '
-                  '(Fusha / Qur’anisch) — jedes Wort mit echtem Satz-Kontext, '
-                  'Wurzel-Familie, Masdar und Aussprache.',
+                  'Die 500 häufigsten Wörter des klassischen Arabisch — jedes '
+                  'mit 3 echten Kontext-Sätzen, Wurzel-Familie, Masdar und '
+                  'DIN-31635-Umschrift.',
+            ),
+            const _OnboardingSection(
+              icon: Icons.headphones,
+              accent: AppColors.primary,
+              title: 'Audio-Aussprache',
+              description:
+                  'Jeder Kontext-Satz wird dir vorgelesen — lokal gebündelte '
+                  'Audios, ganz ohne Internet.',
             ),
             const _OnboardingSection(
               icon: Icons.school,
               accent: AppColors.primary,
-              title: 'Lektion für Lektion',
+              title: 'Lektion für Lektion mit Prüfung',
               description:
-                  '50 Lektionen à 10 Wörter. Erst lernen, dann die '
-                  'Schulprüfung: 6 Stufen, höchstens 3 Fehler — wer besteht, '
-                  'schaltet die nächste Stufe frei.',
+                  '50 Lektionen à 10 Wörter. Nach jeder Lektion folgt die '
+                  'Prüfung in 6 Stufen (Wort, Sätze, Audio, Geschichte) mit '
+                  'höchstens 3 Fehlern — wer besteht, schaltet frei.',
+            ),
+            const _OnboardingSection(
+              icon: Icons.search,
+              accent: AppColors.success,
+              title: 'Offline-Wörterbuch',
+              description:
+                  'Suche arabische Wörter und Sätze — harakat- und '
+                  'umschrift-insensitiv, damit du auch ohne Diakritik findest.',
+            ),
+            const _OnboardingSection(
+              icon: Icons.insights,
+              accent: AppColors.success,
+              title: 'Lernstatistik',
+              description:
+                  'Behalte deine Serie 🔥, aktiven Tage und eine '
+                  '16-Wochen-Aktivitäts-Heatmap im Überblick.',
+            ),
+            const _OnboardingSection(
+              icon: Icons.autorenew,
+              accent: AppColors.gold,
+              title: 'Wiederholungen',
+              description:
+                  'Fällige Wörter werden dir nach dem SM-2-Lernabstand erneut '
+                  'vorgelegt — für langfristigen Wortschatz.',
             ),
             const _OnboardingSection(
               icon: Icons.offline_bolt,
               accent: AppColors.success,
               title: 'Offline & kostenlos',
               description:
-                  'Alles funktioniert ohne Internet. Dein Fortschritt wird '
-                  'auf deinem Gerät gespeichert — die App ist komplett frei.',
+                  'Alles funktioniert ohne Internet, dein Fortschritt bleibt '
+                  'auf deinem Gerät — und die App ist komplett kostenlos.',
+            ),
+            const SizedBox(height: 8),
+            // Die App wird aktiv weiterentwickelt.
+            Container(
+              padding: const EdgeInsets.all(AppTheme.cardPadding),
+              decoration: AppTheme.cardDecoration(
+                borderColor: AppColors.primary.withValues(alpha: 0.45),
+              ),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Icon(Icons.rocket_launch, color: AppColors.primary, size: 22),
+                  const SizedBox(width: 12),
+                  const Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          'Jumlah wird aktiv weiterentwickelt',
+                          style: TextStyle(
+                            color: AppColors.textPrimary,
+                            fontWeight: FontWeight.w600,
+                            fontSize: 15,
+                          ),
+                        ),
+                        SizedBox(height: 4),
+                        Text(
+                          'Neue Lektionen, Sprachniveaus und Funktionen folgen '
+                          'regelmäßig — bleib dran und wachse mit der App mit.',
+                          style: TextStyle(
+                            color: AppColors.textSecondary,
+                            fontSize: 13,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
             const SizedBox(height: 8),
             // Support-Hinweis am Ende (Nutzer-Vorgabe).

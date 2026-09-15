@@ -155,7 +155,7 @@ void main() {
       final state = container.read(quizProvider);
 
       expect(state.lastAnswerCorrect, isFalse);
-      // Kein Requeue (Schulprüfung): Warteschlange bleibt leer.
+      // Kein Requeue (Prüfung): Warteschlange bleibt leer.
       expect(state.queue, isEmpty);
       expect(state.wrongCount, 1);
       expect(state.finalWrongWordIds, contains(question.word.id));
@@ -457,6 +457,55 @@ void main() {
     await notifier2.startOrResumeQuiz(words, random: Random(2), group: 'A1', batchIndex: 0);
 
     expect(container2.read(quizProvider).wrongCount, 1);
+  });
+
+  test('startOrResumeQuiz setzt eine in der Story-Stufe (6/6) unterbrochene Sitzung fort, ohne zu crashen', () async {
+    final container = ProviderContainer();
+    addTearDown(container.dispose);
+    final notifier = container.read(quizProvider.notifier);
+
+    // Durch die Wort-Stufen laufen, bis die Story-Stufe erreicht ist.
+    await notifier.startOrResumeQuiz(
+      words,
+      random: Random(7),
+      group: 'A1',
+      batchIndex: 0,
+      sentencesByWordId: sentencesFor(words),
+    );
+    var guard = 0;
+    while (container.read(quizProvider).stage != QuizStage.story && guard < 300) {
+      guard++;
+      final q = container.read(quizProvider).currentQuestion;
+      if (q == null) break;
+      notifier.submitAnswer(q.correctAnswer);
+      notifier.nextQuestion();
+    }
+    expect(container.read(quizProvider).stage, QuizStage.story);
+    expect(container.read(quizProvider).currentQuestion, isNotNull);
+
+    // Eine Story-Frage beantworten -> Wort der Stufe als gelöst persistiert.
+    notifier.submitAnswer(container.read(quizProvider).currentQuestion!.correctAnswer);
+    final resolved = container.read(quizProvider).stageResolvedWordIds;
+    expect(resolved, isNotEmpty);
+
+    // Simulierter App-Neustart: Fragen danach nur für noch nicht gelöste Sätze.
+    final container2 = ProviderContainer();
+    addTearDown(container2.dispose);
+    final notifier2 = container2.read(quizProvider.notifier);
+    await notifier2.startOrResumeQuiz(
+      words,
+      random: Random(8),
+      group: 'A1',
+      batchIndex: 0,
+      sentencesByWordId: sentencesFor(words),
+    );
+
+    final resumed = container2.read(quizProvider);
+    expect(resumed.stage, QuizStage.story);
+    expect(resumed.stageResolvedWordIds, resolved);
+    expect(resumed.currentQuestion, isNotNull);
+    // Kein bereits gelöstes Story-Wort darf erneut als Frage auftauchen.
+    expect(resolved, isNot(contains(resumed.currentQuestion!.word.id)));
   });
 
   test('startOrResumeQuiz beginnt ohne vorhandene Sitzung wie startQuiz von vorn', () async {

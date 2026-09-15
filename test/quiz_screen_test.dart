@@ -112,7 +112,7 @@ void main() {
       await tester.pump();
 
       expect(container.read(quizProvider).lastAnswerCorrect, isFalse);
-      // Kein Requeue (Schulprüfung): die Wort-Warteschlange für Stufe 1 hat
+      // Kein Requeue (Prüfung): die Wort-Warteschlange für Stufe 1 hat
       // nicht zugenommen (currentQuestion + queue = 2 Woerter), Fehlerstand +1.
       expect(container.read(quizProvider).wrongCount, 1);
       expect(container.read(quizProvider).finalWrongWordIds, hasLength(1));

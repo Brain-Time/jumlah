@@ -12,7 +12,7 @@ import '../screens/learn/learn_audio_constants.dart' show sentencesPerLesson;
 /// Richtung einer einzelnen Vokabel-/Satz-Frage.
 enum QuizDirection { arabicToGerman, germanToArabic }
 
-/// Die sechs Stufen der „Schulprüfung“ (Nutzer-Vorgabe, 29. August 2026):
+/// Die sechs Stufen der „Prüfung“ (Nutzer-Vorgabe, 29. August 2026):
 ///  1. Arabisch → Deutsch (Wort)
 ///  2. Deutsch → Arabisch (Wort)
 ///  3. Wort Arabisch/Deutsch abwechselnd
@@ -30,7 +30,7 @@ enum QuizStage {
 }
 
 /// Anzahl erlaubter Fehler über den gesamten Prüfungslauf. Mehr Fehler ->
-/// nicht bestanden (Schulprüfungs-Modell, Nutzer-Vorgabe: 3 sind erlaubt).
+/// nicht bestanden (Prüfungs-Modell, Nutzer-Vorgabe: 3 sind erlaubt).
 const int maxAllowedErrors = 3;
 
 class QuizQuestion {
@@ -359,7 +359,20 @@ class QuizNotifier extends Notifier<QuizState> {
       nextQuestion();
       return;
     }
-    final queue = _buildQueue(remainingWords, stage);
+    // Story-Stufe: Die Geschichten-Queue wird über _buildStory/_buildStoryQueue
+    // gebaut (wie in nextQuestion) — _buildQueue wirft für `story` bewusst
+    // (siehe _directionFor). Bereits in der Stufe gelöste Sätze werden nicht
+    // erneut eingereiht. Ohne diesen Zweig stürzte das Fortsetzen einer in der
+    // 6. Stufe unterbrochenen Sitzung mit „story hat keine QuizDirection“ ab.
+    final queue = stage == QuizStage.story
+        ? _buildStoryQueue(
+            _buildStory()
+                .where(
+                  (s) => !session.stageResolvedWordIds.contains(s.wordId),
+                )
+                .toList(),
+          )
+        : _buildQueue(remainingWords, stage);
     state = state.copyWith(
       queue: queue.isEmpty ? const [] : queue.sublist(1),
       currentQuestion: queue.isEmpty ? null : queue.first,

@@ -12,7 +12,7 @@ import '../learn/learn_screen.dart';
 import 'group_complete_screen.dart';
 import 'result_screen.dart';
 
-/// Quiz-Ansicht für einen Wort-Batch — „Schulprüfung“ (Nutzer-Vorgabe,
+/// Quiz-Ansicht für einen Wort-Batch — „Prüfung“ (Nutzer-Vorgabe,
 /// 29. August 2026): 6 Stufen (AR→DE, DE→AR, abwechselnd, Sätze abwechselnd,
 /// Audio→Deutsch, Geschichte). Es gibt **kein** Sofort-Feedback — der Nutzer
 /// klickt sich still durch, erst am Ende erscheint das Gesamtergebnis.
@@ -180,7 +180,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
     }
   }
 
-  /// Seit der Umstellung auf die „Schulprüfung“ gibt es keinen
+  /// Seit der Umstellung auf die „Prüfung“ gibt es keinen
   /// Leseverständnis-Zwischenschritt mehr zwischen den Stufen — der Nutzer
   /// klickt alle 6 Stufen durch. Am Ende (isFinished) wird nur noch das
   /// Gesamtergebnis angezeigt. Beim Eintritt in die Geschichten-Stufe wird
@@ -556,7 +556,7 @@ class _OptionButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Kein Sofort-Feedback (Schulprüfung): ausgewählte Option wird nur
+    // Kein Sofort-Feedback (Prüfung): ausgewählte Option wird nur
     // dezent hervorgehoben, Richtig/Falsch sehen Nutzer erst am Ende.
     final backgroundColor = isSelected
         ? AppColors.primary.withValues(alpha: 0.4)

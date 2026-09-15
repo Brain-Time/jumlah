@@ -73,18 +73,44 @@ void main() {
     // Sichtbarer Kopfbereich.
     expect(find.text('Willkommen bei Jumlah'), findsOneWidget);
     expect(find.text('Klassisches Arabisch'), findsOneWidget);
+    expect(find.text('Bleib am Ball 🔥'), findsOneWidget);
 
     // Die unteren Sektionen + Support-Hinweis + CTA liegen im Test-Viewport
     // unterhalb des Folds und werden von der ListView lazy gebaut — erst
     // herscrollen, dann prüfen.
     final scrollable = find.byType(Scrollable).first;
     await tester.scrollUntilVisible(
-      find.text('Lektion für Lektion'),
+      find.text('Lektion für Lektion mit Prüfung'),
+      200,
+      scrollable: scrollable,
+    );
+    await tester.scrollUntilVisible(
+      find.text('Audio-Aussprache'),
+      200,
+      scrollable: scrollable,
+    );
+    await tester.scrollUntilVisible(
+      find.text('Offline-Wörterbuch'),
+      200,
+      scrollable: scrollable,
+    );
+    await tester.scrollUntilVisible(
+      find.text('Lernstatistik'),
+      200,
+      scrollable: scrollable,
+    );
+    await tester.scrollUntilVisible(
+      find.text('Wiederholungen'),
       200,
       scrollable: scrollable,
     );
     await tester.scrollUntilVisible(
       find.text('Offline & kostenlos'),
+      200,
+      scrollable: scrollable,
+    );
+    await tester.scrollUntilVisible(
+      find.text('Jumlah wird aktiv weiterentwickelt'),
       200,
       scrollable: scrollable,
     );

@@ -266,7 +266,7 @@ abstract class _LevelsTabState<T extends ConsumerStatefulWidget>
     );
   }
 
-  /// Quiz-Tab: kompakter Kopf („Schulprüfung“) über der scrollenden
+  /// Quiz-Tab: kompakter Kopf („Prüfung“) über der scrollenden
   /// Niveau-Liste (unverändert).
   Widget _buildQuizBody(BuildContext context) {
     return Column(
@@ -277,7 +277,7 @@ abstract class _LevelsTabState<T extends ConsumerStatefulWidget>
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Schulprüfung',
+                'Prüfung',
                 style: AppTheme.headingStyle(fontSize: 24),
               ),
               const SizedBox(height: 4),

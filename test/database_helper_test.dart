@@ -707,13 +707,16 @@ test(
     () async {
       final helper = DatabaseHelper.instance;
       await helper.insertWords([wordA, wordB]);
-      final today = DateTime(2026, 9, 14);
+      // Bewusst dynamisch statt hartkodiert: seedSm2ForBatch setzt due_date =
+      // DateTime.now() (lokaler Tag); ein fixiertes Datum würde den Test nach
+      // Mitternacht brechen (latenter Datums-Bug, gefunden am 15.09.2026).
+      final today = DateTime.now();
 
       await helper.seedSm2ForBatch('A1', 0);
       expect(await helper.getDueSm2Count(today), 2);
       final due = await helper.getDueSm2Words(today);
       expect(due.map((item) => item.word.id).toList(), [1, 2]);
-      expect(due.first.state.dueDate, '2026-09-14');
+      expect(due.first.state.dueDate, DatabaseHelper.studyDateKey(today));
       expect(due.first.state.intervalDays, 0);
       expect(due.first.state.repetitions, 0);
 
