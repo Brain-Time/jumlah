@@ -1069,7 +1069,7 @@ abstract class AppLocalizations {
   /// No description provided for @featureLessonsBody.
   ///
   /// In de, this message translates to:
-  /// **'50 Lektionen à 10 Wörter. Nach jeder Lektion folgt die Prüfung in 6 Stufen (Wort, Sätze, Audio, Geschichte) mit höchstens 3 Fehlern — wer besteht, schaltet frei.'**
+  /// **'100 Lektionen à 10 Wörter. Nach jeder Lektion folgt die Prüfung in 6 Stufen (Wort, Sätze, Audio, Geschichte) mit höchstens 3 Fehlern — wer besteht, schaltet frei.'**
   String get featureLessonsBody;
 
   /// No description provided for @featureDictTitle.

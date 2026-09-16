@@ -177,7 +177,7 @@
   "featureAudioTitle": "Audio pronunciation",
   "featureAudioBody": "Every context sentence is read out to you — locally bundled audio, no internet needed.",
   "featureLessonsTitle": "Lesson by lesson with exam",
-  "featureLessonsBody": "50 lessons of 10 words each. After every lesson an exam in 6 stages (word, sentences, audio, story) with at most 3 errors — pass to unlock.",
+  "featureLessonsBody": "100 lessons of 10 words each. After every lesson an exam in 6 stages (word, sentences, audio, story) with at most 3 errors — pass to unlock.",
   "featureDictTitle": "Offline dictionary",
   "featureDictBody": "Search Arabic words and sentences — harakat- and transliteration-insensitive, so you find results even without diacritics.",
   "featureStatsTitle": "Learning statistics",

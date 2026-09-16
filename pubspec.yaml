@@ -144,6 +144,56 @@ flutter:
     - assets/audio/lektion_48/
     - assets/audio/lektion_49/
     - assets/audio/lektion_50/
+    - assets/audio/lektion_51/
+    - assets/audio/lektion_52/
+    - assets/audio/lektion_53/
+    - assets/audio/lektion_54/
+    - assets/audio/lektion_55/
+    - assets/audio/lektion_56/
+    - assets/audio/lektion_57/
+    - assets/audio/lektion_58/
+    - assets/audio/lektion_59/
+    - assets/audio/lektion_60/
+    - assets/audio/lektion_61/
+    - assets/audio/lektion_62/
+    - assets/audio/lektion_63/
+    - assets/audio/lektion_64/
+    - assets/audio/lektion_65/
+    - assets/audio/lektion_66/
+    - assets/audio/lektion_67/
+    - assets/audio/lektion_68/
+    - assets/audio/lektion_69/
+    - assets/audio/lektion_70/
+    - assets/audio/lektion_71/
+    - assets/audio/lektion_72/
+    - assets/audio/lektion_73/
+    - assets/audio/lektion_74/
+    - assets/audio/lektion_75/
+    - assets/audio/lektion_76/
+    - assets/audio/lektion_77/
+    - assets/audio/lektion_78/
+    - assets/audio/lektion_79/
+    - assets/audio/lektion_80/
+    - assets/audio/lektion_81/
+    - assets/audio/lektion_82/
+    - assets/audio/lektion_83/
+    - assets/audio/lektion_84/
+    - assets/audio/lektion_85/
+    - assets/audio/lektion_86/
+    - assets/audio/lektion_87/
+    - assets/audio/lektion_88/
+    - assets/audio/lektion_89/
+    - assets/audio/lektion_90/
+    - assets/audio/lektion_91/
+    - assets/audio/lektion_92/
+    - assets/audio/lektion_93/
+    - assets/audio/lektion_94/
+    - assets/audio/lektion_95/
+    - assets/audio/lektion_96/
+    - assets/audio/lektion_97/
+    - assets/audio/lektion_98/
+    - assets/audio/lektion_99/
+    - assets/audio/lektion_100/
 
   # ACHTUNG: assets/fonts/Amiri-Regular.ttf ist aktuell eine leere
   # Platzhalter-Datei (0 Bytes). Die echte Schriftdatei muss noch von

@@ -558,7 +558,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get featureLessonsBody =>
-      '50 درسًا × 10 كلمات. بعد كل درس اختبار من 6 مراحل (كلمة، جمل، صوت، قصة) بأخطاء لا تتجاوز 3 — من ينجح يفتح التالي.';
+      '100 درسًا × 10 كلمات. بعد كل درس اختبار من 6 مراحل (كلمة، جمل، صوت، قصة) بأخطاء لا تتجاوز 3 — من ينجح يفتح التالي.';
 
   @override
   String get featureDictTitle => 'قاموس دون إنترنت';

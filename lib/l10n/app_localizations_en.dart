@@ -566,7 +566,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get featureLessonsBody =>
-      '50 lessons of 10 words each. After every lesson an exam in 6 stages (word, sentences, audio, story) with at most 3 errors — pass to unlock.';
+      '100 lessons of 10 words each. After every lesson an exam in 6 stages (word, sentences, audio, story) with at most 3 errors — pass to unlock.';
 
   @override
   String get featureDictTitle => 'Offline dictionary';
