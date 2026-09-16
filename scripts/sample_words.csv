@@ -499,3 +499,503 @@ arabic,german,root,frequency_rank,transliteration,masdar,masdar_transliteration,
 خَاصٌّ,speziell/privat,خ-ص-ص,498,ḫāṣṣ,,,
 عَامٌّ,allgemein/öffentlich,ع-م-م,499,ʿāmm,,,
 سَاكِنٌ,ruhig/still,س-ك-ن,500,sākin,,,
+رَكِبَ,reiten / fahren / einsteigen,ر-ك-ب,501,rakiba,رُكُوب,rukūb,das Reiten
+اِنْتَظَرَ,warten,ن-ظ-ر,502,intaẓara,اِنْتِظَار,intiẓār,das Warten
+تَكَلَّمَ,sprechen / reden,ك-ل-م,503,takallama,كَلَام,kalām,das Sprechen
+قَدِمَ,ankommen / eintreffen,ق-د-م,504,qadima,قُدُوم,qudūm,die Ankunft
+دَفَعَ,bezahlen / vorantreiben,د-ف-ع,505,dafaʿa,دَفْع,dafʿ,das Bezahlen
+حَضَرَ,anwesend sein / teilnehmen,ح-ض-ر,506,ḥaḍara,حُضُور,ḥuḍūr,die Anwesenheit
+جَرَّبَ,ausprobieren / testen,ج-ر-ب,507,ǧarraba,تَجْرِيب,taǧrīb,das Ausprobieren
+أَخْبَرَ,mitteilen,خ-ب-ر,508,ʾaḫbara,إِخْبَار,iḫbār,die Mitteilung
+قَادَ,führen / lenken / fahren,ق-و-د,509,qāda,قِيَادَة,qiyāda,die Führung
+اِسْتَأْجَرَ,mieten,أ-ج-ر,510,istaʾǧara,اِسْتِئْجَار,istiʾǧār,das Mieten
+اِقْتَرَبَ,sich nähern,ق-ر-ب,511,iqtaraba,اِقْتِرَاب,iqtirāb,die Annäherung
+غَابَ,abwesend sein,غ-ي-ب,512,ġāba,غَيْبَة,ġayba,die Abwesenheit
+اِكْتَشَفَ,entdecken,ك-ش-ف,513,iktašafa,اِكْتِشَاف,iktišāf,die Entdeckung
+رَسَبَ,durchfallen (Prüfung),ر-س-ب,514,rasaba,رُسُوب,rusūb,das Durchfallen
+أَمْضَى,(Zeit) verbringen,م-ض-ي,515,ʾamḍā,إِمْضَاء,imḍāʾ,das Verbringen
+بَلَدٌ,Land,ب-ل-د,516,balad,,,
+قَرْيَةٌ,Dorf,ق-ر-ي,517,qarya,,,
+لُغَةٌ,Sprache,ل-غ-و,518,luġa,,,
+سُؤَالٌ,Frage,س-أ-ل,519,suʾāl,,,
+جَوَابٌ,Antwort,ج-و-ب,520,ǧawāb,,,
+خَبَرٌ,Nachricht,خ-ب-ر,521,ḫabar,,,
+مَوْعِدٌ,Termin,و-ع-د,522,mawʿid,,,
+أُسْرَةٌ,Familie,أ-س-ر,523,usra,,,
+اِبْنٌ,Sohn,ب-ن-و,524,ibn,,,
+بِنْتٌ,Tochter / Mädchen,ب-ن-ي,525,bint,,,
+لَوْنٌ,Farbe,ل-و-ن,526,lawn,,,
+شَارِعٌ,(Haupt-)Straße,ش-ر-ع,527,šāriʿ,,,
+فُنْدُقٌ,Hotel / Herberge,ف-ن-د-ق,528,funduq,,,
+مَطْبَخٌ,Küche,ط-ب-خ,529,maṭbaḫ,,,
+حَمَّامٌ,Badezimmer / Bad,ح-م-م,530,ḥammām,,,
+مَكْتَبٌ,Büro / Schreibtisch,ك-ت-ب,531,maktab,,,
+سَفِينَةٌ,Schiff,س-ف-ن,532,safīna,,,
+قَارِبٌ,Boot,ق-ر-ب,533,qārib,,,
+جَمَلٌ,Kamel,ج-م-ل,534,ǧamal,,,
+بَقَرَةٌ,Kuh,ب-ق-ر,535,baqara,,,
+أَسَدٌ,Löwe,أ-س-د,536,ʾasad,,,
+دَوَاءٌ,Medizin / Medikament,د-و-ي,537,dawāʾ,,,
+أَمَلٌ,Hoffnung,أ-م-ل,538,ʾamal,,,
+رِسَالَةٌ,Brief / Nachricht,ر-س-ل,539,risāla,,,
+عُنْوَانٌ,Adresse / Titel,ع-ن-و,540,ʿunwān,,,
+هَدِيَّةٌ,Geschenk,ه-د-ي,541,hadiyya,,,
+تَذْكِرَةٌ,Fahrkarte / Eintrittskarte,ذ-ك-ر,542,taḏkira,,,
+جَرِيدَةٌ,Zeitung,ج-ر-د,543,ǧarīda,,,
+سَلَامٌ,Friede / Gruß,س-ل-م,544,salām,,,
+أَلْفٌ,tausend,أ-ل-ف,545,ʾalf,,,
+صَادِقٌ,ehrlich / wahrhaftig,ص-د-ق,546,ṣādiq,,,
+طَيِّبٌ,gut / angenehm,ط-ي-ب,547,ṭayyib,,,
+خَفِيفٌ,leicht (Gewicht),خ-ف-ف,548,ḫafīf,,,
+قَبِيحٌ,hässlich,ق-ب-ح,549,qabīḥ,,,
+حُلْوٌ,süß,ح-ل-و,550,ḥulw,,,
+وَاحِدٌ,eins,و-ح-د,551,wāḥid,,,
+اِثْنَانِ,zwei,ث-ن-ي,552,iṯnāni,,,
+ثَلَاثَةٌ,drei,ث-ل-ث,553,ṯalāṯa,,,
+أَرْبَعَةٌ,vier,ر-ب-ع,554,ʾarbaʿa,,,
+خَمْسَةٌ,fünf,خ-م-س,555,ḫamsa,,,
+سِتَّةٌ,sechs,س-د-س,556,sitta,,,
+سَبْعَةٌ,sieben,س-ب-ع,557,sabʿa,,,
+ثَمَانِيَةٌ,acht,ث-م-ن,558,ṯamāniya,,,
+تِسْعَةٌ,neun,ت-س-ع,559,tisʿa,,,
+عَشَرَةٌ,zehn,ع-ش-ر,560,ʿašara,,,
+مِئَةٌ,hundert,م-ئ-ي,561,miʾa,,,
+سَكَتَ,schweigen,س-ك-ت,562,sakata,سُكُوت,sukūt,das Schweigen
+اِسْتَعْمَلَ,benutzen / verwenden,ع-م-ل,563,istaʿmala,اِسْتِعْمَال,istiʿmāl,die Benutzung
+اِتَّصَلَ,anrufen / Kontakt aufnehmen,و-ص-ل,564,ittaṣala,اِتِّصَال,ittiṣāl,der Kontakt
+اِشْتَغَلَ,arbeiten,ش-غ-ل,565,ištagala,اِشْتِغَال,ištiġāl,die Arbeit
+صَارَ,werden (zu etwas),ص-ي-ر,566,ṣāra,صَيْرُورَة,ṣayrūra,das Werden
+نَقَلَ,transportieren / übertragen,ن-ق-ل,567,naqala,نَقْل,naql,das Transportieren
+عَدَّ,zählen,ع-د-د,568,ʿadda,عَدّ,ʿadd,das Zählen
+بَدَّلَ,wechseln / tauschen,ب-د-ل,569,baddala,تَبْدِيل,tabdīl,der Tausch
+قَاسَ,messen,ق-ي-س,570,qāsa,قِيَاس,qiyās,das Messen
+اِنْطَلَقَ,losgehen / starten,ط-ل-ق,571,inṭalaqa,اِنْطِلَاق,inṭilāq,der Start
+اِشْتَكَى,sich beschweren,ش-ك-و,572,ištakā,اِشْتِكَاء,ištikāʾ,die Beschwerde
+اِجْتَازَ,überqueren / bestehen,ج-و-ز,573,iǧtāza,اِجْتِيَاز,iǧtiyāz,das Bestehen
+اِسْتَمَرَّ,andauern / fortfahren,م-ر-ر,574,istamarra,اِسْتِمْرَار,istimrār,die Fortdauer
+أَنْفَقَ,ausgeben (Geld),ن-ف-ق,575,ʾanfaqa,إِنْفَاق,infāq,das Ausgeben
+اِخْتَبَرَ,testen / erproben,خ-ب-ر,576,iḫtabara,اِخْتِبَار,iḫtibār,der Test
+مَنْزِلٌ,Wohnhaus,ن-ز-ل,577,manzil,,,
+سَاحَةٌ,Platz / Hof,س-و-ح,578,sāḥa,,,
+شَرَابٌ,Getränk,ش-ر-ب,579,šarāb,,,
+بَيْضٌ,Ei,ب-ي-ض,580,bayḍ,,,
+لَبَنٌ,Milch,ل-ب-ن,581,laban,,,
+جُبْنٌ,Käse,ج-ب-ن,582,ǧubn,,,
+ثَوْبٌ,Kleidungsstück,ث-و-ب,583,ṯawb,,,
+جَسَدٌ,Körper,ج-س-د,584,ǧasad,,,
+قَدَمٌ,Fuß,ق-د-م,585,qadam,,,
+رُكْبَةٌ,Knie,ر-ك-ب,586,rukba,,,
+سِنٌّ,Zahn,س-ن-ن,587,sinn,,,
+مَرَضٌ,Krankheit,م-ر-ض,588,maraḍ,,,
+صِحَّةٌ,Gesundheit,ص-ح-ح,589,ṣiḥḥa,,,
+عِلَاجٌ,Behandlung / Therapie,ع-ل-ج,590,ʿilāǧ,,,
+صَبَاحٌ,Morgen,ص-ب-ح,591,ṣabāḥ,,,
+عَصْرٌ,Nachmittag / Epoche,ع-ص-ر,592,ʿaṣr,,,
+غَدًا,morgen (adv.),غ-د-و,593,ġadan,,,
+أُسْبُوعٌ,Woche,س-ب-ع,594,usbūʿ,,,
+دَقِيقَةٌ,Minute,د-ق-ق,595,daqīqa,,,
+لَحْظَةٌ,Moment,ل-ح-ظ,596,laḥẓa,,,
+نِهَايَةٌ,Ende,ن-ه-ي,597,nihāya,,,
+بِدَايَةٌ,Anfang,ب-د-أ,598,bidāya,,,
+مَرَّةٌ,Mal / einmal (adv.),م-ر-ر,599,marra,,,
+مَطَارٌ,Flughafen,ط-ي-ر,600,maṭār,,,
+قِطَارٌ,Zug,ق-ط-ر,601,qiṭār,,,
+سَيَّارَةٌ,Auto,س-ي-ر,602,sayyāra,,,
+مَرْكَبٌ,Fahrzeug / Boot,ر-ك-ب,603,markab,,,
+أَمْتِعَةٌ,Gepäck,م-ت-ع,604,amtiʿa,,,
+حَقِيبَةٌ,Tasche / Koffer,ح-ق-ب,605,ḥaqība,,,
+جَارٌ,Nachbar,ج-و-ر,606,ǧār,,,
+ضَيْفٌ,Gast,ض-ي-ف,607,ḍayf,,,
+شِهَادَةٌ,Zeugnis / Diplom,ش-ه-د,608,šahāda,,,
+مَكْتَبَةٌ,Bibliothek,ك-ت-ب,609,maktaba,,,
+وَاجِبٌ,Hausaufgabe / Pflicht,و-ج-ب,610,wāǧib,,,
+مَعْنًى,Bedeutung,ع-ن-و,611,maʿnā,,,
+تَرْجَمَةٌ,Übersetzung,ت-ر-ج-م,612,tarǧama,,,
+رَاحَةٌ,Ruhe,ر-و-ح,613,rāḥa,,,
+سَعَادَةٌ,Glück,س-ع-د,614,saʿāda,,,
+تَعَبٌ,Müdigkeit / Anstrengung,ت-ع-ب,615,taʿab,,,
+فِكْرَةٌ,Idee,ف-ك-ر,616,fikra,,,
+هَدَفٌ,Ziel / Zielscheibe,ه-د-ف,617,hadaf,,,
+مَصْنَعٌ,Fabrik,ص-ن-ع,618,maṣnaʿ,,,
+مَزْرَعَةٌ,Bauernhof,ز-ر-ع,619,mazraʿa,,,
+مُعَلِّمٌ,Lehrer,ع-ل-م,620,muʿallim,,,
+كَاتِبٌ,Schreiber / Schriftsteller,ك-ت-ب,621,kātib,,,
+ذِئْبٌ,Wolf,ذ-ئ-ب,622,ḏiʾb,,,
+فِيلٌ,Elefant,ف-ي-ل,623,fīl,,,
+غَنَمٌ,Schafe,غ-ن-م,624,ġanam,,,
+دَجَاجَةٌ,Huhn,د-ج-ج,625,daǧāǧa,,,
+حِمَارٌ,Esel,ح-م-ر,626,ḥimār,,,
+سَمَكٌ,Fisch,س-م-ك,627,samak,,,
+بُحَيْرَةٌ,See,ب-ح-ر,628,buḥayra,,,
+هَادِئٌ,ruhig,ه-د-أ,629,hādiʾ,,,
+جَاهِزٌ,bereit,ج-ه-ز,630,ǧāhiz,,,
+مَشْهُورٌ,bekannt / berühmt,ش-ه-ر,631,mašhūr,,,
+لَيِّنٌ,weich,ل-ي-ن,632,layyin,,,
+قَاسٍ,hart / streng,ق-س-و,633,qāsin,,,
+أَيْضًا,auch (adv.),أ-ي-ض,634,ayḍan,,,
+مَعًا,zusammen (adv.),م-ع,635,maʿan,,,
+حَكَى,erzählen,ح-ك-ي,636,ḥakā,حِكَايَة,ḥikāya,die Erzählung
+صَاحَ,schreien / rufen,ص-ي-ح,637,ṣāḥa,صِيَاح,ṣiyāḥ,das Schreien
+اِشْتَرَكَ,teilnehmen,ش-ر-ك,638,ištaraka,اِشْتِرَاك,ištirāk,die Teilnahme
+قَسَّمَ,einteilen / verteilen,ق-س-م,639,qassama,تَقْسِيم,taqsīm,die Einteilung
+حَسَّنَ,verbessern,ح-س-ن,640,ḥassana,تَحْسِين,taḥsīn,die Verbesserung
+اِفْتَتَحَ,eröffnen,ف-ت-ح,641,iftataḥa,اِفْتِتَاح,iftitāḥ,die Eröffnung
+تَقَدَّمَ,vorankommen / vortreten,ق-د-م,642,taqaddama,تَقَدُّم,taqaddum,der Fortschritt
+تَأَخَّرَ,sich verspäten / zurückbleiben,أ-خ-ر,643,taʾaḫḫara,تَأَخُّر,taʾaḫḫur,die Verspätung
+اِهْتَمَّ,sich kümmern / interessieren,ه-م-م,644,ihtamma,اِهْتِمَام,ihtimām,das Interesse
+مَنَحَ,verleihen / gewähren,م-ن-ح,645,manaḥa,مَنْح,manḥ,die Gewährung
+أَخْطَأَ,einen Fehler machen,خ-ط-أ,646,ʾaḫṭaʾa,خَطَأ,ḫaṭaʾ,der Fehler
+طَابَ,gut / angenehm sein / schmecken,ط-ي-ب,647,ṭāba,طِيب,ṭīb,das Gutsein
+سَاءَ,schlecht sein,س-و-أ,648,sāʾa,سُوء,sūʾ,das Schlechtsein
+اِسْتَقَرَّ,sich niederlassen / bleiben,ق-ر-ر,649,istaqarra,اِسْتِقْرَار,istiqrār,die Ansiedlung
+اِنْتَقَلَ,umziehen / übergehen,ن-ق-ل,650,intaqala,اِنْتِقَال,intiqāl,der Umzug
+مَكَانٌ,Ort / Platz,م-ك-ن,651,makān,,,
+مَوْضُوعٌ,Thema / Gegenstand,و-ض-ع,652,mawḍūʿ,,,
+مَطْعَمٌ,Restaurant,ط-ع-م,653,maṭʿam,,,
+قَهْوَةٌ,Kaffee,ق-ه-ي,654,qahwa,,,
+وَسَادَةٌ,Kissen,و-س-د,655,wasāda,,,
+حِذَاءٌ,Schuh,ح-ذ-و,656,ḥiḏāʾ,,,
+لِحْيَةٌ,Bart,ل-ح-ي,657,liḥya,,,
+فَخِذٌ,Oberschenkel,ف-خ-ذ,658,faḫiḏ,,,
+ضِلْعٌ,Rippe,ض-ل-ع,659,ḍilʿ,,,
+كَلْبٌ,Hund,ك-ل-ب,660,kalb,,,
+قِطٌّ,Katze,ق-ط-ط,661,qiṭṭ,,,
+غُرَابٌ,Rabe,غ-ر-ب,662,ġurāb,,,
+دِيكٌ,Hahn,د-ي-ك,663,dīk,,,
+أَرْنَبٌ,Hase / Kaninchen,أ-ر-ن-ب,664,ʾarnab,,,
+ثَعْلَبٌ,Fuchs,ث-ع-ل-ب,665,ṯaʿlab,,,
+نَحْلَةٌ,Biene,ن-ح-ل,666,naḥla,,,
+قِرْدٌ,Affe,ق-ر-د,667,qird,,,
+غَزَالٌ,Gazelle,غ-ز-ل,668,ġazāl,,,
+عُصْفُورٌ,Spatz,ع-ص-ف-ر,669,ʿuṣfūr,,,
+شَاطِئٌ,Strand,ش-ط-أ,670,šāṭiʾ,,,
+سَاحِلٌ,Küste,س-ح-ل,671,sāḥil,,,
+خَلِيجٌ,Meerbusen / Golf,خ-ل-ج,672,ḫalīǧ,,,
+مُحِيطٌ,Ozean,ح-ي-ط,673,muḥīṭ,,,
+ضَبَابٌ,Nebel,ض-ب-ب,674,ḍabāb,,,
+عَاصِفَةٌ,Sturm,ع-ص-ف,675,ʿāṣifa,,,
+نَسِيمٌ,Brise,ن-س-م,676,nasīm,,,
+سَطْحٌ,Dach / Fläche,س-ط-ح,677,saṭḥ,,,
+هَوَاءٌ,Luft,ه-و-ي,678,hawāʾ,,,
+زُجَاجٌ,Glas (Material),ز-ج-ج,679,zuǧāǧ,,,
+حَدِيدٌ,Eisen,ح-د-د,680,ḥadīd,,,
+خَشَبٌ,Holz,خ-ش-ب,681,ḫašab,,,
+سِلْسِلَةٌ,Kette,س-ل-س-ل,682,silsila,,,
+سُورٌ,(Stadt-)Mauer,س-و-ر,683,sūr,,,
+قُفْلٌ,Schloss (an Tür),ق-ف-ل,684,qufl,,,
+صَفٌّ,Klasse / Reihe,ص-ف-ف,685,ṣaff,,,
+تِلْمِيذٌ,Schüler,ت-ل-م-ذ,686,tilmīḏ,,,
+اِمْتِحَانٌ,Prüfung,م-ح-ن,687,imtiḥān,,,
+نَتِيجَةٌ,Ergebnis,ن-ت-ج,688,natīǧa,,,
+مَادَّةٌ,Fach / Stoff / Materie,م-د-د,689,mādda,,,
+صُورَةٌ,Bild,ص-و-ر,690,ṣūra,,,
+مَوْقِفٌ,Haltestelle / Parkplatz,و-ق-ف,691,mawqif,,,
+بُرْجٌ,Turm,ب-ر-ج,692,burǧ,,,
+مُحَطَّةٌ,Bahnhof / Station,ح-ط-ط,693,muḥaṭṭa,,,
+مَيْدَانٌ,Platz (Stadt),م-ي-د,694,maydān,,,
+شَجَاعَةٌ,Mut / Tapferkeit,ش-ج-ع,695,šuǧāʿa,,,
+حُرِّيَّةٌ,Freiheit,ح-ر-ر,696,ḥurriyya,,,
+جَرِيمَةٌ,Verbrechen,ج-ر-م,697,ǧarīma,,,
+حَقِيقَةٌ,Wahrheit / Tatsache,ح-ق-ق,698,ḥaqīqa,,,
+مِهْنَةٌ,Beruf / Handwerk,م-ه-ن,699,mihna,,,
+حَسَنٌ,gut / schön,ح-س-ن,700,ḥasan,,,
+سَيِّئٌ,schlecht,س-و-أ,701,sayyiʾ,,,
+مُرْتَاحٌ,ausgeruht / zufrieden,ر-و-ح,702,murtaḥ,,,
+مُتْعَبٌ,müde / erschöpft,ت-ع-ب,703,mutʿab,,,
+صَالِحٌ,rechtschaffen / tauglich,ص-ل-ح,704,ṣāliḥ,,,
+كَامِلٌ,vollständig / perfekt,ك-م-ل,705,kāmil,,,
+وَسِيمٌ,gutaussehend,و-س-م,706,wasīm,,,
+صَرِيحٌ,deutlich / offen,ص-ر-ح,707,ṣarīḥ,,,
+ضَخْمٌ,riesig / gewaltig,ض-خ-م,708,ḍaḫm,,,
+حَاذِقٌ,geschickt / tüchtig,ح-ذ-ق,709,ḥāḏiq,,,
+وَصَفَ,beschreiben,و-ص-ف,710,waṣafa,وَصْف,waṣf,die Beschreibung
+بَذَلَ,anstrengen (Mühe aufwenden),ب-ذ-ل,711,baḏala,بَذْل,baḏl,das Aufwenden
+رَتَّبَ,ordnen / arrangieren,ر-ت-ب,712,rattaba,تَرْتِيب,tartīb,die Anordnung
+خَلَعَ,ausziehen (Kleidung),خ-ل-ع,713,ḫalaʿa,خَلْع,ḫalʿ,das Ausziehen
+اِرْتَدَى,tragen (Kleidung),ر-د-ي,714,irtadā,اِرْتِدَاء,irtidāʾ,das Tragen
+وَقَّعَ,unterschreiben,و-ق-ع,715,waqqaʿa,تَوْقِيع,tawqīʿ,die Unterschrift
+أَجَّلَ,verschieben / aufschieben,أ-ج-ل,716,ʾaǧǧala,تَأْجِيل,taʾǧīl,die Verschiebung
+اِتَّفَقَ,vereinbaren / übereinstimmen,و-ف-ق,717,ittafaqa,اِتِّفَاق,ittifāq,die Vereinbarung
+اِرْتَاحَ,sich ausruhen / erleichtert sein,ر-و-ح,718,irtāḥa,اِرْتِيَاح,irtiyāḥ,die Ruhe
+اِنْتَبَهَ,aufmerksam sein / aufpassen,ن-ب-ه,719,intabaha,اِنْتِبَاه,intibāh,die Aufmerksamkeit
+اِتَّجَهَ,sich wenden / Richtung gehen,و-ج-ه,720,ittaǧaha,اِتِّجَاه,ittiǧāh,die Richtung
+اِكْتَسَبَ,erwerben / verdienen,ك-س-ب,721,iktasaba,اِكْتِسَاب,iktisāb,der Erwerb
+اِحْتَرَمَ,respektieren / achten,ح-ر-م,722,iḥtarama,اِحْتِرَام,iḥtirām,der Respekt
+اِسْتَأْنَفَ,wieder aufnehmen,أ-ن-ف,723,istaʾnafa,اِسْتِئْنَاف,istiʾnāf,die Wiederaufnahme
+بَرِيدٌ,Post / Postwesen,ب-ر-د,724,barīd,,,
+عَاصِمَةٌ,Hauptstadt,ع-ص-م,725,ʿāṣima,,,
+عَالَمٌ,Welt,ع-ل-م,726,ʿālam,,,
+كَوْكَبٌ,Planet / Himmelskörper,ك-و-ك-ب,727,kawkab,,,
+قَلْعَةٌ,Burg / Festung,ق-ل-ع,728,qalʿa,,,
+وِعَاءٌ,Behälter / Gefäß,و-ع-ي,729,wiʿāʾ,,,
+مِلْعَقَةٌ,Löffel,ل-ع-ق,730,milʿaqa,,,
+إِنَاءٌ,Gefäß,أ-ن-ي,731,ināʾ,,,
+حَقْلٌ,Feld / Acker,ح-ق-ل,732,ḥaql,,,
+سُلْطَانٌ,Herrscher / Sultan,س-ل-ط,733,sulṭān,,,
+وَزِيرٌ,Minister,و-ز-ر,734,wazīr,,,
+قَاضِي,Richter,ق-ض-ي,735,qāḍī,,,
+مَحْكَمَةٌ,Gericht,ح-ك-م,736,maḥkama,,,
+قَانُونٌ,Gesetz,ق-ن-ن,737,qānūn,,,
+عُقُوبَةٌ,Strafe,ع-ق-ب,738,ʿuqūba,,,
+سِجْنٌ,Gefängnis,س-ج-ن,739,siǧn,,,
+حَدٌّ,Grenze,ح-د-د,740,ḥadd,,,
+تَارِيخٌ,Geschichte / Datum,أ-ر-خ,741,tārīḫ,,,
+حَادِثَةٌ,Ereignis / Unfall,ح-د-ث,742,ḥādiṯa,,,
+سَبَبٌ,Grund / Ursache,س-ب-ب,743,sabab,,,
+شَرْطٌ,Bedingung,ش-ر-ط,744,šarṭ,,,
+فَائِدَةٌ,Nutzen / Vorteil,ف-ي-د,745,fāʾida,,,
+ضَرَرٌ,Schaden,ض-ر-ر,746,ḍarar,,,
+ثَمَنٌ,Preis,ث-م-ن,747,ṯaman,,,
+رَقَبَةٌ,Nacken,ر-ق-ب,748,raqaba,,,
+وَاسِطٌ,Mitte / Mittelpunkt,و-س-ط,749,wāsiṭ,,,
+شِدَّةٌ,Heftigkeit / Stärke,ش-د-د,750,šidda,,,
+ثَوْرَةٌ,Revolution / Aufstand,ث-و-ر,751,ṯawra,,,
+مُجْتَمَعٌ,Gesellschaft,ج-م-ع,752,muǧtamaʿ,,,
+دَوْلَةٌ,Staat,د-و-ل,753,dawla,,,
+حُكُومَةٌ,Regierung,ح-ك-م,754,ḥukūma,,,
+رِحْلَةٌ,Reise,ر-ح-ل,755,riḥla,,,
+سَفَرٌ,Reise,س-ف-ر,756,safar,,,
+رُفْقَةٌ,Reisegruppe / Gefährten,ر-ف-ق,757,rufqa,,,
+زِيَارَةٌ,Besuch,ز-و-ر,758,ziyāra,,,
+بِلَادٌ,Länder / Land (Pl.),ب-ل-د,759,bilād,,,
+أُمَّةٌ,Nation / Gemeinde,أ-م-م,760,umma,,,
+شَعْبٌ,Volk,ش-ع-ب,761,šaʿb,,,
+جَمَاعَةٌ,Gruppe / Gemeinschaft,ج-م-ع,762,ǧamāʿa,,,
+مَرْكَزٌ,Zentrum / Mittelpunkt,ر-ك-ز,763,markaz,,,
+مُنَاسَبَةٌ,Gelegenheit / Anlass,ن-س-ب,764,munāsaba,,,
+مُذَاكَرَةٌ,Besprechung / Memo,ذ-ك-ر,765,muḏākara,,,
+مُبَارَاةٌ,Wettkampf / Spiel,ب-ر-ي,766,mubārāh,,,
+سِيَاحَةٌ,Tourismus,س-ي-ح,767,siyāḥa,,,
+سَيَّاحٌ,Tourist,س-ي-ح,768,sayyāḥ,,,
+إِنْسَانٌ,Mensch,أ-ن-س,769,insān,,,
+نَاسٌ,Leute,ن-و-س,770,nās,,,
+جِيلٌ,Generation,ج-ي-ل,771,ǧīl,,,
+فَلْسَفَةٌ,Philosophie,ف-ل-س-ف,772,falsafa,,,
+عَادَةٌ,Gewohnheit / Brauch,ع-و-د,773,ʿāda,,,
+صِنَاعَةٌ,Industrie / Handwerk,ص-ن-ع,774,ṣināʿa,,,
+زِرَاعَةٌ,Landwirtschaft,ز-ر-ع,775,zirāʿa,,,
+لَوْزٌ,Mandel,ل-و-ز,776,lawz,,,
+قَرْنٌ,Jahrhundert,ق-ر-ن,777,qarn,,,
+عَشِيرَةٌ,Sippe / Stamm,ع-ش-ر,778,ʿašīra,,,
+حَافَةٌ,Rand / Kante,ح-ف-ف,779,ḥāffa,,,
+خِيَارٌ,Gurke,خ-ي-ر,780,ḫiyār,,,
+خُضَارٌ,Gemüse,خ-ض-ر,781,ḫuḍār,,,
+فَاكِهَةٌ,Obst,ف-ك-ه,782,fākiha,,,
+حَلْوَى,Süßigkeit / Nachtisch,ح-ل-و,783,ḥalwā,,,
+مَرَقٌ,Brühe / Suppe,م-ر-ق,784,maraq,,,
+بَصَلٌ,Zwiebel,ب-ص-ل,785,baṣal,,,
+ثُومٌ,Knoblauch,ث-و-م,786,ṯūm,,,
+لَحَّامٌ,Metzger,ل-ح-م,787,laḥḥām,,,
+خَبَّازٌ,Bäcker,خ-ب-ز,788,ḫabbāz,,,
+نَجَّارٌ,Zimmermann,ن-ج-ر,789,naǧǧār,,,
+حَدَّادٌ,Schmied,ح-د-د,790,ḥaddād,,,
+خَيَّاطٌ,Schneider,خ-ي-ط,791,ḫayyāṭ,,,
+صَيَّادٌ,Jäger,ص-ي-د,792,ṣayyād,,,
+بِنَّاءٌ,Baumeister / Maurer,ب-ن-ي,793,binnāʾ,,,
+سَمَّاكٌ,Fischhändler,س-م-ك,794,sammāk,,,
+وَاسِعٌ,weit / breit,و-س-ع,795,wāsiʿ,,,
+ضَيِّقٌ,eng / schmal,ض-ي-ق,796,ḍayyiq,,,
+مُسْتَعِدٌّ,bereit / vorbereitet,ع-د-د,797,mustaʿidd,,,
+شَخْصِيٌّ,persönlich,ش-خ-ص,798,šaḫṣiyy,,,
+سَيِّدٌ,Herr / Gebieter,س-و-د,799,sayyid,,,
+أَصْلِيٌّ,original / echt,أ-ص-ل,800,aṣliyy,,,
+وَاثِقٌ,zuversichtlich,و-ث-ق,801,wāṯiq,,,
+مُهَذَّبٌ,höflich / wohlerzogen,ه-ذ-ب,802,muhaḏḏab,,,
+نَقِيٌّ,rein / sauber,ن-ق-ي,803,naqiyy,,,
+صَافٍ,klar / rein,ص-ف-و,804,ṣāfin,,,
+حُرٌّ,frei,ح-ر-ر,805,ḥurr,,,
+أَحَبَّ,lieben,ح-ب-ب,806,ʾaḥabba,حُبّ,ḥubb,die Liebe
+اِزْدَادَ,zunehmen,ز-ي-د,807,izdāda,اِزْدِيَاد,izdiyād,die Zunahme
+اِخْتَفَى,verschwinden,خ-ف-ي,808,iḫtafā,اِخْتِفَاء,iḫtifāʾ,das Verschwinden
+اِسْتَعْجَلَ,sich beeilen,ع-ج-ل,809,istaʿǧala,اِسْتِعْجَال,istiʿǧāl,die Eile
+رَكَضَ,rennen,ر-ك-ض,810,rakaḍa,رَكْض,rakḍ,das Rennen
+سَارَ,gehen / reisen (fortbewegen),س-ي-ر,811,sāra,سَيْر,sayr,das Gehen
+أَصْبَحَ,(am Morgen) werden,ص-ب-ح,812,ʾaṣbaḥa,إِصْبَاح,iṣbāḥ,das Morgenwerden
+أَقَامَ,wohnen / sich aufhalten,ق-و-م,813,ʾaqāma,إِقَامَة,iqāma,der Aufenthalt
+نَاوَلَ,(hin)reichen / geben,ن-و-ل,814,nāwala,مُنَاوَلَة,munāwala,das Überreichen
+تَسَلَّمَ,empfangen / erhalten,س-ل-م,815,tasallama,تَسَلُّم,tasallum,der Empfang
+اِسْتَخْدَمَ,benutzen / verwenden,خ-د-م,816,istaḫdama,اِسْتِخْدَام,istiḫdām,die Benutzung
+خَدَمَ,dienen,خ-د-م,817,ḫadama,خِدْمَة,ḫidma,der Dienst
+نَصَحَ,beraten / raten,ن-ص-ح,818,naṣaḥa,نَصِيحَة,naṣīḥa,der Rat
+أَظْهَرَ,zeigen / sichtbar machen,ظ-ه-ر,819,ʾaẓhara,إِظْهَار,iẓhār,das Zeigen
+وَزَّعَ,verteilen,و-ز-ع,820,wazzaʿa,تَوْزِيع,tawzīʿ,die Verteilung
+أَمْسَى,(abends) werden,م-س-ي,821,ʾamsā,إِمْسَاء,imsāʾ,das Abendwerden
+أَمْسِ,gestern,أ-م-س,822,ʾamsi,,,
+ثَانِيَةٌ,Sekunde,ث-ن-ي,823,ṯāniya,,,
+مُسْتَقْبَلٌ,Zukunft,ق-ب-ل,824,mustaqbal,,,
+مَاضٍ,Vergangenheit,م-ض-ي,825,māḍin,,,
+حَالٌ,Zustand / Lage,ح-و-ل,826,ḥāl,,,
+زَمَنٌ,Zeit(raum),ز-م-ن,827,zaman,,,
+حُزْنٌ,Trauer,ح-ز-ن,828,ḥuzn,,,
+قَلَقٌ,Unruhe / Sorge,ق-ل-ق,829,qalaq,,,
+هَمٌّ,Sorge / Kummer,ه-م-م,830,hamm,,,
+يَأْسٌ,Verzweiflung,ي-أ-س,831,yaʾs,,,
+زِينَةٌ,Schmuck / Dekoration,ز-ي-ن,832,zīna,,,
+نُقُودٌ,Geld (Pl.),ن-ق-د,833,nuqūd,,,
+نَقْدٌ,Bargeld / Kasse,ن-ق-د,834,naqd,,,
+حِسَابٌ,Rechenaufgabe / Konto,ح-س-ب,835,ḥisāb,,,
+مَصْرِفٌ,Bank (Institution),ص-ر-ف,836,maṣrif,,,
+دَفْتَرٌ,Heft / Notizbuch,د-ف-ت-ر,837,daftar,,,
+خِزَانَةٌ,Schrank,خ-ز-ن,838,ḫizāna,,,
+دُرْجٌ,Schublade,د-ر-ج,839,durǧ,,,
+سَجَّادَةٌ,Teppich (Gebetsteppich),س-ج-د,840,saǧǧāda,,,
+سِتَارَةٌ,Vorhang,س-ت-ر,841,sitāra,,,
+كَأْسٌ,Glas / Becher,ك-أ-س,842,kaʾs,,,
+زُجَاجَةٌ,Flasche,ز-ج-ج,843,zuǧāǧa,,,
+صُنْدُوقٌ,Kiste / Kasten,ص-ن-د-ق,844,ṣundūq,,,
+سَلَّةٌ,Korb,س-ل-ل,845,salla,,,
+كِيسٌ,Beutel / Tüte,ك-ي-س,846,kīs,,,
+قِنِّينَةٌ,Flasche / Phiole,ق-ن-ن,847,qinnīna,,,
+مِعْطَفٌ,Mantel,ع-ط-ف,848,miʿṭaf,,,
+سِرْوَالٌ,Hose,س-ر-و-ل,849,sirwāl,,,
+جَوْرَبٌ,Socke,ج-و-ر-ب,850,ǧawrab,,,
+قُبَّعَةٌ,Hut / Mütze,ق-ب-ع,851,qubbaʿa,,,
+مِظَلَّةٌ,Regenschirm,ظ-ل-ل,852,miẓalla,,,
+كَبِدٌ,Leber,ك-ب-د,853,kabid,,,
+كُلْيَةٌ,Niere,ك-ل-ي,854,kulya,,,
+عَضَلَةٌ,Muskel,ع-ض-ل,855,ʿaḍala,,,
+سُرَّةٌ,Nabel,س-ر-ر,856,surra,,,
+حَلْقٌ,Kehle / Rachen,ح-ل-ق,857,ḥalq,,,
+ذَقَنٌ,Kinn,ذ-ق-ن,858,ḏaqan,,,
+حَاجِبٌ,Augenbraue,ح-ج-ب,859,ḥāǧib,,,
+مِنْدِيلٌ,Taschentuch / Tuch,م-ن-د-ل,860,mindīl,,,
+فَرَسٌ,Pferd (Stute),ف-ر-س,861,faras,,,
+نَاقَةٌ,Kamelstute,ن-و-ق,862,nāqa,,,
+ثَوْرٌ,Stier / Ochse,ث-و-ر,863,ṯawr,,,
+عِجْلٌ,Kalb,ع-ج-ل,864,ʿiǧl,,,
+نَعْجَةٌ,Schaf (weibl.),ن-ع-ج,865,naʿǧa,,,
+بَطٌّ,Ente,ب-ط-ط,866,baṭṭ,,,
+نَعَامٌ,Strauß,ن-ع-م,867,naʿām,,,
+صَقْرٌ,Falke,ص-ق-ر,868,ṣaqr,,,
+نَسْرٌ,Adler,ن-س-ر,869,nasr,,,
+عَقْرَبٌ,Skorpion,ع-ق-ر-ب,870,ʿaqrab,,,
+سُلَحْفَاةٌ,Schildkröte,س-ل-ح-ف,871,sulaḥfāh,,,
+ذُبَابَةٌ,Fliege (Insekt),ذ-ب-ب,872,ḏubāba,,,
+زَهْرَةٌ,Blume,ز-ه-ر,873,zahra,,,
+وَرْدَةٌ,Rose,و-ر-د,874,warda,,,
+عُشْبٌ,Gras,ع-ش-ب,875,ʿušb,,,
+شَرْقٌ,Osten,ش-ر-ق,876,šarq,,,
+شَمَالٌ,Norden,ش-م-ل,877,šamāl,,,
+جَنُوبٌ,Süden,ج-ن-ب,878,ǧanūb,,,
+رَصِيفٌ,Bahnsteig / Gehsteig,ر-ص-ف,879,raṣīf,,,
+مَتْجَرٌ,Geschäft / Laden,ت-ج-ر,880,matǧar,,,
+دُكَّانٌ,Laden / Geschäft,د-ك-ن,881,dukkān,,,
+مُمَرِّضٌ,Krankenpfleger,م-ر-ض,882,mumarriḍ,,,
+صَحَفِيٌّ,Journalist,ص-ح-ف,883,ṣaḥafiyy,,,
+سَائِقٌ,Fahrer,س-و-ق,884,sāʾiq,,,
+ضَابِطٌ,Offizier,ض-ب-ط,885,ḍābiṭ,,,
+شُرْطِيٌّ,Polizist,ش-ر-ط,886,šurṭiyy,,,
+مُحَامٍ,Anwalt,ح-م-ي,887,muḥāmin,,,
+مُمَثِّلٌ,Schauspieler,م-ث-ل,888,mumaṯṯil,,,
+مُغَنٍّ,Sänger,غ-ن-ي,889,muġannin,,,
+أُسْتَاذٌ,Professor / Lehrer,أ-س-ت-ذ,890,ustāḏ,,,
+كُلِّيَّةٌ,Fakultät,ك-ل-ل,891,kulliyya,,,
+مَعْهَدٌ,Institut,ع-ه-د,892,maʿhad,,,
+وَرَقَةٌ,Blatt (Papier),و-ر-ق,893,waraqa,,,
+عَرَبَةٌ,Wagen / Kutsche,ع-ر-ب,894,ʿaraba,,,
+جُمْلَةٌ,Satz / Phrase / Summe,ج-م-ل,895,ǧumla,,,
+نُمُوٌّ,Wachstum,ن-م-و,896,numuww,,,
+مُرَافَقَةٌ,Begleitung,ر-ف-ق,897,murāfaqa,,,
+مُجْتَهِدٌ,fleißig,ج-ه-د,898,muǧtahid,,,
+ذَكِيٌّ,klug,ذ-ك-ي,899,ḏakiyy,,,
+غَبِيٌّ,dumm,غ-ب-ي,900,ġabiyy,,,
+رَقِيقٌ,zart / dünn,ر-ق-ق,901,raqīq,,,
+غَلِيظٌ,dick / grob,غ-ل-ظ,902,ġalīẓ,,,
+نَحِيفٌ,dünn / schlank,ن-ح-ف,903,naḥīf,,,
+سَمِينٌ,fett / dick (Person),س-م-ن,904,samīn,,,
+خَامِلٌ,träge / inaktiv,خ-م-ل,905,ḫāmil,,,
+وَدُودٌ,liebevoll / freundlich,و-د-د,906,wadūd,,,
+شَدِيدٌ,heftig / stark,ش-د-د,907,šadīd,,,
+هَيِّنٌ,leicht / gering,ه-و-ن,908,hayyin,,,
+جَلِيلٌ,ehrwürdig / groß,ج-ل-ل,909,ǧalīl,,,
+اِتَّخَذَ,ergreifen / nehmen,أ-خ-ذ,910,ittaḫaḏa,اِتِّخَاذ,ittiḫāḏ,das Nehmen
+اِسْتَخْرَجَ,herausholen / extrahieren,خ-ر-ج,911,istaḫraǧa,اِسْتِخْرَاج,istiḫrāǧ,das Herausholen
+أَدْرَكَ,erreichen / begreifen,د-ر-ك,912,ʾadraka,إِدْرَاك,idrāk,das Erreichen
+اِسْتَجَابَ,antworten / entsprechen,ج-و-ب,913,istaǧāba,اِسْتِجَابَة,istiǧāba,die Antwort
+عَبَّرَ,ausdrücken,ع-ب-ر,914,ʿabbara,تَعْبِير,taʿbīr,der Ausdruck
+اِعْتَبَرَ,betrachten als,ع-ب-ر,915,iʿtabara,اِعْتِبَار,iʿtibār,die Betrachtung
+اِشْتَمَلَ,enthalten / umfassen,ش-م-ل,916,ištamala,اِشْتِمَال,ištimāl,das Enthalten
+ضَمَّ,umfassen / zusammenfügen,ض-م-م,917,ḍamma,ضَمّ,ḍamm,das Zusammenfügen
+اِحْتَوَى,enthalten,ح-و-ي,918,iḥtawā,اِحْتِوَاء,iḥtiwāʾ,das Enthalten
+سَحَبَ,ziehen,س-ح-ب,919,saḥaba,سَحْب,saḥb,das Ziehen
+جَذَبَ,ziehen / anziehen,ج-ذ-ب,920,ǧaḏaba,جَذْب,ǧaḏb,das Ziehen
+أَلْقَى,werfen,ل-ق-ي,921,ʾalqā,إِلْقَاء,ilqāʾ,das Werfen
+نَشَرَ,veröffentlichen / verbreiten,ن-ش-ر,922,našara,نَشْر,našr,die Veröffentlichung
+اِنْتَشَرَ,sich verbreiten,ن-ش-ر,923,intašara,اِنْتِشَار,intišār,die Verbreitung
+اِعْتَمَدَ,sich verlassen auf,ع-م-د,924,iʿtamada,اِعْتِمَاد,iʿtimād,das Vertrauen
+اِسْتَنَدَ,sich stützen auf,س-ن-د,925,istanada,اِسْتِنَاد,istinād,die Stütze
+وَاجَهَ,begegnen / konfrontieren,و-ج-ه,926,wāǧaha,مُوَاجَهَة,muwāǧaha,die Begegnung
+خَصَّصَ,widmen / spezialisieren,خ-ص-ص,927,ḫaṣṣaṣa,تَخْصِيص,taḫṣīṣ,die Spezialisierung
+اِسْتَثْمَرَ,investieren / ausnutzen,ث-م-ر,928,istaṯmara,اِسْتِثْمَار,istiṯmār,die Investition
+اِكْتَفَى,sich begnügen,ك-ف-ي,929,iktafā,اِكْتِفَاء,iktifāʾ,das Genügen
+نَقَصَ,abnehmen / fehlen,ن-ق-ص,930,naqaṣa,نَقْص,naqṣ,der Mangel
+اِتَّسَعَ,sich erweitern,و-س-ع,931,ittasaʿa,اِتِّسَاع,ittisāʿ,die Erweiterung
+تَجَاوَزَ,übersteigen,ج-و-ز,932,taǧāwaza,تَجَاوُز,taǧāwuz,das Übersteigen
+عَبَرَ,überqueren,ع-ب-ر,933,ʿabara,عُبُور,ʿubūr,das Überqueren
+أَعْجَبَ,gefallen / beeindrucken,ع-ج-ب,934,ʾaʿǧaba,إِعْجَاب,iʿǧāb,das Gefallen
+اِبْتَسَمَ,lächeln,ب-س-م,935,ibtasama,اِبْتِسَام,ibtisām,das Lächeln
+وَدَّعَ,verabschieden,و-د-ع,936,waddaʿa,تَوْدِيع,tawdīʿ,die Verabschiedung
+اِحْتَفَلَ,feiern,ح-ف-ل,937,iḥtafala,اِحْتِفَال,iḥtifāl,die Feier
+اِصْطَادَ,jagen / fangen,ص-ي-د,938,iṣṭāda,اِصْطِيَاد,iṣṭiyād,die Jagd
+اِسْتَضَافَ,bewirten / einladen,ض-ي-ف,939,istaḍāfa,اِسْتِضَافَة,istiḍāfa,die Bewirtung
+بَاحَثَ,diskutieren / erörtern,ب-ح-ث,940,bāḥaṯa,مُبَاحَثَة,mubāḥaṯa,die Diskussion
+اِسْتَشَارَ,konsultieren,ش-و-ر,941,istašāra,مُشَاوَرَة,mušāwara,die Beratung
+سَاهَمَ,beitragen,س-ه-م,942,sāhama,مُسَاهَمَة,musāhama,der Beitrag
+حَوَّلَ,verwandeln / umleiten,ح-و-ل,943,ḥawwala,تَحْوِيل,taḥwīl,die Umwandlung
+طَائِرَةٌ,Flugzeug,ط-ي-ر,944,ṭāʾira,,,
+عُمْلَةٌ,Währung,ع-م-ل,945,ʿumla,,,
+عَقْدٌ,Vertrag,ع-ق-د,946,ʿaqd,,,
+اِتِّفَاقٌ,Vereinbarung,و-ف-ق,947,ittifāq,,,
+قَرْضٌ,Darlehen / Kredit,ق-ر-ض,948,qarḍ,,,
+مُسَاوَاةٌ,Gleichheit,س-و-ي,949,musāwāh,,,
+عَدَالَةٌ,Gerechtigkeit,ع-د-ل,950,ʿadāla,,,
+إِحْسَانٌ,Wohltätigkeit / Güte,ح-س-ن,951,ʾiḥsān,,,
+دِينَارٌ,Dinar (Währung),د-ن-ر,952,dīnār,,,
+دِرْهَمٌ,Dirham (Währung),د-ر-ه-م,953,dirham,,,
+ثَقَافَةٌ,Kultur,ث-ق-ف,954,ṯaqāfa,,,
+فَنٌّ,Kunst,ف-ن-ن,955,fann,,,
+غِنَاءٌ,Gesang,غ-ن-ي,956,ġināʾ,,,
+لَوْحَةٌ,Tafel / Gemälde,ل-و-ح,957,lawḥa,,,
+مَسْرَحٌ,Theater,س-ر-ح,958,masraḥ,,,
+تَمْثَالٌ,Statue,م-ث-ل,959,timṯāl,,,
+جَرَسٌ,Glocke,ج-ر-س,960,ǧaras,,,
+مَجَلَّةٌ,Magazin / Zeitschrift,ج-ل-ل,961,maǧalla,,,
+نَشْرَةٌ,Bulletin / Rundschreiben,ن-ش-ر,962,našra,,,
+إِذَاعَةٌ,Rundfunk,ذ-ي-ع,963,ʾiḏāʿa,,,
+مَقَالٌ,Artikel,ق-و-ل,964,maqāl,,,
+جُزْءٌ,Teil,ج-ز-أ,965,ǧuzʾ,,,
+مَسْأَلَةٌ,Frage / Angelegenheit,س-أ-ل,966,masʾala,,,
+سِلْعَةٌ,Ware,س-ل-ع,967,silʿa,,,
+مُعَامَلَةٌ,Behandlung / Transaktion,ع-م-ل,968,muʿāmala,,,
+سُلْطَةٌ,Befugnis / Herrschaft,س-ل-ط,969,sulṭa,,,
+مَنْظَرٌ,Aussicht / Anblick,ن-ظ-ر,970,manẓar,,,
+مِشْهَدٌ,Szene,ش-ه-د,971,mašhad,,,
+لَاعِبٌ,Spieler,ل-ع-ب,972,lāʿib,,,
+فِرْقَةٌ,Mannschaft / Gruppe,ف-ر-ق,973,firqa,,,
+مَلْعَبٌ,Sportplatz,ل-ع-ب,974,malʿab,,,
+نَادٍ,Klub / Verein,ن-د-و,975,nādin,,,
+بَطَلٌ,Held,ب-ط-ل,976,baṭal,,,
+جَائِزَةٌ,Preis / Auszeichnung,ج-و-ز,977,ǧāʾiza,,,
+شَاعِرٌ,Dichter,ش-ع-ر,978,šāʿir,,,
+أَدَبٌ,Literatur / Anstand,أ-د-ب,979,ʾadab,,,
+قِصَّةٌ,Geschichte / Erzählung,ق-ص-ص,980,qiṣṣa,,,
+رِوَايَةٌ,Roman,ر-و-ي,981,riwāya,,,
+زُبْدَةٌ,Butter,ز-ب-د,982,zubda,,,
+كَعْكٌ,Kuchen / Gebäck,ك-ع-ك,983,kaʿk,,,
+تِينٌ,Feige,ت-ي-ن,984,tīn,,,
+رُمَّانٌ,Granatapfel,ر-م-ن,985,rummān,,,
+خَوْخٌ,Pfirsich,خ-و-خ,986,ḫawḫ,,,
+جَزَرٌ,Karotte,ج-ز-ر,987,ǧazar,,,
+فُلْفُلٌ,Pfeffer,ف-ل-ف-ل,988,filfil,,,
+قَرْعٌ,Kürbis,ق-ر-ع,989,qarʿ,,,
+بَدَنٌ,Körper,ب-د-ن,990,badan,,,
+كَعْبٌ,Knöchel,ك-ع-ب,991,kaʿb,,,
+صُدْغٌ,Schläfe,ص-د-غ,992,ṣudġ,,,
+وَرِكٌ,Hüfte,و-ر-ك,993,warik,,,
+جَنْبٌ,Seite / Flanke,ج-ن-ب,994,ǧanb,,,
+بَاخِرَةٌ,Dampfschiff,ب-خ-ر,995,bāḫira,,,
+مَعْرِضٌ,Ausstellung,ع-ر-ض,996,maʿriḍ,,,
+مِيزَانٌ,Waage / Gleichgewicht,و-ز-ن,997,mīzān,,,
+حَبِيبٌ,Geliebter,ح-ب-ب,998,ḥabīb,,,
+مُشْتَرَكٌ,gemeinsam,ش-ر-ك,999,muštarak,,,
+مُسْتَقِيمٌ,gerade / aufrecht,ق-و-م,1000,mustaqīm,,,

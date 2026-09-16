@@ -86,7 +86,7 @@ class DatabaseHelper {
   /// `prepare_words.py`) — nur dann bleiben Word-IDs stabil und
   /// bestehender Fortschritt (`progress`/`batch_progress`/...) bleibt
   /// korrekt zugeordnet.
-  static const int dataAssetVersion = 17;
+  static const int dataAssetVersion = 18;
 
   static const String tableWords = 'words';
   static const String tableProgress = 'progress';
