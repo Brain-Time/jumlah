@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Prueft neue B1-Wort-Kandidaten automatisch gegen die bestehenden 1000
-A1/A2-Woerter (assets/data/words.json), die bisherigen cand. (Etappe 1)
+A1/A2-Woerter (assets/data/words.json), die bisherigen cand. (alle Etappen)
 und die lokale Lane's-Lexicon-DB (assets/LexiconDatabase/lexicon.sqlite).
 
 Kriterien (identisch mit docs/b1-wortkandidaten.md):
@@ -14,7 +14,7 @@ Kriterien (identisch mit docs/b1-wortkandidaten.md):
 Eingabe: Kandidaten als CSV (utf-8) mit Spalten
   arabic,transliteration,german,root,masdar optional
 Aufruf: python scripts/verify_b1_candidates.py <kandidaten.csv>
-Ausgabe: Pruefbericht + Markdown-Tabellenteil (Etappe 2).
+Ausgabe: Pruefbericht + Markdown-Tabellenteil (CSV-Eingabe).
 """
 
 from __future__ import annotations
@@ -56,17 +56,15 @@ def load_existing_words() -> set[tuple[str, str, str]]:
     words = json.loads(WORDS_PATH.read_text(encoding="utf-8"))
     items = {(w["arabic"], strip_harakat(w["arabic"]), hamza_normalize(w["arabic"])) for w in words}
 
-    # Etappe-1-Kandidaten aus docs/b1-wortkandidaten.md einlesen
+    # Bereits fixierte B1-Kandidaten (ALLE Etappen) aus docs/b1-wortkandidaten.md
     doc_path = ROOT / "docs" / "b1-wortkandidaten.md"
     if doc_path.exists():
-        started = False
+        in_etappe = False
         for ln in doc_path.read_text(encoding="utf-8").splitlines():
-            if ln.startswith("## Etappe 1"):
-                started = True
+            if ln.startswith("## Etappe"):
+                in_etappe = True
                 continue
-            if started and ln.startswith("## Etappe 2"):
-                started = False
-            if started and ln.startswith("|") and not ln.startswith("|---"):
+            if in_etappe and ln.startswith("|") and not ln.startswith("|---"):
                 cells = [c.strip() for c in ln.strip("|").split("|")]
                 if len(cells) >= 2 and any("\u0600" <= ch <= "\u06FF" for ch in cells[0]):
                     a = cells[0]
@@ -175,7 +173,7 @@ def main() -> None:
     for c in conflicts:
         print("  !", c)
     print()
-    print("=== Markdown-Tabelle (Etappe 2, ohne Online-Row-Filter) ===")
+    print("=== Markdown-Tabelle (CSV-Eingabe, ohne Online-Row-Filter) ===")
     for row in rows:
         print(
             f"| {row['arabic']} | {row['transliteration']} | {row['german']} | "
