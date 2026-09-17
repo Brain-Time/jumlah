@@ -163,14 +163,14 @@ void main() {
         await tester.pump();
       });
 
-      // Hero-Banner mit Begrüßung + Statistik-Zeile (aktives Niveau A1:
-      // 500 Wörter / 50 Lektionen).
+      // Hero-Banner mit Begrüßung + Statistik-Zeile (aktive Niveaus A1 + A2:
+      // 1000 Wörter / 100 Lektionen).
       expect(find.text('Willkommen bei Jumlah'), findsOneWidget);
       expect(find.text('Wörter'), findsOneWidget);
       expect(find.text('Lektionen'), findsOneWidget);
       expect(find.text('Fortschritt'), findsOneWidget);
-      expect(find.text('500'), findsOneWidget);
-      expect(find.text('50'), findsOneWidget);
+      expect(find.text('1000'), findsOneWidget);
+      expect(find.text('100'), findsOneWidget);
 
       // Ohne gespeicherte Lernposition: „Beginne zu lernen“ (Lektion 1).
       expect(find.text('Beginne zu lernen'), findsOneWidget);

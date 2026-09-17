@@ -60,8 +60,8 @@ class WordLevelInfo {
   final String? productId;
 
   /// `true`, wenn das Niveau geplant, aber noch nicht als Inhalte hinterlegt
-  /// ist (z.B. A2–C1). Im Store wird es dann als „Bald verfügbar“ angezeigt
-  /// und ist (noch) nicht kaufbar; Home blendet geplante Niveaus aus.
+  /// ist (z.B. B1–C1). Solche Niveaus erscheinen als „Bald verfügbar“ und sind
+  /// (noch) nicht spielbar; aktive Niveaus (A1/A2) sind vollständig spielbar.
   final bool planned;
 }
 
@@ -131,12 +131,13 @@ WordLevelInfo? nextLevelAfter(String group) {
   return null;
 }
 
-/// Die definierten Sprachniveaus. Nur A1 ist aktiv (Rang 1–500 = 50
-/// Lektionen). A2–C1 sind geplant: sie werden auf der Startseite als
-/// „Bald verfügbar“ angezeigt, sind aber noch nicht als Inhalte hinterlegt
-/// (keine Wortdaten). Die Freischaltung der Stufen erfolgt seit
-/// 10. September 2026 durch **Abschluss der vorherigen Stufe** — es gibt
-/// keine Käufe mehr.
+/// Die definierten Sprachniveaus. Aktiv sind **A1 und A2** (Wörter 1–1000,
+/// je 50 Lektionen — Inhalte in `assets/data/` vollständig hinterlegt,
+/// inkl. Satz-Audios für die Lektionen 1–100). B1–C1 sind geplant: sie
+/// erscheinen auf der Startseite als „Bald verfügbar“ und sind noch nicht
+/// als Inhalte hinterlegt (keine Wortdaten). Die Freischaltung der Stufen
+/// erfolgt seit 10. September 2026 durch **Abschluss der vorherigen Stufe** —
+/// es gibt keine Käufe mehr.
 const List<WordLevelInfo> allLevels = [
   WordLevelInfo(
     group: 'A1',
@@ -154,7 +155,6 @@ const List<WordLevelInfo> allLevels = [
     label: 'Sehr häufig',
     wordCount: 500,
     lessonsPerLevel: 50,
-    planned: true,
   ),
   WordLevelInfo(
     group: 'B1',
