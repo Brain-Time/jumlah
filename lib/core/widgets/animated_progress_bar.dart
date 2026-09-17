@@ -29,7 +29,7 @@ class AnimatedProgressBar extends StatelessWidget {
         builder: (context, animatedValue, _) {
           return LinearProgressIndicator(
             value: animatedValue,
-            backgroundColor: Colors.white12,
+            backgroundColor: AppColors.border.withValues(alpha: 0.6),
             color: color,
             minHeight: minHeight,
           );

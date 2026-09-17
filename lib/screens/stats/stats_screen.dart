@@ -368,7 +368,7 @@ class _HeatmapCard extends StatelessWidget {
   /// Gold für sehr aktive Tage.
   static Color _heatColor(int count) {
     if (count <= 0) {
-      return const Color(0xFF20262F);
+      return AppColors.heatEmpty;
     }
     if (count <= 2) {
       return AppColors.primary.withValues(alpha: 0.25);

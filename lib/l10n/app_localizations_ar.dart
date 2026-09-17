@@ -514,6 +514,18 @@ class AppLocalizationsAr extends AppLocalizations {
       'اختر لغة الواجهة — تبقى محتويات التعلّم عربي ↔ ألماني كما هي.';
 
   @override
+  String get themeHeading => 'المظهر';
+
+  @override
+  String get themeBody => 'اختر تصميمًا فاتحًا أو داكنًا.';
+
+  @override
+  String get themeDark => 'داكن';
+
+  @override
+  String get themeLight => 'فاتح';
+
+  @override
   String get languageDe => 'Deutsch';
 
   @override

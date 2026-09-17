@@ -524,6 +524,18 @@ class AppLocalizationsDe extends AppLocalizations {
       'App-Oberfläche wählen — die Lerninhalte bleiben unverändert Arabisch ↔ Deutsch.';
 
   @override
+  String get themeHeading => 'Design';
+
+  @override
+  String get themeBody => 'Helles oder dunkles Design wählen.';
+
+  @override
+  String get themeDark => 'Dunkel';
+
+  @override
+  String get themeLight => 'Hell';
+
+  @override
   String get languageDe => 'Deutsch';
 
   @override

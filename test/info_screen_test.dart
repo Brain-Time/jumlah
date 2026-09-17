@@ -35,6 +35,10 @@ void main() {
     tester,
   ) async {
     debugDefaultTargetPlatformOverride = TargetPlatform.linux;
+    // Info-Liste ist höher als die Standard-Test-Fläche (800×600); größeres
+    // Fenster, damit auch der untere Einstellungs-Eintrag aufgebaut wird.
+    await tester.binding.setSurfaceSize(Size(800, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
 
     await tester.runAsync(() async {
       await tester.pumpWidget(
@@ -54,6 +58,8 @@ void main() {
     tester,
   ) async {
     debugDefaultTargetPlatformOverride = TargetPlatform.linux;
+    await tester.binding.setSurfaceSize(Size(800, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
 
     await tester.runAsync(() async {
       await tester.pumpWidget(
@@ -81,6 +87,8 @@ void main() {
 
   testWidgets('Rechts-Eintrag oeffnet die Impressum-URL', (tester) async {
     debugDefaultTargetPlatformOverride = TargetPlatform.linux;
+    await tester.binding.setSurfaceSize(Size(800, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
 
     await tester.runAsync(() async {
       await tester.pumpWidget(

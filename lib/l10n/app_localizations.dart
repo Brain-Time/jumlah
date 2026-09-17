@@ -988,6 +988,30 @@ abstract class AppLocalizations {
   /// **'App-Oberfläche wählen — die Lerninhalte bleiben unverändert Arabisch ↔ Deutsch.'**
   String get languageBody;
 
+  /// No description provided for @themeHeading.
+  ///
+  /// In de, this message translates to:
+  /// **'Design'**
+  String get themeHeading;
+
+  /// No description provided for @themeBody.
+  ///
+  /// In de, this message translates to:
+  /// **'Helles oder dunkles Design wählen.'**
+  String get themeBody;
+
+  /// No description provided for @themeDark.
+  ///
+  /// In de, this message translates to:
+  /// **'Dunkel'**
+  String get themeDark;
+
+  /// No description provided for @themeLight.
+  ///
+  /// In de, this message translates to:
+  /// **'Hell'**
+  String get themeLight;
+
   /// No description provided for @languageDe.
   ///
   /// In de, this message translates to:

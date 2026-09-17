@@ -522,6 +522,18 @@ class AppLocalizationsEn extends AppLocalizations {
       'Choose the app interface — the learning content stays Arabic ↔ German.';
 
   @override
+  String get themeHeading => 'Theme';
+
+  @override
+  String get themeBody => 'Choose a light or dark design.';
+
+  @override
+  String get themeDark => 'Dark';
+
+  @override
+  String get themeLight => 'Light';
+
+  @override
   String get languageDe => 'Deutsch';
 
   @override

@@ -129,7 +129,7 @@ class _LearnScreenState extends ConsumerState<LearnScreen> {
           child: Text(
             context.l10n.learnNoWords,
             textAlign: TextAlign.center,
-            style: const TextStyle(color: Colors.white70),
+            style: TextStyle(color: AppColors.textSecondary),
           ),
         ),
       );
@@ -235,7 +235,7 @@ class _SentenceSection extends StatelessWidget {
       return Text(
         context.l10n.noContextSentence,
         textAlign: TextAlign.center,
-        style: const TextStyle(color: Colors.white38, fontStyle: FontStyle.italic),
+        style: TextStyle(color: AppColors.textMuted, fontStyle: FontStyle.italic),
       );
     }
     return Column(
@@ -286,7 +286,7 @@ class _SingleSentence extends StatelessWidget {
             if (total > 1)
               Text(
                 context.l10n.sentenceCounter(index, total),
-                style: const TextStyle(color: Colors.white38, fontSize: 11),
+                style: TextStyle(color: AppColors.textMuted, fontSize: 11),
               ),
             const SizedBox(width: 8),
             _SentenceAudioButton(
@@ -315,15 +315,15 @@ class _SingleSentence extends StatelessWidget {
           Text(
             sentence.transliteration,
             textAlign: TextAlign.center,
-            style: const TextStyle(color: Colors.white54, fontSize: 13),
+            style: TextStyle(color: AppColors.textMuted, fontSize: 13),
           ),
         ],
         const SizedBox(height: 4),
         Text(
           sentence.german,
           textAlign: TextAlign.center,
-          style: const TextStyle(
-            color: Colors.white70,
+          style: TextStyle(
+            color: AppColors.textSecondary,
             fontStyle: FontStyle.italic,
           ),
         ),
@@ -393,7 +393,7 @@ class _RootSection extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.05),
+        color: AppColors.surfaceElevated,
         borderRadius: BorderRadius.circular(12),
         border: Border.all(color: AppColors.primary.withValues(alpha: 0.4)),
       ),
@@ -415,14 +415,14 @@ class _RootSection extends StatelessWidget {
               const SizedBox(width: 8),
               Text(
                 context.l10n.rootSection,
-                style: const TextStyle(color: Colors.white38, fontSize: 12),
+                style: TextStyle(color: AppColors.textMuted, fontSize: 12),
               ),
             ],
           ),
           const SizedBox(height: 8),
           Text(
             root.classicalDefinition,
-            style: const TextStyle(color: Colors.white),
+            style: TextStyle(color: AppColors.textPrimary),
           ),
         ],
       ),
@@ -441,7 +441,7 @@ class _MasdarSection extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.05),
+        color: AppColors.surfaceElevated,
         borderRadius: BorderRadius.circular(12),
         border: Border.all(color: AppColors.gold.withValues(alpha: 0.4)),
       ),
@@ -463,7 +463,7 @@ class _MasdarSection extends StatelessWidget {
               const SizedBox(width: 8),
               Text(
                 context.l10n.masdarSection,
-                style: const TextStyle(color: Colors.white38, fontSize: 12),
+                style: TextStyle(color: AppColors.textMuted, fontSize: 12),
               ),
             ],
           ),
@@ -471,8 +471,8 @@ class _MasdarSection extends StatelessWidget {
             const SizedBox(height: 8),
             Text(
               word.masdarTransliteration,
-              style: const TextStyle(
-                color: Colors.white54,
+              style: TextStyle(
+                color: AppColors.textMuted,
                 fontStyle: FontStyle.italic,
               ),
             ),
@@ -481,7 +481,7 @@ class _MasdarSection extends StatelessWidget {
             const SizedBox(height: 4),
             Text(
               word.masdarGerman,
-              style: const TextStyle(color: Colors.white70),
+              style: TextStyle(color: AppColors.textSecondary),
             ),
           ],
         ],

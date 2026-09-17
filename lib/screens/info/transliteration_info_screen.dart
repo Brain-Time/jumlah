@@ -72,7 +72,7 @@ class TransliterationInfoScreen extends StatelessWidget {
           children: [
             Text(
               l10n.transliterationIntro,
-              style: const TextStyle(color: Colors.white70, height: 1.4),
+              style: TextStyle(color: AppColors.textSecondary, height: 1.4),
             ),
             const SizedBox(height: 24),
             Text(
@@ -123,7 +123,6 @@ class _LetterRow extends StatelessWidget {
                 entry.arabic,
                 style: AppTheme.arabicTextStyle(
                   fontSize: 22,
-                  color: Colors.white,
                 ),
               ),
             ),
@@ -141,7 +140,7 @@ class _LetterRow extends StatelessWidget {
           Expanded(
             child: Text(
               entry.note,
-              style: const TextStyle(color: Colors.white70, fontSize: 13),
+              style: TextStyle(color: AppColors.textSecondary, fontSize: 13),
             ),
           ),
         ],

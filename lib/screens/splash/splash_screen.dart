@@ -106,9 +106,9 @@ class _SplashScreenState extends State<SplashScreen>
                 ),
               ),
               const SizedBox(height: 4),
-              const Text(
+              Text(
                 'Jumlah',
-                style: TextStyle(color: Colors.white70, letterSpacing: 2),
+                style: TextStyle(color: AppColors.textSecondary, letterSpacing: 2),
               ),
             ],
           ),

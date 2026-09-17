@@ -117,13 +117,13 @@ class ResultScreen extends StatelessWidget {
           Text(
             context.l10n.scoreCorrectAnswers(score),
             textAlign: TextAlign.center,
-            style: const TextStyle(fontSize: 24, color: Colors.white),
+            style: TextStyle(fontSize: 24, color: AppColors.textPrimary),
           ),
           const SizedBox(height: 8),
           Text(
             context.l10n.errorsSummary(wrongCount, allowedErrors),
             textAlign: TextAlign.center,
-            style: const TextStyle(color: Colors.white70),
+            style: TextStyle(color: AppColors.textSecondary),
           ),
           const SizedBox(height: 8),
           if (isTrackedBatch && passed != null) ...[
@@ -154,7 +154,7 @@ class ResultScreen extends StatelessWidget {
           if (wrongWords.isNotEmpty) ...[
             Text(
               context.l10n.practiceAgain,
-              style: const TextStyle(color: Colors.white70),
+              style: TextStyle(color: AppColors.textSecondary),
             ),
             const SizedBox(height: 8),
             Expanded(
@@ -172,7 +172,7 @@ class ResultScreen extends StatelessWidget {
                     ),
                     subtitle: Text(
                       word.german,
-                      style: const TextStyle(color: Colors.white70),
+                      style: TextStyle(color: AppColors.textSecondary),
                     ),
                   );
                 },

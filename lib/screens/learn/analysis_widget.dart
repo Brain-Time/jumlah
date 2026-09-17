@@ -75,10 +75,10 @@ class _AnalysisWidgetState extends State<AnalysisWidget> {
             decoration: BoxDecoration(
               color: isHighlighted
                   ? AppColors.gold.withValues(alpha: 0.25)
-                  : Colors.white10,
+                  : AppColors.surfaceElevated,
               borderRadius: BorderRadius.circular(8),
               border: Border.all(
-                color: isHighlighted ? AppColors.gold : Colors.white24,
+                color: isHighlighted ? AppColors.gold : AppColors.border,
               ),
             ),
             child: Text(
@@ -91,7 +91,7 @@ class _AnalysisWidgetState extends State<AnalysisWidget> {
               padding: const EdgeInsets.only(top: 4),
               child: Text(
                 entry.translation,
-                style: const TextStyle(color: Colors.white70, fontSize: 12),
+                style: TextStyle(color: AppColors.textSecondary, fontSize: 12),
               ),
             ),
         ],

@@ -301,8 +301,8 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                           padding: const EdgeInsets.only(top: 4),
                           child: Text(
                             question.word.transliteration,
-                            style: const TextStyle(
-                              color: Colors.white54,
+                            style: TextStyle(
+                              color: AppColors.textMuted,
                               fontStyle: FontStyle.italic,
                             ),
                           ),
@@ -311,7 +311,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                   )
                 : Text(
                     question.prompt,
-                    style: const TextStyle(fontSize: 26, color: Colors.white),
+                    style: TextStyle(fontSize: 26, color: AppColors.textPrimary),
                     textAlign: TextAlign.center,
                   ),
           ),
@@ -369,7 +369,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                 width: double.infinity,
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  color: Colors.white.withValues(alpha: 0.04),
+                  color: AppColors.surfaceElevated,
                   borderRadius: BorderRadius.circular(12),
                   border: Border.all(
                     color: AppColors.gold.withValues(alpha: 0.5),
@@ -424,7 +424,7 @@ class _AudioPrompt extends StatelessWidget {
         Text(
           context.l10n.audioPrompt,
           textAlign: TextAlign.center,
-          style: const TextStyle(color: Colors.white70, fontSize: 14),
+          style: TextStyle(color: AppColors.textSecondary, fontSize: 14),
         ),
         const SizedBox(height: 16),
         IconButton(
@@ -463,7 +463,7 @@ class _StoryPrompt extends StatelessWidget {
         Text(
           context.l10n.sentencePrompt,
           textAlign: TextAlign.center,
-          style: const TextStyle(color: Colors.white70, fontSize: 14),
+          style: TextStyle(color: AppColors.textSecondary, fontSize: 14),
         ),
         const SizedBox(height: 20),
         Directionality(
@@ -480,8 +480,8 @@ class _StoryPrompt extends StatelessWidget {
             padding: const EdgeInsets.only(top: 4),
             child: Text(
               question.sentence!.transliteration,
-              style: const TextStyle(
-                color: Colors.white54,
+              style: TextStyle(
+                color: AppColors.textMuted,
                 fontStyle: FontStyle.italic,
               ),
               textAlign: TextAlign.center,
@@ -523,8 +523,8 @@ class _WholeSentencePrompt extends StatelessWidget {
               padding: const EdgeInsets.only(top: 4),
               child: Text(
                 sentence.transliteration,
-                style: const TextStyle(
-                  color: Colors.white54,
+                style: TextStyle(
+                  color: AppColors.textMuted,
                   fontStyle: FontStyle.italic,
                 ),
                 textAlign: TextAlign.center,
@@ -535,7 +535,7 @@ class _WholeSentencePrompt extends StatelessWidget {
     }
     return Text(
       sentence.german,
-      style: const TextStyle(fontSize: 22, color: Colors.white),
+      style: TextStyle(fontSize: 22, color: AppColors.textPrimary),
       textAlign: TextAlign.center,
     );
   }
@@ -579,7 +579,7 @@ class _OptionButton extends StatelessWidget {
                     text,
                     style: AppTheme.arabicTextStyle(
                       fontSize: 20,
-                      color: Colors.white,
+                      color: AppColors.textPrimary,
                     ),
                   ),
                 )

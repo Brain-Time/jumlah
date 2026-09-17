@@ -114,7 +114,7 @@ class OnboardingScreen extends StatelessWidget {
                       children: [
                         Text(
                           context.l10n.devNoteTitle,
-                          style: const TextStyle(
+                          style: TextStyle(
                             color: AppColors.textPrimary,
                             fontWeight: FontWeight.w600,
                             fontSize: 15,
@@ -123,7 +123,7 @@ class OnboardingScreen extends StatelessWidget {
                         const SizedBox(height: 4),
                         Text(
                           context.l10n.devNoteBody,
-                          style: const TextStyle(
+                          style: TextStyle(
                             color: AppColors.textSecondary,
                             fontSize: 13,
                           ),
@@ -280,7 +280,7 @@ class _SupportTile extends StatelessWidget {
               Expanded(
                 child: Text(
                   context.l10n.supportTitle,
-                  style: const TextStyle(
+                  style: TextStyle(
                     color: AppColors.textPrimary,
                     fontWeight: FontWeight.w600,
                     fontSize: 15,

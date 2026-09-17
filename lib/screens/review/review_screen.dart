@@ -263,7 +263,7 @@ class _WordCard extends StatelessWidget {
               Text(
                 word.transliteration,
                 textAlign: TextAlign.center,
-                style: const TextStyle(color: Colors.white54, fontSize: 16),
+                style: TextStyle(color: AppColors.textMuted, fontSize: 16),
               ),
             ],
             const SizedBox(height: 10),

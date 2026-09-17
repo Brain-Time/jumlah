@@ -90,11 +90,11 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
                   fillColor: AppColors.surface,
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
-                    borderSide: const BorderSide(color: AppColors.border),
+                    borderSide: BorderSide(color: AppColors.border),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
-                    borderSide: const BorderSide(color: AppColors.border),
+                    borderSide: BorderSide(color: AppColors.border),
                   ),
                 ),
               ),

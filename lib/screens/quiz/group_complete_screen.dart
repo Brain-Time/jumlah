@@ -102,7 +102,7 @@ class _FinalExamPrompt extends StatelessWidget {
         Text(
           context.l10n.allLessonsDone,
           textAlign: TextAlign.center,
-          style: const TextStyle(fontSize: 22, color: Colors.white),
+          style: TextStyle(fontSize: 22, color: AppColors.textPrimary),
         ),
         const SizedBox(height: 8),
         Text(
@@ -110,7 +110,7 @@ class _FinalExamPrompt extends StatelessWidget {
               ? context.l10n.finalExamFailed
               : context.l10n.finalExamIntro,
           textAlign: TextAlign.center,
-          style: const TextStyle(color: Colors.white70),
+          style: TextStyle(color: AppColors.textSecondary),
         ),
         const SizedBox(height: 24),
         FilledButton(
@@ -139,13 +139,13 @@ class _UnlockNextGroupPrompt extends StatelessWidget {
         Text(
           context.l10n.finalExamPassedTitle,
           textAlign: TextAlign.center,
-          style: const TextStyle(fontSize: 22, color: Colors.white),
+          style: TextStyle(fontSize: 22, color: AppColors.textPrimary),
         ),
         const SizedBox(height: 8),
         Text(
           context.l10n.levelUnlockedText,
           textAlign: TextAlign.center,
-          style: const TextStyle(color: Colors.white70),
+          style: TextStyle(color: AppColors.textSecondary),
         ),
         const SizedBox(height: 24),
         FilledButton(

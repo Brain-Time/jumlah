@@ -202,7 +202,7 @@ class _BatchListScreenState extends State<BatchListScreen> {
           child: Text(
             context.l10n.batchListNoWords,
             textAlign: TextAlign.center,
-            style: const TextStyle(color: Colors.white70),
+            style: TextStyle(color: AppColors.textSecondary),
           ),
         ),
       );
@@ -224,9 +224,9 @@ class _BatchListScreenState extends State<BatchListScreen> {
               leading: const Icon(Icons.emoji_events, color: AppColors.gold),
               title: Text(
                 context.l10n.finalExam,
-                style: const TextStyle(color: Colors.white),
+                style: TextStyle(color: AppColors.textPrimary),
               ),
-              trailing: const Icon(Icons.chevron_right, color: Colors.white38),
+              trailing: Icon(Icons.chevron_right, color: AppColors.textMuted),
             ),
           ),
         for (var index = _firstBatch; index <= _lastBatch; index++)
@@ -266,13 +266,13 @@ class _BatchTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.white.withValues(alpha: 0.05),
+      color: AppColors.surfaceElevated,
       margin: const EdgeInsets.only(bottom: 12),
       child: ListTile(
         onTap: unlocked ? onTap : onLockedTap,
         title: Text(
           context.l10n.lessonRange(index + 1, start, end),
-          style: const TextStyle(color: Colors.white),
+          style: TextStyle(color: AppColors.textPrimary),
         ),
         trailing: Icon(
           passed
@@ -280,7 +280,7 @@ class _BatchTile extends StatelessWidget {
               : unlocked
               ? Icons.chevron_right
               : Icons.lock,
-          color: passed ? AppColors.success : Colors.white38,
+          color: passed ? AppColors.success : AppColors.textMuted,
         ),
       ),
     );

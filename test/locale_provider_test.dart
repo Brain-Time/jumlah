@@ -91,6 +91,13 @@ void main() {
   testWidgets(
     'Sprachumschalter im Info-Screen wechselt die UI sofort (DE → EN → AR, RTL)',
     (tester) async {
+      // Der Info-Screen ist seit der „Design“-Karte höher als die
+      // Standard-Test-Fläche (800×600); die ListView baut Einträge unterhalb
+      // des sichtbaren Bereichs nicht auf. Höheres Fenster = beide
+      // Einstellungs-Einträge sichtbar.
+      await tester.binding.setSurfaceSize(Size(800, 1600));
+      addTearDown(() => tester.binding.setSurfaceSize(null));
+
       await tester.runAsync(() async {
         await tester.pumpWidget(
           const ProviderScope(
@@ -138,6 +145,9 @@ void main() {
       // Bewusste Abwesenheit der Delegates: `context.l10n` muss trotzdem
       // deterministisch die deutsche Vorlage liefern (bestehende Tests &
       // Screens bleiben kompatibel).
+      await tester.binding.setSurfaceSize(Size(800, 1600));
+      addTearDown(() => tester.binding.setSurfaceSize(null));
+
       await tester.pumpWidget(
         const ProviderScope(child: MaterialApp(home: InfoScreen())),
       );

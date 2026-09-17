@@ -105,6 +105,7 @@ class DatabaseHelper {
   static const String _deviceIdKey = 'device_id';
   static const String _onboardingSeenKey = 'onboarding_seen';
   static const String _localeKey = 'locale';
+  static const String _themeModeKey = 'theme_mode';
 
   Database? _database;
 
@@ -993,6 +994,15 @@ class DatabaseHelper {
 
   /// H1 — UI-Sprache: persistiert die gewählte Sprach-Kennung.
   Future<void> saveLocaleCode(String code) => setSetting(_localeKey, code);
+
+  /// Dark/Light-Mode (Task „Dark/Light Mode Toggle“): liest die gespeicherte
+  /// Design-Kennung (`'dark'`/`'light'`) aus der `metadata`-Tabelle; `null`
+  /// beim allerersten Start (dann gilt Dunkel als Standard,
+  /// siehe `theme_provider.dart`).
+  Future<String?> getThemeMode() async => getSetting(_themeModeKey);
+
+  /// Dark/Light-Mode: persistiert die gewählte Design-Kennung.
+  Future<void> saveThemeMode(String mode) => setSetting(_themeModeKey, mode);
 
   /// Liest einen Wert aus der `metadata`-Tabelle; `null`, wenn (noch) nicht
   /// gesetzt. Bewusst generisch gehalten (Onboarding-Flag nutzt eigene,

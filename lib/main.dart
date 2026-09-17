@@ -5,6 +5,7 @@ import 'core/database/desktop_sqlite.dart';
 import 'core/theme/app_theme.dart';
 import 'l10n/l10n.dart';
 import 'providers/locale_provider.dart';
+import 'providers/theme_provider.dart';
 import 'screens/splash/splash_screen.dart';
 
 void main() {
@@ -27,17 +28,25 @@ class _JumlahAppState extends ConsumerState<JumlahApp> {
     // H1 — Mehrsprachige UI: die zuletzt vom Nutzer gewählte Sprache wird
     // asynchron aus SQLite wiederhergestellt (Default ist Deutsch).
     Future.microtask(() => ref.read(localeProvider.notifier).restoreSaved());
+    // Dark/Light-Mode: der zuletzt gewählte Design-Modus wird asynchron aus
+    // SQLite wiederhergestellt (Default ist Dunkel).
+    Future.microtask(() => ref.read(themeProvider.notifier).restoreSaved());
   }
 
   @override
   Widget build(BuildContext context) {
     final locale = ref.watch(localeProvider);
+    // Dark/Light-Mode: die aktive Palette folgt dem Provider. `AppColors.use`
+    // wird vor dem `MaterialApp`-Aufbau ausgeführt, damit alle Screens dieses
+    // Neuaufbaus die zum Theme passenden Neutral-Töne lesen.
+    final theme = ref.watch(themeProvider);
+    AppColors.use(theme);
     return MaterialApp(
       title: 'Jumlah',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.darkTheme,
+      theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      themeMode: ThemeMode.dark,
+      themeMode: theme == ThemeKind.light ? ThemeMode.light : ThemeMode.dark,
       // H1 — Mehrsprachige UI (DE/EN/AR): Die aktive Sprache kommt aus dem
       // Riverpod-Provider; `AppLocalizations.localizationsDelegates` enthält
       // die App-Strings (ARB/gen_l10n) plus die Material/Built-in-Widget-
