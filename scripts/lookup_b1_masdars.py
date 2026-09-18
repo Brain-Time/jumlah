@@ -92,10 +92,30 @@ def find_inf_n_markers(conn: sqlite3.Connection, bare: str, limit: int = 5) -> l
     return results
 
 
-def main() -> int:
-    csv_path = ROOT / "scripts" / "b1_words_etappe1.csv"
+def main(argv=None) -> int:
+    import argparse
+
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--csv",
+        default="scripts/b1_words_etappe1.csv",
+        help="B1 intake CSV (default: Etappe 1)",
+    )
+    parser.add_argument(
+        "--skip-lookup",
+        action="store_true",
+        help="Nur die Verben auflisten und den Lexicon-Lookup überspringen",
+    )
+    args = parser.parse_args(argv)
+
+    csv_path = ROOT / args.csv
     verbs = load_verbs(csv_path)
     print(f"Verben: {len(verbs)}")
+
+    if args.skip_lookup:
+        for _, arabic, bare, root in verbs:
+            print(f"{arabic}\t{bare}\t{root}")
+        return 0
 
     conn = sqlite3.connect(LEXICON_PATH)
     for rank, arabic, bare, root in verbs:

@@ -10,6 +10,7 @@ that all ranks in the CSV range are covered.
 
 from __future__ import annotations
 
+import argparse
 import csv
 import sys
 from pathlib import Path
@@ -19,9 +20,16 @@ CSV_PATH = ROOT / "scripts" / "b1_words_etappe1.csv"
 TSV_PATH = ROOT / "scripts" / "b1_masdars_etappe1.tsv"
 
 
-def main() -> int:
+def main(argv=None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--csv", default=str(CSV_PATH))
+    parser.add_argument("--tsv", default=str(TSV_PATH))
+    args = parser.parse_args(argv)
+
+    csv_path = ROOT / args.csv
+    tsv_path = ROOT / args.tsv
     masdars: dict[int, tuple[str, str, str]] = {}
-    with TSV_PATH.open(encoding="utf-8-sig", newline="") as f:
+    with tsv_path.open(encoding="utf-8-sig", newline="") as f:
         for row in csv.DictReader(f, delimiter="\t"):
             masdars[int(row["rank"])] = (
                 row["masdar"],
@@ -29,7 +37,7 @@ def main() -> int:
                 row["masdar_german"],
             )
 
-    rows = list(csv.DictReader(CSV_PATH.open(encoding="utf-8-sig", newline="")))
+    rows = list(csv.DictReader(csv_path.open(encoding="utf-8-sig", newline="")))
     changed = 0
     for row in rows:
         rank = int(row["frequency_rank"])
@@ -43,12 +51,12 @@ def main() -> int:
         print(f"Fehler: {len(masdars)} Masdar-Eintraege, nur {changed} Zeilen gematcht")
         return 1
 
-    with CSV_PATH.open("w", encoding="utf-8-sig", newline="") as f:
+    with csv_path.open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=rows[0].keys())
         writer.writeheader()
         writer.writerows(rows)
 
-    print(f"ok: {changed} Masdar-Eintraege in {CSV_PATH.name} gemergt ({expected} Zeilen gesamt)")
+    print(f"ok: {changed} Masdar-Eintraege in {csv_path.name} gemergt ({expected} Zeilen gesamt)")
     return 0
 
 

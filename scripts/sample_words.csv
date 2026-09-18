@@ -1299,3 +1299,403 @@ arabic,german,root,frequency_rank,transliteration,masdar,masdar_transliteration,
 دَاخِلِيٌّ,innen / intern,د-خ-ل,1298,dāḫilī,,,
 عُصْرِيٌّ,zeitgenössisch,ع-ص-ر,1299,ʿaṣrī,,,
 بَارِزٌ,hervorragend,ب-ر-ز,1300,bāriz,,,
+مُتَحَرِّكٌ,beweglich,ح-ر-ك,1301,mutaḥarrik,,,
+ثَابِتٌ,fest / beständig,ث-ب-ت,1302,ṯābit,,,
+اِحْتِيَاطِيّ,Reserve / Not- (Adj.),ح-و-ط,1303,iḥtiyāṭiyy,,,
+وَفِيرٌ,reichlich,و-ف-ر,1304,wafīr,,,
+نَادِرٌ,selten,ن-د-ر,1305,nādir,,,
+دَائِمٌ,ständig / dauerhaft,د-و-م,1306,dāʾim,,,
+غَالِبًا,meistens,غ-ل-ب,1307,ġāliban,,,
+أَخِيرًا,schließlich / zuletzt,أ-خ-ر,1308,ʾaḫīran,,,
+تَقْرِيبًا,ungefähr,ق-ر-ب,1309,taqrīban,,,
+فَوْرًا,sofort,ف-و-ر,1310,fawran,,,
+مُطْلَقًا,absolut / überhaupt,ط-ل-ق,1311,muṭlaqan,,,
+نِسْبِيًّا,relativ,ن-س-ب,1312,nisbiyyan,,,
+لِذَلِكَ,deshalb,ذ-ل-ك,1313,li-ḏālika,,,
+عِنْدَمَا,als / wenn (Konj.),ع-ن-د,1314,ʿindamā,,,
+دُونَ,ohne,د-و-ن,1315,dūna,,,
+أَبْدَى,äußern,ب-د-و,1316,ʾabdā,إِبْدَاءٌ,ʾibdāʾ,das Äußern
+أَبْطَلَ,aufheben,ب-ط-ل,1317,ʾabṭala,إِبْطَالٌ,ʾibṭāl,das Aufheben
+أَخْفَى,verbergen,خ-ف-ي,1318,ʾaḫfā,إِخْفَاءٌ,ʾiḫfāʾ,das Verbergen
+أَذَاعَ,ausstrahlen,ذ-ي-ع,1319,ʾaḏāʿa,إِذَاعَةٌ,ʾiḏāʿa,die Ausstrahlung
+أَصْدَرَ,herausgeben,ص-د-ر,1320,ʾaṣdara,إِصْدَارٌ,ʾiṣdār,die Herausgabe
+أَضَاءَ,beleuchten,ض-و-أ,1321,ʾaḍāʾa,إِضَاءَةٌ,ʾiḍāʾa,die Beleuchtung
+أَعَادَ,zurückgeben,ع-و-د,1322,ʾaʿāda,إِعَادَةٌ,ʾiʿāda,die Rückgabe/die Wiederholung
+أَقْبَلَ,sich nähern,ق-ب-ل,1323,ʾaqbala,إِقْبَالٌ,ʾiqbāl,das Herankommen
+أَكَّدَ,bestätigen,أ-ك-د,1324,ʾakkada,تَأْكِيدٌ,taʾkīd,die Bestätigung
+أَلْغَى,absagen,ل-غ-ي,1325,ʾalġā,إِلْغَاءٌ,ʾilġāʾ,die Absage
+أَنْشَأَ,gründen,ن-ش-أ,1326,ʾanšaʾa,إِنْشَاءٌ,ʾinšāʾ,die Gründung
+أَهْدَى,schenken,ه-د-ي,1327,ʾahdā,إِهْدَاءٌ,ʾihdāʾ,das Schenken
+أَوْقَفَ,anhalten,و-ق-ف,1328,ʾawqafa,إِيقَافٌ,ʾīqāf,das Anhalten
+اِتَّبَعَ,folgen,ت-ب-ع,1329,ittabaʿa,اِتِّبَاعٌ,ittibāʿ,das Befolgen/das Nachfolgen
+اِتَّهَمَ,beschuldigen,و-ه-م,1330,ittahama,اِتِّهَامٌ,ittihām,die Beschuldigung
+اِجْتَهَدَ,sich anstrengen,ج-ه-د,1331,iǧtahada,اِجْتِهَادٌ,iǧtihād,die Anstrengung/der Fleiß
+اِخْتَرَعَ,erfinden,خ-ر-ع,1332,iḫtaraʿa,اِخْتِرَاعٌ,iḫtirāʿ,die Erfindung
+اِخْتَصَرَ,kürzen,خ-ص-ر,1333,iḫtaṣara,اِخْتِصَارٌ,iḫtiṣār,die Kürzung
+اِخْتَلَطَ,sich vermischen,خ-ل-ط,1334,iḫtalaṭa,اِخْتِلَاطٌ,iḫtilāṭ,die Vermischung
+اِدَّخَرَ,sparen / zurücklegen,د-خ-ر,1335,iddaḫara,اِدِّخَارٌ,iddiḫār,das Sparen/das Zurücklegen
+اِرْتَبَطَ,verbunden sein,ر-ب-ط,1336,irtabaṭa,اِرْتِبَاطٌ,irtibāṭ,die Verbindung
+اِرْتَكَبَ,begehen (Fehler),ر-ك-ب,1337,irtakaba,اِرْتِكَابٌ,irtikāb,die Begehung
+اِسْتَبْدَلَ,ersetzen,ب-د-ل,1338,istabdala,اِسْتِبْدَالٌ,istibdāl,der Ersatz/der Tausch
+اِسْتَثْنَى,ausnehmen,ث-ن-ي,1339,istaṯnā,اِسْتِثْنَاءٌ,istiṯnāʾ,die Ausnahme
+اِسْتَسْلَمَ,sich ergeben,س-ل-م,1340,istaslama,اِسْتِسْلَامٌ,istislām,die Kapitulation/das Sich-Ergeben
+اِسْتَعَدَّ,sich vorbereiten,ع-د-د,1341,istaʿadda,اِسْتِعْدَادٌ,istiʿdād,die Vorbereitung/die Bereitschaft
+اِسْتَوْرَدَ,importieren,و-ر-د,1342,istawrada,اِسْتِيرَادٌ,istīrād,der Import
+اِقْتَرَضَ,borgen,ق-ر-ض,1343,iqṭaraḍa,اِقْتِرَاضٌ,iqṭirāḍ,das Borgen
+اِلْتَفَتَ,sich umwenden,ل-ف-ت,1344,iltafata,اِلْتِفَاتٌ,iltifāt,die Hinwendung/die Aufmerksamkeit
+اِمْتَدَحَ,loben,م-د-ح,1345,imtadaḥa,اِمْتِدَاحٌ,imtidāḥ,das Loben
+اِنْسَحَبَ,sich zurückziehen,س-ح-ب,1346,insaḥaba,اِنْسِحَابٌ,insiḥāb,der Rückzug
+اِنْعَطَفَ,abbiegen,ع-ط-ف,1347,inʿaṭafa,اِنْعِطَافٌ,inʿiṭāf,die Abbiegung
+اِنْعَكَسَ,sich spiegeln,ع-ك-س,1348,inʿakasa,اِنْعِكَاسٌ,inʿikās,die Spiegelung/die Umkehr
+اِنْفَصَلَ,sich trennen,ف-ص-ل,1349,infaṣala,اِنْفِصَالٌ,infiṣāl,die Trennung
+اِهْتَزَّ,vibrieren,ه-ز-ز,1350,ihtazza,اِهْتِزَازٌ,ihtizāz,die Vibration/das Beben
+بَارَكَ,beglückwünschen / segnen,ب-ر-ك,1351,bāraka,مُبَارَكَةٌ,mubāraka,der Segen/die Gratulation
+تَأَلَّمَ,Schmerzen leiden,أ-ل-م,1352,taʾallama,تَأَلُّمٌ,taʾallum,das Schmerzleiden
+تَابَعَ,verfolgen / fortsetzen,ت-ب-ع,1353,tābaʿa,مُتَابَعَةٌ,mutābaʿa,die Weiterverfolgung
+تَبَادَلَ,austauschen,ب-د-ل,1354,tabādala,تَبَادُلٌ,tabādul,der Austausch
+تَحَدَّى,herausfordern,ح-د-ي,1355,taḥaddā,تَحَدٍّ,taḥaddin,die Herausforderung
+تَحَكَّمَ,kontrollieren,ح-ك-م,1356,taḥakkama,تَحَكُّمٌ,taḥakkum,die Kontrolle/die Beherrschung
+تَخَلَّفَ,zurückbleiben,خ-ل-ف,1357,taḫallafa,تَخَلُّفٌ,taḫalluf,das Zurückbleiben
+تَذَوَّقَ,kosten (Essen),ذ-و-ق,1358,taḏawwaqa,تَذَوُّقٌ,taḏawwuq,das Kosten (Essen)
+تَعَافَى,genesen,ع-ف-و,1359,taʿāfā,تَعَافٍ,taʿāfin,das Genesen
+تَعَامَلَ,umgehen mit,ع-م-ل,1360,taʿāmala,تَعَامُلٌ,taʿāmul,der Umgang
+تَعَوَّدَ,sich gewöhnen,ع-و-د,1361,taʿawwada,تَعَوُّدٌ,taʿawwud,die Gewöhnung
+تَمَنَّى,sich wünschen,م-ن-ي,1362,tamannā,تَمَنٍّ,tamannin,der Wunsch
+تَنَافَسَ,konkurrieren,ن-ف-س,1363,tanāfasa,تَنَافُسٌ,tanāfus,der Wettbewerb
+تَنَاوَلَ,behandeln / sich nehmen,ن-و-ل,1364,tanāwala,تَنَاوُلٌ,tanāwul,die Behandlung
+تَهَيَّأَ,sich fertigmachen,ه-ي-أ,1365,tahayyaʾa,تَهَيُّؤٌ,tahayyuʾ,die Vorbereitung
+تَوَافَقَ,zusammenpassen,و-ف-ق,1366,tawāfaqa,تَوَافُقٌ,tawāfuq,die Übereinstimmung
+تَوَجَّهَ,sich begeben / ansteuern,و-ج-ه,1367,tawaǧǧaha,تَوَجُّهٌ,tawaǧǧuh,die Richtung/das Ansteuern
+تَوَلَّى,übernehmen,و-ل-ي,1368,tawallā,تَوَلٍّ,tawallin,die Übernahme
+حَدَّدَ,festlegen / bestimmen,ح-د-د,1369,ḥaddada,تَحْدِيدٌ,taḥdīd,die Festlegung
+حَرَّرَ,verfassen / befreien,ح-ر-ر,1370,ḥarrara,تَحْرِيرٌ,taḥrīr,das Verfassen/die Befreiung
+حَقَّقَ,erreichen / verwirklichen,ح-ق-ق,1371,ḥaqqaqa,تَحْقِيقٌ,taḥqīq,die Verwirklichung/die Erreichung
+خَدَعَ,betrügen,خ-د-ع,1372,ḫadaʿa,خِدَاعٌ,ḫidāʿ,der Betrug
+دَارَ,sich drehen,د-و-ر,1373,dāra,دَوَرَانٌ,dawarān,das Drehen
+ذَابَ,schmelzen,ذ-و-ب,1374,ḏāba,ذَوَبَانٌ,ḏawabān,das Schmelzen
+ذَمَّ,tadeln,ذ-م-م,1375,ḏamma,ذَمٌّ,ḏamm,der Tadel
+رَاجَعَ,überprüfen,ر-ج-ع,1376,rāǧaʿa,مُرَاجَعَةٌ,murāǧaʿa,die Überprüfung
+سَجَّلَ,aufnehmen / registrieren,س-ج-ل,1377,saǧǧala,تَسْجِيلٌ,tasǧīl,die Aufnahme/die Registrierung
+سَلَبَ,rauben,س-ل-ب,1378,salaba,سَلْبٌ,salb,der Raub
+شَجَّعَ,ermutigen,ش-ج-ع,1379,šaǧǧaʿa,تَشْجِيعٌ,tašǧīʿ,die Ermutigung
+طَوَى,falten,ط-و-ي,1380,ṭawā,طَيٌّ,ṭayy,das Falten
+عَاقَبَ,bestrafen,ع-ق-ب,1381,ʿāqaba,عِقَابٌ,ʿiqāb,die Bestrafung
+عَزَلَ,entlassen,ع-ز-ل,1382,ʿazala,عَزْلٌ,ʿazl,die Entlassung
+عَوَّضَ,entschädigen,ع-و-ض,1383,ʿawwaḍa,تَعْوِيضٌ,taʿwīḍ,die Entschädigung
+فَسَّرَ,erklären / deuten,ف-س-ر,1384,fassara,تَفْسِيرٌ,tafsīr,die Erklärung/die Deutung
+فَكَّ,lösen / aufmachen,ف-ك-ك,1385,fakka,فَكٌّ,fakk,das Lösen/das Aufmachen
+قَارَنَ,vergleichen,ق-ر-ن,1386,qārana,مُقَارَنَةٌ,muqārana,der Vergleich
+قَدَّرَ,schätzen / einschätzen,ق-د-ر,1387,qaddara,تَقْدِيرٌ,taqdīr,die Einschätzung
+كَافَأَ,belohnen,ك-ف-أ,1388,kāfaʾa,مُكَافَأَةٌ,mukāfaʾa,die Belohnung
+لَحِقَ,einholen,ل-ح-ق,1389,laḥiqa,لُحُوقٌ,luḥūq,das Einholen
+لَفَّ,wickeln,ل-ف-ف,1390,laffa,لَفٌّ,laff,das Wickeln
+لَمَعَ,glänzen,ل-م-ع,1391,lamaʿa,لَمَعَانٌ,lamaʿān,das Glänzen
+نَالَ,erlangen,ن-ي-ل,1392,nāla,نَيْلٌ,nayl,das Erlangen
+نَدِمَ,bereuen,ن-د-م,1393,nadima,نَدَمٌ,nadam,die Reue
+هَزَمَ,besiegen,ه-ز-م,1394,hazama,هَزْمٌ,hazm,die Niederlage/das Besiegen
+هَزَّ,schütteln,ه-ز-ز,1395,hazza,هَزٌّ,hazz,das Schütteln
+هَنَّأَ,gratulieren,ه-ن-أ,1396,hannaʾa,تَهْنِئَةٌ,tahniʾa,die Gratulation
+وَازَنَ,abwägen,و-ز-ن,1397,wāzana,مُوَازَنَةٌ,muwāzana,die Abwägung
+وَافَقَ,zustimmen,و-ف-ق,1398,wāfaqa,مُوَافَقَةٌ,muwāfaqa,die Zustimmung
+وَفَّرَ,sparen / einsparen,و-ف-ر,1399,waffara,تَوْفِيرٌ,tawfīr,die Ersparnis/das Einsparen
+أَدَاةٌ,Werkzeug,أ-د-و,1400,ʾadāt,,,
+أُجْرَةٌ,Lohn / Gebühr,أ-ج-ر,1401,uǧra,,,
+أُسْلُوبٌ,Stil,س-ل-ب,1402,ʾuslūb,,,
+إِحْسَاسٌ,Empfindung,ح-س-س,1403,ʾiḥsās,,,
+إِعْلَانٌ,Anzeige / Werbung,ع-ل-ن,1404,ʾiʿlān,,,
+اِمْتِيَازٌ,Vorzug,م-ي-ز,1405,imtiyāz,,,
+اِنْتِبَاهٌ,Aufmerksamkeit,ن-ب-ه,1406,intibāh,,,
+اِهْتِمَامٌ,Interesse,ه-م-م,1407,ihtimām,,,
+تَأْثِيرٌ,Wirkung,أ-ث-ر,1408,taʾṯīr,,,
+تَأْمِينٌ,Versicherung,أ-م-ن,1409,taʾmīn,,,
+تَدْرِيبٌ,Training / Übung,د-ر-ب,1410,tadrīb,,,
+تَعْبِيرٌ,Ausdruck,ع-ب-ر,1411,taʿbīr,,,
+تَوْأَمٌ,Zwilling,ت-أ-م,1412,tawʾam,,,
+تُرَاثٌ,Kulturerbe,و-ر-ث,1413,turāṯ,,,
+ثَلَّاجَةٌ,Kühlschrank,ث-ل-ج,1414,ṯallāǧa,,,
+جَزَاءٌ,Strafe / Vergeltung,ج-ز-ي,1415,ǧazāʾ,,,
+جَهْلٌ,Unwissenheit,ج-ه-ل,1416,ǧahl,,,
+جُنَيْنَةٌ,Gärtchen,ج-ن-ن,1417,ǧunayna,,,
+جِهَازٌ,Gerät,ج-ه-ز,1418,ǧihāz,,,
+جِهَةٌ,Seite / Richtung,و-ج-ه,1419,ǧiha,,,
+حَضَارَةٌ,Zivilisation,ح-ض-ر,1420,ḥaḍāra,,,
+حَوْضٌ,Becken,ح-و-ض,1421,ḥawḍ,,,
+حِصَّةٌ,Anteil / Portion,ح-ص-ص,1422,ḥiṣṣa,,,
+حِكْمَةٌ,Weisheit,ح-ك-م,1423,ḥikma,,,
+خَرُوفٌ,Lamm / Schaf,خ-ر-ف,1424,ḫarūf,,,
+خُلَاصَةٌ,Zusammenfassung,خ-ل-ص,1425,ḫulāṣa,,,
+خِطَّةٌ,Plan,خ-ط-ط,1426,ḫiṭṭa,,,
+دَرَّاجَةٌ,Fahrrad,د-ر-ج,1427,darrāǧa,,,
+دُبٌّ,Bär,د-ب-ب,1428,dubb,,,
+ذَكَاءٌ,Intelligenz,ذ-ك-و,1429,ḏakāʾ,,,
+رَاتِبٌ,Gehalt,ر-ت-ب,1430,rātib,,,
+رَضِيعٌ,Säugling,ر-ض-ع,1431,raḍīʿ,,,
+رَفٌّ,Regal,ر-ف-ف,1432,raff,,,
+رِزْقٌ,Lebensunterhalt,ر-ز-ق,1433,rizq,,,
+زُقَاقٌ,Gasse,ز-ق-ق,1434,zuqāq,,,
+سَرِقَةٌ,Diebstahl,س-ر-ق,1435,sariqa,,,
+شَمْعَةٌ,Kerze,ش-م-ع,1436,šamʿa,,,
+شُرْفَةٌ,Balkon,ش-ر-ف,1437,šurfa,,,
+شُعْبَةٌ,Abteilung,ش-ع-ب,1438,šuʿba,,,
+ضَمَانٌ,Garantie,ض-م-ن,1439,ḍamān,,,
+ضَمِيرٌ,Gewissen,ض-م-ر,1440,ḍamīr,,,
+طَرَفٌ,Seite / Ende,ط-ر-ف,1441,ṭaraf,,,
+عَاطِفَةٌ,Gefühl / Emotion,ع-ط-ف,1442,ʿāṭifa,,,
+عَاقِبَةٌ,Konsequenz,ع-ق-ب,1443,ʿāqiba,,,
+عِبَارَةٌ,Redewendung,ع-ب-ر,1444,ʿibāra,,,
+عِمَارَةٌ,Gebäude,ع-م-ر,1445,ʿimāra,,,
+غَبَاءٌ,Dummheit,غ-ب-و,1446,ġabāʾ,,,
+غَرَامَةٌ,Bußgeld,غ-ر-م,1447,ġarāma,,,
+غَسَّالَةٌ,Waschmaschine,غ-س-ل,1448,ġassāla,,,
+فَرْعٌ,Filiale / Zweig,ف-ر-ع,1449,farʿ,,,
+فَضِيلَةٌ,Tugend,ف-ض-ل,1450,faḍīla,,,
+فُرْشَاةٌ,Bürste,ف-ر-ش,1451,furšāt,,,
+فِئَةٌ,Kategorie / Gruppe,ف-أ-ي,1452,fiʾa,,,
+قَاضٍ,Richter,ق-ض-ي,1453,qāḍin,,,
+قِطَّةٌ,Katze,ق-ط-ط,1454,qiṭṭa,,,
+قِطْعَةٌ,Stück,ق-ط-ع,1455,qiṭʿa,,,
+كَفَالَةٌ,Bürgschaft,ك-ف-ل,1456,kafāla,,,
+لُقْمَةٌ,Bissen,ل-ق-م,1457,luqma,,,
+لِصٌّ,Dieb,ل-ص-ص,1458,liṣṣ,,,
+مَتْحَفٌ,Museum,ت-ح-ف,1459,matḥaf,,,
+مَخْبَزٌ,Bäckerei,خ-ب-ز,1460,maḫbaz,,,
+مَزِيَّةٌ,Vorteil,م-ي-ز,1461,maziyya,,,
+مَشْرُوعٌ,Projekt,ش-ر-ع,1462,mašrūʿ,,,
+مُتَّهَمٌ,Angeklagter,و-ه-م,1463,muttaham,,,
+مُحَرِّكٌ,Motor,ح-ر-ك,1464,muḥarrik,,,
+مُسْتَنَدٌ,Urkunde,س-ن-د,1465,mustanad,,,
+مُشْطٌ,Kamm,م-ش-ط,1466,mušt,,,
+مُنَشْفَةٌ,Handtuch,ن-ش-ف,1467,munaššafa,,,
+مِدْفَأَةٌ,Heizung,د-ف-أ,1468,midfaʾa,,,
+مِزَاجٌ,Gemüt / Laune,م-ز-ج,1469,mizāǧ,,,
+مِسْطَرَةٌ,Lineal,س-ط-ر,1470,misṭara,,,
+مِلْكِيَّةٌ,Eigentum,م-ل-ك,1471,milkiyya,,,
+مِيرَاثٌ,Erbe / Erbschaft,و-ر-ث,1472,mīrāṯ,,,
+مِيلَادٌ,Geburt,و-ل-د,1473,mīlād,,,
+نَاحِيَةٌ,Gegend,ن-ح-و,1474,nāḥiya,,,
+نَصِيبٌ,Anteil,ن-ص-ب,1475,naṣīb,,,
+نُسْخَةٌ,Kopie,ن-س-خ,1476,nusḫa,,,
+وَصِيَّةٌ,Testament,و-ص-ي,1477,wasiyya,,,
+وَعْيٌ,Bewusstsein,و-ع-ي,1478,waʿy,,,
+وَكِيلٌ,Vertreter / Anwalt,و-ك-ل,1479,wakīl,,,
+وِثِيقَةٌ,Dokument,و-ث-ق,1480,waṯīqa,,,
+يَتِيمٌ,Waise,ي-ت-م,1481,yatīm,,,
+بَرِيءٌ,unschuldig,ب-ر-أ,1482,barīʾ,,,
+بَطِيءٌ,langsam,ب-ط-أ,1483,baṭīʾ,,,
+حَادٌّ,scharf,ح-د-د,1484,ḥādd,,,
+دَافِئٌ,warm,د-ف-أ,1485,dāfiʾ,,,
+دَاكِنٌ,dunkel (Farbe),د-ك-ن,1486,dākin,,,
+سَمِيكٌ,dick (Gegenstand),س-م-ك,1487,samīk,,,
+ضَارٌّ,schädlich,ض-ر-ر,1488,ḍārr,,,
+طَرِيٌّ,frisch,ط-ر-و,1489,ṭariyy,,,
+عَجُولٌ,eilig / hastig,ع-ج-ل,1490,ʿaǧūl,,,
+عَسِيرٌ,schwierig,ع-س-ر,1491,ʿasīr,,,
+عَنِيدٌ,stur / starrköpfig,ع-ن-د,1492,ʿanīd,,,
+غَاضِبٌ,wütend,غ-ض-ب,1493,ġāḍib,,,
+فَاتِحٌ,hell (Farbe),ف-ت-ح,1494,fātiḥ,,,
+فَاسِدٌ,verdorben,ف-س-د,1495,fāsid,,,
+قَذِرٌ,schmutzig,ق-ذ-ر,1496,qaḏir,,,
+لَازِمٌ,notwendig / nötig,ل-ز-م,1497,lāzim,,,
+مَالِحٌ,salzig,م-ل-ح,1498,māliḥ,,,
+مُتَشَائِمٌ,pessimistisch,ش-أ-م,1499,mutašāʾim,,,
+مُتَفَائِلٌ,optimistisch,ف-أ-ل,1500,mutafāʾil,,,
+مُثَلَّثٌ,dreieckig,ث-ل-ث,1501,muṯallaṯ,,,
+مُذْنِبٌ,schuldig,ذ-ن-ب,1502,muḏnib,,,
+مُرَبَّعٌ,viereckig,ر-ب-ع,1503,murabbaʿ,,,
+مُرِيحٌ,bequem,ر-و-ح,1504,murīḥ,,,
+مُزْدَحِمٌ,überfüllt,ز-ح-م,1505,muzdaḥim,,,
+مُسْتَدِيرٌ,rund,د-و-ر,1506,mustadīr,,,
+مُسْتَوٍ,eben / flach,س-و-ي,1507,mustawin,,,
+مُعَقَّدٌ,kompliziert,ع-ق-د,1508,muʿaqqad,,,
+مُقْلِقٌ,beunruhigend,ق-ل-ق,1509,muqliq,,,
+نَاضِجٌ,reif,ن-ض-ج,1510,nāḍiǧ,,,
+نَافِعٌ,nützlich / heilsam,ن-ف-ع,1511,nāfiʿ,,,
+يَسِيرٌ,einfach / leicht,ي-س-ر,1512,yasīr,,,
+أَصْلًا,überhaupt,أ-ص-ل,1513,ʾaṣlan,,,
+بَيْنَمَا,während (Konj.),ب-ي-ن,1514,baynamā,,,
+بِالتَّالِي,folglich,ت-ل-و,1515,bi-t-tālī,,,
+تَمَامًا,völlig / ganz,ت-م-م,1516,tamāman,,,
+حَيْثُ,wo (Rel.-Adv.),ح-ي-ث,1517,ḥayṯu,,,
+خَاصَّةً,besonders,خ-ص-ص,1518,ḫāṣṣatan,,,
+شَدِيدًا,sehr / heftig,ش-د-د,1519,šadīdan,,,
+عَكْسًا,umgekehrt,ع-ك-س,1520,ʿaksan,,,
+عَمَلِيًّا,praktisch,ع-م-ل,1521,ʿamaliyyan,,,
+عُمُومًا,im Allgemeinen,ع-م-م,1522,ʿumūman,,,
+مُؤَقَّتًا,vorübergehend,و-ق-ت,1523,muʾaqqatan,,,
+مُبَاشَرَةً,direkt,ب-ش-ر,1524,mubāšaratan,,,
+نِهَائِيًّا,endgültig,ن-ه-ي,1525,nihāʾiyyan,,,
+إِزَاءَ,gegenüber,أ-ز-ي,1526,ʾizāʾa,,,
+حَوَالَيْ,etwa / zirka,ح-و-ل,1527,ḥawālay,,,
+خِلَالَ,während / im Laufe,خ-ل-ل,1528,ḫilāla,,,
+ضِدَّ,gegen,ض-د-د,1529,ḍidda,,,
+لَدَى,bei / anwesend,ل-د-ي,1530,ladā,,,
+نَحْوَ,in Richtung auf,ن-ح-و,1531,naḥwa,,,
+أَحَاطَ,umgeben,ح-و-ط,1532,ʾaḥāṭa,إِحَاطَةٌ,ʾiḥāṭa,die Umgebung/das Umgeben
+اِطَّلَعَ,Einblick nehmen,ط-ل-ع,1533,iṭṭalaʿa,اِطِّلَاعٌ,iṭṭilāʿ,die Einsicht
+حَارَبَ,bekämpfen,ح-ر-ب,1534,ḥāraba,مُحَارَبَةٌ,muḥāraba,die Bekämpfung
+أَدَارَ,verwalten / leiten,د-و-ر,1535,ʾadāra,إِدَارَةٌ,ʾidāra,die Verwaltung/die Leitung
+فَتَّشَ,durchsuchen / untersuchen,ف-ت-ش,1536,fattaša,تَفْتِيشٌ,taftīš,die Durchsuchung
+تَفَقَّدَ,nachprüfen / inspizieren,ف-ق-د,1537,tafaqqada,تَفَقُّدٌ,tafaqqud,die Nachprüfung/die Inspektion
+رَاقَبَ,überwachen / beobachten,ر-ق-ب,1538,rāqaba,مُرَاقَبَةٌ,murāqaba,die Überwachung
+قَضَى,entscheiden / verbringen,ق-ض-ي,1539,qaḍā,قَضَاءٌ,qaḍāʾ,die Entscheidung
+غَلَبَ,besiegen / überwinden,غ-ل-ب,1540,ġalaba,غَلَبَةٌ,ġalaba,der Sieg/das Besiegen
+جَازَ,überschreiten / passieren,ج-و-ز,1541,ǧāza,مُجَاوَزَةٌ,muǧāwaza,das Überschreiten/das Passieren
+رَافَقَ,begleiten,ر-ف-ق,1542,rāfaqa,مُرَافَقَةٌ,murāfaqa,die Begleitung
+تَشَاوَرَ,sich beraten,ش-و-ر,1543,tašāwara,تَشَاوُرٌ,tašāwur,die Beratung
+أَبْقَى,behalten / übrig lassen,ب-ق-ي,1544,ʾabqā,إِبْقَاءٌ,ʾibqāʾ,das Behalten
+وَكَّلَ,beauftragen,و-ك-ل,1545,wakkala,تَوْكِيلٌ,tawkīl,die Beauftragung
+تَمَكَّنَ,fähig sein / gelingen,م-ك-ن,1546,tamakkana,تَمَكُّنٌ,tamakkun,die Fähigkeit/die Macht
+أَسْقَطَ,fallen lassen,س-ق-ط,1547,ʾasqaṭa,إِسْقَاطٌ,ʾisqāṭ,das Fallenlassen
+أَثْبَتَ,beweisen,ث-ب-ت,1548,ʾaṯbata,إِثْبَاتٌ,ʾiṯbāt,der Beweis/das Feststellen
+أَجْرَى,durchführen,ج-ر-ي,1549,ʾaǧrā,إِجْرَاءٌ,ʾiǧrāʾ,die Durchführung
+اِسْتَقَامَ,gerade sein / richtig sein,ق-و-م,1550,istaqāma,اِسْتِقَامَةٌ,istiqāma,die Geradheit/die Aufrichtigkeit
+تَهَرَّبَ,sich drücken / meiden,ه-ر-ب,1551,taharraba,تَهَرُّبٌ,taharrub,die Flucht/das Ausweichen
+اِنْسَجَمَ,zusammenpassen,س-ج-م,1552,insaǧama,اِنْسِجَامٌ,insiǧām,die Harmonie/die Übereinstimmung
+اِعْتَمَلَ,arbeiten,ع-م-ل,1553,iʿtamala,اِعْتِمَالٌ,iʿtimāl,das Arbeiten
+خَشِيَ,fürchten,خ-ش-ي,1554,ḫašiya,خَشْيَةٌ,ḫašya,die Furcht
+دَامَ,andauern,د-و-م,1555,dāma,دَوَامٌ,dawām,die Dauer
+أَحْسَنَ,gut machen,ح-س-ن,1556,ʾaḥsana,إِحْسَانٌ,ʾiḥsān,das Gutmachen/die Wohltat
+اِنْتَهَجَ,einschlagen (Weg),ن-ه-ج,1557,intahaǧa,اِنْتِهَاجٌ,intihāǧ,das Einschlagen (eines Weges)
+شَغَلَ,besetzen / beschäftigen,ش-غ-ل,1558,šaġala,شُغْلٌ,šuġl,die Beschäftigung
+قَرَّرَ,entscheiden,ق-ر-ر,1559,qarrara,تَقْرِيرٌ,taqrīr,die Entscheidung/der Bericht
+اِرْتَقَى,aufsteigen,ر-ق-ي,1560,irtaqā,اِرْتِقَاءٌ,irtiqāʾ,der Aufstieg
+تَدَفَّقَ,strömen,د-ف-ق,1561,tadaffaqa,تَدَفُّقٌ,tadaffuq,das Strömen
+اِنْسَابَ,fließen / sich ergießen,س-ي-ب,1562,insāba,اِنْسِيَابٌ,insiyāb,das Fließen/das Dahingleiten
+أَقْلَعَ,abheben / starten,ق-ل-ع,1563,ʾaqlaʿa,إِقْلَاعٌ,ʾiqlāʿ,der Abflug/der Start
+رَدَّدَ,wiederholen,ر-د-د,1564,raddada,تَرْدِيدٌ,tardīd,das Wiederholen
+كَرَّرَ,wiederholen,ك-ر-ر,1565,karrara,تَكْرَارٌ,takrār,die Wiederholung
+غَلَى,sieden,غ-ل-ي,1566,ġalā,غَلَيَانٌ,ġalayān,das Sieden
+تَسَاءَلَ,sich fragen,س-أ-ل,1567,tasāʾala,تَسَاؤُلٌ,tasāʾul,das Sich-Fragen
+اِسْتَدَلَّ,folgern / schließen auf,د-ل-ل,1568,istadalla,اِسْتِدْلَالٌ,istidlāl,die Schlussfolgerung
+حَلَّلَ,analysieren,ح-ل-ل,1569,ḥallala,تَحْلِيلٌ,taḥlīl,die Analyse
+حَسَمَ,entscheiden / beenden,ح-س-م,1570,ḥasama,حَسْمٌ,ḥasm,die Entscheidung/das Beenden
+دَمَّرَ,zerstören,د-م-ر,1571,dammara,تَدْمِيرٌ,tadmīr,die Zerstörung
+اِسْتَوْحَى,entnehmen / inspirieren,و-ح-ي,1572,istawḥā,اِسْتِيحَاءٌ,istīḥāʾ,die Entnahme/die Inspiration
+أَخْفَقَ,scheitern,خ-ف-ق,1573,ʾaḫfaqa,إِخْفَاقٌ,ʾiḫfāq,das Scheitern
+تَعَثَّرَ,stolpern,ع-ث-ر,1574,taʿaṯṯara,تَعَثُّرٌ,taʿaṯṯur,das Stolpern
+اِنْهَارَ,zusammenstürzen,ه-و-ر,1575,inhāra,اِنْهِيَارٌ,inhayār,der Zusammenbruch
+اِضْطَرَبَ,schwanken / unruhig sein,ض-ر-ب,1576,iḍṭaraba,اِضْطِرَابٌ,iḍṭirāb,die Unruhe/das Schwanken
+أَوْصَى,vermachen / anempfehlen,و-ص-ي,1577,ʾawṣā,إِيصَاءٌ,ʾīṣāʾ,das Vermachen
+اِعْتَصَمَ,festhalten / Schutz suchen,ع-ص-م,1578,iʿtaṣama,اِعْتِصَامٌ,iʿtiṣām,das Festhalten/das Sich-Klammern
+حَافَظَ,wahren / erhalten,ح-ف-ظ,1579,ḥāfaẓa,مُحَافَظَةٌ,muḥāfaẓa,die Erhaltung/die Wahrung
+هَدَأَ,nachlassen / ruhig werden,ه-د-أ,1580,hadaʾa,هُدُوءٌ,hudūʾ,die Ruhe
+اِنْهَدَمَ,einstürzen,ه-د-م,1581,inhadama,اِنْهِدَامٌ,inhidām,der Einsturz
+حَفَرَ,graben,ح-ف-ر,1582,ḥafara,حَفْرٌ,ḥafr,das Graben
+اِنْحَدَرَ,absteigen / abfallen,ح-د-ر,1583,inḥadara,اِنْحِدَارٌ,inḥidār,der Abstieg
+تَنَاثَرَ,sich zerstreuen,ن-ث-ر,1584,tanāṯara,تَنَاثُرٌ,tanāṯur,die Zerstreuung
+تَفَرَّقَ,auseinandergehen,ف-ر-ق,1585,tafarraqa,تَفَرُّقٌ,tafarruq,das Auseinandergehen
+قَبَضَ,ergreifen / fassen,ق-ب-ض,1586,qabaḍa,قَبْضٌ,qabḍ,die Ergreifung/der Griff
+اِسْتَنْشَقَ,einatmen,ن-ش-ق,1587,istanšaqa,اِسْتِنْشَاقٌ,istinšāq,das Einatmen
+عَطَسَ,niesen,ع-ط-س,1588,ʿaṭasa,عُطَاسٌ,ʿuṭās,das Niesen
+سَعَلَ,husten,س-ع-ل,1589,saʿala,سُعَالٌ,suʿāl,der Husten
+جَرَّ,ziehen,ج-ر-ر,1590,ǧarra,جَرٌّ,ǧarr,das Ziehen
+اِسْتَوْقَظَ,aufwachen,و-ق-ظ,1591,istawqaẓa,اِسْتِيقَاظٌ,istīqāẓ,das Aufwachen
+أَغْلَقَ,schließen,غ-ل-ق,1592,ʾaġlaqa,إِغْلَاقٌ,ʾiġlāq,das Schließen
+تَجَمَّدَ,gefrieren,ج-م-د,1593,taǧammada,تَجَمُّدٌ,taǧammud,das Gefrieren
+اِنْجَمَدَ,erstarren,ج-م-د,1594,inǧamada,اِنْجِمَادٌ,inǧimād,das Erstarren
+تَبَخَّرَ,verdampfen,ب-خ-ر,1595,tabaḫḫara,تَبَخُّرٌ,tabaḫḫur,das Verdampfen
+اِرْتَجَعَ,zurückkehren,ر-ج-ع,1596,irtaǧiʿa,اِرْتِجَاعٌ,irtiǧāʿ,die Rückkehr
+مَزَّقَ,zerreißen,م-ز-ق,1597,mazzaqa,تَمْزِيقٌ,tamzīq,das Zerreißen
+خَرَّبَ,verwüsten,خ-ر-ب,1598,ḫarraba,تَخْرِيبٌ,taḫrīb,die Verwüstung
+شَالَ,hochheben,ش-و-ل,1599,šāla,شَوْلٌ,šawl,das Hochheben
+تَرَدَّى,herabstürzen,ر-د-ي,1600,taraddā,تَرَدٍّ,taraddin,der Absturz
+سَاوَمَ,handeln / feilschen,س-و-م,1601,sāwama,مُسَاوَمَةٌ,musāwama,das Feilschen
+تَتَابَعَ,aufeinanderfolgen,ت-ب-ع,1602,tatābaʿa,تَتَابُعٌ,tatābuʿ,die Aufeinanderfolge
+شَقَّ,spalten,ش-ق-ق,1603,šaqqa,شَقٌّ,šaqq,das Spalten
+عَزَّزَ,stärken,ع-ز-ز,1604,ʿazzaza,تَعْزِيزٌ,taʿzīz,die Stärkung
+وَسَّعَ,erweitern,و-س-ع,1605,wassaʿa,تَوْسِيعٌ,tawsīʿ,die Erweiterung
+تَخَلَّى,verzichten auf,خ-ل-و,1606,taḫallā,تَخَلٍّ,taḫallin,das Verzichten
+اِسْتَهْدَفَ,anstreben / zielen,ه-د-ف,1607,istahdafa,اِسْتِهْدَافٌ,istihdāf,das Anstreben/die Zielsetzung
+تَوَاصَلَ,kontinuieren,و-ص-ل,1608,tawāṣala,تَوَاصُلٌ,tawāṣul,die Kontinuität/die Kommunikation
+وَاصَلَ,fortsetzen,و-ص-ل,1609,wāṣala,مُوَاصَلَةٌ,muwāṣala,die Fortsetzung
+كَفَّ,aufhören / abhalten,ك-ف-ف,1610,kaffa,كَفٌّ,kaff,das Aufhören/das Abhalten
+اِسْتَغْنَى,verzichten können auf,غ-ن-ي,1611,istaġnā,اِسْتِغْنَاءٌ,istiġnāʾ,das Verzichten-können
+اِسْتَعْرَضَ,vorführen / begutachten,ع-ر-ض,1612,istaʿraḍa,اِسْتِعْرَاضٌ,istiʿrāḍ,die Vorführung/die Begutachtung
+وَظَّفَ,anstellen / einsetzen,و-ظ-ف,1613,waẓẓafa,تَوْظِيفٌ,tawẓīf,die Anstellung
+حَضَّ,antreiben,ح-ض-ض,1614,ḥaḍḍa,تَحْضِيضٌ,taḥḍīḍ,der Antrieb
+حَثَّ,antreiben,ح-ث-ث,1615,ḥaṯṯa,حَثٌّ,ḥaṯṯ,der Antrieb
+شَيَّدَ,errichten,ش-ي-د,1616,šayyada,تَشْيِيدٌ,tašyīd,die Errichtung
+اِلْتَمَسَ,ersuchen,ل-م-س,1617,iltamasa,اِلْتِمَاسٌ,iltimās,das Ersuchen/die Bitte
+اِسْتَأْذَنَ,um Erlaubnis bitten,أ-ذ-ن,1618,istaʾḏana,اِسْتِئْذَانٌ,istiʾḏān,das Bitten um Erlaubnis
+أَجَازَ,genehmigen,ج-و-ز,1619,ʾaǧāza,إِجَازَةٌ,ʾiǧāza,die Genehmigung
+رَخَّصَ,lizenzieren,ر-خ-ص,1620,raḫḫaṣa,تَرْخِيصٌ,tarḫīṣ,die Lizenzierung
+أَبَاحَ,freigeben,ب-و-ح,1621,ʾabāḥa,إِبَاحَةٌ,ʾibāḥa,die Freigabe
+أَوْجَبَ,erforderlich machen,و-ج-ب,1622,ʾawǧaba,إِيجَابٌ,ʾīǧāb,das Erforderlichmachen
+لَزِمَ,notwendig sein,ل-ز-م,1623,lazima,لُزُومٌ,luzūm,die Notwendigkeit
+اِسْتَوْجَبَ,verdienen / erfordern,و-ج-ب,1624,istawǧaba,اِسْتِيجَابٌ,istīǧāb,das Verdienen/das Erfordern
+اِسْتَبْعَدَ,ablehnen / für unwahrscheinlich halten,ب-ع-د,1625,istabʿada,اِسْتِبْعَادٌ,istibʿād,die Ablehnung/das Fernhalten
+أَنْكَرَ,leugnen / bestreiten,ن-ك-ر,1626,ʾankara,إِنْكَارٌ,ʾinkār,die Verleugnung
+جَحَدَ,ableugnen,ج-ح-د,1627,ǧaḥada,جُحُودٌ,ǧuḥūd,die Verleugnung
+بَرَّرَ,rechtfertigen,ب-ر-ر,1628,barrara,تَبْرِيرٌ,tabrīr,die Rechtfertigung
+عَذَرَ,entschuldigen,ع-ذ-ر,1629,ʿaḏara,عُذْرٌ,ʿuḏr,die Entschuldigung
+سَامَحَ,verzeihen,س-م-ح,1630,sāmaḥa,مُسَامَحَةٌ,musāmaḥa,die Verzeihung
+تَصَالَحَ,sich versöhnen,ص-ل-ح,1631,taṣālaḥa,تَصَالُحٌ,taṣāluḥ,die Versöhnung
+اِسْتَوْدَعَ,hinterlegen,و-د-ع,1632,istawdaʿa,اِسْتِيدَاعٌ,istīdāʿ,das Hinterlegen
+اِسْتَقَلَّ,unabhängig machen,ق-ل-ل,1633,istaqalla,اِسْتِقْلَالٌ,istiqlāl,die Unabhängigkeit
+أَسَّسَ,gründen,أ-س-س,1634,ʾassasa,تَأْسِيسٌ,taʾsīs,die Gründung
+ثَبَّتَ,befestigen,ث-ب-ت,1635,ṯabbata,تَثْبِيتٌ,taṯbīt,die Befestigung
+أَقَرَّ,bestätigen,ق-ر-ر,1636,ʾaqarra,إِقْرَارٌ,ʾiqrār,die Bestätigung/das Eingeständnis
+وَثَّقَ,belegen / dokumentieren,و-ث-ق,1637,waṯṯaqa,تَوْثِيقٌ,tawṯīq,die Beurkundung/die Dokumentation
+صَنَّفَ,einteilen / klassifizieren,ص-ن-ف,1638,ṣannafa,تَصْنِيفٌ,taṣnīf,die Klassifizierung
+اِبْتَكَرَ,neu schaffen,ب-ك-ر,1639,ibtakara,اِبْتِكَارٌ,ibtikār,die Neuschöpfung/die Innovation
+طَوَّرَ,entwickeln,ط-و-ر,1640,ṭawwara,تَطْوِيرٌ,taṭwīr,die Entwicklung
+ضَبَطَ,kontrollieren / regulieren,ض-ب-ط,1641,ḍabaṭa,ضَبْطٌ,ḍabṭ,die Kontrolle/die Regulierung
+صَحَّحَ,korrigieren,ص-ح-ح,1642,ṣaḥḥaḥa,تَصْحِيحٌ,taṣḥīḥ,die Korrektur
+اِنْحَرَفَ,abweichen,ح-ر-ف,1643,inḥarafa,اِنْحِرَافٌ,inḥirāf,die Abweichung
+رَوَى,überliefern / erzählen,ر-و-ي,1644,rawā,رِوَايَةٌ,riwāya,die Überlieferung/die Erzählung
+حَاوَرَ,dialogisieren / sprechen,ح-و-ر,1645,ḥāwara,مُحَاوَرَةٌ,muḥāwara,der Dialog
+فَاوَضَ,verhandeln,ف-و-ض,1646,fāwaḍa,مُفَاوَضَةٌ,mufāwaḍa,die Verhandlung
+بَادَلَ,tauschen,ب-د-ل,1647,bādala,مُبَادَلَةٌ,mubādala,der Tausch
+اِلْتَقَى,sich treffen,ل-ق-ي,1648,iltaqā,اِلْتِقَاءٌ,iltiqāʾ,die Begegnung
+تَعَارَفَ,sich kennenlernen,ع-ر-ف,1649,taʿārafa,تَعَارُفٌ,taʿāruf,das Sich-Kennenlernen
+تَعَرَّفَ,kennenlernen,ع-ر-ف,1650,taʿarrafa,تَعَرُّفٌ,taʿarruf,das Kennenlernen
+دَقَّقَ,nachprüfen,د-ق-ق,1651,daqqaqa,تَدْقِيقٌ,tadqīq,die Nachprüfung
+فَحَصَ,untersuchen,ف-ح-ص,1652,faḥaṣa,فَحْصٌ,faḥṣ,die Untersuchung
+اِدَّعَى,behaupten,د-ع-و,1653,iddaʿā,اِدِّعَاءٌ,iddiʿāʾ,die Behauptung
+أَقْسَمَ,schwören,ق-س-م,1654,ʾaqsama,قَسَمٌ,qasam,der Schwur
+حَلَفَ,schwören,ح-ل-ف,1655,ḥalafa,حَلْفٌ,ḥalf,das Schwören
+نَفَّذَ,umsetzen / ausführen,ن-ف-ذ,1656,naffaḏa,تَنْفِيذٌ,tanfīḏ,die Umsetzung/die Ausführung
+بَالَغَ,übertreiben,ب-ل-غ,1657,bālaġa,مُبَالَغَةٌ,mubālaġa,die Übertreibung
+حَيَّا,grüßen,ح-ي-ي,1658,ḥayyā,تَحِيَّةٌ,taḥiyya,der Gruß
+رَحَّبَ,willkommen heißen,ر-ح-ب,1659,raḥḥaba,تَرْحِيبٌ,tarḥīb,der Willkommensgruß/das Willkommenheißen
+ضَغَطَ,drücken / pressen,ض-غ-ط,1660,ḍaġaṭa,ضَغْطٌ,ḍaġṭ,der Druck
+عَلِقَ,hängen bleiben,ع-ل-ق,1661,ʿaliqa,تَعَلُّقٌ,taʿalluq,das Hängenbleiben/die Anhänglichkeit
+خَبَأَ,verstecken,خ-ب-أ,1662,ḫabaʾa,خَبْءٌ,ḫabʾ,das Verstecken
+سَكَبَ,gießen,س-ك-ب,1663,sakaba,سَكْبٌ,sakb,das Gießen
+صَبَّ,gießen,ص-ب-ب,1664,ṣabba,صَبٌّ,ṣabb,das Gießen
+شَاوَرَ,sich beraten mit,ش-و-ر,1665,šāwara,مُشَاوَرَةٌ,mušāwara,die Beratung
+اِبْتَلَعَ,schlucken,ب-ل-ع,1666,ibtalaʿa,اِبْتِلَاعٌ,ibtilāʿ,das Schlucken
+أَحْصَى,zählen,ح-ص-ي,1667,ʾaḥṣā,إِحْصَاءٌ,ʾiḥṣāʾ,das Zählen/die Erfassung
+جَهَّزَ,ausrüsten,ج-ه-ز,1668,ǧahhaza,تَجْهِيزٌ,taǧhīz,die Ausrüstung/die Vorbereitung
+اِجْتَنَبَ,vermeiden,ج-ن-ب,1669,iǧtanaba,اِجْتِنَابٌ,iǧtināb,die Vermeidung
+تَوَقَّى,verhüten / sich hüten vor,و-ق-ي,1670,tawaqqā,تَوَقٍّ,tawaqqin,die Verhütung/die Vorsicht
+اِتَّقَى,sich hüten,و-ق-ي,1671,ittaqā,اِتِّقَاءٌ,ittiqāʾ,das Sich-Hüten
+نَبَّهَ,warnen / erinnern,ن-ب-ه,1672,nabbaha,تَنْبِيهٌ,tanbīh,die Warnung/die Ermahnung
+أَنْذَرَ,warnen,ن-ذ-ر,1673,ʾanḏara,إِنْذَارٌ,ʾinḏār,die Warnung
+خَاطَرَ,riskieren,خ-ط-ر,1674,ḫāṭara,مُخَاطَرَةٌ,muḫāṭara,das Risiko/die Gefahr
+أَطْلَقَ,abfeuern / loslassen,ط-ل-ق,1675,ʾaṭlaqa,إِطْلَاقٌ,ʾiṭlāq,das Loslassen/das Abfeuern
+أَقْرَضَ,leihen,ق-ر-ض,1676,ʾaqraḍa,إِقْرَاضٌ,ʾiqrāḍ,das Leihen
+اِسْتَدَانَ,Geld leihen,د-ي-ن,1677,istadāna,اِسْتِدَانَةٌ,istidāna,das Geld-Leihen
+وَفَّى,erfüllen,و-ف-ي,1678,waffā,تَوْفِيَةٌ,tawfiya,die Erfüllung
+أَوْفَى,erfüllen / einhalten,و-ف-ي,1679,ʾawfā,إِيفَاءٌ,ʾīfāʾ,die Erfüllung/die Einlösung
+اِنْدَفَعَ,losstürzen,د-ف-ع,1680,indafaʿa,اِنْدِفَاعٌ,indifāʿ,das Losstürzen/der Schwung
+سَهِرَ,nachtwach sein,س-ه-ر,1681,sahira,سَهَرٌ,sahar,das Nachtwachen
+اِنْغَلَقَ,sich schließen,غ-ل-ق,1682,inġalaqa,اِنْغِلَاقٌ,inġilāq,das Sich-Schließen
+أَقْفَلَ,abschließen,ق-ف-ل,1683,ʾaqfala,إِقْفَالٌ,ʾiqfāl,das Abschließen
+أَوَى,Unterschlupf finden,أ-و-ي,1684,ʾawā,إِيَاءٌ,ʾīyāʾ,das Zufluchtsuchen
+ضَاعَفَ,verdoppeln,ض-ع-ف,1685,ḍāʿafa,مُضَاعَفَةٌ,muḍāʿafa,die Verdoppelung
+ضَعُفَ,schwach werden,ض-ع-ف,1686,ḍaʿufa,ضَعْفٌ,ḍaʿf,die Schwäche
+اِنْطَفَأَ,erlöschen,ط-ف-أ,1687,inṭafaʾa,اِنْطِفَاءٌ,inṭifāʾ,das Erlöschen
+أَطْفَأَ,auslöschen,ط-ف-أ,1688,ʾaṭfaʾa,إِطْفَاءٌ,ʾiṭfāʾ,das Auslöschen
+أَشْعَلَ,anzünden,ش-ع-ل,1689,ʾašʿala,إِشْعَالٌ,ʾišʿāl,das Anzünden
+اِشْتَعَلَ,brennen,ش-ع-ل,1690,ištaʿala,اِشْتِعَالٌ,ištiʿāl,das Brennen/der Brand
+تَدَفَّأَ,sich wärmen,د-ف-أ,1691,tadaffaʾa,تَدَفُّؤٌ,tadaffuʾ,das Sich-Wärmen
+اِسْتَظَلَّ,Schatten finden,ظ-ل-ل,1692,istaẓalla,اِسْتِظْلَالٌ,istiẓlāl,das Schatten-Suchen
+زَلَّ,ausrutschen,ز-ل-ل,1693,zalla,زَلَلٌ,zalal,das Ausrutschen
+اِنْزَلَقَ,ausrutschen,ز-ل-ق,1694,inzalaqa,اِنْزِلَاقٌ,inzilāq,das Ausrutschen
+عَثَرَ,stolpern / finden,ع-ث-ر,1695,ʿaṯara,عَثْرَةٌ,ʿaṯra,das Stolpern
+اِتَّضَحَ,klar werden,و-ض-ح,1696,ittaḍaḥa,اِتِّضَاحٌ,ittiḍāḥ,die Klarheit/das Klarwerden
+صَوَّرَ,abbilden,ص-و-ر,1697,ṣawwara,تَصْوِيرٌ,taṣwīr,das Abbilden/die Fotografie
+تَفَاءَلَ,optimistisch sein,ف-أ-ل,1698,tafāʾala,تَفَاؤُلٌ,tafāʾul,der Optimismus
+تَشَاءَمَ,pessimistisch sein,ش-أ-م,1699,tašāʾama,تَشَاؤُمٌ,tašāʾum,der Pessimismus
+اِشْتَاقَ,sich sehnen,ش-و-ق,1700,ištāqa,اِشْتِيَاقٌ,ištiyāq,die Sehnsucht

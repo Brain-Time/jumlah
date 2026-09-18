@@ -14,7 +14,7 @@ void main() {
         .map((entry) => Word.fromJson(entry as Map<String, dynamic>))
         .toList();
 
-    expect(words, hasLength(1300));
+    expect(words, hasLength(1700));
     expect(words.first.id, 1);
     expect(words.first.arabic, 'كَتَبَ');
     expect(words.first.group, 'A1');
@@ -25,7 +25,7 @@ void main() {
     expect(words, everyElement(predicate<Word>((w) => w.transliteration.isNotEmpty)));
     expect(
       words.where((w) => w.masdar.isNotEmpty),
-      hasLength(404),
+      hasLength(657),
       reason: 'Masdar ist nur bei Verben gesetzt, nicht bei Nomen/Adjektiven/Partikeln',
     );
 
@@ -44,7 +44,7 @@ void main() {
         .map((entry) => WordRoot.fromJson(entry as Map<String, dynamic>))
         .toList();
 
-    expect(roots, hasLength(822));
+    expect(roots, hasLength(985));
 
     final aminRoot = roots.firstWhere((r) => r.root == 'أ-م-ن');
     expect(aminRoot.relatedWordIds, containsAll([14, 39]));
@@ -57,7 +57,7 @@ void main() {
         .map((entry) => Sentence.fromJson(entry as Map<String, dynamic>))
         .toList();
 
-    expect(sentences, hasLength(3900));
+    expect(sentences, hasLength(5100));
     expect(sentences.first.wordId, 1);
     expect(sentences.first.wordAnalysis, isNotEmpty);
     expect(sentences.first.targetIndex, 0);
@@ -77,7 +77,7 @@ void main() {
         reason: 'targetIndex außerhalb von word_analysis für word_id ${s.wordId}',
       );
     }
-    expect(byWord.keys, hasLength(1300));
+    expect(byWord.keys, hasLength(1700));
     expect(byWord.values, everyElement(3));
 
     // Der einzige Satz mit vorangestelltem Negationspartikel ("مَا") hat
