@@ -19,6 +19,16 @@ import sys
 import unicodedata
 from pathlib import Path
 
+# B1 Daten-Aufnahme Etappe 1 (Ränge 1001–1300, 300 Wörter): die Sätze liegen
+# redaktionell in scripts/b1_sentences_etappe1.py (bewusst als eigenes Modul,
+# damit die riesige SENTENCES-Datei handhabbar bleibt) und werden hier an die
+# Bestands-Listen angehängt, damit Validierung + Export unverändert laufen.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from b1_sentences_etappe1 import (  # noqa: E402
+    B1_SENTENCES_ETAPPE1,
+    B1_TRANSLITERATIONS_ETAPPE1,
+)
+
 ARABIC_CHAR_RE = re.compile(r"^[؀-ۿ\s.:،؟!]+$")
 HARAKAT_RE = re.compile(r"[ً-ْٰ]")
 FORBIDDEN_ALLAH_TRANSLATION_RE = re.compile(r"\bgott(es)?\b", re.IGNORECASE)
@@ -11030,6 +11040,11 @@ SENTENCE_TRANSLITERATIONS: list[str] = [
     'Al-ḫaṭṭu mustaqīmun fī ad-daftari.',
     'Nasīru fī ṭarīqin mustaqīmin.',
 ]
+
+# B1 Etappe 1 (Ränge 1001–1300): Sätze + Transliterationen anhängen, damit
+# die Pipeline die 900 neuen Sätze in denselben Prüfungen validiert.
+SENTENCES.extend(B1_SENTENCES_ETAPPE1)
+SENTENCE_TRANSLITERATIONS.extend(B1_TRANSLITERATIONS_ETAPPE1)
 
 
 def parse_args(argv=None) -> argparse.Namespace:
