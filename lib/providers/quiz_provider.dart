@@ -781,6 +781,8 @@ class QuizNotifier extends Notifier<QuizState> {
         return _lessonFortyNineStory;
       case 49:
         return _lessonFiftyStory;
+      case 100:
+        return _lessonHundredOneStory;
     }
     return null;
   }
@@ -864,6 +866,7 @@ class QuizNotifier extends Notifier<QuizState> {
       _lessonFortyEightStory,
       _lessonFortyNineStory,
       _lessonFiftyStory,
+      _lessonHundredOneStory,
     ];
     for (final story in stories) {
       if (story.every((s) => batchIds.contains(s.wordId))) {
@@ -5300,5 +5303,92 @@ final List<Sentence> _lessonFiftyStory = [
     transliteration: 'Al-baḥru sākinun al-yawma.',
     wordAnalysis: [],
     targetIndex: 1,
+  ),
+];
+/// Die eigenständige Kurzgeschichte der Geschichten-Stufe
+/// ([QuizStage.story]) der Lektion 101 (word_ids 1001–1010): eine kompakte,
+/// zusammenhängende Erzählung — „Die gescheiterte Expedition“. Ein Mann
+/// beschliesst eine Seereise, bereitet alles vor, doch die Expedition endet
+/// tragisch. Jeder Satz verwendet genau eines der zehn gelernten Verben.
+final List<Sentence> _lessonHundredOneStory = [
+  Sentence(
+    wordId: 1003,
+    arabic: 'عَزَمَ الرَّجُلُ عَلَى رِحْلَةٍ بَحْرِيَّةٍ.',
+    german: 'Der Mann beschloss eine Seereise.',
+    transliteration: 'ʿAzama ar-raǧulu ʿalā riḥlatin baḥriyyatin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1008,
+    arabic: 'أَعَدَّ الرَّجُلُ السَّفِينَةَ لِلرِّحْلَةِ.',
+    german: 'Der Mann bereitete das Schiff für die Reise vor.',
+    transliteration: 'ʾAʿadda ar-raǧulu as-safīnata lir-riḥlati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1004,
+    arabic: 'رَغِبَ الرَّجُلُ فِي السَّفَرِ إِلَى جَزِيرَةٍ.',
+    german: 'Der Mann wünschte, zu einer Insel zu reisen.',
+    transliteration: 'Raġiba ar-raǧulu fī as-safari ʾilā ǧazīratin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1002,
+    arabic: 'عَرَضَ الرَّجُلُ خِطَّتَهُ عَلَى الْأَصْدِقَاءِ.',
+    german: 'Der Mann zeigte den Freunden seinen Plan.',
+    transliteration: 'ʿAraḍa ar-raǧulu ḫiṭṭatahū ʿalā al-ʾaṣdiqāʾi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1010,
+    arabic: 'اِخْتَلَفَ الْأَصْدِقَاءُ فِي الرَّأْيِ حَوْلَ الرِّحْلَةِ.',
+    german: 'Die Freunde waren unterschiedlicher Meinung über die Reise.',
+    transliteration: 'Iḫtalafa al-ʾaṣdiqāʾu fī ar-raʾyi ḥawla ar-riḥlati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1009,
+    arabic: 'سَمَحَ الْأَبُ لِابْنِهِ بِالذَّهَابِ.',
+    german: 'Der Vater erlaubte seinem Sohn zu gehen.',
+    transliteration: 'Samaḥa al-ʾabu li-ibnihī bi-aḏ-ḏahābi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1001,
+    arabic: 'حَاوَلَ الرَّجُلُ أَنْ يُبْحِرَ فِي الْبَحْرِ.',
+    german: 'Der Mann versuchte, im Meer zu segeln.',
+    transliteration: 'Ḥāwala ar-raǧulu ʾan yubḥira fī al-baḥri.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1005,
+    arabic: 'اِنْفَجَرَتِ السَّفِينَةُ فِي وَسَطِ الْبَحْرِ.',
+    german: 'Das Schiff explodierte mitten im Meer.',
+    transliteration: 'Infaǧarati as-safīnatu fī wasaṭi al-baḥri.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1006,
+    arabic: 'غَرِقَ الرَّجُلُ فِي الْبَحْرِ الْعَمِيقِ.',
+    german: 'Der Mann ertrank im tiefen Meer.',
+    transliteration: 'Ġariqa ar-raǧulu fī al-baḥri al-ʿamīqi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1007,
+    arabic: 'أَدَّى الْأَبُ أَمَانَتَهُ بِصَبْرٍ.',
+    german: 'Der Vater erfüllte seine Pflicht mit Geduld.',
+    transliteration: 'ʾAddā al-ʾabu ʾamānatahū bi-ṣabrin.',
+    wordAnalysis: [],
+    targetIndex: 0,
   ),
 ];

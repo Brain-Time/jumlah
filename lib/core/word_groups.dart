@@ -163,7 +163,6 @@ const List<WordLevelInfo> allLevels = [
     label: 'Häufig',
     wordCount: 1000,
     lessonsPerLevel: 100,
-    planned: true,
   ),
   WordLevelInfo(
     group: 'B2',
