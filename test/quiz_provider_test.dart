@@ -631,7 +631,7 @@ test('Geschichte der Lektion ist eigenständig und kompakt (nicht kumulativ)',
       }
     }
   });
-test('Geschichte der Lektion 101 ist eigenständig und kompakt (nicht kumulativ)',
+test('Geschichte der B1-Lektionen 101-103 ist eigenstandig und kompakt (nicht kumulativ)',
       () {
     Word w(int id) => Word(
       id: id,
@@ -643,55 +643,57 @@ test('Geschichte der Lektion 101 ist eigenständig und kompakt (nicht kumulativ)
       transliteration: 'wort',
     );
 
-    const lesson = 101;
-    const lo = 1001;
-    const hi = 1010;
-    final batch = [for (var id = lo; id <= hi; id++) w(id)];
-    final storyPool = [for (var id = lo; id <= hi; id++) w(id)];
-    final sentences = {
-      for (final word in batch)
-        word.id: [
-          Sentence(
-            wordId: word.id,
-            arabic: 'satz_${word.id}',
-            german: 'Satz Deutsch ${word.id}',
-            transliteration: 'satz',
-            wordAnalysis: const [],
-            targetIndex: 0,
-          ),
-        ],
-    };
+    for (var lesson = 101; lesson <= 103; lesson++) {
+      final batchIndex = lesson - 1;
+      final wordLo = 1000 + (lesson - 100) * 10 - 9;
+      final wordHi = wordLo + 9;
+      final batch = [for (var id = wordLo; id <= wordHi; id++) w(id)];
+      final storyPool = [for (var id = wordLo; id <= wordHi; id++) w(id)];
+      final sentences = {
+        for (final word in batch)
+          word.id: [
+            Sentence(
+              wordId: word.id,
+              arabic: 'satz_${word.id}',
+              german: 'Satz Deutsch ${word.id}',
+              transliteration: 'satz',
+              wordAnalysis: const [],
+              targetIndex: 0,
+            ),
+          ],
+      };
 
-    final container = ProviderContainer();
-    addTearDown(container.dispose);
-    final notifier = container.read(quizProvider.notifier);
-    notifier.startQuiz(batch,
-        sentencesByWordId: sentences,
-        storyWords: storyPool,
-        batchIndex: 100);
+      final container = ProviderContainer();
+      addTearDown(container.dispose);
+      final notifier = container.read(quizProvider.notifier);
+      notifier.startQuiz(batch,
+          sentencesByWordId: sentences,
+          storyWords: storyPool,
+          batchIndex: batchIndex);
 
-    var guard = 0;
-    while (!container.read(quizProvider).isFinished && guard < 300) {
-      guard++;
-      final question = container.read(quizProvider).currentQuestion;
-      if (question == null) {
+      var guard = 0;
+      while (!container.read(quizProvider).isFinished && guard < 300) {
+        guard++;
+        final question = container.read(quizProvider).currentQuestion;
+        if (question == null) {
+          notifier.nextQuestion();
+          continue;
+        }
+        notifier.submitAnswer(question.correctAnswer);
         notifier.nextQuestion();
-        continue;
       }
-      notifier.submitAnswer(question.correctAnswer);
-      notifier.nextQuestion();
-    }
 
-    final state = container.read(quizProvider);
-    expect(state.storySentences, hasLength(10),
-        reason: 'Lektion $lesson: Geschichte soll nicht kumulativ wachsen.');
-    final ids = state.storySentences.map((s) => s.wordId).toSet();
-    expect(ids, hasLength(10));
-    expect(ids, containsAll([for (var id = lo; id <= hi; id++) id]),
-        reason: 'Lektion $lesson: enthaelt die Wörter der Lektion');
-    for (final id in ids) {
-      expect(id >= lo && id <= hi, isTrue,
-          reason: 'Lektion $lesson: Geschichte ist nicht kumulativ.');
+      final state = container.read(quizProvider);
+      expect(state.storySentences, hasLength(10),
+          reason: 'Lektion $lesson: Geschichte soll nicht kumulativ wachsen.');
+      final ids = state.storySentences.map((s) => s.wordId).toSet();
+      expect(ids, hasLength(10));
+      expect(ids, containsAll([for (var id = wordLo; id <= wordHi; id++) id]),
+          reason: 'Lektion $lesson: enthaelt die Woerter der Lektion');
+      for (final id in ids) {
+        expect(id >= wordLo && id <= wordHi, isTrue,
+            reason: 'Lektion $lesson: Geschichte ist nicht kumulativ.');
+      }
     }
   });
 }

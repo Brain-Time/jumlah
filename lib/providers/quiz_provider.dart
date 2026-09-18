@@ -783,6 +783,10 @@ class QuizNotifier extends Notifier<QuizState> {
         return _lessonFiftyStory;
       case 100:
         return _lessonHundredOneStory;
+      case 101:
+        return _lessonHundredTwoStory;
+      case 102:
+        return _lessonHundredThreeStory;
     }
     return null;
   }
@@ -867,6 +871,8 @@ class QuizNotifier extends Notifier<QuizState> {
       _lessonFortyNineStory,
       _lessonFiftyStory,
       _lessonHundredOneStory,
+      _lessonHundredTwoStory,
+      _lessonHundredThreeStory,
     ];
     for (final story in stories) {
       if (story.every((s) => batchIds.contains(s.wordId))) {
@@ -5388,6 +5394,177 @@ final List<Sentence> _lessonHundredOneStory = [
     arabic: 'أَدَّى الْأَبُ أَمَانَتَهُ بِصَبْرٍ.',
     german: 'Der Vater erfüllte seine Pflicht mit Geduld.',
     transliteration: 'ʾAddā al-ʾabu ʾamānatahū bi-ṣabrin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+/// Lektion 102 (word_ids 1011–1020): „Der Geschäftswettbewerb".
+/// Ein Student beginnt ein Geschäftsprojekt, Freunde machen mit, am Ende
+/// profitieren alle. Jeder Satz verwendet genau eines der zehn gelernten Verben.
+final List<Sentence> _lessonHundredTwoStory = [
+  Sentence(
+    wordId: 1014,
+    arabic: 'اِبْتَدَأَ الطَّالِبُ مَشْرُوعًا تِجَارِيًّا.',
+    german: 'Der Student begann ein Geschäftsprojekt.',
+    transliteration: 'Ibtadaʾa aṭ-ṭālibu mašrūʿan tiǧāriyyan.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1016,
+    arabic: 'اِقْتَرَحَ الطَّالِبُ فِكْرَتَهُ عَلَى الْأَصْدِقَاءِ.',
+    german: 'Der Student schlug seine Idee den Freunden vor.',
+    transliteration: 'Iqtaraḥa aṭ-ṭālibu fikratahū ʿalā al-ʾaṣdiqāʾi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1017,
+    arabic: 'شَارَكَ الْأَصْدِقَاءُ فِي الْمَشْرُوعِ الْجَدِيدِ.',
+    german: 'Die Freunde nahmen am neuen Projekt teil.',
+    transliteration: 'Šāraka al-ʾaṣdiqāʾu fī al-mašrūʿi al-ǧadīdi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1018,
+    arabic: 'أَضَافَ الْأَصْدِقَاءُ أَفْكَارًا جَدِيدَةً لِلْمَشْرُوعِ.',
+    german: 'Die Freunde fügten neue Ideen für das Projekt hinzu.',
+    transliteration: 'ʾAḍāfa al-ʾaṣdiqāʾu ʾafkāran ǧadīdatan lil-mašrūʿi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1011,
+    arabic: 'صَرَفَ الطَّالِبُ الْمَالَ عَلَى الْمَشْرُوعِ.',
+    german: 'Der Student gab das Geld für das Projekt aus.',
+    transliteration: 'Ṣarafa aṭ-ṭālibu al-māla ʿalā al-mašrūʿi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1015,
+    arabic: 'أَعْلَنَ الطَّالِبُ بَدْءَ الْعَمَلِ فِي الْمَشْرُوعِ.',
+    german: 'Der Student kündigte den Beginn der Arbeit am Projekt an.',
+    transliteration: 'ʾAʿlana aṭ-ṭālibu badʾa al-ʿamali fī al-mašrūʿi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1012,
+    arabic: 'شَاهَدَ النَّاسُ الْمَشْرُوعَ الْجَمِيلَ.',
+    german: 'Die Leute sahen das schöne Projekt.',
+    transliteration: 'Šāhada an-nāsu al-mašrūʿa al-ǧamīla.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1013,
+    arabic: 'اِعْتَرَفَ الطَّالِبُ بِفَضْلِ أَصْدِقَائِهِ.',
+    german: 'Der Student gab das Verdienst seiner Freunde zu.',
+    transliteration: 'Iʿtarafa aṭ-ṭālibu bi-faḍli ʾaṣdiqāʾihī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1019,
+    arabic: 'اِسْتَفَادَ الْجَمِيعُ مِنَ الْمَشْرُوعِ النَّاجِحِ.',
+    german: 'Alle profitierten von dem erfolgreichen Projekt.',
+    transliteration: 'Istatāda al-ǧamīʿu mina al-mašrūʿi an-nāǧiḥi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1020,
+    arabic: 'هَبَطَتِ الْأَسْعَارُ فِي السُّوقِ بِسَبَبِ الْمَشْرُوعِ.',
+    german: 'Die Preise sanken auf dem Markt wegen des Projekts.',
+    transliteration: 'Habaṭati al-ʾasʿāru fī as-sūqi bisababi al-mašrūʿi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 103 (word_ids 1021–1030): „Die Dürre im Dorf".
+/// Nach einer Dürre trocknet alles aus, doch mit Regen füllt sich das
+/// Leben wieder. Jeder Satz verwendet genau eines der zehn gelernten Verben.
+final List<Sentence> _lessonHundredThreeStory = [
+  Sentence(
+    wordId: 1021,
+    arabic: 'يَبِسَتِ الْأَرْضُ بَعْدَ الْجَفَافِ الطَّوِيلِ.',
+    german: 'Die Erde trocknete nach der langen Dürre aus.',
+    transliteration: 'Yabisati al-ʾarḍu baʿda al-ǧafāfi aṭ-ṭawīli.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1022,
+    arabic: 'اِمْتَلَأَتِ السُّوقُ بِالنَّاسِ بَعْدَ الْمَطَرِ.',
+    german: 'Der Markt füllte sich nach dem Regen mit Menschen.',
+    transliteration: 'Imtalaʾati as-sūqu bi-n-nāsi baʿda al-maṭari.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1023,
+    arabic: 'اِسْتَحَقَّ الْفَلَّاحُ الْمَدْحَ بِعَمَلِهِ.',
+    german: 'Der Bauer verdiente das Lob für seine Arbeit.',
+    transliteration: 'Istaḥaqqa al-fallāḥu al-madḥa bi-ʿamalihī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1024,
+    arabic: 'اِنْقَطَعَ الْحَبْلُ فِي وَسَطِ الْبِئْرِ.',
+    german: 'Das Seil riss mitten am Brunnen ab.',
+    transliteration: 'Inqaṭaʿa al-ḥablu fī wasaṭi al-biʾri.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1025,
+    arabic: 'تَغَيَّرَ الْجَوُّ بَعْدَ أَيَّامٍ قَلِيلَةٍ.',
+    german: 'Das Wetter änderte sich nach wenigen Tagen.',
+    transliteration: 'Taġayyara al-ǧawwu baʿda ʾayyāmin qalīlatin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1026,
+    arabic: 'رَفَضَ الْفَلَّاحُ الِاسْتِسْلَامَ لِلْجَفَافِ.',
+    german: 'Der Bauer lehnte es ab, sich der Dürre zu ergeben.',
+    transliteration: 'Rafaḍa al-fallāḥu al-istislāma lil-ǧafāfi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1027,
+    arabic: 'اِنْكَسَرَ الْإِنَاءُ فِي الْبِئْرِ الْعَمِيقَةِ.',
+    german: 'Das Gefäß zerbrach im tiefen Brunnen.',
+    transliteration: 'Inkasara al-ʾināʾu fī al-biʾri al-ʿamīqati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1028,
+    arabic: 'اِعْتَنَى الْفَلَّاحُ بِأَرْضِهِ بِصَبْرٍ كَبِيرٍ.',
+    german: 'Der Bauer kümmerte sich mit großer Geduld um sein Land.',
+    transliteration: 'Iʿtanā al-fallāḥu bi-ʾarḍihī bi-ṣabrin kabīrin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1029,
+    arabic: 'هَدَّدَ الْجَفَافُ الْحَيَاةَ فِي الْقَرْيَةِ.',
+    german: 'Die Dürre bedrohte das Leben im Dorf.',
+    transliteration: 'Haddada al-ǧafāfu al-ḥayāta fī al-qaryati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1030,
+    arabic: 'أَنْجَزَ الْفَلَّاحُ الْعَمَلَ قَبْلَ الْمَطَرِ.',
+    german: 'Der Bauer erledigte die Arbeit vor dem Regen.',
+    transliteration: 'ʾAnǧaza al-fallāḥu al-ʿamala qabla al-maṭari.',
     wordAnalysis: [],
     targetIndex: 0,
   ),
