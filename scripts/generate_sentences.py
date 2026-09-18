@@ -33,6 +33,10 @@ from b1_sentences_etappe2 import (  # noqa: E402
     B1_SENTENCES_ETAPPE2,
     B1_TRANSLITERATIONS_ETAPPE2,
 )
+from b1_sentences_etappe3 import (  # noqa: E402
+    B1_SENTENCES_ETAPPE3,
+    B1_TRANSLITERATIONS_ETAPPE3,
+)
 
 ARABIC_CHAR_RE = re.compile(r"^[؀-ۿ\s.:،؟!]+$")
 HARAKAT_RE = re.compile(r"[ً-ْٰ]")
@@ -11054,6 +11058,10 @@ SENTENCE_TRANSLITERATIONS.extend(B1_TRANSLITERATIONS_ETAPPE1)
 # B1 Etappe 2 (Ränge 1301–1700): +1200 Sätze (3 je Wort + Wort-für-Wort).
 SENTENCES.extend(B1_SENTENCES_ETAPPE2)
 SENTENCE_TRANSLITERATIONS.extend(B1_TRANSLITERATIONS_ETAPPE2)
+
+# B1 Etappe 3 (Ränge 1701–2000): +900 Sätze (3 je Wort + Wort-für-Wort).
+SENTENCES.extend(B1_SENTENCES_ETAPPE3)
+SENTENCE_TRANSLITERATIONS.extend(B1_TRANSLITERATIONS_ETAPPE3)
 
 
 def parse_args(argv=None) -> argparse.Namespace:
