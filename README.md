@@ -244,9 +244,12 @@ CREATE TABLE progress (
 
 ## 📜 License & Attribution
 
-The code and bundled content are **all rights reserved** — this repository is
-published for viewing only; no license is granted to use, copy, modify or
-redistribute it.
+The **source code** is licensed under the GNU General Public License v3.0
+(GPL-3.0) — see [LICENSE](LICENSE).
+
+The **bundled learning content** (word lists, example sentences, translations,
+lesson texts and the generated sentence audio) is **all rights reserved** and is
+not covered by the GPL license.
 
 Third-party content included in this repository:
 
