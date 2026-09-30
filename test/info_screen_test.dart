@@ -37,7 +37,7 @@ void main() {
     debugDefaultTargetPlatformOverride = TargetPlatform.linux;
     // Info-Liste ist höher als die Standard-Test-Fläche (800×600); größeres
     // Fenster, damit auch der untere Einstellungs-Eintrag aufgebaut wird.
-    await tester.binding.setSurfaceSize(Size(800, 1600));
+    await tester.binding.setSurfaceSize(Size(800, 1800));
     addTearDown(() => tester.binding.setSurfaceSize(null));
 
     await tester.runAsync(() async {
@@ -49,16 +49,17 @@ void main() {
 
     expect(find.text('Info'), findsWidgets);
     expect(find.text('Entwickler unterstützen ☕'), findsOneWidget);
-    expect(find.text('Impressum & Datenschutz'), findsOneWidget);
+    expect(find.text('Datenschutz'), findsOneWidget);
+    expect(find.text('Impressum'), findsOneWidget);
 
     debugDefaultTargetPlatformOverride = null;
   });
 
-  testWidgets('Support-Eintrag oeffnet die Ko-fi-URL im Browser', (
+  testWidgets('Support-Eintrag oeffnet die Unterstuetzen-URL im Browser', (
     tester,
   ) async {
     debugDefaultTargetPlatformOverride = TargetPlatform.linux;
-    await tester.binding.setSurfaceSize(Size(800, 1600));
+    await tester.binding.setSurfaceSize(Size(800, 1800));
     addTearDown(() => tester.binding.setSurfaceSize(null));
 
     await tester.runAsync(() async {
@@ -75,19 +76,19 @@ void main() {
 
     expect(fakeLauncher.launchedUrls, [InfoScreen.supportUrl]);
     expect(fakeLauncher.launchOptions, hasLength(1));
-    // Standard-Modus: Android oeffnet den Standard-Browser, iOS den sicheren
-    // SafariViewController (In-App-Browser).
+    // ExternalApplication: die URL wird immer an die externe Anwendung
+    // (System-Browser) uebergeben, nicht in eine In-App-Webansicht.
     expect(
       fakeLauncher.launchOptions.single.mode,
-      PreferredLaunchMode.platformDefault,
+      PreferredLaunchMode.externalApplication,
     );
 
     debugDefaultTargetPlatformOverride = null;
   });
 
-  testWidgets('Rechts-Eintrag oeffnet die Impressum-URL', (tester) async {
+  testWidgets('Datenschutz-Eintrag oeffnet die Datenschutz-URL', (tester) async {
     debugDefaultTargetPlatformOverride = TargetPlatform.linux;
-    await tester.binding.setSurfaceSize(Size(800, 1600));
+    await tester.binding.setSurfaceSize(Size(800, 1800));
     addTearDown(() => tester.binding.setSurfaceSize(null));
 
     await tester.runAsync(() async {
@@ -96,14 +97,45 @@ void main() {
       );
       await tester.pump();
 
-      await tester.tap(find.text('Impressum & Datenschutz'));
+      await tester.tap(find.text('Datenschutz'));
       await tester.pump();
       await Future<void>.delayed(const Duration(milliseconds: 50));
       await tester.pump();
     });
 
-    expect(fakeLauncher.launchedUrls, [InfoScreen.legalUrl]);
+    expect(fakeLauncher.launchedUrls, [InfoScreen.privacyUrl]);
     expect(fakeLauncher.launchOptions, hasLength(1));
+    expect(
+      fakeLauncher.launchOptions.single.mode,
+      PreferredLaunchMode.externalApplication,
+    );
+
+    debugDefaultTargetPlatformOverride = null;
+  });
+
+  testWidgets('Impressum-Eintrag oeffnet die Impressum-URL', (tester) async {
+    debugDefaultTargetPlatformOverride = TargetPlatform.linux;
+    await tester.binding.setSurfaceSize(Size(800, 1800));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+
+    await tester.runAsync(() async {
+      await tester.pumpWidget(
+        const ProviderScope(child: MaterialApp(home: InfoScreen())),
+      );
+      await tester.pump();
+
+      await tester.tap(find.text('Impressum'));
+      await tester.pump();
+      await Future<void>.delayed(const Duration(milliseconds: 50));
+      await tester.pump();
+    });
+
+    expect(fakeLauncher.launchedUrls, [InfoScreen.imprintUrl]);
+    expect(fakeLauncher.launchOptions, hasLength(1));
+    expect(
+      fakeLauncher.launchOptions.single.mode,
+      PreferredLaunchMode.externalApplication,
+    );
 
     debugDefaultTargetPlatformOverride = null;
   });

@@ -18,6 +18,7 @@ import 'sqlite_ffi_test_setup.dart';
 /// `info_screen_test.dart`).
 class _FakeUrlLauncherPlatform extends UrlLauncherPlatform {
   final List<String> launchedUrls = [];
+  final List<LaunchOptions> launchOptions = [];
 
   @override
   LinkDelegate? get linkDelegate => null;
@@ -25,6 +26,7 @@ class _FakeUrlLauncherPlatform extends UrlLauncherPlatform {
   @override
   Future<bool> launchUrl(String url, LaunchOptions options) async {
     launchedUrls.add(url);
+    launchOptions.add(options);
     return true;
   }
 }
@@ -128,7 +130,9 @@ void main() {
     expect(find.text('Los geht’s'), findsOneWidget);
   });
 
-  testWidgets('Support-Tile öffnet die Ko-fi-URL im Browser', (tester) async {
+  testWidgets('Support-Tile öffnet die Unterstützen-URL im Browser', (
+    tester,
+  ) async {
     await tester.runAsync(() async {
       await tester.pumpWidget(
         const ProviderScope(child: MaterialApp(home: OnboardingScreen())),
@@ -150,6 +154,13 @@ void main() {
     });
 
     expect(fakeLauncher.launchedUrls, [InfoScreen.supportUrl]);
+    // ExternalApplication: die URL wird an die externe Anwendung
+    // (System-Browser) uebergeben.
+    expect(fakeLauncher.launchOptions, hasLength(1));
+    expect(
+      fakeLauncher.launchOptions.single.mode,
+      PreferredLaunchMode.externalApplication,
+    );
   });
 
   testWidgets(

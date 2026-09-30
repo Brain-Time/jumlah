@@ -506,13 +506,19 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get supportSubtitle =>
-      'Voluntary donation via Ko-fi — the app stays free.';
+      'Voluntary support — the app stays free and ad-free.';
 
   @override
-  String get legalTitle => 'Imprint & Privacy';
+  String get privacyTitle => 'Privacy';
 
   @override
-  String get legalSubtitle => 'Legal notice and privacy information.';
+  String get privacySubtitle => 'How Jumlah handles your data.';
+
+  @override
+  String get imprintTitle => 'Imprint';
+
+  @override
+  String get imprintSubtitle => 'Provider information and contact.';
 
   @override
   String get languageHeading => 'Language';

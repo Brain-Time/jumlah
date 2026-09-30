@@ -498,13 +498,20 @@ class AppLocalizationsAr extends AppLocalizations {
   String get supportTitle => 'ادعم المطوّر ☕';
 
   @override
-  String get supportSubtitle => 'تبرّع طوعي عبر Ko-fi — التطبيق يبقى مجانيًا.';
+  String get supportSubtitle =>
+      'دعم طوعي — يبقى التطبيق مجانيًا وبدون إعلانات.';
 
   @override
-  String get legalTitle => 'بيانات الناشر والخصوصية';
+  String get privacyTitle => 'الخصوصية';
 
   @override
-  String get legalSubtitle => 'بيانات الناشر وملاحظات الخصوصية.';
+  String get privacySubtitle => 'كيفية تعامل جُمْلَة مع بياناتك.';
+
+  @override
+  String get imprintTitle => 'بيانات الناشر';
+
+  @override
+  String get imprintSubtitle => 'معلومات المزوّد والتواصل.';
 
   @override
   String get languageHeading => 'اللغة';

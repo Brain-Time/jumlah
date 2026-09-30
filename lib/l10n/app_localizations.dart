@@ -961,20 +961,32 @@ abstract class AppLocalizations {
   /// No description provided for @supportSubtitle.
   ///
   /// In de, this message translates to:
-  /// **'Freiwillige Spende über Ko-fi — die App bleibt kostenlos.'**
+  /// **'Freiwillige Unterstützung — die App bleibt kostenlos und werbefrei.'**
   String get supportSubtitle;
 
-  /// No description provided for @legalTitle.
+  /// No description provided for @privacyTitle.
   ///
   /// In de, this message translates to:
-  /// **'Impressum & Datenschutz'**
-  String get legalTitle;
+  /// **'Datenschutz'**
+  String get privacyTitle;
 
-  /// No description provided for @legalSubtitle.
+  /// No description provided for @privacySubtitle.
   ///
   /// In de, this message translates to:
-  /// **'Rechtliche Angaben und Datenschutzhinweise.'**
-  String get legalSubtitle;
+  /// **'Wie Jumlah mit deinen Daten umgeht.'**
+  String get privacySubtitle;
+
+  /// No description provided for @imprintTitle.
+  ///
+  /// In de, this message translates to:
+  /// **'Impressum'**
+  String get imprintTitle;
+
+  /// No description provided for @imprintSubtitle.
+  ///
+  /// In de, this message translates to:
+  /// **'Anbieterkennzeichnung und Kontakt.'**
+  String get imprintSubtitle;
 
   /// No description provided for @languageHeading.
   ///

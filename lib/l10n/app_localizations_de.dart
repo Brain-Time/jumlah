@@ -508,13 +508,19 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get supportSubtitle =>
-      'Freiwillige Spende über Ko-fi — die App bleibt kostenlos.';
+      'Freiwillige Unterstützung — die App bleibt kostenlos und werbefrei.';
 
   @override
-  String get legalTitle => 'Impressum & Datenschutz';
+  String get privacyTitle => 'Datenschutz';
 
   @override
-  String get legalSubtitle => 'Rechtliche Angaben und Datenschutzhinweise.';
+  String get privacySubtitle => 'Wie Jumlah mit deinen Daten umgeht.';
+
+  @override
+  String get imprintTitle => 'Impressum';
+
+  @override
+  String get imprintSubtitle => 'Anbieterkennzeichnung und Kontakt.';
 
   @override
   String get languageHeading => 'Sprache';

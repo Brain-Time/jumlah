@@ -8,8 +8,8 @@ import '../info/info_screen.dart';
 
 /// First-Run-Onboarding (einmalig, vor der Startseite): erklärt dem Nutzer
 /// beim allerersten Start kurz, was Jumlah ist und wie das Lernen funktioniert,
-/// und weist **am Ende** auf die (freiwillige) Unterstützung hin (Ko-fi,
-/// gleiche URL wie im Info-Menü). Wird nur angezeigt, solange das
+/// und weist **am Ende** auf die (freiwillige) Unterstützung hin (Link auf
+/// derman.dev, gleiche URL wie im Info-Menü). Wird nur angezeigt, solange das
 /// `onboarding_seen`-Flag in der `metadata`-Tabelle nicht gesetzt ist
 /// (`DatabaseHelper.isOnboardingSeen`); „Los geht’s“ markiert es und
 /// navigiert per `pushReplacement` zur Startseite (`HomeScreen`).
@@ -172,13 +172,13 @@ class OnboardingScreen extends StatelessWidget {
     );
   }
 
-  /// Öffnet die Ko-fi-Spende-URL (wie im Info-Menü) im Standard-Browser
-  /// bzw. iOS-In-App-Browser. Fehler werden still geschluckt.
+  /// Öffnet die Unterstützen-URL (wie im Info-Menü) in der externen
+  /// Anwendung (System-Browser). Fehler werden still geschluckt.
   Future<void> _openSupport() async {
     try {
       await launchUrl(
         Uri.parse(InfoScreen.supportUrl),
-        mode: LaunchMode.platformDefault,
+        mode: LaunchMode.externalApplication,
       );
     } catch (_) {
       // Absichtlich leer — siehe Doc-Kommentar oben.
@@ -252,8 +252,8 @@ class _OnboardingSection extends StatelessWidget {
   }
 }
 
-/// Klickbarer Ko-fi-Support-Tile (analog zum Info-Menü), hier bewusst kompakt
-/// mit eigenem Untertitel.
+/// Klickbarer Unterstützen-Support-Tile (analog zum Info-Menü), hier bewusst
+/// kompakt mit eigenem Untertitel.
 class _SupportTile extends StatelessWidget {
   const _SupportTile({required this.onTap});
 

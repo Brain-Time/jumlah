@@ -8,11 +8,11 @@ import '../../providers/locale_provider.dart';
 import '../../providers/theme_provider.dart';
 
 /// Info-/Rechts-Menü der App: Einstellungs-Liste mit UI-Sprachwahl (H1 —
-/// Mehrsprachige UI) sowie zwei Einträgen — Support (Ko-fi-Spende) und
-/// Impressum & Datenschutz. Die Link-Einträge öffnen beim Antippen ihre URL
-/// über `package:url_launcher` async und modusabhängig: auf Android/Desktop
-/// den Standard-Browser, auf iOS den sicheren In-App-Browser
-/// (SafariViewController).
+/// Mehrsprachige UI) sowie drei Einträgen — Unterstützen (Link auf
+/// derman.dev), Datenschutz und Impressum. Die Link-Einträge öffnen beim
+/// Antippen ihre URL über `package:url_launcher` async und immer in der
+/// externen Anwendung (System-Browser), damit die App selbst keine
+/// Web-Ansicht einbettet.
 ///
 /// Erreichbar über den vierten Tab „Info“ in der Bottom Navigation
 /// (siehe `home_screen.dart`). Das Design greift ausschließlich auf die
@@ -21,11 +21,15 @@ import '../../providers/theme_provider.dart';
 class InfoScreen extends ConsumerWidget {
   const InfoScreen({super.key});
 
-  /// Ziel-URL des Support-Eintrags (freiwillige Spende).
-  static const String supportUrl = 'https://ko-fi.com/braintime';
+  /// Ziel-URL des Support-Eintrags (freiwillige Unterstützung).
+  static const String supportUrl = 'https://derman.dev/sadaqa/unterstuetzen';
 
-  /// Ziel-URL des Rechts-Eintrags (Impressum & Datenschutz).
-  static const String legalUrl = 'https://derman.dev/impressum';
+  /// Ziel-URL des Datenschutz-Eintrags.
+  static const String privacyUrl =
+      'https://derman.dev/sadaqa/jumlah/datenschutz';
+
+  /// Ziel-URL des Impressum-Eintrags.
+  static const String imprintUrl = 'https://derman.dev/impressum';
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -89,11 +93,25 @@ class InfoScreen extends ConsumerWidget {
                     endIndent: 16,
                   ),
                   _InfoLinkTile(
+                    icon: Icons.privacy_tip,
+                    accent: AppColors.primary,
+                    title: l10n.privacyTitle,
+                    subtitle: l10n.privacySubtitle,
+                    url: InfoScreen.privacyUrl,
+                  ),
+                  Divider(
+                    height: 1,
+                    thickness: 1,
+                    color: AppColors.border,
+                    indent: 16,
+                    endIndent: 16,
+                  ),
+                  _InfoLinkTile(
                     icon: Icons.gavel,
                     accent: AppColors.primary,
-                    title: l10n.legalTitle,
-                    subtitle: l10n.legalSubtitle,
-                    url: InfoScreen.legalUrl,
+                    title: l10n.imprintTitle,
+                    subtitle: l10n.imprintSubtitle,
+                    url: InfoScreen.imprintUrl,
                   ),
                 ],
               ),
@@ -246,7 +264,7 @@ class _ThemeCard extends StatelessWidget {
 
 /// Ein Eintrag der Einstellungs-Liste: Icon-Badge, Titel, Untertitel und
 /// Chevron. Der gesamte Eintrag ist antippbar und öffnet [url] asynchron über
-/// `package:url_launcher` (Standard-Browser bzw. iOS-In-App-Browser).
+/// `package:url_launcher` in der externen Anwendung (System-Browser).
 class _InfoLinkTile extends StatelessWidget {
   const _InfoLinkTile({
     required this.icon,
@@ -302,13 +320,14 @@ class _InfoLinkTile extends StatelessWidget {
     );
   }
 
-  /// Öffnet [url] bewusst ohne Blockade: Der Standard-Launch-Modus öffnet
-  /// Web-URLs auf iOS im sicheren SafariViewController, auf Android/Desktop
-  /// im System-Browser. Fehler (z. B. kein verfügbarer Browser) werden still
-  /// geschluckt, damit das Menü bedienbar bleibt.
+  /// Öffnet [url] bewusst ohne Blockade: `LaunchMode.externalApplication`
+  /// übergibt Web-URLs auf allen Plattformen an die externe Anwendung
+  /// (System-Browser auf Android/Desktop, Safari/Browser auf iOS) — die App
+  /// bettet keine Web-Ansicht ein. Fehler (z. B. kein verfügbarer Browser)
+  /// werden still geschluckt, damit das Menü bedienbar bleibt.
   Future<void> _openUrl() async {
     try {
-      await launchUrl(Uri.parse(url), mode: LaunchMode.platformDefault);
+      await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
     } catch (_) {
       // Absichtlich leer — siehe Doc-Kommentar oben.
     }
