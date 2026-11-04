@@ -787,6 +787,8 @@ class QuizNotifier extends Notifier<QuizState> {
         return _lessonHundredTwoStory;
       case 102:
         return _lessonHundredThreeStory;
+      case 103:
+        return _lessonHundredFourStory;
     }
     return null;
   }
@@ -873,6 +875,7 @@ class QuizNotifier extends Notifier<QuizState> {
       _lessonHundredOneStory,
       _lessonHundredTwoStory,
       _lessonHundredThreeStory,
+      _lessonHundredFourStory,
     ];
     for (final story in stories) {
       if (story.every((s) => batchIds.contains(s.wordId))) {
@@ -5565,6 +5568,94 @@ final List<Sentence> _lessonHundredThreeStory = [
     arabic: 'أَنْجَزَ الْفَلَّاحُ الْعَمَلَ قَبْلَ الْمَطَرِ.',
     german: 'Der Bauer erledigte die Arbeit vor dem Regen.',
     transliteration: 'ʾAnǧaza al-fallāḥu al-ʿamala qabla al-maṭari.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 104 (word_ids 1031–1040): „Der Wettbewerb um die Stelle".
+/// Ein junger Mann tritt in einem Wettbewerb an und gewinnt eine Stelle.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter an erster Stelle.
+final List<Sentence> _lessonHundredFourStory = [
+  Sentence(
+    wordId: 1031,
+    arabic: 'اِسْتَكْمَلَ الشَّابُّ دِرَاسَتَهُ قَبْلَ الْمُسَابَقَةِ.',
+    german: 'Der junge Mann vervollständigte sein Studium vor dem Wettbewerb.',
+    transliteration: 'Istakmala aš-šābbu dirāsatahū qabla al-musābaqati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1040,
+    arabic: 'مُسَابَقَةٌ كَبِيرَةٌ جَمَعَتِ الشَّبَابَ فِي الْمَدِينَةِ.',
+    german: 'Ein großer Wettbewerb versammelte die jungen Leute in der Stadt.',
+    transliteration: 'Musābaqatun kabīratun ǧamaʿati aš-šabāba fī al-madīnati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1034,
+    arabic: 'اِمْتَحَنَ الْمُدِيرُ الْمُتَسَابِقِينَ بِأَسْئِلَةٍ صَعْبَةٍ.',
+    german: 'Der Direktor prüfte die Teilnehmer mit schwierigen Fragen.',
+    transliteration:
+        'Imtaḥana al-mudīru al-mutasābiqīna bi-ʾasʾilatin ṣaʿbatin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1035,
+    arabic: 'أَوْضَحَ الْمُدِيرُ الشُّرُوطَ لِكُلِّ الْمُشَارِكِينَ.',
+    german: 'Der Direktor erklärte allen Teilnehmern die Bedingungen.',
+    transliteration: 'ʾAwḍaḥa al-mudīru aš-šurūṭa li-kulli al-mušārikīna.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1039,
+    arabic: 'حُدُودٌ وَاضِحَةٌ تُنَظِّمُ وَقْتَ الْإِجَابَةِ.',
+    german: 'Klare Grenzen regeln die Zeit für die Antwort.',
+    transliteration: 'Ḥudūdun wāḍiḥatun tunaẓẓimu waqta al-ʾiǧābati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1032,
+    arabic: 'أَثَّرَ جَوَابُ الشَّابِّ فِي لَجْنَةِ التَّحْكِيمِ.',
+    german: 'Die Antwort des jungen Mannes beeinflusste die Jury.',
+    transliteration: 'ʾAṯṯara ǧawābu aš-šābbi fī laǧnati at-taḥkīmi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1033,
+    arabic: 'عَالَجَ الشَّابُّ الْمَسْأَلَةَ بِهُدُوءٍ وَثِقَةٍ.',
+    german:
+        'Der junge Mann behandelte die Aufgabe mit Ruhe und Selbstvertrauen.',
+    transliteration: 'ʿĀlaǧa aš-šābbu al-masʾalata bi-hudūʾin wa-ṯiqatin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1037,
+    arabic: 'ثَرْوَةٌ حَقِيقِيَّةٌ هِيَ الْعِلْمُ وَالصَّبْرُ.',
+    german: 'Wahrer Reichtum sind Wissen und Geduld.',
+    transliteration: 'Ṯarwatun ḥaqīqiyyatun hiya al-ʿilmu wa-ṣ-ṣabru.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1038,
+    arabic: 'وِظِيفَةٌ جَيِّدَةٌ كَانَتْ جَائِزَةَ الْفَائِزِ.',
+    german: 'Eine gute Stelle war der Preis des Siegers.',
+    transliteration: 'Wiẓīfatun ǧayyidatun kānat ǧāʾizata al-fāʾizi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1036,
+    arabic: 'مَصِيرٌ جَدِيدٌ بَدَأَ لِلشَّابِّ بَعْدَ الْفَوْزِ.',
+    german: 'Ein neues Schicksal begann für den jungen Mann nach dem Sieg.',
+    transliteration: 'Maṣīrun ǧadīdun badaʾa li-š-šābbi baʿda al-fawzi.',
     wordAnalysis: [],
     targetIndex: 0,
   ),
