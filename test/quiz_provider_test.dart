@@ -631,7 +631,7 @@ test('Geschichte der Lektion ist eigenständig und kompakt (nicht kumulativ)',
       }
     }
   });
-test('Geschichte der B1-Lektionen 101-104 ist eigenstandig und kompakt (nicht kumulativ)',
+test('Geschichte der B1-Lektionen 101-110 ist eigenstandig und kompakt (nicht kumulativ)',
       () {
     Word w(int id) => Word(
       id: id,
@@ -643,7 +643,7 @@ test('Geschichte der B1-Lektionen 101-104 ist eigenstandig und kompakt (nicht ku
       transliteration: 'wort',
     );
 
-    for (var lesson = 101; lesson <= 104; lesson++) {
+    for (var lesson = 101; lesson <= 110; lesson++) {
       final batchIndex = lesson - 1;
       final wordLo = 1000 + (lesson - 100) * 10 - 9;
       final wordHi = wordLo + 9;

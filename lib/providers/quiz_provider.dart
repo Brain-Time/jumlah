@@ -789,6 +789,18 @@ class QuizNotifier extends Notifier<QuizState> {
         return _lessonHundredThreeStory;
       case 103:
         return _lessonHundredFourStory;
+      case 104:
+        return _lessonHundredFiveStory;
+      case 105:
+        return _lessonHundredSixStory;
+      case 106:
+        return _lessonHundredSevenStory;
+      case 107:
+        return _lessonHundredEightStory;
+      case 108:
+        return _lessonHundredNineStory;
+      case 109:
+        return _lessonHundredTenStory;
     }
     return null;
   }
@@ -876,6 +888,12 @@ class QuizNotifier extends Notifier<QuizState> {
       _lessonHundredTwoStory,
       _lessonHundredThreeStory,
       _lessonHundredFourStory,
+      _lessonHundredFiveStory,
+      _lessonHundredSixStory,
+      _lessonHundredSevenStory,
+      _lessonHundredEightStory,
+      _lessonHundredNineStory,
+      _lessonHundredTenStory,
     ];
     for (final story in stories) {
       if (story.every((s) => batchIds.contains(s.wordId))) {
@@ -5656,6 +5674,522 @@ final List<Sentence> _lessonHundredFourStory = [
     arabic: 'مَصِيرٌ جَدِيدٌ بَدَأَ لِلشَّابِّ بَعْدَ الْفَوْزِ.',
     german: 'Ein neues Schicksal begann für den jungen Mann nach dem Sieg.',
     transliteration: 'Maṣīrun ǧadīdun badaʾa li-š-šābbi baʿda al-fawzi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 105 (word_ids 1041–1050): „Der Botschafter in der Stadt".
+/// Ein neuer Botschafter besucht ein fremdes Land und lernt Menschen, Natur und Alltag kennen.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter an erster Stelle.
+final List<Sentence> _lessonHundredFiveStory = [
+  Sentence(
+    wordId: 1041,
+    arabic: 'دَلِيلٌ مَاهِرٌ رَافَقَ السَّفِيرَ فِي الرِّحْلَةِ.',
+    german: 'Ein geschickter Führer begleitete den Botschafter auf der Reise.',
+    transliteration: 'Dalīlun māhirun rāfaqa as-safīra fī ar-riḥlati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1042,
+    arabic: 'سَفِيرٌ جَدِيدٌ وَصَلَ إِلَى الْمَدِينَةِ أَمْسِ.',
+    german: 'Ein neuer Botschafter kam gestern in der Stadt an.',
+    transliteration: 'Safīrun ǧadīdun waṣala ʾilā al-madīnati ʾamsi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1043,
+    arabic: 'رَأْيُ السَّفِيرِ كَانَ وَاضِحًا لِلْجَمِيعِ.',
+    german: 'Die Meinung des Botschafters war allen klar.',
+    transliteration: 'Raʾyu as-safīri kāna wāḍiḥan lil-ǧamīʿi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1044,
+    arabic: 'شُرْطَةٌ كَثِيرَةٌ حَمَتِ الطَّرِيقَ إِلَى الْمَطَارِ.',
+    german: 'Viel Polizei schützte den Weg zum Flughafen.',
+    transliteration: 'Šurṭatun kaṯīratun ḥamat aṭ-ṭarīqa ʾilā al-maṭāri.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1045,
+    arabic: 'مُوَظَّفٌ فِي السَّفَارَةِ فَتَحَ الْبَابَ لِلضَّيْفِ.',
+    german: 'Ein Angestellter der Botschaft öffnete dem Gast die Tür.',
+    transliteration: 'Muwaẓẓafun fī as-safārati fataḥa al-bāba lil-ḍayfi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1046,
+    arabic: 'طَبِيعَةُ الْبَلَدِ جَمِيلَةٌ وَهَادِئَةٌ.',
+    german: 'Die Natur des Landes ist schön und ruhig.',
+    transliteration: 'Ṭabīʿatu al-baladi ǧamīlatun wa-hādiʾatun.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1047,
+    arabic: 'حَيَوَانٌ نَادِرٌ ظَهَرَ قَرِيبًا مِنَ النَّهْرِ.',
+    german: 'Ein seltenes Tier zeigte sich nahe am Fluss.',
+    transliteration: 'Ḥayawānun nādirun ẓahara qarīban mina an-nahri.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1048,
+    arabic: 'نَبَاتٌ غَرِيبٌ نَمَا فِي الْجَبَلِ.',
+    german: 'Eine fremdartige Pflanze wuchs im Gebirge.',
+    transliteration: 'Nabātun ġarībun namā fī al-ǧabali.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1049,
+    arabic: 'مُسْتَشْفًى صَغِيرٌ قَدَّمَ الْمُسَاعَدَةَ لِلزُّوَّارِ.',
+    german: 'Ein kleines Krankenhaus bot den Besuchern Hilfe an.',
+    transliteration: 'Mustašfan ṣaġīrun qaddama al-musāʿadata liz-zuwwāri.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1050,
+    arabic: 'وَسِيلَةٌ سَرِيعَةٌ أَعَادَتِ السَّفِيرَ إِلَى بَيْتِهِ.',
+    german: 'Ein schnelles Mittel brachte den Botschafter nach Hause zurück.',
+    transliteration: 'Wasīlatun sarīʿatun ʾaʿādat as-safīra ʾilā baytihī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 106 (word_ids 1051–1060): „Der Händler und sein Produkt".
+/// Ein Händler bringt ein neues Produkt heraus und verdankt den Erfolg Freunden und guten Beziehungen.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter an erster Stelle.
+final List<Sentence> _lessonHundredSixStory = [
+  Sentence(
+    wordId: 1051,
+    arabic: 'طَرِيقَةٌ ذَكِيَّةٌ سَاعَدَتِ التَّاجِرَ فِي عَمَلِهِ.',
+    german: 'Eine kluge Methode half dem Händler bei seiner Arbeit.',
+    transliteration: 'Ṭarīqatun ḏakiyyatun sāʿadat at-tāǧira fī ʿamalihī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1052,
+    arabic: 'عِلَاقَةٌ طَيِّبَةٌ رَبَطَتِ التَّاجِرَ بِجِيرَانِهِ.',
+    german: 'Eine gute Beziehung verband den Händler mit seinen Nachbarn.',
+    transliteration: 'ʿIlāqatun ṭayyibatun rabaṭat at-tāǧira bi-ǧīrānihī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1053,
+    arabic: 'صَدَاقَةٌ قَدِيمَةٌ جَمَعَتْهُ بِرَجُلٍ مِنَ الْقَرْيَةِ.',
+    german: 'Eine alte Freundschaft verband ihn mit einem Mann aus dem Dorf.',
+    transliteration: 'Ṣadāqatun qadīmatun ǧamaʿathu bi-raǧulin mina al-qaryati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1054,
+    arabic: 'عَدَاوَةٌ قَصِيرَةٌ اِنْتَهَتْ بِكَلِمَةٍ طَيِّبَةٍ.',
+    german: 'Eine kurze Feindschaft endete mit einem guten Wort.',
+    transliteration: 'ʿAdāwatun qaṣīratun intahat bi-kalimatin ṭayyibatin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1055,
+    arabic: 'مُنْتَجٌ جَدِيدٌ وَصَلَ إِلَى السُّوقِ.',
+    german: 'Ein neues Produkt kam auf den Markt.',
+    transliteration: 'Muntaǧun ǧadīdun waṣala ʾilā as-sūqi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1056,
+    arabic: 'هَاتِفٌ صَغِيرٌ رَنَّ فِي الْمَكْتَبِ.',
+    german: 'Ein kleines Telefon klingelte im Büro.',
+    transliteration: 'Hātifun ṣaġīrun ranna fī al-maktabi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1057,
+    arabic: 'اِخْتِبَارٌ صَعْبٌ كَانَ يَنْتَظِرُ الْمُنْتَجَ.',
+    german: 'Ein schwerer Test erwartete das Produkt.',
+    transliteration: 'Iḫtibārun ṣaʿbun kāna yantaẓiru al-muntaǧa.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1058,
+    arabic: 'نَصِيحَةٌ مِنْ صَدِيقٍ قَدِيمٍ غَيَّرَتِ الْخُطَّةَ.',
+    german: 'Ein Ratschlag eines alten Freundes änderte den Plan.',
+    transliteration: 'Naṣīḥatun min ṣadīqin qadīmin ġayyarat al-ḫuṭṭata.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1059,
+    arabic: 'صَحِيفَةُ الْمَدِينَةِ كَتَبَتْ عَنِ النَّجَاحِ.',
+    german: 'Die Zeitung der Stadt schrieb über den Erfolg.',
+    transliteration: 'Ṣaḥīfatu al-madīnati katabat ʿani an-naǧāḥi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1060,
+    arabic: 'مَجْلِسٌ كَبِيرٌ كَرَّمَ التَّاجِرَ فِي النِّهَايَةِ.',
+    german: 'Ein großer Rat ehrte den Händler am Ende.',
+    transliteration: 'Maǧlisun kabīrun karrama at-tāǧira fī an-nihāyati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 107 (word_ids 1061–1070): „Die Hochzeitsfeier".
+/// Eine Familie bereitet eine Hochzeit vor: Einladungen, Essen und ein großes Fest.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter an erster Stelle.
+final List<Sentence> _lessonHundredSevenStory = [
+  Sentence(
+    wordId: 1061,
+    arabic: 'اِجْتِمَاعٌ عَائِلِيٌّ جَرَى فِي بَيْتِ الْجَدِّ.',
+    german: 'Ein Familientreffen fand im Haus des Großvaters statt.',
+    transliteration: 'Iǧtimāʿun ʿāʾiliyyun ǧarā fī bayti al-ǧaddi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1062,
+    arabic: 'مُوَاطِنٌ مِنَ الْحَيِّ أَحْضَرَ الْوُرُودَ.',
+    german: 'Ein Bürger aus dem Viertel brachte die Blumen.',
+    transliteration: 'Muwāṭinun mina al-ḥayyi ʾaḥḍara al-wurūda.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1063,
+    arabic: 'دَعْوَةٌ جَمِيلَةٌ وَصَلَتْ إِلَى كُلِّ الْأَقَارِبِ.',
+    german: 'Eine schöne Einladung erreichte alle Verwandten.',
+    transliteration: 'Daʿwatun ǧamīlatun waṣalat ʾilā kulli al-ʾaqāribi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1064,
+    arabic: 'عَشَاءٌ كَبِيرٌ اِنْتَظَرَ الضُّيُوفَ فِي الْمَسَاءِ.',
+    german: 'Ein großes Abendessen erwartete die Gäste am Abend.',
+    transliteration: 'ʿAšāʾun kabīrun intaẓara aḍ-ḍuyūfa fī al-masāʾi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1065,
+    arabic: 'فُطُورٌ بَسِيطٌ جَمَعَ الْعَائِلَةَ فِي الصَّبَاحِ.',
+    german: 'Ein einfaches Frühstück versammelte die Familie am Morgen.',
+    transliteration: 'Fuṭūrun basīṭun ǧamaʿa al-ʿāʾilata fī aṣ-ṣabāḥi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1066,
+    arabic: 'حَفْلَةٌ صَغِيرَةٌ أَسْعَدَتِ الْأَطْفَالَ كَثِيرًا.',
+    german: 'Eine kleine Feier machte die Kinder sehr glücklich.',
+    transliteration: 'Ḥaflatun ṣaġīratun ʾasʿadat al-ʾaṭfāla kaṯīran.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1067,
+    arabic: 'عُرْسٌ جَمِيلٌ وَحَّدَ الْعَائِلَتَيْنِ.',
+    german: 'Eine schöne Hochzeit vereinte die beiden Familien.',
+    transliteration: 'ʿUrsun ǧamīlun waḥḥada al-ʿāʾilatayni.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1068,
+    arabic: 'سِكِّينٌ حَادٌّ قَطَعَ الْخُبْزَ عَلَى الْمَائِدَةِ.',
+    german: 'Ein scharfes Messer schnitt das Brot auf dem Tisch.',
+    transliteration: 'Sikkīnun ḥādun qaṭaʿa al-ḫubza ʿalā al-māʾidati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1069,
+    arabic: 'شَوْكَةٌ نَظِيفَةٌ كَانَتْ بِجَانِبِ الْكُوبِ.',
+    german: 'Eine saubere Gabel lag neben dem Becher.',
+    transliteration: 'Šawkatun naẓīfatun kānat bi-ǧānibi al-kūbi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1070,
+    arabic: 'طَبَقٌ كَبِيرٌ اِمْتَلَأَ بِالْأَرُزِّ.',
+    german: 'Ein großer Teller füllte sich mit Reis.',
+    transliteration: 'Ṭabaqun kabīrun imtalaʾa bi-l-ʾaruzzi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 108 (word_ids 1071–1080): „Die Köchin und die Regel".
+/// In der Küche der Großmutter lernt man Regeln und Grundsätze fürs Leben.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter an erster Stelle.
+final List<Sentence> _lessonHundredEightStory = [
+  Sentence(
+    wordId: 1071,
+    arabic: 'مِرْوَحَةٌ قَدِيمَةٌ بَرَّدَتِ الْغُرْفَةَ الْحَارَّةَ.',
+    german: 'Ein alter Fächer kühlte den heißen Raum.',
+    transliteration: 'Mirwaḥatun qadīmatun barradat al-ġurfata al-ḥārrata.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1072,
+    arabic: 'وَجْبَةٌ سَاخِنَةٌ جَهَّزَتْهَا الطَّبَّاخَةُ لِلْأَطْفَالِ.',
+    german: 'Eine warme Mahlzeit bereitete die Köchin für die Kinder zu.',
+    transliteration: 'Waǧbatun sāḫinatun ǧahhazat-hā aṭ-ṭabbāḫatu lil-ʾaṭfāli.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1073,
+    arabic: 'فِنْجَانٌ صَغِيرٌ وُضِعَ أَمَامَ الْجَدَّةِ.',
+    german: 'Eine kleine Tasse wurde vor die Großmutter gestellt.',
+    transliteration: 'Finǧānun ṣaġīrun wuḍiʿa ʾamāma al-ǧaddati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1074,
+    arabic: 'حَلِيبٌ بَارِدٌ كَانَ فِي الثَّلَّاجَةِ.',
+    german: 'Kalte Milch war im Kühlschrank.',
+    transliteration: 'Ḥalībun bāridun kāna fī aṯ-ṯallāǧati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1075,
+    arabic: 'عَصِيرٌ طَازَجٌ شَرِبَهُ الْأَوْلَادُ بِسُرْعَةٍ.',
+    german: 'Frischen Saft tranken die Jungen schnell.',
+    transliteration: 'ʿAṣīrun ṭāziǧun šaribahu al-ʾawlādu bi-surʿatin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1076,
+    arabic: 'مَفْهُومٌ جَدِيدٌ شَرَحَتْهُ الْمُعَلِّمَةُ فِي الدَّرْسِ.',
+    german: 'Einen neuen Begriff erklärte die Lehrerin im Unterricht.',
+    transliteration: 'Mafhūmun ǧadīdun šaraḥat-hu al-muʿallimatu fī ad-darsi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1077,
+    arabic: 'مَعْلُومَةٌ مُفِيدَةٌ وَجَدَهَا الطَّالِبُ فِي الْكِتَابِ.',
+    german: 'Eine nützliche Information fand der Student im Buch.',
+    transliteration: 'Maʿlūmatun mufīdatun waǧadahā aṭ-ṭālibu fī al-kitābi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1078,
+    arabic: 'خِبْرَةٌ طَوِيلَةٌ جَعَلَتِ الطَّبَّاخَةَ مَاهِرَةً.',
+    german: 'Lange Erfahrung machte die Köchin geschickt.',
+    transliteration: 'Ḫibratun ṭawīlatun ǧaʿalat aṭ-ṭabbāḫata māhiratan.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1079,
+    arabic: 'قَاعِدَةٌ بَسِيطَةٌ ذَكَرَتْهَا الْجَدَّةُ لِلْجَمِيعِ.',
+    german: 'Eine einfache Regel nannte die Großmutter allen.',
+    transliteration: 'Qāʿidatun basīṭatun ḏakarat-hā al-ǧaddatu lil-ǧamīʿi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1080,
+    arabic: 'مَبْدَأٌ ثَابِتٌ حَكَمَ الْمَطْبَخَ كُلَّهُ.',
+    german: 'Ein fester Grundsatz bestimmte die ganze Küche.',
+    transliteration: 'Mabdaʾun ṯābitun ḥakama al-maṭbaḫa kullahū.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 109 (word_ids 1081–1090): „Das Experiment im Labor".
+/// Ein Gelehrter prüft eine neue Theorie in mehreren Phasen mit einem Versuch.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter an erster Stelle.
+final List<Sentence> _lessonHundredNineStory = [
+  Sentence(
+    wordId: 1081,
+    arabic: 'نَظَرِيَّةٌ جَدِيدَةٌ شَرَحَهَا الْعَالِمُ فِي الْمُحَاضَرَةِ.',
+    german: 'Eine neue Theorie erklärte der Gelehrte in der Vorlesung.',
+    transliteration: 'Naẓariyyatun ǧadīdatun šaraḥahā al-ʿālimu fī al-muḥāḍarati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1082,
+    arabic: 'تَجْرِبَةٌ صَغِيرَةٌ أَثْبَتَتِ الْفِكْرَةَ.',
+    german: 'Ein kleiner Versuch bestätigte die Idee.',
+    transliteration: 'Taǧribatun ṣaġīratun ʾaṯbatat al-fikrata.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1083,
+    arabic: 'دَرَجَةٌ عَالِيَةٌ ظَهَرَتْ فِي النَّتِيجَةِ.',
+    german: 'Ein hoher Grad zeigte sich im Ergebnis.',
+    transliteration: 'Daraǧatun ʿāliyatun ẓaharat fī an-natīǧati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1084,
+    arabic: 'مَرْحَلَةٌ أُولَى اِنْتَهَتْ بِنَجَاحٍ.',
+    german: 'Eine erste Phase endete mit Erfolg.',
+    transliteration: 'Marḥalatun ʾūlā intahat bi-naǧāḥin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1085,
+    arabic: 'وِحْدَةٌ خَاصَّةٌ قَاسَتِ الْحَرَارَةَ.',
+    german: 'Eine besondere Einheit maß die Wärme.',
+    transliteration: 'Wiḥdatun ḫāṣṣatun qāsat al-ḥarārata.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1086,
+    arabic: 'نَوْعٌ آخَرُ مِنَ الْأَوْرَاقِ دَخَلَ الْمُخْتَبَرَ.',
+    german: 'Eine andere Sorte Blätter kam ins Labor.',
+    transliteration: 'Nawʿun ʾāḫaru mina al-ʾawrāqi daḫala al-muḫtabara.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1087,
+    arabic: 'مِقْدَارٌ قَلِيلٌ مِنَ الْمَاءِ كَفَى لِلْعَمَلِ.',
+    german: 'Eine geringe Menge Wasser reichte für die Arbeit.',
+    transliteration: 'Miqdārun qalīlun mina al-māʾi kafā lil-ʿamali.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1088,
+    arabic: 'عَدَدٌ كَبِيرٌ مِنَ الطُّلَّابِ حَضَرَ الْعَرْضَ.',
+    german: 'Eine große Zahl von Studenten besuchte die Vorführung.',
+    transliteration: 'ʿAdadun kabīrun mina aṭ-ṭullābi ḥaḍara al-ʿarḍa.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1089,
+    arabic: 'مَصْدَرٌ مَوْثُوقٌ أَكَّدَ الْخَبَرَ.',
+    german: 'Eine verlässliche Quelle bestätigte die Nachricht.',
+    transliteration: 'Maṣdarun mawṯūqun ʾakkada al-ḫabara.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1090,
+    arabic: 'قِيمَةُ الْعِلْمِ أَكْبَرُ مِنْ قِيمَةِ الْمَالِ.',
+    german: 'Der Wert des Wissens ist größer als der Wert des Geldes.',
+    transliteration: 'Qīmatu al-ʿilmi ʾakbaru min qīmati al-māli.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 110 (word_ids 1091–1100): „Der Bergsteiger".
+/// Ein Bergsteiger kämpft mit Höhe, Hunger und Schmerz, bis er am Gipfel Kraft findet.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter an erster Stelle.
+final List<Sentence> _lessonHundredTenStory = [
+  Sentence(
+    wordId: 1091,
+    arabic: 'سَقْفُ الْكُوخِ حَمَى الرَّجُلَ مِنَ الْمَطَرِ.',
+    german: 'Das Dach der Hütte schützte den Mann vor dem Regen.',
+    transliteration: 'Saqfu al-kūḫi ḥamā ar-raǧula mina al-maṭari.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1092,
+    arabic: 'طَابَقٌ عَالٍ فِي الْفُنْدُقِ كَانَ هَادِئًا.',
+    german: 'Ein hohes Stockwerk im Hotel war ruhig.',
+    transliteration: 'Ṭābaqun ʿālin fī al-funduqi kāna hādiʾan.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1093,
+    arabic: 'اِتِّجَاهُ الرِّيحِ تَغَيَّرَ فَجْأَةً.',
+    german: 'Die Richtung des Windes änderte sich plötzlich.',
+    transliteration: 'Ittiǧāhu ar-rīḥi taġayyara faǧʾatan.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1094,
+    arabic: 'اِرْتِفَاعُ الْجَبَلِ أَتْعَبَ الْمُتَسَلِّقَ.',
+    german: 'Die Höhe des Berges erschöpfte den Bergsteiger.',
+    transliteration: 'Irtifāʿu al-ǧabali ʾatʿaba al-mutasalliqa.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1095,
+    arabic: 'أُفُقٌ بَعِيدٌ ظَهَرَ مِنَ الْقِمَّةِ.',
+    german: 'Ein ferner Horizont zeigte sich vom Gipfel.',
+    transliteration: 'ʾUfuqun baʿīdun ẓahara mina al-qimmati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1096,
+    arabic: 'فَضَاءٌ وَاسِعٌ اِمْتَدَّ فَوْقَ رَأْسِهِ.',
+    german: 'Ein weiter Raum erstreckte sich über seinem Kopf.',
+    transliteration: 'Faḍāʾun wāsiʿun imtadda fawqa raʾsihī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1097,
+    arabic: 'مَعِدَةُ الْمُتَسَلِّقِ كَانَتْ فَارِغَةً مُنْذُ يَوْمَيْنِ.',
+    german: 'Der Magen des Bergsteigers war seit zwei Tagen leer.',
+    transliteration: 'Maʿidatu al-mutasalliqi kānat fāriġatan munḏu yawmayni.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1098,
+    arabic: 'قُوَّةٌ جَدِيدَةٌ عَادَتْ إِلَيْهِ بَعْدَ الْأَكْلِ.',
+    german: 'Neue Kraft kehrte nach dem Essen zu ihm zurück.',
+    transliteration: 'Quwwatun ǧadīdatun ʿādat ʾilayhi baʿda al-ʾakli.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1099,
+    arabic: 'أَلَمٌ شَدِيدٌ أَصَابَ رِجْلَهُ عِنْدَ النُّزُولِ.',
+    german: 'Ein starker Schmerz traf sein Bein beim Abstieg.',
+    transliteration: 'ʾAlamun šadīdun ʾaṣāba riǧlahū ʿinda an-nuzūli.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1100,
+    arabic: 'نَوْمٌ عَمِيقٌ أَخَذَهُ فِي اللَّيْلِ.',
+    german: 'Tiefer Schlaf nahm ihn in der Nacht.',
+    transliteration: 'Nawmun ʿamīqun ʾaḫaḏahū fī al-layli.',
     wordAnalysis: [],
     targetIndex: 0,
   ),
