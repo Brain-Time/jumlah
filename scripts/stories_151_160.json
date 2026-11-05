@@ -1,0 +1,172 @@
+[
+  {
+    "lesson": 151,
+    "title": "Der neue Marktplatz",
+    "desc": "Eine Stadt baut einen Platz mit Formen, Bänken und viel Betrieb.",
+    "sentences": [
+      ["شَكْلُ السَّقْفِ مُثَلَّثٌ.", "Die Form des Dachs ist dreieckig.", "Šaklu as-saqfi muṯallaṯun."],
+      ["لَمْ يَكُنِ الْوَلَدُ مُذْنِبًا.", "Der Junge war nicht schuldig.", "Lam yakuni al-waladu muḏniban."],
+      ["عَلَى الطَّاوِلَةِ صُنْدُوقٌ مُرَبَّعٌ.", "Auf dem Tisch steht eine viereckige Kiste.", "ʿalā aṭ-ṭāwilati ṣundūqun murabbaʿun."],
+      ["هَذَا الْكُرْسِيُّ مُرِيحٌ جِدًّا.", "Dieser Stuhl ist sehr bequem.", "Hāḏā al-kursiyyu murīḥun ǧiddan."],
+      ["الشَّارِعُ مُزْدَحِمٌ فِي الْمَسَاءِ.", "Die Straße ist abends überfüllt.", "Aš-šāriʿu muzdaḥimun fī al-masāʾi."],
+      ["اِشْتَرَيْنَا طَبَقًا مُسْتَدِيرًا لِلْخُبْزِ.", "Wir kauften einen runden Teller für das Brot.", "Ištaraynā ṭabaqan mustadīran lil-ḫubzi."],
+      ["الطَّرِيقُ مُسْتَوٍ وَلَيْسَ فِيهِ حُفَرٌ.", "Die Straße ist eben und hat keine Löcher.", "Aṭ-ṭarīqu mustawin wa-laysa fīhi ḥufarun."],
+      ["الْمَوْضُوعُ مُعَقَّدٌ وَيَحْتَاجُ إِلَى وَقْتٍ.", "Das Thema ist kompliziert und braucht Zeit.", "Al-mawḍūʿu muʿaqqadun wa-yaḥtāǧu ʾilā waqtin."],
+      ["سَمِعْنَا خَبَرًا مُقْلِقًا عَنِ الطَّقْسِ.", "Wir hörten eine beunruhigende Nachricht über das Wetter.", "Samiʿnā ḫabaran muqliqan ʿani aṭ-ṭaqsi."],
+      ["التُّفَّاحُ النَّاضِجُ حُلْوٌ.", "Der reife Apfel ist süß.", "At-tuffāḥu an-nāḍiǧu ḥulwun."]
+    ]
+  },
+  {
+    "lesson": 152,
+    "title": "Ein guter Rat",
+    "desc": "Kleine Alltagsszenen mit Ratschlägen, Gründen und Folgen.",
+    "sentences": [
+      ["الْعَسَلُ نَافِعٌ لِلْحَلْقِ.", "Honig ist gut für den Hals.", "Al-ʿasalu nāfiʿun lil-ḥalqi."],
+      ["السُّؤَالُ يَسِيرٌ وَجَوَابُهُ قَصِيرٌ.", "Die Frage ist einfach und ihre Antwort kurz.", "As-suʾālu yasīrun wa-ǧawābuhū qaṣīrun."],
+      ["لَمْ أَكُنْ أَعْرِفُهُ أَصْلًا.", "Ich kannte ihn überhaupt nicht.", "Lam ʾakun ʾaʿrifuhū ʾaṣlan."],
+      ["بَيْنَمَا كُنْتُ أَقْرَأُ، دَقَّ الْجَرَسُ.", "Während ich las, klingelte es.", "Baynamā kuntu ʾaqraʾu, daqqa al-ǧarasu."],
+      ["لَمْ تُمْطِرِ السَّمَاءُ، وَبِالتَّالِي قَلَّ الْمَاءُ.", "Der Himmel regnete nicht, folglich wurde das Wasser knapp.", "Lam tumṭiri as-samāʾu, wa-bi-t-tālī qalla al-māʾu."],
+      ["فَهِمْتُ الدَّرْسَ تَمَامًا.", "Ich verstand die Lektion völlig.", "Fahimtu ad-darsa tamāman."],
+      ["ذَهَبْنَا إِلَى الْمَدِينَةِ حَيْثُ يَعْمَلُ أَخِي.", "Wir fuhren in die Stadt, wo mein Bruder arbeitet.", "Ḏahabnā ʾilā al-madīnati ḥayṯu yaʿmalu ʾaḫī."],
+      ["أُحِبُّ الْفَوَاكِهَ، خَاصَّةً التِّينَ.", "Ich mag Obst, besonders Feigen.", "ʾUḥibbu al-fawākiha, ḫāṣṣatan at-tīna."],
+      ["كَانَ الْبَرْدُ شَدِيدًا فِي اللَّيْلِ.", "Die Kälte war nachts heftig.", "Kāna al-bardu šadīdan fī al-layli."],
+      ["عَكْسًا لِأَخِيهِ، يُحِبُّ سَامِي الْقِرَاءَةَ.", "Anders als sein Bruder liest Sami gern.", "ʿAksan li-ʾaḫīhi, yuḥibbu Sāmī al-qirāʾata."]
+    ]
+  },
+  {
+    "lesson": 153,
+    "title": "Zeit und Ort",
+    "desc": "Kurze Sätze über Pläne, Mannschaften und Entscheidungen im Laufe des Jahres.",
+    "sentences": [
+      ["الْفِكْرَةُ جَيِّدَةٌ، لَكِنَّهَا عَمَلِيًّا صَعْبَةٌ.", "Die Idee ist gut, aber praktisch schwierig.", "Al-fikratu ǧayyidatun, lākinnahā ʿamaliyyan ṣaʿbatun."],
+      ["النَّاسُ عُمُومًا يُحِبُّونَ الصَّبَاحَ الْهَادِئَ.", "Die Leute mögen im Allgemeinen den ruhigen Morgen.", "An-nāsu ʿumūman yuḥibbūna aṣ-ṣabāḥa al-hādiʾa."],
+      ["أَغْلَقْنَا الْمَحَلَّ مُؤَقَّتًا.", "Wir schlossen den Laden vorübergehend.", "ʾAġlaqnā al-maḥalla muʾaqqatan."],
+      ["اِتَّصَلَ الْمُدِيرُ بِالْعَامِلِ مُبَاشَرَةً.", "Der Leiter rief den Arbeiter direkt an.", "Ittaṣala al-mudīru bi-al-ʿāmili mubāšaratan."],
+      ["قَرَّرَ الْفَرِيقُ نِهَائِيًّا أَنْ يَسْتَمِرَّ.", "Das Team entschied endgültig weiterzumachen.", "Qarrara al-farīqu nihāʾiyyan ʾan yastamirra."],
+      ["وَقَفَ الْجَمِيعُ صَامِتِينَ إِزَاءَ الْخَبَرِ.", "Alle standen angesichts der Nachricht schweigend da.", "Waqafa al-ǧamīʿu ṣāmitīna ʾizāʾa al-ḫabari."],
+      ["وَصَلَ حَوَالَيْ عِشْرِينَ رَجُلًا.", "Etwa zwanzig Männer kamen an.", "Waṣala ḥawālay ʿišrīna raǧulan."],
+      ["خِلَالَ الصَّيْفِ سَافَرْنَا إِلَى الْجَبَلِ.", "Im Laufe des Sommers reisten wir ins Gebirge.", "Ḫilāla aṣ-ṣayfi sāfarnā ʾilā al-ǧabali."],
+      ["لَعِبَ فَرِيقُنَا ضِدَّ فَرِيقِ الْمَدِينَةِ.", "Unser Team spielte gegen das Team der Stadt.", "Laʿiba farīqunā ḍidda farīqi al-madīnati."],
+      ["لَدَى الطَّبِيبِ مَرِيضٌ فِي الْغُرْفَةِ.", "Beim Arzt ist ein Patient im Zimmer.", "Ladā aṭ-ṭabībi marīḍun fī al-ġurfati."]
+    ]
+  },
+  {
+    "lesson": 154,
+    "title": "Die Wächter der Burg",
+    "desc": "Soldaten und ein Kommandant sichern eine Burg an der Grenze.",
+    "sentences": [
+      ["سَارَ الْجُنْدِيُّ نَحْوَ الْبَابِ.", "Der Soldat ging auf das Tor zu.", "Sāra al-ǧundiyyu naḥwa al-bābi."],
+      ["أَحَاطَ السُّورُ بِالْقَلْعَةِ.", "Die Mauer umgab die Burg.", "ʾAḥāṭa as-sūru bi-al-qalʿati."],
+      ["اِطَّلَعَ الْقَائِدُ عَلَى التَّقْرِيرِ.", "Der Kommandant nahm Einblick in den Bericht.", "Iṭṭalaʿa al-qāʾidu ʿalā at-taqrīri."],
+      ["حَارَبَ الْجُنُودُ الْعَدُوَّ عِنْدَ الْحُدُودِ.", "Die Soldaten bekämpften den Feind an der Grenze.", "Ḥāraba al-ǧunūdu al-ʿaduwwa ʿinda al-ḥudūdi."],
+      ["أَدَارَ الْأَمِيرُ شُؤُونَ الْمَدِينَةِ بِحِكْمَةٍ.", "Der Fürst leitete die Angelegenheiten der Stadt weise.", "ʾAdāra al-ʾamīru šuʾūna al-madīnati bi-ḥikmatin."],
+      ["فَتَّشَ الْحَارِسُ الْحَقَائِبَ عِنْدَ الْبَوَّابَةِ.", "Der Wächter durchsuchte die Taschen am Tor.", "Fattaša al-ḥārisu al-ḥaqāʾiba ʿinda al-bawwābati."],
+      ["تَفَقَّدَ الْقَائِدُ الْأَسْلِحَةَ كُلَّ صَبَاحٍ.", "Der Kommandant überprüfte jeden Morgen die Waffen.", "Tafaqqada al-qāʾidu al-ʾaslihata kulla ṣabāḥin."],
+      ["رَاقَبَ الْحَارِسُ الطَّرِيقَ مِنَ الْبُرْجِ.", "Der Wächter beobachtete die Straße vom Turm.", "Rāqaba al-ḥārisu aṭ-ṭarīqa mina al-burǧi."],
+      ["قَضَى الْجُنْدِيُّ لَيْلَةً طَوِيلَةً فِي الْبُرْجِ.", "Der Soldat verbrachte eine lange Nacht im Turm.", "Qaḍā al-ǧundiyyu laylatan ṭawīlatan fī al-burǧi."],
+      ["غَلَبَ الْجَيْشُ الْخَوْفَ وَدَخَلَ الْمَدِينَةَ.", "Das Heer überwand die Angst und betrat die Stadt.", "Ġalaba al-ǧayšu al-ḫawfa wa-daḫala al-madīnata."]
+    ]
+  },
+  {
+    "lesson": 155,
+    "title": "Die Untersuchung",
+    "desc": "Ein Fall wird beraten, geprüft und mit einem Experiment bewiesen.",
+    "sentences": [
+      ["جَازَ الْمُسَافِرُ الْحَدَّ مِنْ دُونِ مُشْكِلَةٍ.", "Der Reisende überschritt die Grenze ohne Probleme.", "Ǧāza al-musāfiru al-ḥadda min dūni mušklatin."],
+      ["رَافَقَ الْمُحَامِي مُوَكِّلَهُ إِلَى الْمَحْكَمَةِ.", "Der Anwalt begleitete seinen Mandanten zum Gericht.", "Rāfaqa al-muḥāmī muwakkilahū ʾilā al-maḥkamati."],
+      ["تَشَاوَرَ أَهْلُ الْقَرْيَةِ قَبْلَ الْقَرَارِ.", "Die Dorfbewohner berieten sich vor der Entscheidung.", "Tašāwara ʾahlu al-qaryati qabla al-qarāri."],
+      ["أَبْقَى الْأَبُ بَعْضَ الْمَالِ لِلْمُسْتَقْبَلِ.", "Der Vater behielt etwas Geld für die Zukunft.", "ʾAbqā al-ʾabu baʿḍa al-māli lil-mustaqbali."],
+      ["وَكَّلَ التَّاجِرُ مُحَامِيًا بِالْقَضِيَّةِ.", "Der Händler beauftragte einen Anwalt mit dem Fall.", "Wakkala at-tāǧiru muḥāmiyan bi-al-qaḍiyyati."],
+      ["تَمَكَّنَ الطَّالِبُ مِنْ حَلِّ الْمَسْأَلَةِ.", "Der Schüler konnte die Aufgabe lösen.", "Tamakkana aṭ-ṭālibu min ḥalli al-masʾalati."],
+      ["أَسْقَطَ الْوَلَدُ الْكُوبَ عَلَى الْأَرْضِ.", "Der Junge ließ die Tasse auf den Boden fallen.", "ʾAsqaṭa al-waladu al-kūba ʿalā al-ʾarḍi."],
+      ["أَثْبَتَ الشَّاهِدُ أَنَّ الرَّجُلَ بَرِيءٌ.", "Der Zeuge bewies, dass der Mann unschuldig ist.", "ʾAṯbata aš-šāhidu ʾanna ar-raǧula barīʾun."],
+      ["أَجْرَى الْعَالِمُ تَجْرِبَةً فِي الْمُخْتَبَرِ.", "Der Forscher führte im Labor ein Experiment durch.", "ʾAǧrā al-ʿālimu taǧribatan fī al-muḫtabari."],
+      ["اِسْتَقَامَ الْأَمْرُ بَعْدَ الْحِوَارِ.", "Die Sache kam nach dem Gespräch in Ordnung.", "Istaqāma al-ʾamru baʿda al-ḥiwāri."]
+    ]
+  },
+  {
+    "lesson": 156,
+    "title": "Der neue Mitarbeiter",
+    "desc": "Ein Angestellter findet seinen Platz im Team und steigt auf.",
+    "sentences": [
+      ["تَهَرَّبَ الْعَامِلُ مِنَ الْمَسْؤُولِيَّةِ.", "Der Arbeiter drückte sich vor der Verantwortung.", "Taharraba al-ʿāmilu mina al-masʾūliyyati."],
+      ["اِنْسَجَمَ الْمُوَظَّفُ الْجَدِيدُ مَعَ الْفَرِيقِ.", "Der neue Angestellte passte gut ins Team.", "Insaǧama al-muwaẓẓafu al-ǧadīdu maʿa al-farīqi."],
+      ["اِعْتَمَلَ الْمُحَرِّكُ طَوَالَ اللَّيْلِ.", "Der Motor arbeitete die ganze Nacht.", "Iʿtamala al-muḥarriku ṭawāla al-layli."],
+      ["خَشِيَ الْوَلَدُ الْكَلْبَ الْكَبِيرَ.", "Der Junge fürchtete den großen Hund.", "Ḫašiya al-waladu al-kalba al-kabīra."],
+      ["دَامَ الِاجْتِمَاعُ سَاعَتَيْنِ.", "Die Besprechung dauerte zwei Stunden.", "Dāma al-iǧtimāʿu sāʿatayni."],
+      ["أَحْسَنَ الْمُوَظَّفُ عَمَلَهُ هَذَا الْأُسْبُوعَ.", "Der Angestellte machte seine Arbeit diese Woche gut.", "ʾAḥsana al-muwaẓẓafu ʿamalahū hāḏā al-ʾusbūʿa."],
+      ["اِنْتَهَجَ الْمُدِيرُ طَرِيقًا جَدِيدًا فِي الْإِدَارَةِ.", "Der Leiter schlug einen neuen Weg in der Führung ein.", "Intahaǧa al-mudīru ṭarīqan ǧadīdan fī al-ʾidārati."],
+      ["شَغَلَ الْعَمَلُ الْجَدِيدُ وَقْتَ سَعِيدٍ كُلَّهُ.", "Die neue Arbeit beschäftigte Saids ganze Zeit.", "Šaġala al-ʿamalu al-ǧadīdu waqta Saʿīdin kullahū."],
+      ["قَرَّرَتِ الشَّرِكَةُ فَتْحَ فَرْعٍ جَدِيدٍ.", "Die Firma entschied, eine neue Filiale zu eröffnen.", "Qarrarati aš-šarikatu fatḥa farʿin ǧadīdin."],
+      ["اِرْتَقَى الْمُوَظَّفُ إِلَى مَنْصِبٍ أَعْلَى.", "Der Angestellte stieg auf eine höhere Stelle auf.", "Irtaqā al-muwaẓẓafu ʾilā manṣibin ʾaʿlā."]
+    ]
+  },
+  {
+    "lesson": 157,
+    "title": "Wasser und Wissen",
+    "desc": "Vom Fluss über den Kochtopf bis ins Labor: Wasser regt zum Fragen an.",
+    "sentences": [
+      ["تَدَفَّقَ الْمَاءُ مِنَ السَّدِّ.", "Das Wasser strömte aus dem Staudamm.", "Tadaffaqa al-māʾu mina as-saddi."],
+      ["اِنْسَابَ النَّهْرُ بَيْنَ الْأَشْجَارِ.", "Der Fluss floss zwischen den Bäumen.", "Insāba an-nahru bayna al-ʾašǧāri."],
+      ["أَقْلَعَتِ الطَّائِرَةُ فِي الصَّبَاحِ.", "Das Flugzeug startete am Morgen.", "ʾAqlaʿati aṭ-ṭāʾiratu fī aṣ-ṣabāḥi."],
+      ["رَدَّدَ الطِّفْلُ الْكَلِمَةَ بَعْدَ الْمُعَلِّمِ.", "Das Kind wiederholte das Wort nach dem Lehrer.", "Raddada aṭ-ṭiflu al-kalimata baʿda al-muʿallimi."],
+      ["كَرَّرَ الْعَالِمُ التَّجْرِبَةَ ثَلَاثَ مَرَّاتٍ.", "Der Forscher wiederholte das Experiment dreimal.", "Karrara al-ʿālimu at-taǧribata ṯalāṯa marrātin."],
+      ["غَلَى الْمَاءُ فِي الْقِدْرِ.", "Das Wasser siedete im Topf.", "Ġalā al-māʾu fī al-qidri."],
+      ["تَسَاءَلَتِ الْبِنْتُ لِمَاذَا يَطِيرُ الطَّيْرُ.", "Das Mädchen fragte sich, warum der Vogel fliegt.", "Tasāʾalati al-bintu li-māḏā yaṭīru aṭ-ṭayru."],
+      ["اِسْتَدَلَّ الْمُحَقِّقُ مِنَ الْأَثَرِ عَلَى الطَّرِيقِ.", "Der Ermittler schloss aus der Spur auf den Weg.", "Istadalla al-muḥaqqiqu mina al-ʾaṯari ʿalā aṭ-ṭarīqi."],
+      ["حَلَّلَ الطَّبِيبُ الدَّمَ فِي الْمُخْتَبَرِ.", "Der Arzt analysierte das Blut im Labor.", "Ḥallala aṭ-ṭabību ad-dama fī al-muḫtabari."],
+      ["حَسَمَ الْقَاضِي الْقَضِيَّةَ فِي يَوْمٍ وَاحِدٍ.", "Der Richter entschied den Fall an einem einzigen Tag.", "Ḥasama al-qāḍī al-qaḍiyyata fī yawmin wāḥidin."]
+    ]
+  },
+  {
+    "lesson": 158,
+    "title": "Der Sturm auf dem Meer",
+    "desc": "Ein Sturm zerstört, ängstigt und zieht schließlich vorüber.",
+    "sentences": [
+      ["دَمَّرَتِ الْعَاصِفَةُ الْمَزْرَعَةَ كُلَّهَا.", "Der Sturm zerstörte die ganze Farm.", "Dammarati al-ʿāṣifatu al-mazraʿata kullahā."],
+      ["اِسْتَوْحَى الرَّسَّامُ لَوْحَتَهُ مِنَ الْعَاصِفَةِ.", "Der Maler holte sich die Inspiration für sein Bild vom Sturm.", "Istawḥā ar-rassāmu lawḥatahū mina al-ʿāṣifati."],
+      ["أَخْفَقَ الصَّيَّادُ فِي الْعَوْدَةِ قَبْلَ اللَّيْلِ.", "Der Fischer scheiterte daran, vor der Nacht zurückzukehren.", "ʾAḫfaqa aṣ-ṣayyādu fī al-ʿawdati qabla al-layli."],
+      ["تَعَثَّرَ الْمُسَافِرُ بِحَجَرٍ فِي الظَّلَامِ.", "Der Reisende stolperte im Dunkeln über einen Stein.", "Taʿaṯṯara al-musāfiru bi-ḥaǧarin fī aẓ-ẓalāmi."],
+      ["اِنْهَارَ الْجِدَارُ الْقَدِيمُ بَعْدَ الْمَطَرِ.", "Die alte Mauer stürzte nach dem Regen ein.", "Inhāra al-ǧidāru al-qadīmu baʿda al-maṭari."],
+      ["اِضْطَرَبَ الْبَحْرُ وَخَافَ الرُّكَّابُ.", "Das Meer wurde unruhig und die Passagiere hatten Angst.", "Iḍṭaraba al-baḥru wa-ḫāfa ar-rukkābu."],
+      ["أَوْصَى الْجَدُّ بِبَيْتِهِ لِحَفِيدِهِ.", "Der Großvater vermachte sein Haus seinem Enkel.", "ʾAwṣā al-ǧaddu bi-baytihī li-ḥafīdihī."],
+      ["اِعْتَصَمَ النَّاسُ بِالْجَبَلِ مِنَ الْفَيَضَانِ.", "Die Leute suchten am Berg Schutz vor der Flut.", "Iʿtaṣama an-nāsu bi-al-ǧabali mina al-fayaḍāni."],
+      ["حَافَظَ الْقَبْطَانُ عَلَى هُدُوئِهِ.", "Der Kapitän bewahrte seine Ruhe.", "Ḥāfaẓa al-qabṭānu ʿalā hudūʾihī."],
+      ["هَدَأَتِ الرِّيحُ عِنْدَ الْفَجْرِ.", "Der Wind ließ im Morgengrauen nach.", "Hadaʾati ar-rīḥu ʿinda al-faǧri."]
+    ]
+  },
+  {
+    "lesson": 159,
+    "title": "Die Ausgrabung",
+    "desc": "Arbeiter graben in einem eingestürzten Haus und kämpfen mit Staub.",
+    "sentences": [
+      ["اِنْهَدَمَ الْبَيْتُ الْقَدِيمُ فِي الزِّلْزَالِ.", "Das alte Haus stürzte im Erdbeben ein.", "Inhadama al-baytu al-qadīmu fī az-zilzāli."],
+      ["حَفَرَ الْعُمَّالُ حُفْرَةً عَمِيقَةً.", "Die Arbeiter gruben ein tiefes Loch.", "Ḥafara al-ʿummālu ḥufratan ʿamīqatan."],
+      ["اِنْحَدَرَ الطَّرِيقُ نَحْوَ الْوَادِي.", "Die Straße fiel zum Tal hin ab.", "Inḥadara aṭ-ṭarīqu naḥwa al-wādī."],
+      ["تَنَاثَرَتِ الْأَوْرَاقُ فِي الْحَدِيقَةِ.", "Die Blätter zerstreuten sich im Garten.", "Tanāṯarati al-ʾawrāqu fī al-ḥadīqati."],
+      ["تَفَرَّقَ النَّاسُ بَعْدَ الْمَطَرِ.", "Die Leute gingen nach dem Regen auseinander.", "Tafarraqa an-nāsu baʿda al-maṭari."],
+      ["قَبَضَ الْوَلَدُ عَلَى يَدِ أَبِيهِ.", "Der Junge fasste die Hand seines Vaters.", "Qabaḍa al-waladu ʿalā yadi ʾabīhi."],
+      ["اِسْتَنْشَقَ الْعَامِلُ الْهَوَاءَ النَّقِيَّ.", "Der Arbeiter atmete die reine Luft ein.", "Istanšaqa al-ʿāmilu al-hawāʾa an-naqiyya."],
+      ["عَطَسَ الْعَامِلُ مِنَ الْغُبَارِ.", "Der Arbeiter musste wegen des Staubs niesen.", "ʿAṭasa al-ʿāmilu mina al-ġubāri."],
+      ["سَعَلَ الشَّيْخُ طَوِيلًا.", "Der Alte hustete lange.", "Saʿala aš-šayḫu ṭawīlan."],
+      ["جَرَّ الْحِصَانُ الْعَرَبَةَ إِلَى السُّوقِ.", "Das Pferd zog den Wagen zum Markt.", "Ǧarra al-ḥiṣānu al-ʿarabata ʾilā as-sūqi."]
+    ]
+  },
+  {
+    "lesson": 160,
+    "title": "Der kalte Morgen",
+    "desc": "Ein Bauer erlebt einen frostigen Tag auf dem Hof.",
+    "sentences": [
+      ["اِسْتَوْقَظَ الْفَلَّاحُ قَبْلَ الْفَجْرِ.", "Der Bauer wachte vor dem Morgengrauen auf.", "Istawqaẓa al-fallāḥu qabla al-faǧri."],
+      ["أَغْلَقَ الْبَابَ لِأَنَّ الْهَوَاءَ بَارِدٌ.", "Er schloss die Tür, weil die Luft kalt ist.", "ʾAġlaqa al-bāba li-ʾanna al-hawāʾa bāridun."],
+      ["تَجَمَّدَ الْمَاءُ فِي الْإِنَاءِ.", "Das Wasser im Gefäß gefror.", "Taǧammada al-māʾu fī al-ʾināʾi."],
+      ["اِنْجَمَدَ الطِّفْلُ مِنَ الْخَوْفِ عِنْدَ الْبَابِ.", "Das Kind erstarrte vor Angst an der Tür.", "Inǧamada aṭ-ṭiflu mina al-ḫawfi ʿinda al-bābi."],
+      ["تَبَخَّرَ الْمَاءُ مِنَ الْقِدْرِ.", "Das Wasser verdampfte aus dem Topf.", "Tabaḫḫara al-māʾu mina al-qidri."],
+      ["اِرْتَجَعَ الْفَلَّاحُ إِلَى الْبَيْتِ بَعْدَ الظُّهْرِ.", "Der Bauer kehrte nach dem Mittag nach Hause zurück.", "Irtaǧaʿa al-fallāḥu ʾilā al-bayti baʿda aẓ-ẓuhri."],
+      ["مَزَّقَ الْوَلَدُ الْوَرَقَةَ الْقَدِيمَةَ.", "Der Junge zerriss das alte Blatt.", "Mazzaqa al-waladu al-waraqata al-qadīmata."],
+      ["خَرَّبَ الْجَرَادُ الْحَقْلَ.", "Die Heuschrecken verwüsteten das Feld.", "Ḫarraba al-ǧarādu al-ḥaqla."],
+      ["شَالَ الْعَامِلُ الْكِيسَ عَلَى كَتِفِهِ.", "Der Arbeiter hob den Sack auf seine Schulter.", "Šāla al-ʿāmilu al-kīsa ʿalā katifihī."],
+      ["تَرَدَّى الْحَجَرُ مِنَ الْجَبَلِ إِلَى الْوَادِي.", "Der Stein stürzte vom Berg ins Tal.", "Taraddā al-ḥaǧaru mina al-ǧabali ʾilā al-wādī."]
+    ]
+  }
+]
