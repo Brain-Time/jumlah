@@ -861,6 +861,26 @@ class QuizNotifier extends Notifier<QuizState> {
         return _lessonHundredThirtyNineStory;
       case 139:
         return _lessonHundredFortyStory;
+      case 140:
+        return _lessonHundredFortyOneStory;
+      case 141:
+        return _lessonHundredFortyTwoStory;
+      case 142:
+        return _lessonHundredFortyThreeStory;
+      case 143:
+        return _lessonHundredFortyFourStory;
+      case 144:
+        return _lessonHundredFortyFiveStory;
+      case 145:
+        return _lessonHundredFortySixStory;
+      case 146:
+        return _lessonHundredFortySevenStory;
+      case 147:
+        return _lessonHundredFortyEightStory;
+      case 148:
+        return _lessonHundredFortyNineStory;
+      case 149:
+        return _lessonHundredFiftyStory;
     }
     return null;
   }
@@ -984,6 +1004,16 @@ class QuizNotifier extends Notifier<QuizState> {
       _lessonHundredThirtyEightStory,
       _lessonHundredThirtyNineStory,
       _lessonHundredFortyStory,
+      _lessonHundredFortyOneStory,
+      _lessonHundredFortyTwoStory,
+      _lessonHundredFortyThreeStory,
+      _lessonHundredFortyFourStory,
+      _lessonHundredFortyFiveStory,
+      _lessonHundredFortySixStory,
+      _lessonHundredFortySevenStory,
+      _lessonHundredFortyEightStory,
+      _lessonHundredFortyNineStory,
+      _lessonHundredFiftyStory,
     ];
     for (final story in stories) {
       if (story.every((s) => batchIds.contains(s.wordId))) {
@@ -8860,6 +8890,866 @@ final List<Sentence> _lessonHundredFortyStory = [
     arabic: 'أَدَاةُ الْقَصِّ جَعَلَتِ الْعَمَلَ أَكْثَرَ سُهُولَةً.',
     german: 'Das Schneidewerkzeug machte die Arbeit leichter.',
     transliteration: 'ʾAdātu al-qaṣṣi ǧaʿalati al-ʿamala ʾakṯara suhūlatan.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 141 (word_ids 1401–1410): „Die Stellenanzeige".
+/// Ein junger Mann liest eine Anzeige, bewirbt sich und zeigt im Gespräch Interesse.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter.
+final List<Sentence> _lessonHundredFortyOneStory = [
+  Sentence(
+    wordId: 1401,
+    arabic: 'أُجْرَةُ الْعَامِلِ فِي الْمَصْنَعِ مُنَاسِبَةٌ.',
+    german: 'Der Lohn des Arbeiters in der Fabrik ist angemessen.',
+    transliteration: 'Uǧratu al-ʿāmili fī al-maṣnaʿi munāsibatun.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1402,
+    arabic: 'أُسْلُوبُ الْمُدِيرِ فِي الْكَلَامِ هَادِئٌ.',
+    german: 'Der Stil des Leiters beim Sprechen ist ruhig.',
+    transliteration: 'ʾUslūbu al-mudīri fī al-kalāmi hādiʾun.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1403,
+    arabic: 'شَعَرَتْ سَارَةُ بِإِحْسَاسٍ جَمِيلٍ عِنْدَ قِرَاءَةِ الْخَبَرِ.',
+    german: 'Sara spürte beim Lesen der Nachricht eine schöne Empfindung.',
+    transliteration: 'Šaʿarat Sāratu bi-ʾiḥsāsin ǧamīlin ʿinda qirāʾati al-ḫabari.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1404,
+    arabic: 'قَرَأَ يُوسُفُ إِعْلَانًا عَنْ وَظِيفَةٍ جَدِيدَةٍ فِي الْجَرِيدَةِ.',
+    german: 'Yusuf las in der Zeitung eine Anzeige über eine neue Stelle.',
+    transliteration: 'Qaraʾa Yūsufu ʾiʿlānan ʿan waẓīfatin ǧadīdatin fī al-ǧarīdati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1405,
+    arabic: 'اللُّغَةُ الْإِنْجِلِيزِيَّةُ اِمْتِيَازٌ لِلْمُتَقَدِّمِ.',
+    german: 'Englisch ist ein Vorzug für den Bewerber.',
+    transliteration: 'Al-luġatu al-ʾinǧlīziyyatu imtiyāzun lil-mutaqaddimi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1406,
+    arabic: 'اِنْتِبَاهُ الشَّابِّ فِي الْمُقَابَلَةِ كَانَ وَاضِحًا.',
+    german: 'Die Aufmerksamkeit des jungen Mannes im Gespräch war deutlich.',
+    transliteration: 'Intibāhu aš-šābbi fī al-muqābalati kāna wāḍiḥan.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1407,
+    arabic: 'أَظْهَرَ الشَّابُّ اِهْتِمَامًا كَبِيرًا بِالْعَمَلِ.',
+    german: 'Der junge Mann zeigte großes Interesse an der Arbeit.',
+    transliteration: 'ʾAẓhara aš-šābbu ihtimāman kabīran bi-al-ʿamali.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1408,
+    arabic: 'لِلْمُقَابَلَةِ تَأْثِيرٌ كَبِيرٌ عَلَى قَرَارِ الْمُدِيرِ.',
+    german: 'Das Gespräch hat große Wirkung auf die Entscheidung des Leiters.',
+    transliteration: 'Lil-muqābalati taʾṯīrun kabīrun ʿalā qarāri al-mudīri.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1409,
+    arabic: 'تَدْفَعُ الشَّرِكَةُ تَأْمِينًا صِحِّيًّا لِكُلِّ مُوَظَّفٍ.',
+    german: 'Die Firma zahlt jedem Angestellten eine Krankenversicherung.',
+    transliteration: 'Tadfaʿu aš-šarikatu taʾmīnan ṣiḥḥiyyan li-kulli muwaẓẓafin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1410,
+    arabic: 'بَدَأَ التَّدْرِيبُ فِي الْأُسْبُوعِ الْأَوَّلِ مِنَ الشَّهْرِ.',
+    german: 'Das Training begann in der ersten Woche des Monats.',
+    transliteration: 'Badaʾa at-tadrību fī al-ʾusbūʿi al-ʾawwali mina aš-šahri.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 142 (word_ids 1411–1420): „Das Erbe der Vorfahren".
+/// Ein Großvater erzählt von Kultur und Zivilisation, während zu Hause der Alltag weitergeht.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter.
+final List<Sentence> _lessonHundredFortyTwoStory = [
+  Sentence(
+    wordId: 1411,
+    arabic: 'هَذَا التَّعْبِيرُ جَمِيلٌ فِي الشِّعْرِ الْعَرَبِيِّ.',
+    german: 'Dieser Ausdruck ist schön in der arabischen Dichtung.',
+    transliteration: 'Hāḏā at-taʿbīru ǧamīlun fī aš-šiʿri al-ʿarabiyyi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1412,
+    arabic: 'أَخِي الصَّغِيرُ تَوْأَمٌ لِأُخْتِي.',
+    german: 'Mein kleiner Bruder ist der Zwilling meiner Schwester.',
+    transliteration: 'ʾAḫī aṣ-ṣaġīru tawʾamun li-ʾuḫtī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1413,
+    arabic: 'يَحْكِي الْجَدُّ عَنْ تُرَاثِ الْقَرْيَةِ.',
+    german: 'Der Großvater erzählt vom Kulturerbe des Dorfes.',
+    transliteration: 'Yaḥkī al-ǧaddu ʿan turāṯi al-qaryati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1414,
+    arabic: 'وَضَعَتِ الْأُمُّ الْحَلِيبَ فِي الثَّلَّاجَةِ.',
+    german: 'Die Mutter stellte die Milch in den Kühlschrank.',
+    transliteration: 'Waḍaʿati al-ʾummu al-ḥalība fī aṯ-ṯallāǧati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1415,
+    arabic: 'جَزَاءُ الْكَذِبِ فِي الْمَدْرَسَةِ شَدِيدٌ.',
+    german: 'Die Strafe fürs Lügen in der Schule ist hart.',
+    transliteration: 'Ǧazāʾu al-kaḏibi fī al-madrasati šadīdun.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1416,
+    arabic: 'الْجَهْلُ بِالْقَانُونِ لَا يَحْمِي النَّاسَ.',
+    german: 'Unwissenheit über das Gesetz schützt die Menschen nicht.',
+    transliteration: 'Al-ǧahlu bi-al-qānūni lā yaḥmī an-nāsa.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1417,
+    arabic: 'زَرَعَتِ الْبِنْتُ الْوَرْدَ فِي جُنَيْنَةِ الْبَيْتِ.',
+    german: 'Das Mädchen pflanzte Rosen im Gärtchen des Hauses.',
+    transliteration: 'Zaraʿati al-bintu al-warda fī ǧunaynati al-bayti.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1418,
+    arabic: 'اِشْتَرَى أَبِي جِهَازًا جَدِيدًا لِلْمَطْبَخِ.',
+    german: 'Mein Vater kaufte ein neues Gerät für die Küche.',
+    transliteration: 'Ištarā ʾabī ǧihāzan ǧadīdan lil-maṭbaḫi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1419,
+    arabic: 'مِنْ أَيِّ جِهَةٍ تَأْتِي الرِّيحُ؟',
+    german: 'Aus welcher Richtung kommt der Wind?',
+    transliteration: 'Min ʾayyi ǧihatin taʾtī ar-rīḥu?',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1420,
+    arabic: 'دَرَسْنَا حَضَارَةَ مِصْرَ الْقَدِيمَةَ فِي الْجَامِعَةِ.',
+    german: 'Wir studierten an der Universität die Zivilisation des alten Ägypten.',
+    transliteration: 'Darasnā ḥaḍārata Miṣra al-qadīmata fī al-ǧāmiʿati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 143 (word_ids 1421–1430): „Der Hirte und der Bär".
+/// Ein Hirte schützt sein kluges Lamm vor einem Bären und gewinnt Weisheit.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter.
+final List<Sentence> _lessonHundredFortyThreeStory = [
+  Sentence(
+    wordId: 1421,
+    arabic: 'مَلَأَ الرَّاعِي الْحَوْضَ بِالْمَاءِ الْبَارِدِ.',
+    german: 'Der Hirte füllte das Becken mit kaltem Wasser.',
+    transliteration: 'Malaʾa ar-rāʿī al-ḥawḍa bi-al-māʾi al-bāridi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1422,
+    arabic: 'أَخَذَ كُلُّ وَلَدٍ حِصَّتَهُ مِنَ الْخُبْزِ.',
+    german: 'Jedes Kind nahm seinen Anteil vom Brot.',
+    transliteration: 'ʾAḫaḏa kullu waladin ḥiṣṣatahū mina al-ḫubzi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1423,
+    arabic: 'فِي كَلَامِ الشَّيْخِ حِكْمَةٌ كَبِيرَةٌ.',
+    german: 'In den Worten des Alten liegt große Weisheit.',
+    transliteration: 'Fī kalāmi aš-šayḫi ḥikmatun kabīratun.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1424,
+    arabic: 'يَرْعَى الْخَرُوفُ الصَّغِيرُ الْعُشْبَ قُرْبَ النَّهْرِ.',
+    german: 'Das kleine Lamm weidet Gras nahe dem Fluss.',
+    transliteration: 'Yarʿā al-ḫarūfu aṣ-ṣaġīru al-ʿušba qurba an-nahri.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1425,
+    arabic: 'كَتَبَ الْمُعَلِّمُ خُلَاصَةَ الْقِصَّةِ عَلَى السَّبُّورَةِ.',
+    german: 'Der Lehrer schrieb die Zusammenfassung der Geschichte an die Tafel.',
+    transliteration: 'Kataba al-muʿallimu ḫulāṣata al-qiṣṣati ʿalā as-sabbūrati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1426,
+    arabic: 'عِنْدَ الرَّاعِي خِطَّةٌ لِحِمَايَةِ الْقَطِيعِ.',
+    german: 'Der Hirte hat einen Plan, um die Herde zu schützen.',
+    transliteration: 'ʿInda ar-rāʿī ḫiṭṭatun li-ḥimāyati al-qaṭīʿi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1427,
+    arabic: 'رَكِبَ الْوَلَدُ دَرَّاجَتَهُ إِلَى الْحَقْلِ.',
+    german: 'Der Junge fuhr mit seinem Fahrrad zum Feld.',
+    transliteration: 'Rakiba al-waladu darrāǧatahū ʾilā al-ḥaqli.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1428,
+    arabic: 'رَأَى الصَّيَّادُ دُبًّا كَبِيرًا فِي الْغَابَةِ.',
+    german: 'Der Jäger sah einen großen Bären im Wald.',
+    transliteration: 'Raʾā aṣ-ṣayyādu dubban kabīran fī al-ġābati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1429,
+    arabic: 'نَجَا الْخَرُوفُ بِذَكَائِهِ.',
+    german: 'Das Lamm entkam dank seiner Intelligenz.',
+    transliteration: 'Naǧā al-ḫarūfu bi-ḏakāʾihī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1430,
+    arabic: 'يَأْخُذُ الرَّاعِي رَاتِبَهُ فِي نِهَايَةِ الشَّهْرِ.',
+    german: 'Der Hirte bekommt sein Gehalt am Monatsende.',
+    transliteration: 'Yaʾḫuḏu ar-rāʿī rātibahū fī nihāyati aš-šahri.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 144 (word_ids 1431–1440): „Die enge Gasse".
+/// Am Abend wird es in einer Gasse unruhig: ein Diebstahl, eine Kerze und ein Zeuge mit Gewissen.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter.
+final List<Sentence> _lessonHundredFortyFourStory = [
+  Sentence(
+    wordId: 1431,
+    arabic: 'بَكَى الرَّضِيعُ فِي اللَّيْلِ وَنَهَضَتْ أُمُّهُ.',
+    german: 'Der Säugling weinte in der Nacht und seine Mutter stand auf.',
+    transliteration: 'Bakā ar-raḍīʿu fī al-layli wa-nahaḍat ʾummuhū.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1432,
+    arabic: 'وَضَعْتُ الْكُتُبَ عَلَى الرَّفِّ الْعَالِي.',
+    german: 'Ich stellte die Bücher auf das hohe Regal.',
+    transliteration: 'Waḍaʿtu al-kutuba ʿalā ar-raffi al-ʿālī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1433,
+    arabic: 'يَطْلُبُ الرَّجُلُ الرِّزْقَ بِعَمَلِهِ كُلَّ يَوْمٍ.',
+    german: 'Der Mann sucht seinen Lebensunterhalt jeden Tag durch seine Arbeit.',
+    transliteration: 'Yaṭlubu ar-raǧulu ar-rizqa bi-ʿamalihī kulla yawmin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1434,
+    arabic: 'مَشَيْنَا فِي زُقَاقٍ ضَيِّقٍ بَيْنَ الْبُيُوتِ.',
+    german: 'Wir gingen durch eine enge Gasse zwischen den Häusern.',
+    transliteration: 'Mašaynā fī zuqāqin ḍayyiqin bayna al-buyūti.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1435,
+    arabic: 'سَمِعَتِ الشُّرْطَةُ عَنِ السَّرِقَةِ فِي الزُّقَاقِ.',
+    german: 'Die Polizei hörte vom Diebstahl in der Gasse.',
+    transliteration: 'Samiʿat aš-šurṭatu ʿani as-sariqati fī az-zuqāqi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1436,
+    arabic: 'أَشْعَلَتِ الْجَدَّةُ شَمْعَةً عِنْدَ اِنْقِطَاعِ الْكَهْرَبَاءِ.',
+    german: 'Die Großmutter zündete bei Stromausfall eine Kerze an.',
+    transliteration: 'ʾAšʿalati al-ǧaddatu šamʿatan ʿinda inqiṭāʿi al-kahrabāʾi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1437,
+    arabic: 'جَلَسَ الْجَارُ فِي الشُّرْفَةِ وَشَرِبَ الشَّايَ.',
+    german: 'Der Nachbar saß auf dem Balkon und trank Tee.',
+    transliteration: 'Ǧalasa al-ǧāru fī aš-šurfati wa-šariba aš-šāya.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1438,
+    arabic: 'يَعْمَلُ أَخِي فِي شُعْبَةِ الْحِسَابَاتِ.',
+    german: 'Mein Bruder arbeitet in der Abteilung für Buchhaltung.',
+    transliteration: 'Yaʿmalu ʾaḫī fī šuʿbati al-ḥisābāti.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1439,
+    arabic: 'لِهَذِهِ السَّاعَةِ ضَمَانٌ لِمُدَّةِ سَنَتَيْنِ.',
+    german: 'Diese Uhr hat zwei Jahre Garantie.',
+    transliteration: 'Li-hāḏihi as-sāʿati ḍamānun li-muddati sanatayni.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1440,
+    arabic: 'ضَمِيرُ الشَّاهِدِ لَمْ يَسْمَحْ لَهُ بِالْكَذِبِ.',
+    german: 'Das Gewissen des Zeugen erlaubte ihm nicht zu lügen.',
+    transliteration: 'Ḍamīru aš-šāhidi lam yasmaḥ lahū bi-al-kaḏibi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 145 (word_ids 1441–1450): „Die Folgen einer Entscheidung".
+/// Ein Mann denkt über die Konsequenzen seines Handelns nach und lernt, was Tugend bedeutet.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter.
+final List<Sentence> _lessonHundredFortyFiveStory = [
+  Sentence(
+    wordId: 1441,
+    arabic: 'وَقَفَ الْوَلَدُ عَلَى طَرَفِ الطَّرِيقِ.',
+    german: 'Der Junge stand am Rand der Straße.',
+    transliteration: 'Waqafa al-waladu ʿalā ṭarafi aṭ-ṭarīqi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1442,
+    arabic: 'كَتَبَ الشَّاعِرُ قَصِيدَةً مَلِيئَةً بِالْعَاطِفَةِ.',
+    german: 'Der Dichter schrieb ein Gedicht voller Gefühl.',
+    transliteration: 'Kataba aš-šāʿiru qaṣīdatan malīʾatan bi-al-ʿāṭifati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1443,
+    arabic: 'فَكَّرَ الرَّجُلُ فِي عَاقِبَةِ قَرَارِهِ.',
+    german: 'Der Mann dachte über die Konsequenz seiner Entscheidung nach.',
+    transliteration: 'Fakkara ar-raǧulu fī ʿāqibati qarārihī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1444,
+    arabic: 'سَمِعْتُ عِبَارَةً جَدِيدَةً فِي الْفِيلْمِ.',
+    german: 'Ich hörte im Film eine neue Redewendung.',
+    transliteration: 'Samiʿtu ʿibāratan ǧadīdatan fī al-fīlmi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1445,
+    arabic: 'نَسْكُنُ فِي عِمَارَةٍ عَالِيَةٍ وَسَطَ الْمَدِينَةِ.',
+    german: 'Wir wohnen in einem hohen Gebäude mitten in der Stadt.',
+    transliteration: 'Naskunu fī ʿimāratin ʿāliyatin wasaṭa al-madīnati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1446,
+    arabic: 'لَمْ يَكُنْ تَرْكُ الْبَابِ مَفْتُوحًا إِلَّا غَبَاءً.',
+    german: 'Die Tür offen zu lassen war nichts als Dummheit.',
+    transliteration: 'Lam yakun tarku al-bābi maftūḥan ʾillā ġabāʾan.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1447,
+    arabic: 'دَفَعَ السَّائِقُ غَرَامَةً لِأَنَّهُ تَجَاوَزَ السُّرْعَةَ.',
+    german: 'Der Fahrer zahlte ein Bußgeld, weil er zu schnell fuhr.',
+    transliteration: 'Dafaʿa as-sāʾiqu ġarāmatan li-ʾannahū taǧāwaza as-surʿata.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1448,
+    arabic: 'تَعَطَّلَتِ الْغَسَّالَةُ وَاِمْتَلَأَ الْحَمَّامُ بِالْمَاءِ.',
+    german: 'Die Waschmaschine ging kaputt und das Bad füllte sich mit Wasser.',
+    transliteration: 'Taʿaṭṭalati al-ġassālatu wa-imtalaʾa al-ḥammāmu bi-al-māʾi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1449,
+    arabic: 'فَتَحَ الْبَنْكُ فَرْعًا جَدِيدًا فِي حَيِّنَا.',
+    german: 'Die Bank eröffnete eine neue Filiale in unserem Viertel.',
+    transliteration: 'Fataḥa al-banku farʿan ǧadīdan fī ḥayyinā.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1450,
+    arabic: 'الصِّدْقُ فَضِيلَةٌ يُحِبُّهَا النَّاسُ.',
+    german: 'Ehrlichkeit ist eine Tugend, die die Menschen lieben.',
+    transliteration: 'Aṣ-ṣidqu faḍīlatun yuḥibbuhā an-nāsu.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 146 (word_ids 1451–1460): „Der Dieb in der Bäckerei".
+/// Ein hungriger Dieb dringt nachts in eine Bäckerei ein und steht später vor dem Richter.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter.
+final List<Sentence> _lessonHundredFortySixStory = [
+  Sentence(
+    wordId: 1451,
+    arabic: 'نَظَّفَ الْعَامِلُ الْأَرْضَ بِفُرْشَاةٍ قَدِيمَةٍ.',
+    german: 'Der Arbeiter reinigte den Boden mit einer alten Bürste.',
+    transliteration: 'Naẓẓafa al-ʿāmilu al-ʾarḍa bi-furšātin qadīmatin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1452,
+    arabic: 'هَذَا الْفِيلْمُ لِفِئَةِ الْأَطْفَالِ.',
+    german: 'Dieser Film ist für die Gruppe der Kinder.',
+    transliteration: 'Hāḏā al-fīlmu li-fiʾati al-ʾaṭfāli.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1453,
+    arabic: 'سَأَلَ الْقَاضِي الشَّاهِدَ عَنِ اللَّيْلَةِ.',
+    german: 'Der Richter fragte den Zeugen nach der Nacht.',
+    transliteration: 'Saʾala al-qāḍī aš-šāhida ʿani al-laylati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1454,
+    arabic: 'نَامَتِ الْقِطَّةُ عَلَى الْكُرْسِيِّ بَعْدَ الظُّهْرِ.',
+    german: 'Die Katze schlief nach dem Mittag auf dem Stuhl.',
+    transliteration: 'Nāmati al-qiṭṭatu ʿalā al-kursiyyi baʿda aẓ-ẓuhri.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1455,
+    arabic: 'أَعْطَانِي الْخَبَّازُ قِطْعَةً مِنَ الْكَعْكِ.',
+    german: 'Der Bäcker gab mir ein Stück Kuchen.',
+    transliteration: 'ʾAʿṭānī al-ḫabbāzu qiṭʿatan mina al-kaʿki.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1456,
+    arabic: 'قَدَّمَ الْأَخُ كَفَالَةً لِيَخْرُجَ صَدِيقُهُ مِنَ السِّجْنِ.',
+    german: 'Der Bruder stellte eine Bürgschaft, damit sein Freund aus dem Gefängnis kommt.',
+    transliteration: 'Qaddama al-ʾaḫu kafālatan li-yaḫruǧa ṣadīquhū mina as-siǧni.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1457,
+    arabic: 'أَكَلَ الْجَائِعُ لُقْمَةً وَاحِدَةً وَشَكَرَ الْخَبَّازَ.',
+    german: 'Der Hungrige aß einen einzigen Bissen und dankte dem Bäcker.',
+    transliteration: 'ʾAkala al-ǧāʾiʿu luqmatan wāḥidatan wa-šakara al-ḫabbāza.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1458,
+    arabic: 'دَخَلَ لِصٌّ إِلَى الْمَخْبَزِ فِي اللَّيْلِ.',
+    german: 'Ein Dieb drang nachts in die Bäckerei ein.',
+    transliteration: 'Daḫala liṣṣun ʾilā al-maḫbazi fī al-layli.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1459,
+    arabic: 'زُرْنَا الْمَتْحَفَ الْوَطَنِيَّ يَوْمَ الْجُمُعَةِ.',
+    german: 'Wir besuchten am Freitag das Nationalmuseum.',
+    transliteration: 'Zurnā al-matḥafa al-waṭaniyya yawma al-ǧumʿati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1460,
+    arabic: 'يُفْتَحُ الْمَخْبَزُ قَبْلَ الْفَجْرِ كُلَّ صَبَاحٍ.',
+    german: 'Die Bäckerei öffnet jeden Morgen vor Morgengrauen.',
+    transliteration: 'Yuftaḥu al-maḫbazu qabla al-faǧri kulla ṣabāḥin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 147 (word_ids 1461–1470): „Der Umzug".
+/// Eine Familie zieht in eine neue Wohnung; Heizung, Handtuch und gute Laune gehören dazu.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter.
+final List<Sentence> _lessonHundredFortySevenStory = [
+  Sentence(
+    wordId: 1461,
+    arabic: 'لِلشَّقَّةِ الْجَدِيدَةِ مَزِيَّةٌ وَاحِدَةٌ، وَهِيَ الْقُرْبُ مِنَ الْعَمَلِ.',
+    german: 'Die neue Wohnung hat einen Vorteil: Sie liegt nahe an der Arbeit.',
+    transliteration: 'Lil-šaqqati al-ǧadīdati maziyyatun wāḥidatun, wa-hiya al-qurbu mina al-ʿamali.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1462,
+    arabic: 'بَدَأَ الْمُهَنْدِسُ مَشْرُوعًا لِبِنَاءِ بَيْتٍ صَغِيرٍ.',
+    german: 'Der Ingenieur begann ein Projekt zum Bau eines kleinen Hauses.',
+    transliteration: 'Badaʾa al-muhandisu mašrūʿan li-bināʾi baytin ṣaġīrin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1463,
+    arabic: 'قَالَ الْمُتَّهَمُ إِنَّهُ لَمْ يَكُنْ فِي الْبَيْتِ.',
+    german: 'Der Angeklagte sagte, er sei nicht im Haus gewesen.',
+    transliteration: 'Qāla al-muttahamu ʾinnahū lam yakun fī al-bayti.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1464,
+    arabic: 'صَوْتُ الْمُحَرِّكِ عَالٍ جِدًّا فِي الصَّبَاحِ.',
+    german: 'Das Geräusch des Motors ist am Morgen sehr laut.',
+    transliteration: 'Ṣawtu al-muḥarriki ʿālin ǧiddan fī aṣ-ṣabāḥi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1465,
+    arabic: 'يَحْتَاجُ الْمُوَظَّفُ إِلَى مُسْتَنَدٍ رَسْمِيٍّ لِلسَّفَرِ.',
+    german: 'Der Angestellte braucht für die Reise eine offizielle Urkunde.',
+    transliteration: 'Yaḥtāǧu al-muwaẓẓafu ʾilā mustanadin rasmiyyin lil-safari.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1466,
+    arabic: 'نَسِيَتِ الْبِنْتُ الْمُشْطَ فِي حَقِيبَةِ السَّفَرِ.',
+    german: 'Das Mädchen vergaß den Kamm in der Reisetasche.',
+    transliteration: 'Nasiyati al-bintu al-mušṭa fī ḥaqībati as-safari.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1467,
+    arabic: 'جَفَّفَ الْوَلَدُ وَجْهَهُ بِمُنَشْفَةٍ نَظِيفَةٍ.',
+    german: 'Der Junge trocknete sein Gesicht mit einem sauberen Handtuch.',
+    transliteration: 'Ǧaffafa al-waladu waǧhahū bi-munaššafatin naẓīfatin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1468,
+    arabic: 'شَغَّلْنَا الْمِدْفَأَةَ لِأَنَّ الْجَوَّ بَارِدٌ.',
+    german: 'Wir schalteten die Heizung ein, weil das Wetter kalt ist.',
+    transliteration: 'Šaġġalnā al-midfaʾata li-ʾanna al-ǧawwa bāridun.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1469,
+    arabic: 'مِزَاجُ أَبِي حَسَنٌ بَعْدَ الْعُطْلَةِ.',
+    german: 'Die Laune meines Vaters ist nach dem Urlaub gut.',
+    transliteration: 'Mizāǧu ʾabī ḥasanun baʿda al-ʿuṭlati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1470,
+    arabic: 'اِسْتَعَارَ الطَّالِبُ مِسْطَرَةً مِنْ صَدِيقِهِ.',
+    german: 'Der Schüler lieh sich von seinem Freund ein Lineal.',
+    transliteration: 'Istaʿāra aṭ-ṭālibu misṭaratan min ṣadīqihī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 148 (word_ids 1471–1480): „Das Testament des Großvaters".
+/// Nach dem Tod des Großvaters kommt die Familie zusammen, um Erbe und Dokumente zu klären.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter.
+final List<Sentence> _lessonHundredFortyEightStory = [
+  Sentence(
+    wordId: 1471,
+    arabic: 'الْأَرْضُ فِي الْقَرْيَةِ مِلْكِيَّةٌ خَاصَّةٌ لِلْعَائِلَةِ.',
+    german: 'Das Land im Dorf ist Privateigentum der Familie.',
+    transliteration: 'Al-ʾarḍu fī al-qaryati milkiyyatun ḫāṣṣatun lil-ʿāʾilati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1472,
+    arabic: 'تَرَكَ الْجَدُّ مِيرَاثًا كَبِيرًا لِأَوْلَادِهِ.',
+    german: 'Der Großvater hinterließ seinen Kindern ein großes Erbe.',
+    transliteration: 'Taraka al-ǧaddu mīrāṯan kabīran li-ʾawlādihī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1473,
+    arabic: 'يَنْتَظِرُ أَهْلُ الْبَيْتِ مِيلَادَ الطِّفْلِ فِي الرَّبِيعِ.',
+    german: 'Die Familie wartet im Frühling auf die Geburt des Kindes.',
+    transliteration: 'Yantaẓiru ʾahlu al-bayti mīlāda aṭ-ṭifli fī ar-rabīʿi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1474,
+    arabic: 'لَا يَسْكُنُ أَحَدٌ فِي هَذِهِ النَّاحِيَةِ مِنَ الْجَبَلِ.',
+    german: 'Niemand wohnt in dieser Gegend des Berges.',
+    transliteration: 'Lā yaskunu aḥadun fī hāḏihi an-nāḥiyati mina al-ǧabali.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1475,
+    arabic: 'أَخَذَتِ الْبِنْتُ نَصِيبَهَا مِنَ الْمَالِ.',
+    german: 'Das Mädchen nahm ihren Anteil am Geld.',
+    transliteration: 'ʾAḫaḏati al-bintu naṣībahā mina al-māli.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1476,
+    arabic: 'طَلَبَ الْقَاضِي نُسْخَةً مِنَ الْعَقْدِ.',
+    german: 'Der Richter verlangte eine Kopie des Vertrags.',
+    transliteration: 'Ṭalaba al-qāḍī nusḫatan mina al-ʿaqdi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1477,
+    arabic: 'كَتَبَ الْجَدُّ وَصِيَّتَهُ قَبْلَ وَفَاتِهِ.',
+    german: 'Der Großvater schrieb sein Testament vor seinem Tod.',
+    transliteration: 'Kataba al-ǧaddu wasiyyatahū qabla wafātihī.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1478,
+    arabic: 'عِنْدَ النَّاسِ وَعْيٌ كَبِيرٌ بِحُقُوقِهِمْ.',
+    german: 'Die Leute haben ein großes Bewusstsein für ihre Rechte.',
+    transliteration: 'ʿInda an-nāsi waʿyun kabīrun bi-ḥuqūqihim.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1479,
+    arabic: 'حَضَرَ وَكِيلُ الْعَائِلَةِ إِلَى الْمَحْكَمَةِ.',
+    german: 'Der Vertreter der Familie erschien vor Gericht.',
+    transliteration: 'Ḥaḍara wakīlu al-ʿāʾilati ʾilā al-maḥkamati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1480,
+    arabic: 'حَفِظَ الْمُحَامِي الْوِثِيقَةَ فِي خِزَانَةٍ آمِنَةٍ.',
+    german: 'Der Anwalt bewahrte das Dokument in einem sicheren Schrank auf.',
+    transliteration: 'Ḥafiẓa al-muḥāmī al-wiṯīqata fī ḫizānatin ʾāminatin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 149 (word_ids 1481–1490): „Der Markt am Morgen".
+/// Auf dem Markt prüfen Käufer frisches Brot, warme Milch und ein scharfes Messer.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter.
+final List<Sentence> _lessonHundredFortyNineStory = [
+  Sentence(
+    wordId: 1481,
+    arabic: 'رَبَّى الْعَمُّ طِفْلًا يَتِيمًا بَعْدَ وَفَاةِ أَبَوَيْهِ.',
+    german: 'Der Onkel zog nach dem Tod der Eltern ein Waisenkind groß.',
+    transliteration: 'Rabbā al-ʿammu ṭiflan yatīman baʿda wafāti ʾabawayhi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1482,
+    arabic: 'ظَهَرَ أَنَّ الْمُتَّهَمَ بَرِيءٌ.',
+    german: 'Es zeigte sich, dass der Angeklagte unschuldig ist.',
+    transliteration: 'Ẓahara ʾanna al-muttahama barīʾun.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1483,
+    arabic: 'السَّيْرُ فِي الزُّقَاقِ بَطِيءٌ صَبَاحًا.',
+    german: 'Der Verkehr in der Gasse ist morgens langsam.',
+    transliteration: 'As-sayru fī az-zuqāqi baṭīʾun ṣabāḥan.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1484,
+    arabic: 'اِحْذَرْ، فَالسِّكِّينُ حَادٌّ جِدًّا.',
+    german: 'Pass auf, das Messer ist sehr scharf.',
+    transliteration: 'Iḥḏar, fa-as-sikkīnu ḥāddun ǧiddan.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1485,
+    arabic: 'شَرِبْنَا حَلِيبًا دَافِئًا فِي الصَّبَاحِ.',
+    german: 'Wir tranken morgens warme Milch.',
+    transliteration: 'Šaribnā ḥalīban dāfiʾan fī aṣ-ṣabāḥi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1486,
+    arabic: 'لَبِسَ الرَّجُلُ مِعْطَفًا أَزْرَقَ دَاكِنًا.',
+    german: 'Der Mann trug einen dunkelblauen Mantel.',
+    transliteration: 'Labisa ar-raǧulu miʿṭafan ʾazraqa dākinan.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1487,
+    arabic: 'اِشْتَرَتْ أُمِّي بِسَاطًا سَمِيكًا لِلشِّتَاءِ.',
+    german: 'Meine Mutter kaufte einen dicken Teppich für den Winter.',
+    transliteration: 'Ištarat ʾummī bisāṭan samīkan lil-šitāʾi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1488,
+    arabic: 'الْإِفْرَاطُ فِي السُّكَّرِ ضَارٌّ بِالصِّحَّةِ.',
+    german: 'Zu viel Zucker ist schädlich für die Gesundheit.',
+    transliteration: 'Al-ʾifrāṭu fī as-sukkari ḍārrun bi-aṣ-ṣiḥḥati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1489,
+    arabic: 'الْخُبْزُ الطَّرِيُّ أَطْيَبُ مِنَ الْقَدِيمِ.',
+    german: 'Das frische Brot schmeckt besser als das alte.',
+    transliteration: 'Al-ḫubzu aṭ-ṭariyyu ʾaṭyabu mina al-qadīmi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1490,
+    arabic: 'لَا تَكُنْ عَجُولًا، فَالْوَقْتُ كَافٍ.',
+    german: 'Sei nicht hastig, die Zeit reicht.',
+    transliteration: 'Lā takun ʿaǧūlan, fa-al-waqtu kāfin.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+];
+
+/// Lektion 150 (word_ids 1491–1500): „Optimist und Pessimist".
+/// Zwei Freunde erleben denselben schwierigen Tag und sehen ihn völlig verschieden.
+/// Jeder Satz verwendet genau eines der zehn gelernten Wörter.
+final List<Sentence> _lessonHundredFiftyStory = [
+  Sentence(
+    wordId: 1491,
+    arabic: 'كَانَ الِامْتِحَانُ عَسِيرًا عَلَى الطُّلَّابِ.',
+    german: 'Die Prüfung war für die Studenten schwierig.',
+    transliteration: 'Kāna al-imtiḥānu ʿasīran ʿalā aṭ-ṭullābi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1492,
+    arabic: 'الْحِمَارُ عَنِيدٌ وَلَا يَتْرُكُ مَكَانَهُ.',
+    german: 'Der Esel ist stur und verlässt seinen Platz nicht.',
+    transliteration: 'Al-ḥimāru ʿanīdun wa-lā yatruku makānahū.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1493,
+    arabic: 'خَرَجَ الْأَبُ غَاضِبًا مِنَ الْغُرْفَةِ.',
+    german: 'Der Vater verließ wütend das Zimmer.',
+    transliteration: 'Ḫaraǧa al-ʾabu ġāḍiban mina al-ġurfati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1494,
+    arabic: 'اِخْتَارَتِ الْبِنْتُ لَوْنًا فَاتِحًا لِلْحَائِطِ.',
+    german: 'Das Mädchen wählte eine helle Farbe für die Wand.',
+    transliteration: 'Iḫtārati al-bintu lawnan fātiḥan lil-ḥāʾiṭi.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1495,
+    arabic: 'رَمَيْنَا اللَّحْمَ الْفَاسِدَ فِي الْقُمَامَةِ.',
+    german: 'Wir warfen das verdorbene Fleisch in den Müll.',
+    transliteration: 'Ramaynā al-laḥma al-fāsida fī al-qumāmati.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1496,
+    arabic: 'كَانَ الْمَاءُ فِي الْبِرْكَةِ قَذِرًا.',
+    german: 'Das Wasser im Teich war schmutzig.',
+    transliteration: 'Kāna al-māʾu fī al-birkati qaḏiran.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1497,
+    arabic: 'مِنَ اللَّازِمِ أَنْ نَبْدَأَ الْعَمَلَ مُبَكِّرًا.',
+    german: 'Es ist nötig, dass wir früh mit der Arbeit beginnen.',
+    transliteration: 'Mina al-lāzimi ʾan nabdaʾa al-ʿamala mubakkiran.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1498,
+    arabic: 'الْحَسَاءُ مَالِحٌ فَأَضَفْنَا إِلَيْهِ مَاءً.',
+    german: 'Die Suppe ist salzig, also gaben wir Wasser dazu.',
+    transliteration: 'Al-ḥasāʾu māliḥun fa-ʾaḍafnā ʾilayhi māʾan.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1499,
+    arabic: 'الرَّجُلُ الْمُتَشَائِمُ يَرَى الْمَشَاكِلَ فَقَطْ.',
+    german: 'Der pessimistische Mann sieht nur Probleme.',
+    transliteration: 'Ar-raǧulu al-mutašāʾimu yarā al-mašākila faqaṭ.',
+    wordAnalysis: [],
+    targetIndex: 0,
+  ),
+  Sentence(
+    wordId: 1500,
+    arabic: 'أَنَا مُتَفَائِلٌ بِالْمُسْتَقْبَلِ رَغْمَ الصُّعُوبَاتِ.',
+    german: 'Ich bin trotz der Schwierigkeiten optimistisch für die Zukunft.',
+    transliteration: 'ʾAnā mutafāʾilun bi-al-mustaqbali raġma aṣ-ṣuʿūbāti.',
     wordAnalysis: [],
     targetIndex: 0,
   ),

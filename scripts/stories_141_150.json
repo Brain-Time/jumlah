@@ -1,0 +1,172 @@
+[
+  {
+    "lesson": 141,
+    "title": "Die Stellenanzeige",
+    "desc": "Ein junger Mann liest eine Anzeige, bewirbt sich und zeigt im Gespräch Interesse.",
+    "sentences": [
+      ["أُجْرَةُ الْعَامِلِ فِي الْمَصْنَعِ مُنَاسِبَةٌ.", "Der Lohn des Arbeiters in der Fabrik ist angemessen.", "Uǧratu al-ʿāmili fī al-maṣnaʿi munāsibatun."],
+      ["أُسْلُوبُ الْمُدِيرِ فِي الْكَلَامِ هَادِئٌ.", "Der Stil des Leiters beim Sprechen ist ruhig.", "ʾUslūbu al-mudīri fī al-kalāmi hādiʾun."],
+      ["شَعَرَتْ سَارَةُ بِإِحْسَاسٍ جَمِيلٍ عِنْدَ قِرَاءَةِ الْخَبَرِ.", "Sara spürte beim Lesen der Nachricht eine schöne Empfindung.", "Šaʿarat Sāratu bi-ʾiḥsāsin ǧamīlin ʿinda qirāʾati al-ḫabari."],
+      ["قَرَأَ يُوسُفُ إِعْلَانًا عَنْ وَظِيفَةٍ جَدِيدَةٍ فِي الْجَرِيدَةِ.", "Yusuf las in der Zeitung eine Anzeige über eine neue Stelle.", "Qaraʾa Yūsufu ʾiʿlānan ʿan waẓīfatin ǧadīdatin fī al-ǧarīdati."],
+      ["اللُّغَةُ الْإِنْجِلِيزِيَّةُ اِمْتِيَازٌ لِلْمُتَقَدِّمِ.", "Englisch ist ein Vorzug für den Bewerber.", "Al-luġatu al-ʾinǧlīziyyatu imtiyāzun lil-mutaqaddimi."],
+      ["اِنْتِبَاهُ الشَّابِّ فِي الْمُقَابَلَةِ كَانَ وَاضِحًا.", "Die Aufmerksamkeit des jungen Mannes im Gespräch war deutlich.", "Intibāhu aš-šābbi fī al-muqābalati kāna wāḍiḥan."],
+      ["أَظْهَرَ الشَّابُّ اِهْتِمَامًا كَبِيرًا بِالْعَمَلِ.", "Der junge Mann zeigte großes Interesse an der Arbeit.", "ʾAẓhara aš-šābbu ihtimāman kabīran bi-al-ʿamali."],
+      ["لِلْمُقَابَلَةِ تَأْثِيرٌ كَبِيرٌ عَلَى قَرَارِ الْمُدِيرِ.", "Das Gespräch hat große Wirkung auf die Entscheidung des Leiters.", "Lil-muqābalati taʾṯīrun kabīrun ʿalā qarāri al-mudīri."],
+      ["تَدْفَعُ الشَّرِكَةُ تَأْمِينًا صِحِّيًّا لِكُلِّ مُوَظَّفٍ.", "Die Firma zahlt jedem Angestellten eine Krankenversicherung.", "Tadfaʿu aš-šarikatu taʾmīnan ṣiḥḥiyyan li-kulli muwaẓẓafin."],
+      ["بَدَأَ التَّدْرِيبُ فِي الْأُسْبُوعِ الْأَوَّلِ مِنَ الشَّهْرِ.", "Das Training begann in der ersten Woche des Monats.", "Badaʾa at-tadrību fī al-ʾusbūʿi al-ʾawwali mina aš-šahri."]
+    ]
+  },
+  {
+    "lesson": 142,
+    "title": "Das Erbe der Vorfahren",
+    "desc": "Ein Großvater erzählt von Kultur und Zivilisation, während zu Hause der Alltag weitergeht.",
+    "sentences": [
+      ["هَذَا التَّعْبِيرُ جَمِيلٌ فِي الشِّعْرِ الْعَرَبِيِّ.", "Dieser Ausdruck ist schön in der arabischen Dichtung.", "Hāḏā at-taʿbīru ǧamīlun fī aš-šiʿri al-ʿarabiyyi."],
+      ["أَخِي الصَّغِيرُ تَوْأَمٌ لِأُخْتِي.", "Mein kleiner Bruder ist der Zwilling meiner Schwester.", "ʾAḫī aṣ-ṣaġīru tawʾamun li-ʾuḫtī."],
+      ["يَحْكِي الْجَدُّ عَنْ تُرَاثِ الْقَرْيَةِ.", "Der Großvater erzählt vom Kulturerbe des Dorfes.", "Yaḥkī al-ǧaddu ʿan turāṯi al-qaryati."],
+      ["وَضَعَتِ الْأُمُّ الْحَلِيبَ فِي الثَّلَّاجَةِ.", "Die Mutter stellte die Milch in den Kühlschrank.", "Waḍaʿati al-ʾummu al-ḥalība fī aṯ-ṯallāǧati."],
+      ["جَزَاءُ الْكَذِبِ فِي الْمَدْرَسَةِ شَدِيدٌ.", "Die Strafe fürs Lügen in der Schule ist hart.", "Ǧazāʾu al-kaḏibi fī al-madrasati šadīdun."],
+      ["الْجَهْلُ بِالْقَانُونِ لَا يَحْمِي النَّاسَ.", "Unwissenheit über das Gesetz schützt die Menschen nicht.", "Al-ǧahlu bi-al-qānūni lā yaḥmī an-nāsa."],
+      ["زَرَعَتِ الْبِنْتُ الْوَرْدَ فِي جُنَيْنَةِ الْبَيْتِ.", "Das Mädchen pflanzte Rosen im Gärtchen des Hauses.", "Zaraʿati al-bintu al-warda fī ǧunaynati al-bayti."],
+      ["اِشْتَرَى أَبِي جِهَازًا جَدِيدًا لِلْمَطْبَخِ.", "Mein Vater kaufte ein neues Gerät für die Küche.", "Ištarā ʾabī ǧihāzan ǧadīdan lil-maṭbaḫi."],
+      ["مِنْ أَيِّ جِهَةٍ تَأْتِي الرِّيحُ؟", "Aus welcher Richtung kommt der Wind?", "Min ʾayyi ǧihatin taʾtī ar-rīḥu?"],
+      ["دَرَسْنَا حَضَارَةَ مِصْرَ الْقَدِيمَةَ فِي الْجَامِعَةِ.", "Wir studierten an der Universität die Zivilisation des alten Ägypten.", "Darasnā ḥaḍārata Miṣra al-qadīmata fī al-ǧāmiʿati."]
+    ]
+  },
+  {
+    "lesson": 143,
+    "title": "Der Hirte und der Bär",
+    "desc": "Ein Hirte schützt sein kluges Lamm vor einem Bären und gewinnt Weisheit.",
+    "sentences": [
+      ["مَلَأَ الرَّاعِي الْحَوْضَ بِالْمَاءِ الْبَارِدِ.", "Der Hirte füllte das Becken mit kaltem Wasser.", "Malaʾa ar-rāʿī al-ḥawḍa bi-al-māʾi al-bāridi."],
+      ["أَخَذَ كُلُّ وَلَدٍ حِصَّتَهُ مِنَ الْخُبْزِ.", "Jedes Kind nahm seinen Anteil vom Brot.", "ʾAḫaḏa kullu waladin ḥiṣṣatahū mina al-ḫubzi."],
+      ["فِي كَلَامِ الشَّيْخِ حِكْمَةٌ كَبِيرَةٌ.", "In den Worten des Alten liegt große Weisheit.", "Fī kalāmi aš-šayḫi ḥikmatun kabīratun."],
+      ["يَرْعَى الْخَرُوفُ الصَّغِيرُ الْعُشْبَ قُرْبَ النَّهْرِ.", "Das kleine Lamm weidet Gras nahe dem Fluss.", "Yarʿā al-ḫarūfu aṣ-ṣaġīru al-ʿušba qurba an-nahri."],
+      ["كَتَبَ الْمُعَلِّمُ خُلَاصَةَ الْقِصَّةِ عَلَى السَّبُّورَةِ.", "Der Lehrer schrieb die Zusammenfassung der Geschichte an die Tafel.", "Kataba al-muʿallimu ḫulāṣata al-qiṣṣati ʿalā as-sabbūrati."],
+      ["عِنْدَ الرَّاعِي خِطَّةٌ لِحِمَايَةِ الْقَطِيعِ.", "Der Hirte hat einen Plan, um die Herde zu schützen.", "ʿInda ar-rāʿī ḫiṭṭatun li-ḥimāyati al-qaṭīʿi."],
+      ["رَكِبَ الْوَلَدُ دَرَّاجَتَهُ إِلَى الْحَقْلِ.", "Der Junge fuhr mit seinem Fahrrad zum Feld.", "Rakiba al-waladu darrāǧatahū ʾilā al-ḥaqli."],
+      ["رَأَى الصَّيَّادُ دُبًّا كَبِيرًا فِي الْغَابَةِ.", "Der Jäger sah einen großen Bären im Wald.", "Raʾā aṣ-ṣayyādu dubban kabīran fī al-ġābati."],
+      ["نَجَا الْخَرُوفُ بِذَكَائِهِ.", "Das Lamm entkam dank seiner Intelligenz.", "Naǧā al-ḫarūfu bi-ḏakāʾihī."],
+      ["يَأْخُذُ الرَّاعِي رَاتِبَهُ فِي نِهَايَةِ الشَّهْرِ.", "Der Hirte bekommt sein Gehalt am Monatsende.", "Yaʾḫuḏu ar-rāʿī rātibahū fī nihāyati aš-šahri."]
+    ]
+  },
+  {
+    "lesson": 144,
+    "title": "Die enge Gasse",
+    "desc": "Am Abend wird es in einer Gasse unruhig: ein Diebstahl, eine Kerze und ein Zeuge mit Gewissen.",
+    "sentences": [
+      ["بَكَى الرَّضِيعُ فِي اللَّيْلِ وَنَهَضَتْ أُمُّهُ.", "Der Säugling weinte in der Nacht und seine Mutter stand auf.", "Bakā ar-raḍīʿu fī al-layli wa-nahaḍat ʾummuhū."],
+      ["وَضَعْتُ الْكُتُبَ عَلَى الرَّفِّ الْعَالِي.", "Ich stellte die Bücher auf das hohe Regal.", "Waḍaʿtu al-kutuba ʿalā ar-raffi al-ʿālī."],
+      ["يَطْلُبُ الرَّجُلُ الرِّزْقَ بِعَمَلِهِ كُلَّ يَوْمٍ.", "Der Mann sucht seinen Lebensunterhalt jeden Tag durch seine Arbeit.", "Yaṭlubu ar-raǧulu ar-rizqa bi-ʿamalihī kulla yawmin."],
+      ["مَشَيْنَا فِي زُقَاقٍ ضَيِّقٍ بَيْنَ الْبُيُوتِ.", "Wir gingen durch eine enge Gasse zwischen den Häusern.", "Mašaynā fī zuqāqin ḍayyiqin bayna al-buyūti."],
+      ["سَمِعَتِ الشُّرْطَةُ عَنِ السَّرِقَةِ فِي الزُّقَاقِ.", "Die Polizei hörte vom Diebstahl in der Gasse.", "Samiʿat aš-šurṭatu ʿani as-sariqati fī az-zuqāqi."],
+      ["أَشْعَلَتِ الْجَدَّةُ شَمْعَةً عِنْدَ اِنْقِطَاعِ الْكَهْرَبَاءِ.", "Die Großmutter zündete bei Stromausfall eine Kerze an.", "ʾAšʿalati al-ǧaddatu šamʿatan ʿinda inqiṭāʿi al-kahrabāʾi."],
+      ["جَلَسَ الْجَارُ فِي الشُّرْفَةِ وَشَرِبَ الشَّايَ.", "Der Nachbar saß auf dem Balkon und trank Tee.", "Ǧalasa al-ǧāru fī aš-šurfati wa-šariba aš-šāya."],
+      ["يَعْمَلُ أَخِي فِي شُعْبَةِ الْحِسَابَاتِ.", "Mein Bruder arbeitet in der Abteilung für Buchhaltung.", "Yaʿmalu ʾaḫī fī šuʿbati al-ḥisābāti."],
+      ["لِهَذِهِ السَّاعَةِ ضَمَانٌ لِمُدَّةِ سَنَتَيْنِ.", "Diese Uhr hat zwei Jahre Garantie.", "Li-hāḏihi as-sāʿati ḍamānun li-muddati sanatayni."],
+      ["ضَمِيرُ الشَّاهِدِ لَمْ يَسْمَحْ لَهُ بِالْكَذِبِ.", "Das Gewissen des Zeugen erlaubte ihm nicht zu lügen.", "Ḍamīru aš-šāhidi lam yasmaḥ lahū bi-al-kaḏibi."]
+    ]
+  },
+  {
+    "lesson": 145,
+    "title": "Die Folgen einer Entscheidung",
+    "desc": "Ein Mann denkt über die Konsequenzen seines Handelns nach und lernt, was Tugend bedeutet.",
+    "sentences": [
+      ["وَقَفَ الْوَلَدُ عَلَى طَرَفِ الطَّرِيقِ.", "Der Junge stand am Rand der Straße.", "Waqafa al-waladu ʿalā ṭarafi aṭ-ṭarīqi."],
+      ["كَتَبَ الشَّاعِرُ قَصِيدَةً مَلِيئَةً بِالْعَاطِفَةِ.", "Der Dichter schrieb ein Gedicht voller Gefühl.", "Kataba aš-šāʿiru qaṣīdatan malīʾatan bi-al-ʿāṭifati."],
+      ["فَكَّرَ الرَّجُلُ فِي عَاقِبَةِ قَرَارِهِ.", "Der Mann dachte über die Konsequenz seiner Entscheidung nach.", "Fakkara ar-raǧulu fī ʿāqibati qarārihī."],
+      ["سَمِعْتُ عِبَارَةً جَدِيدَةً فِي الْفِيلْمِ.", "Ich hörte im Film eine neue Redewendung.", "Samiʿtu ʿibāratan ǧadīdatan fī al-fīlmi."],
+      ["نَسْكُنُ فِي عِمَارَةٍ عَالِيَةٍ وَسَطَ الْمَدِينَةِ.", "Wir wohnen in einem hohen Gebäude mitten in der Stadt.", "Naskunu fī ʿimāratin ʿāliyatin wasaṭa al-madīnati."],
+      ["لَمْ يَكُنْ تَرْكُ الْبَابِ مَفْتُوحًا إِلَّا غَبَاءً.", "Die Tür offen zu lassen war nichts als Dummheit.", "Lam yakun tarku al-bābi maftūḥan ʾillā ġabāʾan."],
+      ["دَفَعَ السَّائِقُ غَرَامَةً لِأَنَّهُ تَجَاوَزَ السُّرْعَةَ.", "Der Fahrer zahlte ein Bußgeld, weil er zu schnell fuhr.", "Dafaʿa as-sāʾiqu ġarāmatan li-ʾannahū taǧāwaza as-surʿata."],
+      ["تَعَطَّلَتِ الْغَسَّالَةُ وَاِمْتَلَأَ الْحَمَّامُ بِالْمَاءِ.", "Die Waschmaschine ging kaputt und das Bad füllte sich mit Wasser.", "Taʿaṭṭalati al-ġassālatu wa-imtalaʾa al-ḥammāmu bi-al-māʾi."],
+      ["فَتَحَ الْبَنْكُ فَرْعًا جَدِيدًا فِي حَيِّنَا.", "Die Bank eröffnete eine neue Filiale in unserem Viertel.", "Fataḥa al-banku farʿan ǧadīdan fī ḥayyinā."],
+      ["الصِّدْقُ فَضِيلَةٌ يُحِبُّهَا النَّاسُ.", "Ehrlichkeit ist eine Tugend, die die Menschen lieben.", "Aṣ-ṣidqu faḍīlatun yuḥibbuhā an-nāsu."]
+    ]
+  },
+  {
+    "lesson": 146,
+    "title": "Der Dieb in der Bäckerei",
+    "desc": "Ein hungriger Dieb dringt nachts in eine Bäckerei ein und steht später vor dem Richter.",
+    "sentences": [
+      ["نَظَّفَ الْعَامِلُ الْأَرْضَ بِفُرْشَاةٍ قَدِيمَةٍ.", "Der Arbeiter reinigte den Boden mit einer alten Bürste.", "Naẓẓafa al-ʿāmilu al-ʾarḍa bi-furšātin qadīmatin."],
+      ["هَذَا الْفِيلْمُ لِفِئَةِ الْأَطْفَالِ.", "Dieser Film ist für die Gruppe der Kinder.", "Hāḏā al-fīlmu li-fiʾati al-ʾaṭfāli."],
+      ["سَأَلَ الْقَاضِي الشَّاهِدَ عَنِ اللَّيْلَةِ.", "Der Richter fragte den Zeugen nach der Nacht.", "Saʾala al-qāḍī aš-šāhida ʿani al-laylati."],
+      ["نَامَتِ الْقِطَّةُ عَلَى الْكُرْسِيِّ بَعْدَ الظُّهْرِ.", "Die Katze schlief nach dem Mittag auf dem Stuhl.", "Nāmati al-qiṭṭatu ʿalā al-kursiyyi baʿda aẓ-ẓuhri."],
+      ["أَعْطَانِي الْخَبَّازُ قِطْعَةً مِنَ الْكَعْكِ.", "Der Bäcker gab mir ein Stück Kuchen.", "ʾAʿṭānī al-ḫabbāzu qiṭʿatan mina al-kaʿki."],
+      ["قَدَّمَ الْأَخُ كَفَالَةً لِيَخْرُجَ صَدِيقُهُ مِنَ السِّجْنِ.", "Der Bruder stellte eine Bürgschaft, damit sein Freund aus dem Gefängnis kommt.", "Qaddama al-ʾaḫu kafālatan li-yaḫruǧa ṣadīquhū mina as-siǧni."],
+      ["أَكَلَ الْجَائِعُ لُقْمَةً وَاحِدَةً وَشَكَرَ الْخَبَّازَ.", "Der Hungrige aß einen einzigen Bissen und dankte dem Bäcker.", "ʾAkala al-ǧāʾiʿu luqmatan wāḥidatan wa-šakara al-ḫabbāza."],
+      ["دَخَلَ لِصٌّ إِلَى الْمَخْبَزِ فِي اللَّيْلِ.", "Ein Dieb drang nachts in die Bäckerei ein.", "Daḫala liṣṣun ʾilā al-maḫbazi fī al-layli."],
+      ["زُرْنَا الْمَتْحَفَ الْوَطَنِيَّ يَوْمَ الْجُمُعَةِ.", "Wir besuchten am Freitag das Nationalmuseum.", "Zurnā al-matḥafa al-waṭaniyya yawma al-ǧumʿati."],
+      ["يُفْتَحُ الْمَخْبَزُ قَبْلَ الْفَجْرِ كُلَّ صَبَاحٍ.", "Die Bäckerei öffnet jeden Morgen vor Morgengrauen.", "Yuftaḥu al-maḫbazu qabla al-faǧri kulla ṣabāḥin."]
+    ]
+  },
+  {
+    "lesson": 147,
+    "title": "Der Umzug",
+    "desc": "Eine Familie zieht in eine neue Wohnung; Heizung, Handtuch und gute Laune gehören dazu.",
+    "sentences": [
+      ["لِلشَّقَّةِ الْجَدِيدَةِ مَزِيَّةٌ وَاحِدَةٌ، وَهِيَ الْقُرْبُ مِنَ الْعَمَلِ.", "Die neue Wohnung hat einen Vorteil: Sie liegt nahe an der Arbeit.", "Lil-šaqqati al-ǧadīdati maziyyatun wāḥidatun, wa-hiya al-qurbu mina al-ʿamali."],
+      ["بَدَأَ الْمُهَنْدِسُ مَشْرُوعًا لِبِنَاءِ بَيْتٍ صَغِيرٍ.", "Der Ingenieur begann ein Projekt zum Bau eines kleinen Hauses.", "Badaʾa al-muhandisu mašrūʿan li-bināʾi baytin ṣaġīrin."],
+      ["قَالَ الْمُتَّهَمُ إِنَّهُ لَمْ يَكُنْ فِي الْبَيْتِ.", "Der Angeklagte sagte, er sei nicht im Haus gewesen.", "Qāla al-muttahamu ʾinnahū lam yakun fī al-bayti."],
+      ["صَوْتُ الْمُحَرِّكِ عَالٍ جِدًّا فِي الصَّبَاحِ.", "Das Geräusch des Motors ist am Morgen sehr laut.", "Ṣawtu al-muḥarriki ʿālin ǧiddan fī aṣ-ṣabāḥi."],
+      ["يَحْتَاجُ الْمُوَظَّفُ إِلَى مُسْتَنَدٍ رَسْمِيٍّ لِلسَّفَرِ.", "Der Angestellte braucht für die Reise eine offizielle Urkunde.", "Yaḥtāǧu al-muwaẓẓafu ʾilā mustanadin rasmiyyin lil-safari."],
+      ["نَسِيَتِ الْبِنْتُ الْمُشْطَ فِي حَقِيبَةِ السَّفَرِ.", "Das Mädchen vergaß den Kamm in der Reisetasche.", "Nasiyati al-bintu al-mušṭa fī ḥaqībati as-safari."],
+      ["جَفَّفَ الْوَلَدُ وَجْهَهُ بِمُنَشْفَةٍ نَظِيفَةٍ.", "Der Junge trocknete sein Gesicht mit einem sauberen Handtuch.", "Ǧaffafa al-waladu waǧhahū bi-munaššafatin naẓīfatin."],
+      ["شَغَّلْنَا الْمِدْفَأَةَ لِأَنَّ الْجَوَّ بَارِدٌ.", "Wir schalteten die Heizung ein, weil das Wetter kalt ist.", "Šaġġalnā al-midfaʾata li-ʾanna al-ǧawwa bāridun."],
+      ["مِزَاجُ أَبِي حَسَنٌ بَعْدَ الْعُطْلَةِ.", "Die Laune meines Vaters ist nach dem Urlaub gut.", "Mizāǧu ʾabī ḥasanun baʿda al-ʿuṭlati."],
+      ["اِسْتَعَارَ الطَّالِبُ مِسْطَرَةً مِنْ صَدِيقِهِ.", "Der Schüler lieh sich von seinem Freund ein Lineal.", "Istaʿāra aṭ-ṭālibu misṭaratan min ṣadīqihī."]
+    ]
+  },
+  {
+    "lesson": 148,
+    "title": "Das Testament des Großvaters",
+    "desc": "Nach dem Tod des Großvaters kommt die Familie zusammen, um Erbe und Dokumente zu klären.",
+    "sentences": [
+      ["الْأَرْضُ فِي الْقَرْيَةِ مِلْكِيَّةٌ خَاصَّةٌ لِلْعَائِلَةِ.", "Das Land im Dorf ist Privateigentum der Familie.", "Al-ʾarḍu fī al-qaryati milkiyyatun ḫāṣṣatun lil-ʿāʾilati."],
+      ["تَرَكَ الْجَدُّ مِيرَاثًا كَبِيرًا لِأَوْلَادِهِ.", "Der Großvater hinterließ seinen Kindern ein großes Erbe.", "Taraka al-ǧaddu mīrāṯan kabīran li-ʾawlādihī."],
+      ["يَنْتَظِرُ أَهْلُ الْبَيْتِ مِيلَادَ الطِّفْلِ فِي الرَّبِيعِ.", "Die Familie wartet im Frühling auf die Geburt des Kindes.", "Yantaẓiru ʾahlu al-bayti mīlāda aṭ-ṭifli fī ar-rabīʿi."],
+      ["لَا يَسْكُنُ أَحَدٌ فِي هَذِهِ النَّاحِيَةِ مِنَ الْجَبَلِ.", "Niemand wohnt in dieser Gegend des Berges.", "Lā yaskunu aḥadun fī hāḏihi an-nāḥiyati mina al-ǧabali."],
+      ["أَخَذَتِ الْبِنْتُ نَصِيبَهَا مِنَ الْمَالِ.", "Das Mädchen nahm ihren Anteil am Geld.", "ʾAḫaḏati al-bintu naṣībahā mina al-māli."],
+      ["طَلَبَ الْقَاضِي نُسْخَةً مِنَ الْعَقْدِ.", "Der Richter verlangte eine Kopie des Vertrags.", "Ṭalaba al-qāḍī nusḫatan mina al-ʿaqdi."],
+      ["كَتَبَ الْجَدُّ وَصِيَّتَهُ قَبْلَ وَفَاتِهِ.", "Der Großvater schrieb sein Testament vor seinem Tod.", "Kataba al-ǧaddu wasiyyatahū qabla wafātihī."],
+      ["عِنْدَ النَّاسِ وَعْيٌ كَبِيرٌ بِحُقُوقِهِمْ.", "Die Leute haben ein großes Bewusstsein für ihre Rechte.", "ʿInda an-nāsi waʿyun kabīrun bi-ḥuqūqihim."],
+      ["حَضَرَ وَكِيلُ الْعَائِلَةِ إِلَى الْمَحْكَمَةِ.", "Der Vertreter der Familie erschien vor Gericht.", "Ḥaḍara wakīlu al-ʿāʾilati ʾilā al-maḥkamati."],
+      ["حَفِظَ الْمُحَامِي الْوِثِيقَةَ فِي خِزَانَةٍ آمِنَةٍ.", "Der Anwalt bewahrte das Dokument in einem sicheren Schrank auf.", "Ḥafiẓa al-muḥāmī al-wiṯīqata fī ḫizānatin ʾāminatin."]
+    ]
+  },
+  {
+    "lesson": 149,
+    "title": "Der Markt am Morgen",
+    "desc": "Auf dem Markt prüfen Käufer frisches Brot, warme Milch und ein scharfes Messer.",
+    "sentences": [
+      ["رَبَّى الْعَمُّ طِفْلًا يَتِيمًا بَعْدَ وَفَاةِ أَبَوَيْهِ.", "Der Onkel zog nach dem Tod der Eltern ein Waisenkind groß.", "Rabbā al-ʿammu ṭiflan yatīman baʿda wafāti ʾabawayhi."],
+      ["ظَهَرَ أَنَّ الْمُتَّهَمَ بَرِيءٌ.", "Es zeigte sich, dass der Angeklagte unschuldig ist.", "Ẓahara ʾanna al-muttahama barīʾun."],
+      ["السَّيْرُ فِي الزُّقَاقِ بَطِيءٌ صَبَاحًا.", "Der Verkehr in der Gasse ist morgens langsam.", "As-sayru fī az-zuqāqi baṭīʾun ṣabāḥan."],
+      ["اِحْذَرْ، فَالسِّكِّينُ حَادٌّ جِدًّا.", "Pass auf, das Messer ist sehr scharf.", "Iḥḏar, fa-as-sikkīnu ḥāddun ǧiddan."],
+      ["شَرِبْنَا حَلِيبًا دَافِئًا فِي الصَّبَاحِ.", "Wir tranken morgens warme Milch.", "Šaribnā ḥalīban dāfiʾan fī aṣ-ṣabāḥi."],
+      ["لَبِسَ الرَّجُلُ مِعْطَفًا أَزْرَقَ دَاكِنًا.", "Der Mann trug einen dunkelblauen Mantel.", "Labisa ar-raǧulu miʿṭafan ʾazraqa dākinan."],
+      ["اِشْتَرَتْ أُمِّي بِسَاطًا سَمِيكًا لِلشِّتَاءِ.", "Meine Mutter kaufte einen dicken Teppich für den Winter.", "Ištarat ʾummī bisāṭan samīkan lil-šitāʾi."],
+      ["الْإِفْرَاطُ فِي السُّكَّرِ ضَارٌّ بِالصِّحَّةِ.", "Zu viel Zucker ist schädlich für die Gesundheit.", "Al-ʾifrāṭu fī as-sukkari ḍārrun bi-aṣ-ṣiḥḥati."],
+      ["الْخُبْزُ الطَّرِيُّ أَطْيَبُ مِنَ الْقَدِيمِ.", "Das frische Brot schmeckt besser als das alte.", "Al-ḫubzu aṭ-ṭariyyu ʾaṭyabu mina al-qadīmi."],
+      ["لَا تَكُنْ عَجُولًا، فَالْوَقْتُ كَافٍ.", "Sei nicht hastig, die Zeit reicht.", "Lā takun ʿaǧūlan, fa-al-waqtu kāfin."]
+    ]
+  },
+  {
+    "lesson": 150,
+    "title": "Optimist und Pessimist",
+    "desc": "Zwei Freunde erleben denselben schwierigen Tag und sehen ihn völlig verschieden.",
+    "sentences": [
+      ["كَانَ الِامْتِحَانُ عَسِيرًا عَلَى الطُّلَّابِ.", "Die Prüfung war für die Studenten schwierig.", "Kāna al-imtiḥānu ʿasīran ʿalā aṭ-ṭullābi."],
+      ["الْحِمَارُ عَنِيدٌ وَلَا يَتْرُكُ مَكَانَهُ.", "Der Esel ist stur und verlässt seinen Platz nicht.", "Al-ḥimāru ʿanīdun wa-lā yatruku makānahū."],
+      ["خَرَجَ الْأَبُ غَاضِبًا مِنَ الْغُرْفَةِ.", "Der Vater verließ wütend das Zimmer.", "Ḫaraǧa al-ʾabu ġāḍiban mina al-ġurfati."],
+      ["اِخْتَارَتِ الْبِنْتُ لَوْنًا فَاتِحًا لِلْحَائِطِ.", "Das Mädchen wählte eine helle Farbe für die Wand.", "Iḫtārati al-bintu lawnan fātiḥan lil-ḥāʾiṭi."],
+      ["رَمَيْنَا اللَّحْمَ الْفَاسِدَ فِي الْقُمَامَةِ.", "Wir warfen das verdorbene Fleisch in den Müll.", "Ramaynā al-laḥma al-fāsida fī al-qumāmati."],
+      ["كَانَ الْمَاءُ فِي الْبِرْكَةِ قَذِرًا.", "Das Wasser im Teich war schmutzig.", "Kāna al-māʾu fī al-birkati qaḏiran."],
+      ["مِنَ اللَّازِمِ أَنْ نَبْدَأَ الْعَمَلَ مُبَكِّرًا.", "Es ist nötig, dass wir früh mit der Arbeit beginnen.", "Mina al-lāzimi ʾan nabdaʾa al-ʿamala mubakkiran."],
+      ["الْحَسَاءُ مَالِحٌ فَأَضَفْنَا إِلَيْهِ مَاءً.", "Die Suppe ist salzig, also gaben wir Wasser dazu.", "Al-ḥasāʾu māliḥun fa-ʾaḍafnā ʾilayhi māʾan."],
+      ["الرَّجُلُ الْمُتَشَائِمُ يَرَى الْمَشَاكِلَ فَقَطْ.", "Der pessimistische Mann sieht nur Probleme.", "Ar-raǧulu al-mutašāʾimu yarā al-mašākila faqaṭ."],
+      ["أَنَا مُتَفَائِلٌ بِالْمُسْتَقْبَلِ رَغْمَ الصُّعُوبَاتِ.", "Ich bin trotz der Schwierigkeiten optimistisch für die Zukunft.", "ʾAnā mutafāʾilun bi-al-mustaqbali raġma aṣ-ṣuʿūbāti."]
+    ]
+  }
+]
