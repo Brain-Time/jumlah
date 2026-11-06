@@ -1,0 +1,172 @@
+[
+  {
+    "lesson": 191,
+    "title": "Lernen und Reisen",
+    "desc": "Ernährung, Preise und Reservierungen auf einer langen Reise.",
+    "sentences": [
+      ["تَغَذَّى الْأَطْفَالُ بِطَعَامٍ صِحِّيٍّ.", "Die Kinder ernährten sich mit gesunder Nahrung.", "Taġaḏḏā al-ʾaṭfālu bi-ṭaʿāmin ṣiḥḥiyyin."],
+      ["تَفَاخَرَ الرَّجُلُ بِمَالِهِ.", "Der Mann prahlte mit seinem Geld.", "Tafāḫara ar-raǧulu bi-mālihī."],
+      ["تَفَاوَتَتِ الْأَسْعَارُ بَيْنَ الْمَدِينَتَيْنِ.", "Die Preise unterschieden sich zwischen den beiden Städten.", "Tafāwata al-ʾasʿāru bayna al-madīnatayni."],
+      ["تَكَرَّرَ الْخَطَأُ مَرَّتَيْنِ.", "Der Fehler wiederholte sich zweimal.", "Takarrara al-ḫaṭaʾu marratayni."],
+      ["تَكَوَّنَتِ الْجَمَاعَةُ مِنْ عَشَرَةِ أَعْضَاءَ.", "Die Gruppe bestand aus zehn Mitgliedern.", "Takawwanati al-ǧamāʿatu min ʿašarati ʾaʿḍāʾa."],
+      ["تَلَاشَى الضَّبَابُ فِي الصَّبَاحِ.", "Der Nebel verschwand am Morgen.", "Talāšā aḍ-ḍabābu fī aṣ-ṣabāḥi."],
+      ["تَهَاوَنَ الطَّالِبُ فِي دِرَاسَتِهِ.", "Der Schüler vernachlässigte sein Studium.", "Tahāwana aṭ-ṭālibu fī dirāsatihī."],
+      ["جَاوَزَ السَّائِقُ الْحُدُودَ.", "Der Fahrer überschritt die Grenzen.", "Ǧāwaza as-sāʾiqu al-ḥudūda."],
+      ["حَاسَبَ الْمُدِيرُ الْعَامِلَ عَلَى الْخَطَأِ.", "Der Leiter rechnete mit dem Arbeiter wegen des Fehlers ab.", "Ḥāsaba al-mudīru al-ʿāmila ʿalā al-ḫaṭaʾi."],
+      ["حَجَزَ الْمُسَافِرُ غُرْفَةً فِي الْفُنْدُقِ.", "Der Reisende reservierte ein Zimmer im Hotel.", "Ḥaǧaza al-musāfiru ġurfatan fī al-funduqi."]
+    ]
+  },
+  {
+    "lesson": 192,
+    "title": "Verantwortung tragen",
+    "desc": "Retten, verwalten und ehren in einer Stadt voller Aufgaben.",
+    "sentences": [
+      ["خَلَّصَ الْفَارِسُ الطِّفْلَ مِنَ الْمَاءِ.", "Der Ritter rettete das Kind aus dem Wasser.", "Ḫallaṣa al-fārisu aṭ-ṭifla mina al-māʾi."],
+      ["دَاوَمَ الطَّالِبُ عَلَى الْقِرَاءَةِ.", "Der Schüler fuhr mit dem Lesen fort.", "Dāwama aṭ-ṭālibu ʿalā al-qirāʾati."],
+      ["دَبَّرَ الْأَبُ شُؤُونَ الْبَيْتِ.", "Der Vater verwaltete die Angelegenheiten des Hauses.", "Dabbara al-ʾabu šuʾūna al-bayti."],
+      ["رَشَّحَ الْحِزْبُ رَجُلًا لِلِانْتِخَابَاتِ.", "Die Partei nominierte einen Mann für die Wahlen.", "Raššaḥa al-ḥizbu raǧulan lil-intiḫābāti."],
+      ["سَمَّى الْأَبُ ابْنَهُ سَعِيدًا.", "Der Vater nannte seinen Sohn Said.", "Sammā al-ʾabu ibnahū Saʿīdan."],
+      ["شَخَّصَ الطَّبِيبُ الْمَرَضَ بِسُرْعَةٍ.", "Der Arzt diagnostizierte die Krankheit schnell.", "Šaḫḫaṣa aṭ-ṭabību al-maraḍa bi-surʿatin."],
+      ["شَرَّفَ الْمَلِكُ الْعُلَمَاءَ الْحَاضِرِينَ.", "Der König ehrte die anwesenden Gelehrten.", "Šarrafa al-maliku al-ʿulamāʾa al-ḥāḍirīna."],
+      ["صَرَّحَ الْوِزَارَةُ بِقَرَارٍ جَدِيدٍ.", "Das Ministerium kündigte eine neue Entscheidung an.", "Ṣarraḥa al-wizāratu bi-qarārin ǧadīdin."],
+      ["طَرَحَ الْبَاحِثُ سُؤَالًا صَعْبًا.", "Der Forscher warf eine schwere Frage auf.", "Ṭaraḥa al-bāḥiṯu suʾālan saʿban."],
+      ["عَانَقَ الْأَبُ ابْنَهُ بَعْدَ سَفَرٍ طَوِيلٍ.", "Der Vater umarmte seinen Sohn nach einer langen Reise.", "ʿĀnaqa al-ʾabu ibnahū baʿda safari ṭawīlin."]
+    ]
+  },
+  {
+    "lesson": 193,
+    "title": "Handwerk und Wissen",
+    "desc": "Berufe, Erbschaften und das Warten am Flughafen.",
+    "sentences": [
+      ["عَاهَدَ الْأَصْدِقَاءُ عَلَى الْوَفَاءِ.", "Die Freunde verpflichteten sich zur Treue.", "ʿĀhada al-ʾaṣdiqāʾu ʿalā al-wafāʾi."],
+      ["قَابَلَ الْجُنْدِيُّ الْقَائِدَ فِي الصَّبَاحِ.", "Der Soldat traf den Kommandanten am Morgen.", "Qābala al-ǧundiyyu al-qāʾida fī aṣ-ṣabāḥi."],
+      ["مَارَسَ الرَّجُلُ الْمِهْنَةَ بِإِتْقَانٍ.", "Der Mann übte den Beruf mit Meisterschaft aus.", "Mārasa ar-raǧulu al-mihnata bi-ʾitqānin."],
+      ["مَزَجَ الْخَبَّازُ الدَّقِيقَ بِالْمَاءِ.", "Der Bäcker mischte das Mehl mit Wasser.", "Mazaǧa al-ḫabbāzu ad-daqīqa bi-al-māʾi."],
+      ["نَتَجَ الْعَمَلُ نَتِيجَةً مُرْضِيَةً.", "Die Arbeit brachte ein zufriedenstellendes Ergebnis hervor.", "Nataǧa al-ʿamalu natīǧatan murḍiyatan."],
+      ["وَرَّثَ الْجَدُّ الْبَيْتَ لِحَفِيدِهِ.", "Der Großvater vererbte das Haus seinem Enkel.", "Warraṯa al-ǧaddu al-bayta li-ḥafīdihī."],
+      ["يَئِسَ الرَّجُلُ مِنَ النَّجَاحِ.", "Der Mann verzweifelte am Erfolg.", "Yaʾisa ar-raǧulu mina an-naǧāḥi."],
+      ["جَاءَ أَهْلُ الْقَرْيَةِ إِلَى السُّوقِ.", "Die Leute des Dorfes kamen zum Markt.", "Ǧāʾa ʾahlu al-qaryati ʾilā as-sūqi."],
+      ["تَقَدَّمَ الطَّبِيبُ فِي اِخْتِصَاصِهِ.", "Der Arzt machte Fortschritte in seinem Fachgebiet.", "Taqaddama aṭ-ṭabību fī iḫtiṣāṣihī."],
+      ["طَالَ اِنْتِظَارُ الْمُسَافِرِينَ فِي الْمَطَارِ.", "Das Warten der Reisenden im Flughafen dauerte lange.", "Ṭāla intiẓāru al-musāfirīna fī al-maṭāri."]
+    ]
+  },
+  {
+    "lesson": 194,
+    "title": "Bildung und Alltag",
+    "desc": "Schule, Preise und Glaube prägen das tägliche Leben.",
+    "sentences": [
+      ["التَّعْلِيمُ حَقٌّ لِكُلِّ طِفْلٍ.", "Bildung ist ein Recht für jedes Kind.", "At-taʿlīmu ḥaqqun likulli ṭiflin."],
+      ["يُسَهِّلُ التَّطْبِيقُ حَيَاةَ النَّاسِ.", "Die Anwendung erleichtert das Leben der Menschen.", "Yusahhilu at-taṭbīqu ḥayāta an-nāsi."],
+      ["قَدَّمَ الْمُفَسِّرُ تَفْسِيرًا وَاضِحًا.", "Der Ausleger legte eine klare Auslegung vor.", "Qaddama al-mufassiru tafsīran wāḍiḥan."],
+      ["صَفَّقَ الْجُمْهُورُ بِحَمَاسٍ.", "Das Publikum klatschte mit Begeisterung.", "Ṣaffaqa al-ǧumhūru bi-ḥamāsin."],
+      ["أَكْمَلَ الطَّالِبُ دِرَاسَةً جَامِعِيَّةً.", "Der Student schloss ein Universitätsstudium ab.", "ʾAkmala aṭ-ṭālibu dirāsatan ǧāmiʿiyyatan."],
+      ["يَحْتَاجُ الْمَرِيضُ إِلَى رِعَايَةٍ كَامِلَةٍ.", "Der Patient braucht eine vollständige Pflege.", "Yaḥtāǧu al-marīḍu ʾilā riʿāyatin kāmilatin."],
+      ["اِرْتَفَعَ سِعْرُ الْخُبْزِ هَذَا الشَّهْرَ.", "Der Preis des Brotes stieg diesen Monat.", "Irtafaʿa siʿru al-ḫubzi hāḏā aš-šahra."],
+      ["تُنَظِّمُ الشَّرِيعَةُ حَيَاةَ النَّاسِ.", "Die Scharia regelt das Leben der Menschen.", "Tunaẓẓimu aš-šarīʿatu ḥayāta an-nāsi."],
+      ["الْعِبَادَةُ تُقَرِّبُ الْإِنْسَانَ إِلَى رَبِّهِ.", "Der Gottesdienst bringt den Menschen seinem Herrn näher.", "Al-ʿibādatu tuqarribu al-ʾinsāna ʾilā rabbihī."],
+      ["اِشْتَكَى النَّاسُ مِنْ غَلَاءِ الْأَسْعَارِ.", "Die Leute beklagten sich über die Teuerung der Preise.", "Ištakā an-nāsu min ġalāʾi al-ʾasʿāri."]
+    ]
+  },
+  {
+    "lesson": 195,
+    "title": "Wohlstand und Erfolg",
+    "desc": "Erfolg, Ehrgeiz und Geschmack im Laufe der Zeit.",
+    "sentences": [
+      ["تَزِيدُ كَمِّيَّةُ الْمَاءِ فِي الصَّيْفِ.", "Die Wassermenge steigt im Sommer.", "Tazīdu kammiyyatu al-māʾi fī aṣ-ṣayfi."],
+      ["جَاءَ النَّجَاحُ بَعْدَ جُهْدٍ كَبِيرٍ.", "Der Erfolg kam nach großer Anstrengung.", "Ǧāʾa an-naǧāḥu baʿda ǧuhdin kabīrin."],
+      ["لِلطَّالِبِ هِمَّةٌ عَالِيَةٌ فِي الدِّرَاسَةِ.", "Der Schüler hat hohen Ehrgeiz im Studium.", "Liṭ-ṭālibi himmatun ʿāliyatun fī ad-dirāsati."],
+      ["مَرَّ دَهْرٌ طَوِيلٌ عَلَى هَذِهِ الْقَرْيَةِ.", "Eine lange Zeit verging über diesem Dorf.", "Marra dahrun ṭawīlun ʿalā hāḏihi al-qaryati."],
+      ["لِلْعَسَلِ ذُوقٌ حُلْوٌ مُمَيَّزٌ.", "Der Honig hat einen süßen, besonderen Geschmack.", "Lil-ʿasali ḏawqun ḥulwun mumayyazun."],
+      ["عَبَّرَ الرَّجُلُ عَنْ شُعُورِهِ بِصِدْقٍ.", "Der Mann drückte sein Gefühl aufrichtig aus.", "ʿAbbara ar-raǧulu ʿan šuʿūrihī bi-ṣidqin."],
+      ["قَدَّمَ الْجُنْدِيُّ ضَحِيَّةً كَبِيرَةً.", "Der Soldat brachte ein großes Opfer.", "Qaddama al-ǧundiyyu ḍaḥiyyatan kabīratan."],
+      ["اِتَّعَظَ النَّاسُ مِنْ عِبْرَةِ الْمَاضِي.", "Die Leute lernten aus der Lehre der Vergangenheit.", "Ittaʿaẓa an-nāsu min ʿibrati al-māḍī."],
+      ["الْكَلَامُ الطَّيِّبُ يَفْتَحُ الْقُلُوبَ.", "Das gute Wort öffnet die Herzen.", "Al-kalāmu aṭ-ṭayyibu yaftaḥu al-qulūba."],
+      ["اِرْتَفَعَ الْمَبْنَى الْجَدِيدُ فِي وَسَطِ الْمَدِينَةِ.", "Das neue Gebäude erhob sich in der Mitte der Stadt.", "Irtafaʿa al-mabnā al-ǧadīdu fī wasaṭi al-madīnati."]
+    ]
+  },
+  {
+    "lesson": 196,
+    "title": "Staat und Gesellschaft",
+    "desc": "Heimat, Wirtschaft und Wahlen im öffentlichen Leben.",
+    "sentences": [
+      ["الْوَطَنُ أَغْلَى مِنْ كُلِّ شَيْءٍ.", "Die Heimat ist wertvoller als alles.", "Al-waṭanu ʾaġlā min kulli šayʾin."],
+      ["صَدَرَ إِصْدَارٌ جَدِيدٌ لِهَذَا الْكِتَابِ.", "Eine neue Ausgabe dieses Buches erschien.", "Ṣadara ʾiṣdārun ǧadīdun lihāḏā al-kitābi."],
+      ["الِاقْتِصَادُ أَسَاسُ حَيَاةِ النَّاسِ.", "Die Wirtschaft ist die Grundlage des Lebens der Menschen.", "Al-iqtiṣādu ʾasāsu ḥayāti an-nāsi."],
+      ["قَدَّمَ النَّائِبُ اِعْتِرَاضًا عَلَى الْقَرَارِ.", "Der Abgeordnete brachte einen Einwand gegen die Entscheidung vor.", "Qaddama an-nāʾibu iʿtirāḍan ʿalā al-qarāri."],
+      ["يَزِيدُ اِسْتِعْمَالُ الْحَاسُوبِ كُلَّ يَوْمٍ.", "Die Nutzung des Computers nimmt jeden Tag zu.", "Yazīdu istiʿmālu al-ḥāsūbi kulla yawmin."],
+      ["بَدَأَ الِانْتِخَابُ فِي الصَّبَاحِ الْبَاكِرِ.", "Die Wahl begann am frühen Morgen.", "Badaʾa al-intiḫābu fī aṣ-ṣabāḥi al-bākiri."],
+      ["اِسْتَشَارَ الْمُدِيرُ مُسْتَشَارًا خَبِيرًا.", "Der Leiter konsultierte einen erfahrenen Berater.", "Istašāra al-mudīru mustašāran ḫabīran."],
+      ["كَتَبَ الطَّالِبُ مُلَخَّصًا قَصِيرًا.", "Der Schüler schrieb eine kurze Zusammenfassung.", "Kataba aṭ-ṭālibu mulaḫḫaṣan qaṣīran."],
+      ["الْعَقِيدَةُ الصَّحِيحَةُ تُقَوِّي الْإِنْسَانَ.", "Die richtige Glaubenslehre stärkt den Menschen.", "Al-ʿaqīdatu aṣ-ṣaḥīḥatu tuqawwī al-ʾinsāna."],
+      ["بَنَى الرَّجُلُ ثِقَةً بَيْنَ النَّاسِ.", "Der Mann baute Vertrauen zwischen den Leuten auf.", "Banā ar-raǧulu ṯiqatan bayna an-nāsi."]
+    ]
+  },
+  {
+    "lesson": 197,
+    "title": "Geschichte eines Soldaten",
+    "desc": "Begeisterung, Wunden und Gewissheit auf dem Weg des Lebens.",
+    "sentences": [
+      ["اِرْتَفَعَتْ حَمَاسَةُ الْجُمْهُورِ.", "Die Begeisterung des Publikums stieg.", "Irtafaʿat ḥamāsatu al-ǧumhūri."],
+      ["يَزِيدُ اِمْتِدَادُ الطَّرِيقِ إِلَى الْقَرْيَةِ.", "Die Ausdehnung der Straße erstreckt sich bis zum Dorf.", "Yazīdu imtidādu aṭ-ṭarīqi ʾilā al-qaryati."],
+      ["كَانَ جَرْحُ الْجُنْدِيِّ عَمِيقًا.", "Die Wunde des Soldaten war tief.", "Kāna ǧarḥu al-ǧundiyyi ʿamīqan."],
+      ["طَالَ عُمْرُ الْجَدِّ إِلَى تِسْعِينَ سَنَةً.", "Das Lebensalter des Großvaters erstreckte sich bis neunzig Jahre.", "Ṭāla ʿumru al-ǧaddi ʾilā tisʿīna sanatan."],
+      ["عَامَلَ الْمُعَلِّمُ الطُّلَّابَ بِلُطْفٍ.", "Der Lehrer behandelte die Schüler mit Milde.", "ʿĀmala al-muʿallimu aṭ-ṭullāba bi-luṭfin."],
+      ["نَجَحَتِ الْمُحَاوَلَةُ الْأُولَى.", "Der erste Versuch gelang.", "Naǧaḥati al-muḥāwalatu al-ʾūlā."],
+      ["كَانَ الْيَقِينُ فِي قَلْبِهِ قَوِيًّا.", "Die Gewissheit in seinem Herzen war stark.", "Kāna al-yaqīnu fī qalbihī qawiyyan."],
+      ["لِلْعُلَمَاءِ جَاهٌ كَبِيرٌ بَيْنَ النَّاسِ.", "Die Gelehrten haben großes Ansehen unter den Leuten.", "Lil-ʿulamāʾi ǧāhun kabīrun bayna an-nāsi."],
+      ["رَبَطَ الْبَحَّارُ الْحَبْلَ بِعُقْدَةٍ قَوِيَّةٍ.", "Der Seemann band das Seil mit einem starken Knoten.", "Rabaṭa al-baḥḥāru al-ḥabla bi-ʿuqdatin qawiyyatin."],
+      ["شَرَحَ الْمُعَلِّمُ التَّفْصِيلَ بِوُضُوحٍ.", "Der Lehrer erklärte das Detail klar.", "Šaraḥa al-muʿallimu at-tafṣīla bi-wuḍūḥin."]
+    ]
+  },
+  {
+    "lesson": 198,
+    "title": "Charakter und Tugend",
+    "desc": "Verhalten, Rang und Tugenden im Bild eines guten Menschen.",
+    "sentences": [
+      ["كَانَ سُلُوكُ الْوَلَدِ مُؤَدَّبًا.", "Das Verhalten des Jungen war höflich.", "Kāna sulūku al-waladi muʾaddaban."],
+      ["أَحْبَبْتُ قِرَاءَةَ الْقُرْآنِ.", "Ich liebte die Rezitation des Korans.", "ʾAḥbabtu qirāʾata al-qurʾāni."],
+      ["نَالَ الْجُنْدِيُّ رُتْبَةً عَالِيَةً.", "Der Soldat erlangte einen hohen Rang.", "Nāla al-ǧundiyyu rutbatan ʿāliyatan."],
+      ["اِرْتَفَعَتْ حَرَارَةُ الْجَوِّ فِي الصَّيْفِ.", "Die Hitze des Wetters stieg im Sommer.", "Irtafaʿat ḥarāratu al-ǧawwi fī aṣ-ṣayfi."],
+      ["يَمْلَأُ التَّفَاؤُلُ قَلْبَ الشَّبَابِ.", "Der Optimismus erfüllt das Herz der Jugend.", "Yamlaʾu at-tafāʾulu qalba aš-šabābi."],
+      ["كَانَ الْقَاضِي عَادِلًا فِي حُكْمِهِ.", "Der Richter war in seinem Urteil gerecht.", "Kāna al-qāḍī ʿādilan fī ḥukmihī."],
+      ["الْجُنْدِيُّ الْجَرِيءُ لَا يَخَافُ.", "Der kühne Soldat fürchtet sich nicht.", "Al-ǧundiyyu al-ǧarīʾu lā yaḫāfu."],
+      ["كَانَتِ الْأُمُّ صَبُورَةً مَعَ أَوْلَادِهَا.", "Die Mutter war geduldig mit ihren Kindern.", "Kānati al-ʾummu ṣabūratan maʿa ʾawlādihā."],
+      ["الْعَامِلُ الشَّكُورُ يُحِبُّ عَمَلَهُ.", "Der dankbare Arbeiter liebt seine Arbeit.", "Al-ʿāmilu aš-šakūru yuḥibbu ʿamalahū."],
+      ["الْأَرْضُ الْخَصِبَةُ تُعْطِي كَثِيرًا.", "Die fruchtbare Erde gibt viel.", "Al-ʾarḍu al-ḫaṣibatu tuʿṭī kaṯīran."]
+    ]
+  },
+  {
+    "lesson": 199,
+    "title": "Eigenschaften der Menschen",
+    "desc": "Genügsam, geduldig und bescheiden: Charaktere in kleinen Szenen.",
+    "sentences": [
+      ["كَانَ الْجَدُّ قَنُوعًا بِقَلِيلٍ.", "Der Großvater war mit wenig genügsam.", "Kāna al-ǧaddu qanūʿan bi-qalīlin."],
+      ["كَانَ الطَّرِيقُ عَسِرًا فِي الشِّتَاءِ.", "Der Weg war im Winter schwierig.", "Kāna aṭ-ṭarīqu ʿasiran fī aš-šitāʾi."],
+      ["الطُّلَّابُ مُتَحَمِّسُونَ لِلرِّحْلَةِ.", "Die Schüler sind für die Reise begeistert.", "Aṭ-ṭullābu mutaḥammisūna lir-riḥlati."],
+      ["كَانَ الْمُدِيرُ مُتَوَاضِعًا مَعَ الْجَمِيعِ.", "Der Leiter war bescheiden mit allen.", "Kāna al-mudīru mutawāḍiʿan maʿa al-ǧamīʿi."],
+      ["الرَّجُلُ الْحَسُودُ لَا يَسْعَدُ.", "Der neidische Mann ist nicht glücklich.", "Ar-raǧulu al-ḥasūdu lā yasʿadu."],
+      ["الطَّالِبُ الْكَسُولُ يَخْسَرُ الْعَامَ.", "Der faule Schüler verliert das Jahr.", "Aṭ-ṭālibu al-kasūlu yaḫsaru al-ʿāma."],
+      ["كَانَ صَبَاحُ الْعِيدِ بَهِيجًا.", "Der Morgen des Festes war fröhlich.", "Kāna ṣabāḥu al-ʿīdi bahīǧan."],
+      ["كَانَ الطِّفْلُ ظَرِيفًا فِي كَلَامِهِ.", "Das Kind war in seiner Rede witzig.", "Kāna aṭ-ṭiflu ẓarīfan fī kalāmihī."],
+      ["كَانَ الْبَيْتُ رَحِيبًا وَجَمِيلًا.", "Das Haus war weit und schön.", "Kāna al-baytu raḥīban wa-ǧamīlan."],
+      ["كَانَ الْأُسْتَاذُ بَصِيرًا بِأُمُورِ النَّاسِ.", "Der Lehrer war einsichtig in den Angelegenheiten der Leute.", "Kāna al-ʾustāḏu baṣīran bi-ʾumūri an-nāsi."]
+    ]
+  },
+  {
+    "lesson": 200,
+    "title": "Weisheit des Alltags",
+    "desc": "Gastfreundschaft und viele kleine Wörter zum Abschluss.",
+    "sentences": [
+      ["كَانَ الْمُضِيفُ مِضْيَافًا وَكَرِيمًا.", "Der Gastgeber war gastfreundlich und großzügig.", "Kāna al-muḍīfu miḍyāfan wa-karīman."],
+      ["وَقَفَ الْحَارِسُ قُدَّامَ الْبَابِ.", "Der Wächter stand vor der Tür.", "Waqafa al-ḥārisu quddāma al-bābi."],
+      ["اِسْتَيْقَظَ الْفَلَّاحُ بَاكِرًا فِي الصَّبَاحِ.", "Der Bauer wachte früh am Morgen auf.", "Istayqaẓa al-fallāḥu bākiran fī aṣ-ṣabāḥi."],
+      ["أَعْلَنَ الْمُدِيرُ الْخَبَرَ عِلَانًا.", "Der Leiter gab die Nachricht öffentlich bekannt.", "ʾAʿlana al-mudīru al-ḫabara ʿilānan."],
+      ["تَحَدَّثَ الرَّجُلَانِ سِرًّا.", "Die beiden Männer sprachen heimlich.", "Taḥaddaṯa ar-raǧulāni sirran."],
+      ["هُنَاكَ حَدِيقَةٌ جَمِيلَةٌ قُرْبَ الْبَيْتِ.", "Dort ist ein schöner Garten nahe dem Haus.", "Hunāka ḥadīqatun ǧamīlatun qurba al-bayti."],
+      ["رُبَّمَا يَأْتِي الْمَطَرُ غَدًا.", "Vielleicht kommt morgen der Regen.", "Rubbamā yaʾtī al-maṭaru ġadan."],
+      ["سَأَعُودُ عَاجِلًا إِلَى الْبَيْتِ.", "Ich kehre bald nach Hause zurück.", "Saʾaʿūdu ʿāǧilan ʾilā al-bayti."],
+      ["نَامَ الْوَلَدُ أَثْنَاءَ الدَّرْسِ.", "Das Kind schlief während der Lektion ein.", "Nāma al-waladu aṯnāʾa ad-darsi."],
+      ["رُغْمَ الْمَطَرِ خَرَجَ النَّاسُ.", "Trotz des Regens gingen die Leute hinaus.", "Ruġma al-maṭari ḫaraǧa an-nāsu."]
+    ]
+  }
+]
