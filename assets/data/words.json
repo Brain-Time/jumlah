@@ -14341,15 +14341,15 @@
   },
   {
     "id": 1196,
-    "arabic": "اِسْتَرَخَّ",
+    "arabic": "اِسْتَرْخَى",
     "german": "entspannen",
     "root": "ر-خ-و",
     "group": "B1",
     "frequency_rank": 1196,
-    "transliteration": "istaraḫḫa",
+    "transliteration": "istarḫā",
     "masdar": "اِسْتِرْخَاءٌ",
     "masdar_transliteration": "istirḫāʾ",
-    "masdar_german": "die Erschlaffung"
+    "masdar_german": "die Entspannung"
   },
   {
     "id": 1197,
@@ -15577,7 +15577,7 @@
   },
   {
     "id": 1299,
-    "arabic": "عُصْرِيٌّ",
+    "arabic": "عَصْرِيٌّ",
     "german": "zeitgenössisch",
     "root": "ع-ص-ر",
     "group": "B1",

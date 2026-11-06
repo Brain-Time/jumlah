@@ -82602,12 +82602,12 @@
   },
   {
     "word_id": 1196,
-    "arabic": "اِسْتَرَخَّ الرَّجُلُ بَعْدَ الْعَمَلِ الطَّوِيلِ.",
+    "arabic": "اِسْتَرْخَى الرَّجُلُ بَعْدَ الْعَمَلِ الطَّوِيلِ.",
     "german": "Der Mann entspannte sich nach der langen Arbeit.",
-    "transliteration": "ʾistaraḫḫa ar-raǧulu baʿda al-ʿamali aṭ-ṭawīli",
+    "transliteration": "ʾistarḫā ar-raǧulu baʿda al-ʿamali aṭ-ṭawīli",
     "word_analysis": [
       {
-        "word": "اِسْتَرَخَّ",
+        "word": "اِسْتَرْخَى",
         "translation": "entspannte sich"
       },
       {
@@ -82631,12 +82631,12 @@
   },
   {
     "word_id": 1196,
-    "arabic": "اِسْتَرَخَّ الْجِسْمُ فِي الْمَاءِ الدَّافِئِ.",
+    "arabic": "اِسْتَرْخَى الْجِسْمُ فِي الْمَاءِ الدَّافِئِ.",
     "german": "Der Körper entspannte sich im warmen Wasser.",
-    "transliteration": "ʾistaraḫḫa al-ǧismu fī al-māʾi ad-dāfiʾi",
+    "transliteration": "ʾistarḫā al-ǧismu fī al-māʾi ad-dāfiʾi",
     "word_analysis": [
       {
-        "word": "اِسْتَرَخَّ",
+        "word": "اِسْتَرْخَى",
         "translation": "entspannte sich"
       },
       {
@@ -82660,12 +82660,12 @@
   },
   {
     "word_id": 1196,
-    "arabic": "اِسْتَرَخَّ الْعَامِلُونَ فِي الْعُطْلَةِ.",
+    "arabic": "اِسْتَرْخَى الْعَامِلُونَ فِي الْعُطْلَةِ.",
     "german": "Die Arbeiter entspannten sich im Urlaub.",
-    "transliteration": "ʾistaraḫḫa al-ʿāmilūna fī al-ʿuṭlaati",
+    "transliteration": "ʾistarḫā al-ʿāmilūna fī al-ʿuṭlaati",
     "word_analysis": [
       {
-        "word": "اِسْتَرَخَّ",
+        "word": "اِسْتَرْخَى",
         "translation": "entspannten sich"
       },
       {
@@ -88510,16 +88510,16 @@
   },
   {
     "word_id": 1280,
-    "arabic": "الطَّبَقَةُ الْعُصْرِيَّةُ مُهِمَّةٌ فِي الْبَلَدِ.",
+    "arabic": "الطَّبَقَةُ الْعَصْرِيَّةُ مُهِمَّةٌ فِي الْبَلَدِ.",
     "german": "Die zeitgenössische Schicht ist wichtig im Land.",
-    "transliteration": "aṭ-ṭabaqaatu al-ʿuṣriyayaatu muhimmaatun fī al-baladi",
+    "transliteration": "aṭ-ṭabaqaatu al-ʿaṣriyayaatu muhimmaatun fī al-baladi",
     "word_analysis": [
       {
         "word": "الطَّبَقَةُ",
         "translation": "die Schicht"
       },
       {
-        "word": "الْعُصْرِيَّةُ",
+        "word": "الْعَصْرِيَّةُ",
         "translation": "zeitgenössische"
       },
       {
@@ -89867,16 +89867,16 @@
   },
   {
     "word_id": 1299,
-    "arabic": "الْفَنُّ عُصْرِيٌّ فِي الْمُتَحَفِ.",
+    "arabic": "الْفَنُّ عَصْرِيٌّ فِي الْمُتَحَفِ.",
     "german": "Die Kunst ist zeitgenössisch im Museum.",
-    "transliteration": "al-fannu ʿuṣrīun fī al-mutaḥafi",
+    "transliteration": "al-fannu ʿaṣrīun fī al-mutaḥafi",
     "word_analysis": [
       {
         "word": "الْفَنُّ",
         "translation": "die Kunst"
       },
       {
-        "word": "عُصْرِيٌّ",
+        "word": "عَصْرِيٌّ",
         "translation": "ist zeitgenössisch"
       },
       {
@@ -89892,9 +89892,9 @@
   },
   {
     "word_id": 1299,
-    "arabic": "كَانَ الشِّعْرُ عُصْرِيًّا فِي الْمَجَلَّةِ.",
+    "arabic": "كَانَ الشِّعْرُ عَصْرِيًّا فِي الْمَجَلَّةِ.",
     "german": "Die Dichtung war zeitgenössisch in der Zeitschrift.",
-    "transliteration": "kāna aš-šiʿru ʿuṣrīan fī al-maǧallaati",
+    "transliteration": "kāna aš-šiʿru ʿaṣrīan fī al-maǧallaati",
     "word_analysis": [
       {
         "word": "كَانَ",
@@ -89905,7 +89905,7 @@
         "translation": "die Dichtung"
       },
       {
-        "word": "عُصْرِيًّا",
+        "word": "عَصْرِيًّا",
         "translation": "zeitgenössisch"
       },
       {
@@ -89921,16 +89921,16 @@
   },
   {
     "word_id": 1299,
-    "arabic": "نُقَدِّرُ الْعُصْرِيَّ مِنَ الْفَنِّ.",
+    "arabic": "نُقَدِّرُ الْعَصْرِيَّ مِنَ الْفَنِّ.",
     "german": "Wir schätzen das Zeitgenössische von der Kunst.",
-    "transliteration": "nuqaddiru al-ʿuṣriyaya mina al-fanni",
+    "transliteration": "nuqaddiru al-ʿaṣriyaya mina al-fanni",
     "word_analysis": [
       {
         "word": "نُقَدِّرُ",
         "translation": "wir schätzen"
       },
       {
-        "word": "الْعُصْرِيَّ",
+        "word": "الْعَصْرِيَّ",
         "translation": "das Zeitgenössische"
       },
       {

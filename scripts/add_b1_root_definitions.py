@@ -46,7 +46,7 @@ NEW_DEFINITIONS: dict[str, str] = {
     "د-ل-و": "Wasser mit dem Eimer schöpfen; دَلْو (dalw) „Eimer“",
     "د-و-ر": "sich drehen, kreisen, umlaufen; دَوْر (dawr) „Runde, Rolle“, إِدَارَة (idāra) „Verwaltung, Leitung“",
     "د-و-م": "dauern, fortbestehen; دَائِمًا (dāʾiman) „immer, dauerhaft“",
-    "ر-خ-و": "schlaff/weich sein; اِسْتَرَخَّ (istaraḫḫa) „erschlaffen, sich entspannen“",
+    "ر-خ-و": "schlaff/weich sein; اِسْتَرْخَى (istarḫā) „sich entspannen“",
     "ر-ش-ح": "ausschwitzen, (heraus)sickern; مُرَشَّح (muraššaḥ) „(aufgestellter) Kandidat“",
     "ر-غ-ب": "wünschen, begehren, verlangen; رَغْبَة (raġba) „Wunsch, Begehren“",
     "ر-ف-ض": "zurückweisen, ablehnen, verweigern; رَفْض (rafḍ) „Ablehnung“",
