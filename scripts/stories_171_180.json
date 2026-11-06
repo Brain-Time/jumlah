@@ -1,0 +1,172 @@
+[
+  {
+    "lesson": 171,
+    "title": "Beobachtungen am Meer",
+    "desc": "Ein Beobachter staunt, schreibt Berichte und verfolgt die Sonne über dem Wasser.",
+    "sentences": [
+      ["اِنْدَهَشَ الْوَلَدُ مِنَ الْبَحْرِ الْوَاسِعِ.", "Der Junge war vom weiten Meer verblüfft.", "Indahaša al-waladu mina al-baḥri al-wāsiʿi."],
+      ["تَعَجَّبَ الْمُسَافِرُ مِنْ جَمَالِ الْجَبَلِ.", "Der Reisende wunderte sich über die Schönheit des Berges.", "Taʿaǧǧaba al-musāfiru min ǧamāli al-ǧabali."],
+      ["كَتَبَ الْمُوَظَّفُ تَقْرِيرًا طَوِيلًا.", "Der Angestellte schrieb einen langen Bericht.", "Kataba al-muwaẓẓafu taqrīran ṭawīlan."],
+      ["رَفَضَ الْقَاضِي ادِّعَاءَ الْمُتَّهَمِ.", "Der Richter wies die Behauptung des Angeklagten zurück.", "Rafaḍa al-qāḍī iddiʿāʾa al-muttahami."],
+      ["لِلْمُعَلِّمِ فَضْلٌ كَبِيرٌ عَلَى طُلَّابِهِ.", "Der Lehrer hat großen Verdienst an seinen Schülern.", "Lil-muʿallimi faḍlun kabīrun ʿalā ṭullābihī."],
+      ["غَابَتِ الشَّمْسُ فِي الْمَغْرِبِ.", "Die Sonne ging im Westen unter.", "Ġābati aš-šamsu fī al-maġribi."],
+      ["تُشْرِقُ الشَّمْسُ مِنَ الْمَشْرِقِ.", "Die Sonne geht im Osten auf.", "Tušriqu aš-šamsu mina al-mašriqi."],
+      ["رَفَعَتِ الْعَاصِفَةُ مَوْجَةً عَالِيَةً.", "Der Sturm hob eine hohe Welle.", "Rafaʿati al-ʿāṣifatu mawǧatan ʿāliyatan."],
+      ["تَجَمَّدَ الْجَلِيدُ عَلَى النَّافِذَةِ.", "Das Eis gefror an der Fensterscheibe.", "Taǧammada al-ǧalīdu ʿalā an-nāfiḏati."],
+      ["لَا حَرَكَةَ فِي الشَّارِعِ هَذَا الصَّبَاحَ.", "Auf der Straße ist heute Morgen keine Bewegung.", "Lā ḥarakata fī aš-šāriʿi hāḏā aṣ-ṣabāḥa."]
+    ]
+  },
+  {
+    "lesson": 172,
+    "title": "Nachrichten im alten Viertel",
+    "desc": "Im alten Viertel liest man Texte, schickt Telegramme und gründet Vereine.",
+    "sentences": [
+      ["اِشْتَرَى الْأَبُ مَلَابِسَ جَدِيدَةً لِأَوْلَادِهِ.", "Der Vater kaufte seinen Kindern neue Kleidung.", "Ištarā al-ʾabu malābisa ǧadīdatan li-ʾawlādihī."],
+      ["لَا يَقْرَأُ الْجَدُّ بِدُونِ نَظَّارَةٍ.", "Der Großvater liest nicht ohne Brille.", "Lā yaqraʾu al-ǧaddu bi-dūni naẓẓāratin."],
+      ["غَسَلْتُ يَدَيَّ بِالصَّابُونِ.", "Ich wusch meine Hände mit Seife.", "Ġasaltu yadayya bi-aṣ-ṣābūni."],
+      ["أَلْقَى الرَّئِيسُ خِطَابًا قَصِيرًا.", "Der Präsident hielt eine kurze Rede.", "ʾAlqā ar-raʾīsu ḫiṭāban qaṣīran."],
+      ["وَصَلَتْ بَرْقِيَّةٌ عَاجِلَةٌ إِلَى الْمَكْتَبِ.", "Ein dringendes Telegramm kam ins Büro.", "Waṣalat barqiyyatun ʿāǧilatun ʾilā al-maktabi."],
+      ["قَرَأَ الطَّالِبُ النَّصَّ بِدِقَّةٍ.", "Der Schüler las den Text genau.", "Qaraʾa aṭ-ṭālibu an-naṣṣa bi-diqqatin."],
+      ["لِلْإِنْسَانِ حُرْمَةٌ لَا تُنْتَهَكُ.", "Der Mensch hat eine Würde, die nicht verletzt wird.", "Lil-ʾinsāni ḥurmatun lā tuntahaku."],
+      ["نَشَأَ مُحَمَّدٌ فِي حَيٍّ قَدِيمٍ.", "Muhammad wuchs in einem alten Viertel auf.", "Našaʾa Muḥammadun fī ḥayyin qadīmin."],
+      ["أَسَّسَ الْعُمَّالُ اِتِّحَادًا قَوِيًّا.", "Die Arbeiter gründeten eine starke Vereinigung.", "ʾAssasa al-ʿummālu ittiḥādan qawiyyan."],
+      ["فَازَ فَرِيقُ الْمَدْرَسَةِ بِالْكَأْسِ.", "Das Team der Schule gewann den Pokal.", "Fāza farīqu al-madrasati bi-al-kaʾsi."]
+    ]
+  },
+  {
+    "lesson": 173,
+    "title": "Leben und Arbeit",
+    "desc": "Vom Lebensunterhalt über Traditionen bis zur Qualität der Arbeit.",
+    "sentences": [
+      ["أَصْبَحَ سَعِيدٌ عُضْوًا فِي الْجَمْعِيَّةِ.", "Said wurde Mitglied im Verein.", "ʾAṣbaḥa Saʿīdun ʿuḍwan fī al-ǧamʿiyyati."],
+      ["اِنْتَخَبَ النَّاسُ نَائِبًا جَدِيدًا.", "Die Leute wählten einen neuen Stellvertreter.", "Intaḫaba an-nāsu nāʾiban ǧadīdan."],
+      ["يَكْسِبُ الْفَلَّاحُ مَعِيشَةً طَيِّبَةً مِنَ الْأَرْضِ.", "Der Bauer verdient einen guten Lebensunterhalt von der Erde.", "Yaksibu al-fallāḥu maʿīšatan ṭayyibatan mina al-ʾarḍi."],
+      ["تُهِمُّ الْجَوْدَةُ كُلَّ زَبُونٍ.", "Die Qualität ist jedem Kunden wichtig.", "Tuhimmu al-ǧawdatu kulla zabūnin."],
+      ["دَوَّنَ الطَّالِبُ الدَّرْسَ فِي مُذَكِّرَةٍ صَغِيرَةٍ.", "Der Schüler notierte die Lektion in einem kleinen Notizbuch.", "Dawwana aṭ-ṭālibu ad-darsa fī muḏakkaratin ṣaġīratin."],
+      ["يُتَابِعُ الْمُدِيرُ مَسَارَ الْعَمَلِ.", "Der Leiter verfolgt den Verlauf der Arbeit.", "Yutābiʿu al-mudīru masāra al-ʿamali."],
+      ["يَحْفَظُ الْجَدُّ تَقْلِيدَ الْعَائِلَةِ.", "Der Großvater bewahrt die Tradition der Familie.", "Yaḥfaẓu al-ǧaddu taqlīda al-ʿāʾilati."],
+      ["يَسْكُنُ أَخِي فِي قُرْبِ الْمَسْجِدِ.", "Mein Bruder wohnt in der Nähe der Moschee.", "Yaskunu ʾaḫī fī qurbi al-masǧidi."],
+      ["الْبِئْرُ عَمِيقَةٌ وَلَا نَعْرِفُ عُمْقَهَا.", "Der Brunnen ist tief und wir kennen seine Tiefe nicht.", "Al-biʾru ʿamīqatun wa-lā naʿrifu ʿumqahā."],
+      ["يَبْلُغُ طُولُ النَّهْرِ أَلْفَ كِيلُومِتْرٍ.", "Die Länge des Flusses beträgt tausend Kilometer.", "Yabluġu ṭūlu an-nahri ʾalfa kīlūmitrin."]
+    ]
+  },
+  {
+    "lesson": 174,
+    "title": "Die große Reise",
+    "desc": "Gewicht, Größe und Geschwindigkeit bestimmen den Weg der Reisenden.",
+    "sentences": [
+      ["حَسَبَ الْعَامِلُ وَزْنَ الصُّنْدُوقِ.", "Der Arbeiter berechnete das Gewicht der Kiste.", "Ḥasaba al-ʿāmilu wazna aṣ-ṣundūqi."],
+      ["قَاسَ الْمُهَنْدِسُ حَجْمَ الْغُرْفَةِ.", "Der Ingenieur maß das Volumen des Zimmers.", "Qāsa al-muhandisu ḥaǧma al-ġurfati."],
+      ["تَزِيدُ سُرْعَةُ السَّيَّارَةِ عَلَى الطَّرِيقِ.", "Die Geschwindigkeit des Autos nimmt auf der Straße zu.", "Tazīdu surʿatu as-sayyārati ʿalā aṭ-ṭarīqi."],
+      ["مَوْقِعُ الْفُنْدُقِ قَرِيبٌ مِنَ الشَّاطِئِ.", "Die Lage des Hotels ist nahe am Strand.", "Mawqiʿu al-funduqi qarībun mina aš-šāṭiʾi."],
+      ["جَلَسَ الرَّجُلُ عَلَى جَانِبِ الطَّرِيقِ.", "Der Mann setzte sich an die Seite der Straße.", "Ǧalasa ar-raǧulu ʿalā ǧānibi aṭ-ṭarīqi."],
+      ["يَلْعَبُ الْأَطْفَالُ دَاخِلَ الْبَيْتِ.", "Die Kinder spielen im Inneren des Hauses.", "Yalʿabu al-ʾaṭfālu dāḫila al-bayti."],
+      ["اِنْتَظَرَ الْأَبُ خَارِجَ الْبَابِ.", "Der Vater wartete außerhalb der Tür.", "Intaẓara al-ʾabu ḫāriǧa al-bābi."],
+      ["نَالَتِ الْبِلَادُ اِسْتِقْلَالَهَا بَعْدَ نِضَالٍ.", "Das Land erlangte seine Unabhängigkeit nach einem Kampf.", "Nālati al-bilādu istiqlālahā baʿda niḍālin."],
+      ["قَدَّمَ الْعُمَّالُ مُطَالَبَةً بِأُجُورٍ أَعْلَى.", "Die Arbeiter stellten eine Forderung nach höheren Löhnen.", "Qaddama al-ʿummālu muṭālabatan bi-ʾuǧūrin ʾaʿlā."],
+      ["كَانَتْ نِيَّةُ الرَّجُلِ صَادِقَةً.", "Die Absicht des Mannes war aufrichtig.", "Kānat niyyatu ar-raǧuli ṣādiqatan."]
+    ]
+  },
+  {
+    "lesson": 175,
+    "title": "Wissen und Technik",
+    "desc": "Vom Computer über die Astronomie bis zur Festung der Alten.",
+    "sentences": [
+      ["يَعْمَلُ الْمُهَنْدِسُ عَلَى الْحَاسُوبِ طَوَالَ الْيَوْمِ.", "Der Ingenieur arbeitet den ganzen Tag am Computer.", "Yaʿmalu al-muhandisu ʿalā al-ḥāsūbi ṭawāla al-yawmi."],
+      ["تَوَفَّرَتْ لَنَا مَعْلُومَاتٌ كَثِيرَةٌ.", "Uns standen viele Informationen zur Verfügung.", "Tawaffarat lanā maʿlūmātun kaṯīratun."],
+      ["دَرَسَ الْعَالِمُ عِلْمَ الْفَلَكِ.", "Der Forscher studierte die Astronomie.", "Darasa al-ʿālimu ʿilma al-falaki."],
+      ["خِدْمَةُ الْفُنْدُقِ مُمْتَازَةٌ.", "Der Dienst des Hotels ist ausgezeichnet.", "Ḫidmatu al-funduqi mumtāzatun."],
+      ["نَشَرَ الْكَاتِبُ مَقَالَةً جَدِيدَةً.", "Der Autor veröffentlichte einen neuen Artikel.", "Našara al-kātibu maqālatan ǧadīdatan."],
+      ["هَذَا مِثَالٌ وَاضِحٌ لِلطُّلَّابِ.", "Dies ist ein klares Beispiel für die Schüler.", "Hāḏā miṯālun wāḍiḥun liṭ-ṭullābi."],
+      ["اِشْتَرَى الْمُعَلِّمُ مَجْمُوعَةَ كُتُبٍ.", "Der Lehrer kaufte eine Sammlung von Büchern.", "Ištarā al-muʿallimu maǧmūʿata kutubin."],
+      ["يَمَارِسُ الشَّبَابُ نَشَاطًا رِيَاضِيًّا.", "Die Jugendlichen üben eine sportliche Aktivität aus.", "Yamārisu aš-šabābu našāṭan riyāḍiyyan."],
+      ["تَقَعُ الْقَرْيَةُ فِي إِقْلِيمٍ جَبَلِيٍّ.", "Das Dorf liegt in einer bergigen Region.", "Taqaʿu al-qaryatu fī ʾiqlīmin ǧabaliyyin."],
+      ["بَنَى الْقُدَمَاءُ حِصْنًا عَلَى الْجَبَلِ.", "Die Alten bauten eine Festung auf dem Berg.", "Banā al-qudamāʾu ḥiṣnan ʿalā al-ǧabali."]
+    ]
+  },
+  {
+    "lesson": 176,
+    "title": "Der Ausflug aufs Land",
+    "desc": "Früchte, Zweige und Lieder begleiten einen ruhigen Tag auf dem Land.",
+    "sentences": [
+      ["أَكَلَ الْوَلَدُ ثَمَرَةً حُلْوَةً.", "Der Junge aß eine süße Frucht.", "ʾAkala al-waladu ṯamaratan ḥulwatan."],
+      ["يَمْتَدُّ غُصْنُ الشَّجَرَةِ عَلَى النَّافِذَةِ.", "Der Zweig des Baumes erstreckt sich über das Fenster.", "Yamtaddu ġuṣnu aš-šaǧarati ʿalā an-nāfiḏati."],
+      ["سَقَطَ وَرَقٌ كَثِيرٌ فِي الْخَرِيفِ.", "Im Herbst fielen viele Blätter.", "Saqaṭa waraqun kaṯīrun fī al-ḫarīfi."],
+      ["وَقَفْنَا عَلَى تَلٍّ صَغِيرٍ.", "Wir standen auf einem kleinen Hügel.", "Waqafnā ʿalā tallin ṣaġīrin."],
+      ["التُّرْبَةُ هُنَا خَصْبَةٌ وَغَنِيَّةٌ.", "Die Erde hier ist fruchtbar und reich.", "At-turbatu hunā ḫaṣbatun wa-ġaniyyatun."],
+      ["نَظَرَ الْمُسَافِرُ إِلَى الْخَرِيطَةِ.", "Der Reisende blickte auf die Landkarte.", "Naẓara al-musāfiru ʾilā al-ḫarīṭati."],
+      ["غَنَّى الْفَلَّاحُ أُغْنِيَةً قَدِيمَةً.", "Der Bauer sang ein altes Lied.", "Ġannā al-fallāḥu uġniyatan qadīmatan."],
+      ["سَمِعْنَا نَغْمَةً جَمِيلَةً مِنَ الْعُودِ.", "Wir hörten eine schöne Melodie von der Laute.", "Samiʿnā naġmatan ǧamīlatan mina al-ʿūdi."],
+      ["أَزْعَجَنَا ضَجِيجُ السَّيَّارَاتِ.", "Der Lärm der Autos störte uns.", "ʾAzʿaǧanā ḍaǧīǧu as-sayyārāti."],
+      ["أَحْبَبْتُ هُدُوءَ الرِّيفِ.", "Ich mochte die Ruhe des Landlebens.", "ʾAḥbabtu hudūʾa ar-rīfi."]
+    ]
+  },
+  {
+    "lesson": 177,
+    "title": "Vor der Reise",
+    "desc": "Koffer, Faden und Bus: eine Familie bereitet die Ferien vor.",
+    "sentences": [
+      ["سَمِعْنَا صَرْخَةً فِي اللَّيْلِ.", "Wir hörten einen Schrei in der Nacht.", "Samiʿnā ṣarḫatan fī al-layli."],
+      ["كَانَتْ جِرَاحَةٌ صَغِيرَةٌ فِي يَدِهِ.", "An seiner Hand war eine kleine Wunde.", "Kānat ǧirāḥatun ṣaġīratun fī yadihī."],
+      ["شَرِبَ الرَّجُلُ قَدَحًا مِنَ الْمَاءِ.", "Der Mann trank einen Becher Wasser.", "Šariba ar-raǧulu qadaḥan mina al-māʾi."],
+      ["اِنْفَكَّ زِرُّ الْقَمِيصِ.", "Der Knopf des Hemdes ging auf.", "Infakka zirru al-qamīṣi."],
+      ["أَخَذَتِ الْأُمُّ خَيْطًا وَإِبْرَةً.", "Die Mutter nahm einen Faden und eine Nadel.", "ʾAḫaḏati al-ʾummu ḫayṭan wa-ʾibratan."],
+      ["قَصَّتِ الْخَيَّاطَةُ الثَّوْبَ بِمِقَصٍّ.", "Die Schneiderin schnitt den Stoff mit einer Schere.", "Qaṣṣati al-ḫayyāṭatu aṯ-ṯawba bi-miqaṣṣin."],
+      ["تَأَخَّرَتِ الْحَافِلَةُ عَنِ الْمَوْعِدِ.", "Der Bus verspätete sich gegenüber dem Termin.", "Taʾaḫḫarat al-ḥāfilatu ʿani al-mawʿidi."],
+      ["قَضَيْنَا الْعُطْلَةَ فِي الْجَبَلِ.", "Wir verbrachten den Urlaub im Gebirge.", "Qaḍaynā al-ʿuṭlata fī al-ǧabali."],
+      ["طَلَبَ الْمُوَظَّفُ إِجَازَةً لِأُسْبُوعَيْنِ.", "Der Angestellte beantragte einen Urlaub für zwei Wochen.", "Ṭalaba al-muwaẓẓafu ʾiǧāzatan li-ʾusbūʿayni."],
+      ["يَبْدَأُ مَوْسِمُ الْحَصَادِ فِي الصَّيْفِ.", "Die Erntesaison beginnt im Sommer.", "Yabdaʾu mawsimu al-ḥaṣādi fī aṣ-ṣayfi."]
+    ]
+  },
+  {
+    "lesson": 178,
+    "title": "Die Stadtbesichtigung",
+    "desc": "Kirchen, Moscheen und alte Handwerke auf einer Tour durch die Stadt.",
+    "sentences": [
+      ["قَامَ السَّائِحُ بِجَوْلَةٍ فِي الْمَدِينَةِ.", "Der Tourist machte eine Tour durch die Stadt.", "Qāma as-sāʾiḥu bi-ǧawlin fī al-madīnati."],
+      ["خَرَجَتِ الْعَائِلَةُ فِي نُزْهَةٍ إِلَى الرِّيفِ.", "Die Familie machte einen Ausflug aufs Land.", "Ḫaraǧati al-ʿāʾilatu fī nuzhatin ʾilā ar-rīfi."],
+      ["صَلَّى النَّاسُ فِي الْجَامِعِ.", "Die Leute beteten in der Moschee.", "Ṣallā an-nāsu fī al-ǧāmiʿi."],
+      ["تَقَعُ الْكَنِيسَةُ قُرْبَ الْحَدِيقَةِ.", "Die Kirche liegt nahe am Park.", "Taqaʿu al-kanīsatu qurba al-ḥadīqati."],
+      ["زَارَ السُّيَّاحُ مَعْبَدًا قَدِيمًا.", "Die Touristen besuchten einen alten Tempel.", "Zāra as-suyyāḥu maʿbadan qadīman."],
+      ["الْخَزَفُ حِرْفَةٌ قَدِيمَةٌ.", "Die Töpferei ist ein altes Handwerk.", "Al-ḫazafu ḥirfatun qadīmatun."],
+      ["خَدَمَ الْبَائِعُ الزَّبُونَ بِأَدَبٍ.", "Der Verkäufer bediente den Kunden höflich.", "Ḫadama al-bāʾiʿu az-zabūna bi-ʾadabin."],
+      ["صَاحِبُ الْمَتْجَرِ رَجُلٌ لَطِيفٌ.", "Der Besitzer des Ladens ist ein freundlicher Mann.", "Ṣāḥibu al-matǧari raǧulun laṭīfun."],
+      ["كَانَ زَعِيمُ الْقَبِيلَةِ حَكِيمًا.", "Der Führer des Stammes war weise.", "Kāna zaʿīmu al-qabīlati ḥakīman."],
+      ["اِتَّسَعَتِ الْمَمْلَكَةُ فِي عَهْدِهِ.", "Das Königreich dehnte sich in seiner Zeit aus.", "Ittasaʿati al-mamlakatu fī ʿahdihī."]
+    ]
+  },
+  {
+    "lesson": 179,
+    "title": "Kultur und Gesetz",
+    "desc": "Verfassung, Theater und Wissenschaft auf einer großen Tagung.",
+    "sentences": [
+      ["كَانَتِ الْخِلَافَةُ نِظَامَ حُكْمٍ قَدِيمًا.", "Das Kalifat war einst ein Regierungssystem.", "Kānati al-ḫilāfatu niẓāma ḥukmin qadīman."],
+      ["يَحْمِي الدُّسْتُورُ حُقُوقَ الْمُوَاطِنِينَ.", "Die Verfassung schützt die Rechte der Bürger.", "Yaḥmī ad-dustūru ḥuqūqa al-muwāṭinīna."],
+      ["صَدَرَ مَرْسُومٌ جَدِيدٌ مِنَ الْحُكُومَةِ.", "Ein neues Dekret erging von der Regierung.", "Ṣadara marsūmun ǧadīdun mina al-ḥukūmati."],
+      ["أُعْجِبْتُ بِنَثْرِ الْكَاتِبِ.", "Ich war von der Prosa des Autors beeindruckt.", "ʾUʿǧibtu bi-naṯri al-kātibi."],
+      ["عُرِضَتْ مَسْرَحِيَّةٌ جَمِيلَةٌ فِي الْمَدِينَةِ.", "Ein schönes Theaterstück wurde in der Stadt aufgeführt.", "ʿUriḍat masraḥiyyatun ǧamīlatun fī al-madīnati."],
+      ["شَاهَدْنَا فِلْمًا مُثِيرًا أَمْسِ.", "Wir sahen gestern einen spannenden Film.", "Šāhadnā filman muṯīran ʾamsi."],
+      ["حَضَرَ الطُّلَّابُ مُحَاضَرَةً فِي الْجَامِعَةِ.", "Die Studenten besuchten eine Vorlesung an der Universität.", "Ḥaḍara aṭ-ṭullābu muḥāḍaratan fī al-ǧāmiʿati."],
+      ["نَظَّمَتِ الْجَمْعِيَّةُ نَدْوَةً عَنِ الصِّحَّةِ.", "Der Verein organisierte ein Seminar über Gesundheit.", "Naẓẓamati al-ǧamʿiyyatu nadwatan ʿani aṣ-ṣiḥḥati."],
+      ["اِفْتَتَحَ الْعُلَمَاءُ مُؤْتَمَرًا دَوْلِيًّا.", "Die Gelehrten eröffneten eine internationale Konferenz.", "Iftataḥa al-ʿulamāʾu muʾtamaran dawliyyan."],
+      ["كَانَ اللِّقَاءُ وَدِّيًّا وَقَصِيرًا.", "Die Begegnung war freundlich und kurz.", "Kāna al-liqāʾu waddiyyan wa-qaṣīran."]
+    ]
+  },
+  {
+    "lesson": 180,
+    "title": "Das Feuer",
+    "desc": "Rauch, Flammen und Asche erzählen von einem großen Brand.",
+    "sentences": [
+      ["رَدَّدَ الْجُنُودُ النَّشِيدَ الْوَطَنِيَّ.", "Die Soldaten sangen die Nationalhymne.", "Raddada al-ǧunūdu an-našīda al-waṭaniyya."],
+      ["اِرْتَفَعَ الدُّخَانُ فَوْقَ الْبَيْتِ.", "Der Rauch stieg über das Haus.", "Irtafaʿa ad-duḫānu fawqa al-bayti."],
+      ["كَانَ اللَّهَبُ عَالِيًا وَقَوِيًّا.", "Die Flamme war hoch und stark.", "Kāna al-lahabu ʿāliyan wa-qawiyyan."],
+      ["أَخْمَدَ الْإِطْفَائِيُّونَ الْحَرِيقَ بِسُرْعَةٍ.", "Die Feuerwehrleute löschten den Brand schnell.", "ʾAḫmada al-ʾiṭfāʾiyyūna al-ḥarīqa bi-surʿatin."],
+      ["تَنَاثَرَ الرَّمَادُ فِي الْهَوَاءِ.", "Die Asche verteilte sich in der Luft.", "Tanāṯara ar-ramādu fī al-hawāʾi."],
+      ["تَصَاعَدَ الْبُخَارُ مِنَ الْقِدْرِ.", "Der Dampf stieg aus dem Topf auf.", "Taṣāʿada al-buḫāru mina al-qidri."],
+      ["الْحَدِيدُ مَعْدِنٌ قَوِيٌّ.", "Das Eisen ist ein starkes Metall.", "Al-ḥadīdu maʿdinun qawiyyun."],
+      ["تُشْتَهَرُ هَذِهِ الْمِنْطَقَةُ بِالزَّرَاعَةِ.", "Diese Region ist für den Ackerbau bekannt.", "Tuštaharu hāḏihi al-minṭaqatu bi-az-zarāʿati."],
+      ["لِلْأَهَمِّيَّةِ الْكَبِيرَةِ دَوْرٌ فِي الْقَرَارِ.", "Die große Wichtigkeit spielt eine Rolle bei der Entscheidung.", "Lil-ʾahammiyyati al-kabīrati dawrun fī al-qarāri."],
+      ["الْمَتْحَفُ مَعْلَمٌ ثَقَافِيٌّ هَامٌّ.", "Das Museum ist ein bedeutendes kulturelles Wahrzeichen.", "Al-matḥafu maʿlamun ṯaqāfiyyun hāmmun."]
+    ]
+  }
+]
