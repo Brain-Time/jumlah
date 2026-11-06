@@ -88,6 +88,8 @@ void main() {
       // Die Geschichte (die deutschen Übersetzungen sind NICHT sichtbar,
       // nur die arabischen Sätze).
       expect(find.text('Der Mann ging nach Hause.'), findsNothing);
+      // A1-Geschichten haben kein Story-Audio -> keine Play-Buttons.
+      expect(find.byIcon(Icons.play_circle_fill), findsNothing);
 
       // Weiter zur Zuordnung.
       await tester.tap(find.text('Weiter zur Zuordnung'));
@@ -102,6 +104,66 @@ void main() {
       expect(q.options, containsAll(q.options.toSet()));
       // Alle Optionen sind deutsche Übersetzungen (ähnlich).
       expect(q.options.map((o) => o.contains('Der Mann')).where((b) => b).length, greaterThanOrEqualTo(2));
+    },
+  );
+
+  testWidgets(
+    'B1-Geschichte (Lektion 101) zeigt in der Lesephase je Satz einen Play-Button',
+    (tester) async {
+      final b1Words = [
+        for (var id = 1001; id <= 1010; id++)
+          Word(
+            id: id,
+            arabic: 'wort_$id',
+            german: 'deutsch_$id',
+            root: 'wurzel',
+            group: 'B1',
+            frequencyRank: id,
+            transliteration: 'wort',
+          ),
+      ];
+      final b1Sentences = {
+        for (final w in b1Words)
+          w.id: [
+            Sentence(
+              wordId: w.id,
+              arabic: 'satz_${w.id}',
+              german: 'Satz Deutsch ${w.id}',
+              transliteration: 'satz',
+              wordAnalysis: const [],
+              targetIndex: 0,
+            ),
+          ],
+      };
+      final container = ProviderContainer();
+      addTearDown(container.dispose);
+
+      await tester.pumpWidget(
+        UncontrolledProviderScope(
+          container: container,
+          child: MaterialApp(
+            home: QuizScreen(words: b1Words, sentencesByWordId: b1Sentences),
+          ),
+        ),
+      );
+      await tester.pump();
+
+      var guard = 0;
+      while (container.read(quizProvider).stage != QuizStage.story &&
+          !container.read(quizProvider).isFinished &&
+          guard < 300) {
+        guard++;
+        final correct =
+            container.read(quizProvider).currentQuestion!.correctAnswer;
+        await tester.tap(find.text(correct));
+        await tester.pump();
+        await tester.tap(find.text('Weiter'));
+        await tester.pump();
+      }
+
+      expect(container.read(quizProvider).stage, QuizStage.story);
+      expect(find.text('Lies die Geschichte:'), findsOneWidget);
+      expect(find.byIcon(Icons.play_circle_fill), findsNWidgets(10));
     },
   );
 }

@@ -384,10 +384,21 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                           textDirection: TextDirection.rtl,
                           child: Padding(
                             padding: const EdgeInsets.only(bottom: 14),
-                            child: Text(
-                              sentence.arabic,
-                              style: AppTheme.arabicTextStyle(fontSize: 24),
-                              textAlign: TextAlign.right,
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Expanded(
+                                  child: Text(
+                                    sentence.arabic,
+                                    style: AppTheme.arabicTextStyle(
+                                      fontSize: 24,
+                                    ),
+                                    textAlign: TextAlign.right,
+                                  ),
+                                ),
+                                if (AudioService.hasStoryAudio(sentence))
+                                  _StoryPlayButton(sentence: sentence),
+                              ],
                             ),
                           ),
                         ),
@@ -586,6 +597,34 @@ class _OptionButton extends StatelessWidget {
               : Text(text, style: const TextStyle(fontSize: 16)),
         ),
       ),
+    );
+  }
+}
+
+/// Play-/Stop-Button für einen Story-Satz in der Lese-Phase (B1).
+class _StoryPlayButton extends StatelessWidget {
+  const _StoryPlayButton({required this.sentence});
+
+  final Sentence sentence;
+
+  @override
+  Widget build(BuildContext context) {
+    final service = AudioService.instance;
+    return ListenableBuilder(
+      listenable: service,
+      builder: (context, _) {
+        final playing = service.isStoryPlaying(sentence);
+        return IconButton(
+          tooltip: context.l10n.listenSentence,
+          onPressed: () => playing
+              ? service.stop()
+              : service.playStorySentence(sentence),
+          icon: Icon(
+            playing ? Icons.stop_circle : Icons.play_circle_fill,
+            color: AppColors.gold,
+          ),
+        );
+      },
     );
   }
 }

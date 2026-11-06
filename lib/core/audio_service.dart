@@ -47,6 +47,25 @@ class AudioService extends ChangeNotifier {
     await _player.play(AssetSource(_assetPath(sentence, sentenceIndex)));
   }
 
+  /// Schlüssel für Story-Sätze (B1, word_id >= 1001) — kollidiert nicht mit
+  /// den Lernsatz-Schlüsseln `word_id:satzIndex`.
+  String _storyKey(Sentence sentence) => 'story:${sentence.wordId}';
+
+  /// Ob für diesen Story-Satz eine Audio-Datei existiert (B1-Lektionen 101–200).
+  static bool hasStoryAudio(Sentence sentence) => sentence.wordId > 1000;
+
+  /// Ob genau dieser Story-Satz gerade abgespielt wird.
+  bool isStoryPlaying(Sentence sentence) =>
+      _activeKey == _storyKey(sentence);
+
+  /// Spielt die Audio-Datei eines Story-Satzes ab
+  /// (`assets/audio/story/<word_id>.mp3`).
+  Future<void> playStorySentence(Sentence sentence) async {
+    _activeKey = _storyKey(sentence);
+    notifyListeners();
+    await _player.play(AssetSource('audio/story/${sentence.wordId}.mp3'));
+  }
+
   Future<void> stop() async {
     _activeKey = null;
     notifyListeners();

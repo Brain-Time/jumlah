@@ -294,6 +294,7 @@ flutter:
     - assets/audio/lektion_198/
     - assets/audio/lektion_199/
     - assets/audio/lektion_200/
+    - assets/audio/story/
 
   # ACHTUNG: assets/fonts/Amiri-Regular.ttf ist aktuell eine leere
   # Platzhalter-Datei (0 Bytes). Die echte Schriftdatei muss noch von
