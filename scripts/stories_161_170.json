@@ -1,0 +1,172 @@
+[
+  {
+    "lesson": 161,
+    "title": "Der geschäftige Markt",
+    "desc": "Ein Händler feilscht, erweitert seinen Laden und verfolgt ehrgeizige Ziele.",
+    "sentences": [
+      ["سَاوَمَ التَّاجِرُ عَلَى الثَّمَنِ.", "Der Händler feilschte über den Preis.", "Sāwama at-tāǧiru ʿalā aṯ-ṯamani."],
+      ["تَتَابَعَتِ الْأَخْبَارُ فِي الصَّبَاحِ.", "Die Nachrichten folgten am Morgen aufeinander.", "Tatābaʿati al-ʾaḫbāru fī aṣ-ṣabāḥi."],
+      ["شَقَّ الْفَلَّاحُ الْأَرْضَ بِالْمِحْرَاثِ.", "Der Bauer spaltete die Erde mit dem Pflug.", "Šaqqa al-fallāḥu al-ʾarḍa bi-al-miḥrāṯi."],
+      ["عَزَّزَ الدَّرْسُ ثِقَةَ الطَّالِبِ.", "Die Lektion stärkte das Selbstvertrauen des Schülers.", "ʿAzzaza ad-darsu ṯiqata aṭ-ṭālibi."],
+      ["وَسَّعَ التَّاجِرُ مَتْجَرَهُ الْقَدِيمَ.", "Der Händler erweiterte sein altes Geschäft.", "Wassaʿa at-tāǧiru matǧarahū al-qadīma."],
+      ["تَخَلَّى الْأَبُ عَنِ الْكُرْسِيِّ لِطِفْلِهِ.", "Der Vater verzichtete für sein Kind auf den Stuhl.", "Taḫallā al-ʾabu ʿani al-kursiyyi li-ṭiflihī."],
+      ["اِسْتَهْدَفَ الْمُدِيرُ زِيَادَةَ الْإِنْتَاجِ.", "Der Leiter strebte eine höhere Produktion an.", "Istahdafa al-mudīru ziyādata al-ʾintāǧi."],
+      ["تَوَاصَلَ الصَّدِيقَانِ بِالرَّسَائِلِ.", "Die beiden Freunde hielten per Nachrichten Kontakt.", "Tawāṣala aṣ-ṣadīqāni bi-ar-rasāʾili."],
+      ["وَاصَلَ الْعُمَّالُ الْعَمَلَ حَتَّى اللَّيْلِ.", "Die Arbeiter setzten die Arbeit bis zur Nacht fort.", "Wāṣala al-ʿummālu al-ʿamala ḥattā al-layli."],
+      ["كَفَّ الْمَطَرُ عَنِ الْهُطُولِ.", "Der Regen hörte auf zu fallen.", "Kaffa al-maṭaru ʿani al-huṭūli."]
+    ]
+  },
+  {
+    "lesson": 162,
+    "title": "Das neue Gebäude",
+    "desc": "Eine Firma errichtet, stellt ein und bittet um die nötigen Genehmigungen.",
+    "sentences": [
+      ["اِسْتَغْنَى الرَّجُلُ عَنْ مُسَاعَدَةِ أَخِيهِ.", "Der Mann konnte auf die Hilfe seines Bruders verzichten.", "Istaġnā ar-raǧulu ʿan musāʿadati ʾaḫīhi."],
+      ["اِسْتَعْرَضَ الْجُنْدِيُّ مَهَارَاتِهِ أَمَامَ الْقَائِدِ.", "Der Soldat führte seine Fähigkeiten vor dem Kommandanten vor.", "Istaʿraḍa al-ǧundiyyu mahārātihī ʾamāma al-qāʾidi."],
+      ["وَظَّفَتِ الشَّرِكَةُ عَشَرَةَ مُهَنْدِسِينَ.", "Die Firma stellte zehn Ingenieure an.", "Waẓẓafati aš-šarikatu ʿašarata muhandisīna."],
+      ["حَضَّ الْمُعَلِّمُ الطُّلَّابَ عَلَى الْقِرَاءَةِ.", "Der Lehrer trieb die Schüler zum Lesen an.", "Ḥaḍḍa al-muʿallimu aṭ-ṭullāba ʿalā al-qirāʾati."],
+      ["حَثَّ الْأَبُ ابْنَهُ عَلَى الِاجْتِهَادِ.", "Der Vater trieb seinen Sohn zur Anstrengung an.", "Ḥaṯṯa al-ʾabu ibnahū ʿalā al-iǧtihādi."],
+      ["شَيَّدَ الْعُمَّالُ بُرْجًا عَالِيًا.", "Die Arbeiter errichteten einen hohen Turm.", "Šayyada al-ʿummālu burǧan ʿāliyan."],
+      ["اِلْتَمَسَ الْمُوَظَّفُ مُسَاعَدَةَ الْمُدِيرِ.", "Der Angestellte ersuchte den Leiter um Hilfe.", "Iltamasa al-muwaẓẓafu musāʿadati al-mudīri."],
+      ["اِسْتَأْذَنَ الطَّالِبُ مُعَلِّمَهُ قَبْلَ الْخُرُوجِ.", "Der Schüler bat seinen Lehrer vor dem Hinausgehen um Erlaubnis.", "Istaʾḏana aṭ-ṭālibu muʿallimahū qabla al-ḫurūǧi."],
+      ["أَجَازَتِ الْبَلَدِيَّةُ الْمَشْرُوعَ الْجَدِيدَ.", "Die Gemeinde genehmigte das neue Projekt.", "ʾAǧāzati al-baladiyyatu al-mašrūʿa al-ǧadīda."],
+      ["رَخَّصَتِ الْحُكُومَةُ الْمَتْجَرَ الْجَدِيدَ.", "Die Regierung lizenzierte das neue Geschäft.", "Raḫḫaṣati al-ḥukūmatu al-matǧara al-ǧadīda."]
+    ]
+  },
+  {
+    "lesson": 163,
+    "title": "Vor Gericht",
+    "desc": "Ein Fall erfordert klare Worte, und am Ende steht die Vergebung.",
+    "sentences": [
+      ["أَبَاحَ الْقَانُونُ التِّجَارَةَ الْحُرَّةَ.", "Das Gesetz gab den freien Handel frei.", "ʾAbāḥa al-qānūnu at-tiǧārata al-ḥurrata."],
+      ["أَوْجَبَ الْقَانُونُ حِمَايَةَ الْأَطْفَالِ.", "Das Gesetz machte den Schutz der Kinder erforderlich.", "ʾAwǧaba al-qānūnu ḥimāyata al-ʾaṭfāli."],
+      ["لَزِمَ الطَّالِبَ الْحُضُورُ مُبَكِّرًا.", "Der Schüler musste früh erscheinen.", "Lazima aṭ-ṭāliba al-ḥuḍūru mubakkiran."],
+      ["اِسْتَوْجَبَ الْعَمَلُ جُهْدًا كَبِيرًا.", "Die Arbeit erforderte eine große Anstrengung.", "Istawǧaba al-ʿamalu ǧuhdan kabīran."],
+      ["اِسْتَبْعَدَ الْقَاضِي رِوَايَةَ الشَّاهِدِ.", "Der Richter hielt die Aussage des Zeugen für unwahrscheinlich.", "Istabʿada al-qāḍī riwāyata aš-šāhidi."],
+      ["أَنْكَرَ الرَّجُلُ الِاتِّهَامَ أَمَامَ الْقَاضِي.", "Der Mann leugnete die Anschuldigung vor dem Richter.", "ʾAnkara ar-raǧulu al-ittihāma ʾamāma al-qāḍī."],
+      ["جَحَدَ الْوَلَدُ بِالْحَقِيقَةِ.", "Der Junge leugnete die Wahrheit ab.", "Ǧaḥada al-waladu bi-al-ḥaqīqati."],
+      ["بَرَّرَ الْمُتَّهَمُ عَمَلَهُ بِالْجَهْلِ.", "Der Angeklagte rechtfertigte seine Tat mit Unwissenheit.", "Barrara al-muttahamu ʿamalahū bi-al-ǧahli."],
+      ["عَذَرَ الْأُسْتَاذُ الطَّالِبَ الْمُتَأَخِّرَ.", "Der Lehrer entschuldigte den zu spät gekommenen Schüler.", "ʿAḏara al-ʾustāḏu aṭ-ṭāliba al-mutaʾaḫḫira."],
+      ["سَامَحَ الْأَخُ أَخَاهُ بَعْدَ الْخِلَافِ.", "Der Bruder verzieh seinem Bruder nach dem Streit.", "Sāmaḥa al-ʾaḫu ʾaḫāhu baʿda al-ḫilāfi."]
+    ]
+  },
+  {
+    "lesson": 164,
+    "title": "Die neue Firma",
+    "desc": "Ein Gründer errichtet, dokumentiert und entwickelt sein Werk.",
+    "sentences": [
+      ["تَصَالَحَ الْفَرِيقَانِ بَعْدَ خِلَافٍ طَوِيلٍ.", "Die beiden Teams versöhnten sich nach langem Streit.", "Taṣālaḥa al-farīqāni baʿda ḫilāfin ṭawīlin."],
+      ["اِسْتَوْدَعَ الرَّجُلُ وَثَائِقَهُ عِنْدَ الْمُحَامِي.", "Der Mann hinterlegte seine Dokumente beim Anwalt.", "Istawdaʿa ar-raǧulu waṯāʾiqahū ʿinda al-muḥāmī."],
+      ["اِسْتَقَلَّ الِابْنُ عَنْ أَبِيهِ فِي عَمَلِهِ.", "Der Sohn wurde in seiner Arbeit unabhängig von seinem Vater.", "Istaqalla al-ibnu ʿan ʾabīhi fī ʿamalihī."],
+      ["أَسَّسَ الرَّجُلُ شَرِكَةً صَغِيرَةً.", "Der Mann gründete eine kleine Firma.", "ʾAssasa ar-raǧulu šarikatan ṣaġīratan."],
+      ["ثَبَّتَ الْعَامِلُ اللَّوْحَةَ عَلَى الْجِدَارِ.", "Der Arbeiter befestigte das Schild an der Wand.", "Ṯabbata al-ʿāmilu al-lawḥata ʿalā al-ǧidāri."],
+      ["أَقَرَّ الْمُدِيرُ الْخُطَّةَ الْجَدِيدَةَ.", "Der Leiter bestätigte den neuen Plan.", "ʾAqarra al-mudīru al-ḫuṭṭata al-ǧadīdata."],
+      ["وَثَّقَ الْمُوَظَّفُ الْعَقْدَ بِخَتْمٍ رَسْمِيٍّ.", "Der Angestellte belegte den Vertrag mit einem amtlichen Siegel.", "Waṯṯaqa al-muwaẓẓafu al-ʿaqda bi-ḫatmin rasmiyyin."],
+      ["صَنَّفَ الْعَالِمُ الْحَيَوَانَاتِ فِي مَجْمُوعَاتٍ.", "Der Forscher teilte die Tiere in Gruppen ein.", "Ṣannafa al-ʿālimu al-ḥayawānāti fī maǧmūʿātin."],
+      ["اِبْتَكَرَ الْمُهَنْدِسُ آلَةً مُفِيدَةً.", "Der Ingenieur schuf eine nützliche Maschine.", "Ibtakara al-muhandisu ʾālatan mufīdatan."],
+      ["طَوَّرَ الْمُبَرْمِجُ تَطْبِيقًا جَدِيدًا.", "Der Programmierer entwickelte eine neue App.", "Ṭawwara al-mubarmiǧu taṭbīqan ǧadīdan."]
+    ]
+  },
+  {
+    "lesson": 165,
+    "title": "Die Konferenz",
+    "desc": "Delegationen treffen sich, sprechen, verhandeln und tauschen Ideen.",
+    "sentences": [
+      ["ضَبَطَ الْفَنِّيُّ جِهَازَ الْحَاسُوبِ.", "Der Techniker kontrollierte das Computergerät.", "Ḍabaṭa al-fanniyyu ǧihāza al-ḥāsūbi."],
+      ["صَحَّحَ الْمُعَلِّمُ أَخْطَاءَ الطُّلَّابِ.", "Der Lehrer korrigierte die Fehler der Schüler.", "Ṣaḥḥaḥa al-muʿallimu ʾaḫṭāʾa aṭ-ṭullābi."],
+      ["اِنْحَرَفَ السَّائِقُ عَنِ الطَّرِيقِ الرَّئِيسِيِّ.", "Der Fahrer wich von der Hauptstraße ab.", "Inḥarafa as-sāʾiqu ʿani aṭ-ṭarīqi ar-raʾīsiyyi."],
+      ["رَوَى الْجَدُّ حِكَايَةً قَدِيمَةً.", "Der Großvater erzählte eine alte Geschichte.", "Rawā al-ǧaddu ḥikāyatan qadīmatan."],
+      ["حَاوَرَ الطَّالِبُ أُسْتَاذَهُ بِأَدَبٍ.", "Der Student sprach höflich mit seinem Lehrer.", "Ḥāwara aṭ-ṭālibu ʾustāḏahū bi-ʾadabin."],
+      ["فَاوَضَ الْوَفْدُ الْجَانِبَ الْآخَرَ بِهُدُوءٍ.", "Die Delegation verhandelte ruhig mit der anderen Seite.", "Fāwaḍa al-wafdu al-ǧāniba al-ʾāḫara bi-hudūʾin."],
+      ["بَادَلَ الصَّدِيقَانِ الْهَدَايَا.", "Die beiden Freunde tauschten die Geschenke.", "Bādala aṣ-ṣadīqāni al-hadāyā."],
+      ["اِلْتَقَى الْفَرِيقَانِ فِي قَاعَةِ الْمُؤْتَمَرِ.", "Die beiden Teams trafen sich im Konferenzsaal.", "Iltaqā al-farīqāni fī qāʿati al-muʾtamari."],
+      ["تَعَارَفَ الطُّلَّابُ عَلَى بَعْضِهِمْ.", "Die Schüler lernten einander kennen.", "Taʿārafa aṭ-ṭullābu ʿalā baʿḍihim."],
+      ["تَعَرَّفَ الزَّائِرُ عَلَى الْمَدِينَةِ.", "Der Besucher lernte die Stadt kennen.", "Taʿarrafa az-zāʾiru ʿalā al-madīnati."]
+    ]
+  },
+  {
+    "lesson": 166,
+    "title": "Prüfen und Verantwortung",
+    "desc": "Ein Arbeiter prüft gründlich, führt Befehle aus und steht zu seiner Aussage.",
+    "sentences": [
+      ["دَقَّقَ الْمُحَاسِبُ فِي الْأَرْقَامِ.", "Der Buchhalter prüfte die Zahlen genau nach.", "Daqqaqa al-muḥāsibu fī al-ʾarqāmi."],
+      ["فَحَصَ الطَّبِيبُ الْمَرِيضَ بِعِنَايَةٍ.", "Der Arzt untersuchte den Patienten sorgfältig.", "Faḥaṣa aṭ-ṭabību al-marīḍa bi-ʿināyatin."],
+      ["اِدَّعَى الرَّجُلُ أَنَّهُ بَرِيءٌ.", "Der Mann behauptete, dass er unschuldig sei.", "Iddaʿā ar-raǧulu ʾannahū barīʾun."],
+      ["أَقْسَمَ الشَّاهِدُ أَنَّهُ قَالَ الْحَقَّ.", "Der Zeuge schwor, dass er die Wahrheit gesagt habe.", "ʾAqsama aš-šāhidu ʾannahū qāla al-ḥaqqa."],
+      ["حَلَفَ الرَّجُلُ بِاللَّهِ عَلَى صِدْقِهِ.", "Der Mann schwor bei Gott auf seine Aufrichtigkeit.", "Ḥalafa ar-raǧulu bi-llāhi ʿalā ṣidqihī."],
+      ["نَفَّذَ الْعَامِلُ الْأَوَامِرَ بِدِقَّةٍ.", "Der Arbeiter führte die Befehle genau aus.", "Naffaḏa al-ʿāmilu al-ʾawāmira bi-diqqatin."],
+      ["بَالَغَ الْوَلَدُ فِي وَصْفِ الْحَادِثَةِ.", "Der Junge übertrieb bei der Beschreibung des Vorfalls.", "Bālaġa al-waladu fī waṣfi al-ḥādiṯati."],
+      ["حَيَّا الْجُنْدِيُّ الْعَلَمَ صَبَاحًا.", "Der Soldat grüßte am Morgen die Flagge.", "Ḥayyā al-ǧundiyyu al-ʿalama ṣabāḥan."],
+      ["رَحَّبَ الْمُضِيفُ بِالضُّيُوفِ.", "Der Gastgeber hieß die Gäste willkommen.", "Raḥḥaba al-muḍīfu bi-aḍ-ḍuyūfi."],
+      ["ضَغَطَ الْعَامِلُ عَلَى الزِّرِّ.", "Der Arbeiter drückte auf den Knopf.", "Ḍaġaṭa al-ʿāmilu ʿalā az-zirri."]
+    ]
+  },
+  {
+    "lesson": 167,
+    "title": "Auf dem Bauernhof",
+    "desc": "Kinder, Mütter und Bauern verstecken, gießen, zählen und rüsten sich.",
+    "sentences": [
+      ["عَلِقَ الثَّوْبُ بِالْمِسْمَارِ.", "Das Kleid blieb am Nagel hängen.", "ʿAliqa aṯ-ṯawbu bi-al-mismāri."],
+      ["خَبَأَ الطِّفْلُ لُعْبَتَهُ تَحْتَ السَّرِيرِ.", "Das Kind versteckte sein Spielzeug unter dem Bett.", "Ḫabaʾa aṭ-ṭiflu luʿbatahū taḥta as-sarīri."],
+      ["سَكَبَ الْوَلَدُ الْمَاءَ فِي الْكُوبِ.", "Der Junge goss das Wasser in den Becher.", "Sakaba al-waladu al-māʾa fī al-kūbi."],
+      ["صَبَّتِ الْأُمُّ الشَّايَ فِي الْأَكْوَابِ.", "Die Mutter goss den Tee in die Gläser.", "Ṣabbati al-ʾummu aš-šāya fī al-ʾakwābi."],
+      ["شَاوَرَ الْأَبُ ابْنَهُ فِي الْأَمْرِ.", "Der Vater beriet sich mit seinem Sohn in der Sache.", "Šāwara al-ʾabu ibnahū fī al-ʾamri."],
+      ["اِبْتَلَعَ الرَّجُلُ رِيقَهُ مِنَ الْخَوْفِ.", "Der Mann schluckte vor Angst seinen Speichel.", "Ibtalaʿa ar-raǧulu rīqahū mina al-ḫawfi."],
+      ["أَحْصَى الْفَلَّاحُ الْأَغْنَامَ فِي الْحَقْلِ.", "Der Bauer zählte die Schafe auf dem Feld.", "ʾAḥṣā al-fallāḥu al-ʾaġnāma fī al-ḥaqli."],
+      ["جَهَّزَتِ الْأُمُّ الْحَقَائِبَ لِلسَّفَرِ.", "Die Mutter rüstete die Taschen für die Reise aus.", "Ǧahhazati al-ʾummu al-ḥaqāʾiba lis-safari."],
+      ["اِجْتَنَبَ السَّائِقُ الطَّرِيقَ الْخَطِرَ.", "Der Fahrer vermied die gefährliche Straße.", "Iǧtanaba as-sāʾiqu aṭ-ṭarīqa al-ḫaṭira."],
+      ["تَوَقَّى الْفَلَّاحُ الْبَرْدَ بِمِعْطَفٍ ثَقِيلٍ.", "Der Bauer hütete sich mit einem schweren Mantel vor der Kälte.", "Tawaqqā al-fallāḥu al-barda bi-miʿṭafin ṯaqīlin."]
+    ]
+  },
+  {
+    "lesson": 168,
+    "title": "Gefahr und Vertrauen",
+    "desc": "Ein Seemann, ein Lehrer und ein Händler warnen, riskieren und halten Versprechen.",
+    "sentences": [
+      ["اِتَّقَى السَّائِقُ الْخَطَرَ عَلَى الطَّرِيقِ.", "Der Fahrer hütete sich vor der Gefahr auf der Straße.", "Ittaqā as-sāʾiqu al-ḫaṭara ʿalā aṭ-ṭarīqi."],
+      ["نَبَّهَ الْمُعَلِّمُ الطُّلَّابَ إِلَى الْخَطَأِ.", "Der Lehrer warnte die Schüler vor dem Fehler.", "Nabbaha al-muʿallimu aṭ-ṭullāba ʾilā al-ḫaṭaʾi."],
+      ["أَنْذَرَ الدَّلِيلُ الْمُسَافِرِينَ مِنَ الْعَاصِفَةِ.", "Der Führer warnte die Reisenden vor dem Sturm.", "ʾAnḏara ad-dalīlu al-musāfirīna mina al-ʿāṣifati."],
+      ["خَاطَرَ الْبَحَّارُ بِحَيَاتِهِ فِي الْبَحْرِ.", "Der Seemann riskierte sein Leben auf dem Meer.", "Ḫāṭara al-baḥḥāru bi-ḥayātihī fī al-baḥri."],
+      ["أَطْلَقَ الْجُنْدِيُّ رَصَاصَةً فِي الْهَوَاءِ.", "Der Soldat feuerte eine Kugel in die Luft.", "ʾAṭlaqa al-ǧundiyyu raṣāṣatan fī al-hawāʾi."],
+      ["أَقْرَضَ التَّاجِرُ صَدِيقَهُ مَبْلَغًا صَغِيرًا.", "Der Händler lieh seinem Freund einen kleinen Betrag.", "ʾAqraḍa at-tāǧiru ṣadīqahū mablaġan ṣaġīran."],
+      ["اِسْتَدَانَ الطَّالِبُ مَالًا لِدِرَاسَتِهِ.", "Der Student lieh sich Geld für sein Studium.", "Istadāna aṭ-ṭālibu mālan li-dirāsatihī."],
+      ["وَفَّى الرَّجُلُ بِوَعْدِهِ لِلْجَمِيعِ.", "Der Mann erfüllte allen sein Versprechen.", "Waffā ar-raǧulu bi-waʿdihī lil-ǧamīʿi."],
+      ["أَوْفَى الْعَامِلُ بِالْعَقْدِ كَامِلًا.", "Der Arbeiter hielt den Vertrag vollständig ein.", "ʾAwfā al-ʿāmilu bi-al-ʿaqdi kāmilan."],
+      ["اِنْدَفَعَ الْأَطْفَالُ نَحْوَ الْحَدِيقَةِ.", "Die Kinder stürzten in den Garten.", "Indafaʿa al-ʾaṭfālu naḥwa al-ḥadīqati."]
+    ]
+  },
+  {
+    "lesson": 169,
+    "title": "Die Nacht im Dorf",
+    "desc": "Ein Wächter wacht, Türen schließen und Feuer brennt in der Dunkelheit.",
+    "sentences": [
+      ["سَهِرَ الْحَارِسُ حَتَّى الصَّبَاحِ.", "Der Wächter blieb bis zum Morgen wach.", "Sahira al-ḥārisu ḥattā aṣ-ṣabāḥi."],
+      ["اِنْغَلَقَ الْبَابُ بِهُدُوءٍ.", "Die Tür schloss sich leise.", "Inġalaqa al-bābu bi-hudūʾin."],
+      ["أَقْفَلَ الْأَبُ الْبَيْتَ قَبْلَ النَّوْمِ.", "Der Vater schloss das Haus vor dem Schlafen ab.", "ʾAqfala al-ʾabu al-bayta qabla an-nawmi."],
+      ["أَوَى الْمُسَافِرُ إِلَى مَخْدَعٍ صَغِيرٍ.", "Der Reisende fand in einem kleinen Zimmer Unterschlupf.", "ʾAwā al-musāfiru ʾilā maḫdaʿin ṣaġīrin."],
+      ["ضَاعَفَ التَّاجِرُ أَسْعَارَهُ فِي الصَّيْفِ.", "Der Händler verdoppelte im Sommer seine Preise.", "Ḍāʿafa at-tāǧiru ʾasʿārahū fī aṣ-ṣayfi."],
+      ["ضَعُفَ الْحِصَانُ بَعْدَ الطَّرِيقِ الطَّوِيلِ.", "Das Pferd wurde nach dem langen Weg schwach.", "Ḍaʿufa al-ḥiṣānu baʿda aṭ-ṭarīqi aṭ-ṭawīli."],
+      ["اِنْطَفَأَ الْمِصْبَاحُ فِي الْغُرْفَةِ.", "Die Lampe erlosch im Zimmer.", "Inṭafaʾa al-miṣbāḥu fī al-ġurfati."],
+      ["أَطْفَأَ الرَّجُلُ الشَّمْعَةَ قَبْلَ النَّوْمِ.", "Der Mann löschte die Kerze vor dem Schlafen aus.", "ʾAṭfaʾa ar-raǧulu aš-šamʿata qabla an-nawmi."],
+      ["أَشْعَلَ الْفَلَّاحُ النَّارَ فِي الْمَوْقِدِ.", "Der Bauer entzündete das Feuer im Ofen.", "ʾAšʿala al-fallāḥu an-nāra fī al-mawqidi."],
+      ["اِشْتَعَلَتِ النَّارُ فِي الْحَقْلِ.", "Das Feuer brannte auf dem Feld.", "Ištaʿalati an-nāru fī al-ḥaqli."]
+    ]
+  },
+  {
+    "lesson": 170,
+    "title": "Der weite Ausflug",
+    "desc": "Auf der Reise wärmt sich die Gruppe, rutscht aus und sehnt sich nach Hause.",
+    "sentences": [
+      ["تَدَفَّأَ الْأَطْفَالُ حَوْلَ النَّارِ.", "Die Kinder wärmten sich am Feuer.", "Tadaffaʾa al-ʾaṭfālu ḥawla an-nāri."],
+      ["اِسْتَظَلَّ الْمُسَافِرُ تَحْتَ الشَّجَرَةِ.", "Der Reisende suchte Schatten unter dem Baum.", "Istaẓalla al-musāfiru taḥta aš-šaǧarati."],
+      ["زَلَّ الرَّجُلُ عَلَى الْأَرْضِ الْمُبْتَلَّةِ.", "Der Mann rutschte auf dem nassen Boden aus.", "Zalla ar-raǧulu ʿalā al-ʾarḍi al-mubtallati."],
+      ["اِنْزَلَقَ الطِّفْلُ عَلَى الْجَلِيدِ.", "Das Kind rutschte auf dem Eis aus.", "Inzalaqa aṭ-ṭiflu ʿalā al-ǧalīdi."],
+      ["عَثَرَ الْعَالِمُ عَلَى كِتَابٍ قَدِيمٍ.", "Der Forscher stieß auf ein altes Buch.", "ʿAṯara al-ʿālimu ʿalā kitābin qadīmin."],
+      ["اِتَّضَحَ الْأَمْرُ لِلْجَمِيعِ.", "Die Sache wurde allen klar.", "Ittaḍaḥa al-ʾamru lil-ǧamīʿi."],
+      ["صَوَّرَ الرَّسَّامُ الطَّبِيعَةَ.", "Der Maler bildete die Natur ab.", "Ṣawwara ar-rassāmu aṭ-ṭabīʿata."],
+      ["تَفَاءَلَ الطَّالِبُ بِنَتِيجَةٍ جَيِّدَةٍ.", "Der Schüler war wegen eines guten Ergebnisses optimistisch.", "Tafāʾala aṭ-ṭālibu bi-natīǧatin ǧayyidatin."],
+      ["تَشَاءَمَ الْجَدُّ مِنْ تَأَخُّرِ الْمَطَرِ.", "Der Großvater war wegen des ausbleibenden Regens pessimistisch.", "Tašāʾama al-ǧaddu min taʾaḫḫuri al-maṭari."],
+      ["اِشْتَاقَ الْمُسَافِرُ إِلَى بَيْتِهِ.", "Der Reisende sehnte sich nach seinem Haus.", "Ištāqa al-musāfiru ʾilā baytihī."]
+    ]
+  }
+]
