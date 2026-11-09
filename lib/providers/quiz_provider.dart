@@ -13305,9 +13305,9 @@ final List<Sentence> _lessonHundredNinetyStory = [
   ),
   Sentence(
     wordId: 1896,
-    arabic: 'تَصَرَّحَ الْمُدِيرُ بِالْحَقِيقَةِ.',
-    german: 'Der Leiter erklärte die Wahrheit öffentlich.',
-    transliteration: 'Taṣarraḥa al-mudīru bi-al-ḥaqīqati.',
+    arabic: 'صَارَحَ الْمُدِيرُ الْعُمَّالَ بِالْحَقِيقَةِ.',
+    german: 'Der Leiter sagte den Arbeitern offen die Wahrheit.',
+    transliteration: 'Ṣāraḥa al-mudīru al-ʿummāla bi-al-ḥaqīqati.',
     wordAnalysis: [],
     targetIndex: 0,
   ),

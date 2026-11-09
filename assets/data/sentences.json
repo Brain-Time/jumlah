@@ -143186,83 +143186,75 @@
   },
   {
     "word_id": 1896,
-    "arabic": "تَصَرَّحَ الْمُدِيرُ بِقَرَارِهِ أَمَامَ الْعُمَّالِ.",
-    "german": "Der Direktor erklärte seine Entscheidung öffentlich vor den Arbeitern.",
-    "transliteration": "taṣarraḥa ʾlmudīru biqarārihi ʾamāma ʾlʿummāli",
+    "arabic": "صَارَحَ الْأَبُ ابْنَهُ بِالْحَقِيقَةِ.",
+    "german": "Der Vater sagte seinem Sohn offen die Wahrheit.",
+    "transliteration": "ṣāraḥa ʾlʾabu ʾbnahu bilḥaqīqaati",
     "word_analysis": [
       {
-        "word": "تَصَرَّحَ",
-        "translation": "erklärte öffentlich"
+        "word": "صَارَحَ",
+        "translation": "sagte offen"
       },
       {
-        "word": "الْمُدِيرُ",
-        "translation": "der Direktor"
+        "word": "الْأَبُ",
+        "translation": "der Vater"
       },
       {
-        "word": "بِقَرَارِهِ",
-        "translation": "seine Entscheidung"
+        "word": "ابْنَهُ",
+        "translation": "seinem Sohn"
       },
       {
-        "word": "أَمَامَ",
-        "translation": "vor"
-      },
-      {
-        "word": "الْعُمَّالِ",
-        "translation": "den Arbeitern"
+        "word": "بِالْحَقِيقَةِ",
+        "translation": "die Wahrheit"
       }
     ],
     "target_index": 0
   },
   {
     "word_id": 1896,
-    "arabic": "تَصَرَّحَ الْخَبِيرُ بِرَأْيِهِ فِي الصَّحِيفَةِ.",
-    "german": "Der Experte äußerte seine Meinung öffentlich in der Zeitung.",
-    "transliteration": "taṣarraḥa ʾlḫabīru biraʾayihi fī ʾlṣṣaḥīfaati",
+    "arabic": "صَارَحَتِ الْمَرْأَةُ صَدِيقَتَهَا بِرَأْيِهَا.",
+    "german": "Die Frau sagte ihrer Freundin offen ihre Meinung.",
+    "transliteration": "ṣāraḥati ʾlmarʾaatu ṣadīqatahā biraʾayihā",
     "word_analysis": [
       {
-        "word": "تَصَرَّحَ",
-        "translation": "äußerte öffentlich"
+        "word": "صَارَحَتِ",
+        "translation": "sagte offen"
       },
       {
-        "word": "الْخَبِيرُ",
-        "translation": "der Experte"
+        "word": "الْمَرْأَةُ",
+        "translation": "die Frau"
       },
       {
-        "word": "بِرَأْيِهِ",
-        "translation": "seine Meinung"
+        "word": "صَدِيقَتَهَا",
+        "translation": "ihrer Freundin"
       },
       {
-        "word": "فِي",
-        "translation": "in"
-      },
-      {
-        "word": "الصَّحِيفَةِ",
-        "translation": "der Zeitung"
+        "word": "بِرَأْيِهَا",
+        "translation": "ihre Meinung"
       }
     ],
     "target_index": 0
   },
   {
     "word_id": 1896,
-    "arabic": "تَصَرَّحَ السَّائِحُ بِإِعْجَابِهِ بِالْمَدِينَةِ.",
-    "german": "Der Tourist erklärte öffentlich seine Bewunderung für die Stadt.",
-    "transliteration": "taṣarraḥa ʾlssāʾiḥu biʾiʿǧābihi bilmadīnaati",
+    "arabic": "صَارَحَ الطَّبِيبُ الْمَرِيضَ بِحَالَتِهِ.",
+    "german": "Der Arzt sagte dem Patienten offen, wie es um ihn steht.",
+    "transliteration": "ṣāraḥa ʾlṭṭabību ʾlmarīḍa biḥālatihi",
     "word_analysis": [
       {
-        "word": "تَصَرَّحَ",
-        "translation": "erklärte öffentlich"
+        "word": "صَارَحَ",
+        "translation": "sagte offen"
       },
       {
-        "word": "السَّائِحُ",
-        "translation": "der Tourist"
+        "word": "الطَّبِيبُ",
+        "translation": "der Arzt"
       },
       {
-        "word": "بِإِعْجَابِهِ",
-        "translation": "seine Bewunderung"
+        "word": "الْمَرِيضَ",
+        "translation": "dem Patienten"
       },
       {
-        "word": "بِالْمَدِينَةِ",
-        "translation": "für die Stadt"
+        "word": "بِحَالَتِهِ",
+        "translation": "seine Lage"
       }
     ],
     "target_index": 0
