@@ -28,7 +28,7 @@
       ["سَمَّى الْأَبُ ابْنَهُ سَعِيدًا.", "Der Vater nannte seinen Sohn Said.", "Sammā al-ʾabu ibnahū Saʿīdan."],
       ["شَخَّصَ الطَّبِيبُ الْمَرَضَ بِسُرْعَةٍ.", "Der Arzt diagnostizierte die Krankheit schnell.", "Šaḫḫaṣa aṭ-ṭabību al-maraḍa bi-surʿatin."],
       ["شَرَّفَ الْمَلِكُ الْعُلَمَاءَ الْحَاضِرِينَ.", "Der König ehrte die anwesenden Gelehrten.", "Šarrafa al-maliku al-ʿulamāʾa al-ḥāḍirīna."],
-      ["صَرَّحَ الْوِزَارَةُ بِقَرَارٍ جَدِيدٍ.", "Das Ministerium kündigte eine neue Entscheidung an.", "Ṣarraḥa al-wizāratu bi-qarārin ǧadīdin."],
+      ["صَرَّحَتِ الْوِزَارَةُ بِقَرَارٍ جَدِيدٍ.", "Das Ministerium kündigte eine neue Entscheidung an.", "Ṣarraḥati al-wizāratu bi-qarārin ǧadīdin."],
       ["طَرَحَ الْبَاحِثُ سُؤَالًا صَعْبًا.", "Der Forscher warf eine schwere Frage auf.", "Ṭaraḥa al-bāḥiṯu suʾālan saʿban."],
       ["عَانَقَ الْأَبُ ابْنَهُ بَعْدَ سَفَرٍ طَوِيلٍ.", "Der Vater umarmte seinen Sohn nach einer langen Reise.", "ʿĀnaqa al-ʾabu ibnahū baʿda safari ṭawīlin."]
     ]
@@ -42,7 +42,7 @@
       ["قَابَلَ الْجُنْدِيُّ الْقَائِدَ فِي الصَّبَاحِ.", "Der Soldat traf den Kommandanten am Morgen.", "Qābala al-ǧundiyyu al-qāʾida fī aṣ-ṣabāḥi."],
       ["مَارَسَ الرَّجُلُ الْمِهْنَةَ بِإِتْقَانٍ.", "Der Mann übte den Beruf mit Meisterschaft aus.", "Mārasa ar-raǧulu al-mihnata bi-ʾitqānin."],
       ["مَزَجَ الْخَبَّازُ الدَّقِيقَ بِالْمَاءِ.", "Der Bäcker mischte das Mehl mit Wasser.", "Mazaǧa al-ḫabbāzu ad-daqīqa bi-al-māʾi."],
-      ["نَتَجَ الْعَمَلُ نَتِيجَةً مُرْضِيَةً.", "Die Arbeit brachte ein zufriedenstellendes Ergebnis hervor.", "Nataǧa al-ʿamalu natīǧatan murḍiyatan."],
+      ["نَتَجَ عَنِ الْعَمَلِ الطَّوِيلِ نَجَاحٌ كَبِيرٌ.", "Aus der langen Arbeit ergab sich ein großer Erfolg.", "Nataǧa ʿani al-ʿamali aṭ-ṭawīli naǧāḥun kabīrun."],
       ["وَرَّثَ الْجَدُّ الْبَيْتَ لِحَفِيدِهِ.", "Der Großvater vererbte das Haus seinem Enkel.", "Warraṯa al-ǧaddu al-bayta li-ḥafīdihī."],
       ["يَئِسَ الرَّجُلُ مِنَ النَّجَاحِ.", "Der Mann verzweifelte am Erfolg.", "Yaʾisa ar-raǧulu mina an-naǧāḥi."],
       ["جَاءَ أَهْلُ الْقَرْيَةِ إِلَى السُّوقِ.", "Die Leute des Dorfes kamen zum Markt.", "Ǧāʾa ʾahlu al-qaryati ʾilā as-sūqi."],
@@ -78,7 +78,7 @@
       ["مَرَّ دَهْرٌ طَوِيلٌ عَلَى هَذِهِ الْقَرْيَةِ.", "Eine lange Zeit verging über diesem Dorf.", "Marra dahrun ṭawīlun ʿalā hāḏihi al-qaryati."],
       ["لِلْعَسَلِ ذُوقٌ حُلْوٌ مُمَيَّزٌ.", "Der Honig hat einen süßen, besonderen Geschmack.", "Lil-ʿasali ḏawqun ḥulwun mumayyazun."],
       ["عَبَّرَ الرَّجُلُ عَنْ شُعُورِهِ بِصِدْقٍ.", "Der Mann drückte sein Gefühl aufrichtig aus.", "ʿAbbara ar-raǧulu ʿan šuʿūrihī bi-ṣidqin."],
-      ["قَدَّمَ الْجُنْدِيُّ ضَحِيَّةً كَبِيرَةً.", "Der Soldat brachte ein großes Opfer.", "Qaddama al-ǧundiyyu ḍaḥiyyatan kabīratan."],
+      ["كَانَ الْجُنْدِيُّ ضَحِيَّةَ الْحَرْبِ.", "Der Soldat war ein Opfer des Krieges.", "Kāna al-ǧundiyyu ḍaḥiyyata al-ḥarbi."],
       ["اِتَّعَظَ النَّاسُ مِنْ عِبْرَةِ الْمَاضِي.", "Die Leute lernten aus der Lehre der Vergangenheit.", "Ittaʿaẓa an-nāsu min ʿibrati al-māḍī."],
       ["الْكَلَامُ الطَّيِّبُ يَفْتَحُ الْقُلُوبَ.", "Das gute Wort öffnet die Herzen.", "Al-kalāmu aṭ-ṭayyibu yaftaḥu al-qulūba."],
       ["اِرْتَفَعَ الْمَبْنَى الْجَدِيدُ فِي وَسَطِ الْمَدِينَةِ.", "Das neue Gebäude erhob sich in der Mitte der Stadt.", "Irtafaʿa al-mabnā al-ǧadīdu fī wasaṭi al-madīnati."]
@@ -107,9 +107,9 @@
     "desc": "Begeisterung, Wunden und Gewissheit auf dem Weg des Lebens.",
     "sentences": [
       ["اِرْتَفَعَتْ حَمَاسَةُ الْجُمْهُورِ.", "Die Begeisterung des Publikums stieg.", "Irtafaʿat ḥamāsatu al-ǧumhūri."],
-      ["يَزِيدُ اِمْتِدَادُ الطَّرِيقِ إِلَى الْقَرْيَةِ.", "Die Ausdehnung der Straße erstreckt sich bis zum Dorf.", "Yazīdu imtidādu aṭ-ṭarīqi ʾilā al-qaryati."],
+      ["بَلَغَ اِمْتِدَادُ الطَّرِيقِ عَشَرَةَ كِيلُومِتْرَاتٍ.", "Die Ausdehnung der Straße betrug zehn Kilometer.", "Balaġa imtidādu aṭ-ṭarīqi ʿašarata kīlūmitrātin."],
       ["كَانَ جَرْحُ الْجُنْدِيِّ عَمِيقًا.", "Die Wunde des Soldaten war tief.", "Kāna ǧarḥu al-ǧundiyyi ʿamīqan."],
-      ["طَالَ عُمْرُ الْجَدِّ إِلَى تِسْعِينَ سَنَةً.", "Das Lebensalter des Großvaters erstreckte sich bis neunzig Jahre.", "Ṭāla ʿumru al-ǧaddi ʾilā tisʿīna sanatan."],
+      ["بَلَغَ عُمْرُ الْجَدِّ تِسْعِينَ سَنَةً.", "Der Großvater wurde neunzig Jahre alt.", "Balaġa ʿumru al-ǧaddi tisʿīna sanatan."],
       ["عَامَلَ الْمُعَلِّمُ الطُّلَّابَ بِلُطْفٍ.", "Der Lehrer behandelte die Schüler mit Milde.", "ʿĀmala al-muʿallimu aṭ-ṭullāba bi-luṭfin."],
       ["نَجَحَتِ الْمُحَاوَلَةُ الْأُولَى.", "Der erste Versuch gelang.", "Naǧaḥati al-muḥāwalatu al-ʾūlā."],
       ["كَانَ الْيَقِينُ فِي قَلْبِهِ قَوِيًّا.", "Die Gewissheit in seinem Herzen war stark.", "Kāna al-yaqīnu fī qalbihī qawiyyan."],

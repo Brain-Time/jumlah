@@ -45,7 +45,7 @@
       ["دَوَّنَ الطَّالِبُ الدَّرْسَ فِي مُذَكِّرَةٍ صَغِيرَةٍ.", "Der Schüler notierte die Lektion in einem kleinen Notizbuch.", "Dawwana aṭ-ṭālibu ad-darsa fī muḏakkaratin ṣaġīratin."],
       ["يُتَابِعُ الْمُدِيرُ مَسَارَ الْعَمَلِ.", "Der Leiter verfolgt den Verlauf der Arbeit.", "Yutābiʿu al-mudīru masāra al-ʿamali."],
       ["يَحْفَظُ الْجَدُّ تَقْلِيدَ الْعَائِلَةِ.", "Der Großvater bewahrt die Tradition der Familie.", "Yaḥfaẓu al-ǧaddu taqlīda al-ʿāʾilati."],
-      ["يَسْكُنُ أَخِي فِي قُرْبِ الْمَسْجِدِ.", "Mein Bruder wohnt in der Nähe der Moschee.", "Yaskunu ʾaḫī fī qurbi al-masǧidi."],
+      ["يَسْكُنُ أَخِي بِالْقُرْبِ مِنَ الْمَسْجِدِ.", "Mein Bruder wohnt in der Nähe der Moschee.", "Yaskunu ʾaḫī bi-al-qurbi mina al-masǧidi."],
       ["الْبِئْرُ عَمِيقَةٌ وَلَا نَعْرِفُ عُمْقَهَا.", "Der Brunnen ist tief und wir kennen seine Tiefe nicht.", "Al-biʾru ʿamīqatun wa-lā naʿrifu ʿumqahā."],
       ["يَبْلُغُ طُولُ النَّهْرِ أَلْفَ كِيلُومِتْرٍ.", "Die Länge des Flusses beträgt tausend Kilometer.", "Yabluġu ṭūlu an-nahri ʾalfa kīlūmitrin."]
     ]
@@ -79,7 +79,7 @@
       ["نَشَرَ الْكَاتِبُ مَقَالَةً جَدِيدَةً.", "Der Autor veröffentlichte einen neuen Artikel.", "Našara al-kātibu maqālatan ǧadīdatan."],
       ["هَذَا مِثَالٌ وَاضِحٌ لِلطُّلَّابِ.", "Dies ist ein klares Beispiel für die Schüler.", "Hāḏā miṯālun wāḍiḥun liṭ-ṭullābi."],
       ["اِشْتَرَى الْمُعَلِّمُ مَجْمُوعَةَ كُتُبٍ.", "Der Lehrer kaufte eine Sammlung von Büchern.", "Ištarā al-muʿallimu maǧmūʿata kutubin."],
-      ["يَمَارِسُ الشَّبَابُ نَشَاطًا رِيَاضِيًّا.", "Die Jugendlichen üben eine sportliche Aktivität aus.", "Yamārisu aš-šabābu našāṭan riyāḍiyyan."],
+      ["يُمَارِسُ الشَّبَابُ نَشَاطًا رِيَاضِيًّا.", "Die Jugendlichen üben eine sportliche Aktivität aus.", "Yumārisu aš-šabābu našāṭan riyāḍiyyan."],
       ["تَقَعُ الْقَرْيَةُ فِي إِقْلِيمٍ جَبَلِيٍّ.", "Das Dorf liegt in einer bergigen Region.", "Taqaʿu al-qaryatu fī ʾiqlīmin ǧabaliyyin."],
       ["بَنَى الْقُدَمَاءُ حِصْنًا عَلَى الْجَبَلِ.", "Die Alten bauten eine Festung auf dem Berg.", "Banā al-qudamāʾu ḥiṣnan ʿalā al-ǧabali."]
     ]
@@ -107,7 +107,7 @@
     "desc": "Koffer, Faden und Bus: eine Familie bereitet die Ferien vor.",
     "sentences": [
       ["سَمِعْنَا صَرْخَةً فِي اللَّيْلِ.", "Wir hörten einen Schrei in der Nacht.", "Samiʿnā ṣarḫatan fī al-layli."],
-      ["كَانَتْ جِرَاحَةٌ صَغِيرَةٌ فِي يَدِهِ.", "An seiner Hand war eine kleine Wunde.", "Kānat ǧirāḥatun ṣaġīratun fī yadihī."],
+      ["فِي يَدِهِ جِرَاحَةٌ صَغِيرَةٌ.", "An seiner Hand ist eine kleine Wunde.", "Fī yadihī ǧirāḥatun ṣaġīratun."],
       ["شَرِبَ الرَّجُلُ قَدَحًا مِنَ الْمَاءِ.", "Der Mann trank einen Becher Wasser.", "Šariba ar-raǧulu qadaḥan mina al-māʾi."],
       ["اِنْفَكَّ زِرُّ الْقَمِيصِ.", "Der Knopf des Hemdes ging auf.", "Infakka zirru al-qamīṣi."],
       ["أَخَذَتِ الْأُمُّ خَيْطًا وَإِبْرَةً.", "Die Mutter nahm einen Faden und eine Nadel.", "ʾAḫaḏati al-ʾummu ḫayṭan wa-ʾibratan."],
@@ -165,7 +165,7 @@
       ["تَصَاعَدَ الْبُخَارُ مِنَ الْقِدْرِ.", "Der Dampf stieg aus dem Topf auf.", "Taṣāʿada al-buḫāru mina al-qidri."],
       ["الْحَدِيدُ مَعْدِنٌ قَوِيٌّ.", "Das Eisen ist ein starkes Metall.", "Al-ḥadīdu maʿdinun qawiyyun."],
       ["تُشْتَهَرُ هَذِهِ الْمِنْطَقَةُ بِالزَّرَاعَةِ.", "Diese Region ist für den Ackerbau bekannt.", "Tuštaharu hāḏihi al-minṭaqatu bi-az-zarāʿati."],
-      ["لِلْأَهَمِّيَّةِ الْكَبِيرَةِ دَوْرٌ فِي الْقَرَارِ.", "Die große Wichtigkeit spielt eine Rolle bei der Entscheidung.", "Lil-ʾahammiyyati al-kabīrati dawrun fī al-qarāri."],
+      ["لِأَهَمِّيَّةِ الْمَوْضُوعِ دَوْرٌ فِي الْقَرَارِ.", "Die Wichtigkeit des Themas spielt bei der Entscheidung eine Rolle.", "Li-ʾahammiyyati al-mawḍūʿi dawrun fī al-qarāri."],
       ["الْمَتْحَفُ مَعْلَمٌ ثَقَافِيٌّ هَامٌّ.", "Das Museum ist ein bedeutendes kulturelles Wahrzeichen.", "Al-matḥafu maʿlamun ṯaqāfiyyun hāmmun."]
     ]
   }

@@ -10,7 +10,7 @@
       ["بَعْدَ الْمَطَرِ كَانَ الْمَاءُ وَفِيرًا فِي الْخِزَانِ.", "Nach dem Regen war das Wasser im Behälter reichlich vorhanden.", "Baʿda al-maṭari kāna al-māʾu wafīra fī al-ḫizzāni."],
       ["لَكِنَّ الْمَطَرَ نَادِرٌ فِي هَذِهِ الْمِنْطَقَةِ.", "Aber Regen ist in dieser Gegend selten.", "Lākinna al-maṭara nādirun fī hāḏihi al-mintaqati."],
       ["لِذَلِكَ يَحْتَاجُ النَّاسُ إِلَى مَصْدَرٍ دَائِمٍ لِلْكَهْرَبَاءِ.", "Deshalb brauchen die Menschen eine dauerhafte Stromquelle.", "Li-ḏālika yaḥtāǧu an-nāsu ʾilā maṣdarin dāʾimin lil-kahrabāʾi."],
-      ["غَالِبًا يَكُونُ الْجَوُّ مَشْمُسًا فِي الصَّيْفِ.", "Meistens ist das Wetter im Sommer sonnig.", "Ġāliban yakūnu al-ǧawwu mušmasa fī aṣ-ṣayfi."],
+      ["غَالِبًا يَكُونُ الْجَوُّ مُشْمِسًا فِي الصَّيْفِ.", "Meistens ist das Wetter im Sommer sonnig.", "Ġāliban yakūnu al-ǧawwu mušmisan fī aṣ-ṣayfi."],
       ["أَخِيرًا وَصَلَ الصُّنْدُوقُ الْكَبِيرُ إِلَى الْقَرْيَةِ.", "Schließlich kam die große Kiste im Dorf an.", "ʾAḫīran waṣala aṣ-ṣundūqu al-kabīru ʾilā al-qaryati."],
       ["يَعْمَلُ الْجِهَازُ تَقْرِيبًا عَشْرَ سَاعَاتٍ فِي الْيَوْمِ.", "Das Gerät arbeitet ungefähr zehn Stunden am Tag.", "Yaʿmalu al-ǧihāzu taqrīban ʿašra sāʿātin fī al-yawmi."],
       ["فَوْرًا أَضَاءَتِ الْمَصَابِيحُ فِي كُلِّ الْبُيُوتِ.", "Sofort leuchteten die Lampen in allen Häusern.", "Fawran ʾaḍāʾati al-maṣābīḥu fī kulli al-buyūti."]
@@ -73,7 +73,7 @@
     "desc": "Ein Reisender bereitet sich auf eine lange Fahrt vor; das Mondlicht spiegelt sich im Wasser.",
     "sentences": [
       ["اِسْتَعَدَّ الْمُسَافِرُ لِلرِّحْلَةِ الطَّوِيلَةِ.", "Der Reisende bereitete sich auf die lange Reise vor.", "Istaʿadda al-musāfiru lil-riḥlati aṭ-ṭawīlati."],
-      ["اِسْتَوْرَدَتِ الْبَلَدُ الْبَضَائِعَ مِنَ الْخَارِجِ.", "Das Land importierte die Waren aus dem Ausland.", "Istawradati al-baladu al-baḍāʾiʿa mina al-ḫāriǧi."],
+      ["اِسْتَوْرَدَتِ الْبِلَادُ الْبَضَائِعَ مِنَ الْخَارِجِ.", "Das Land importierte die Waren aus dem Ausland.", "Istawradati al-bilādu al-baḍāʾiʿa mina al-ḫāriǧi."],
       ["اِقْتَرَضَ الْمُسَافِرُ الْمَالَ مِنْ صَدِيقِهِ.", "Der Reisende borgte sich das Geld von seinem Freund.", "Iqṭaraḍa al-musāfiru al-māla min ṣadīqihī."],
       ["اِلْتَفَتَ الْحَارِسُ إِلَى الصَّوْتِ فِي الْمَحَطَّةِ.", "Der Wächter wandte sich dem Geräusch im Bahnhof zu.", "Iltafata al-ḥārisu ʾilā aṣ-ṣawti fī al-muḥaṭṭati."],
       ["اِمْتَدَحَ الرَّئِيسُ عَمَلَ الْحَارِسِ الْجَيِّدَ.", "Der Chef lobte die gute Arbeit des Wächters.", "Imtadaḥa ar-raʾīsu ʿamala al-ḥārisi al-ǧayyida."],
@@ -126,7 +126,7 @@
       ["حَقَّقَ الْبَائِعُ حُلْمَهُ فِي فَتْحِ مَتْجَرٍ.", "Der Verkäufer verwirklichte seinen Traum, ein Geschäft zu eröffnen.", "Ḥaqqaqa al-bāʾiʿu ḥulmahū fī fatḥi matǧarin."],
       ["لَكِنَّ رَجُلًا خَدَعَهُ وَأَخَذَ مَالَهُ.", "Aber ein Mann betrog ihn und nahm sein Geld.", "Lākinna raǧulan ḫadaʿahū wa-ʾaḫaḏa mālahū."],
       ["دَارَ الْبَائِعُ فِي الْمَكَانِ وَهُوَ غَضْبَانُ.", "Der Verkäufer drehte sich wütend im Raum um.", "Dāra al-bāʾiʿu fī al-makāni wa-huwa ġaḍbānu."],
-      ["ذَابَ الثَّلْجُ فِي خُزْنَةِ الْمَتْجَرِ.", "Das Eis schmolz in der Truhe des Geschäfts.", "Ḏāba aṯ-ṯalǧu fī ḫuznati al-matǧari."],
+      ["ذَابَ الثَّلْجُ فِي مَتْجَرِ الْبَائِعِ.", "Das Eis schmolz im Laden des Verkäufers.", "Ḏāba aṯ-ṯalǧu fī matǧari al-bāʾiʿi."],
       ["ذَمَّ النَّاسُ الرَّجُلَ الْمُخَادِعَ.", "Die Leute tadelten den betrügerischen Mann.", "Ḏamma an-nāsu ar-raǧula al-muḫādiʿa."],
       ["رَاجَعَ الْبَائِعُ الْأَوْرَاقَ بِعِنَايَةٍ.", "Der Verkäufer überprüfte die Papiere sorgfältig.", "Rāǧaʿa al-bāʾiʿu al-ʾawrāqa bi-ʿināyatin."],
       ["سَجَّلَ الشُّرْطِيُّ الْحَادِثَةَ فِي الْمَلَفِّ.", "Der Polizist registrierte den Vorfall in der Akte.", "Saǧǧala aš-šurṭiyyu al-ḥādiṯata fī al-milaffi."],
@@ -148,7 +148,7 @@
       ["قَارَنَ الْخَبِيرُ بَيْنَ الْمَشْرُوعَيْنِ.", "Der Fachmann verglich zwischen den beiden Projekten.", "Qārana al-ḫabīru bayna al-mašrūʿayni."],
       ["قَدَّرَ الْمُدِيرُ كُلْفَةَ الْبِنَاءِ بِدِقَّةٍ.", "Der Leiter schätzte die Baukosten genau.", "Qaddara al-mudīru kulfata al-bināʾi bi-diqqatin."],
       ["كَافَأَ الْمُدِيرُ الْفَرِيقَ بِجَائِزَةٍ كَبِيرَةٍ.", "Der Leiter belohnte das Team mit einem großen Preis.", "Kāfaʾa al-mudīru al-farīqa bi-ǧāʾizatin kabīratin."],
-      ["لَحِقَ الْمُوَظَّفُ الْعَمَلَ قَبْلَ الِانْتِهَاءِ.", "Der Angestellte holte die Arbeit vor dem Ende ein.", "Laḥiqa al-muwaẓẓafu al-ʿamala qabla al-intihāʾi."],
+      ["لَحِقَ الْمُوَظَّفُ بِزُمَلَائِهِ قَبْلَ الْمَسَاءِ.", "Der Angestellte holte seine Kollegen vor dem Abend ein.", "Laḥiqa al-muwaẓẓafu bi-zumalāʾihī qabla al-masāʾi."],
       ["لَفَّ النَّاسُ الْهَدِيَّةَ بِالْوَرَقِ الْجَمِيلِ.", "Die Leute wickelten das Geschenk in das schöne Papier.", "Laffa an-nāsu al-hadiyyata bi-al-waraqi al-ǧamīli."]
     ]
   },

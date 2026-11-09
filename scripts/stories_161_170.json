@@ -6,7 +6,7 @@
     "sentences": [
       ["سَاوَمَ التَّاجِرُ عَلَى الثَّمَنِ.", "Der Händler feilschte über den Preis.", "Sāwama at-tāǧiru ʿalā aṯ-ṯamani."],
       ["تَتَابَعَتِ الْأَخْبَارُ فِي الصَّبَاحِ.", "Die Nachrichten folgten am Morgen aufeinander.", "Tatābaʿati al-ʾaḫbāru fī aṣ-ṣabāḥi."],
-      ["شَقَّ الْفَلَّاحُ الْأَرْضَ بِالْمِحْرَاثِ.", "Der Bauer spaltete die Erde mit dem Pflug.", "Šaqqa al-fallāḥu al-ʾarḍa bi-al-miḥrāṯi."],
+      ["شَقَّ الْفَلَّاحُ الْأَرْضَ بِالْمِحْرَاثِ.", "Der Bauer pflügte die Erde mit dem Pflug.", "Šaqqa al-fallāḥu al-ʾarḍa bi-al-miḥrāṯi."],
       ["عَزَّزَ الدَّرْسُ ثِقَةَ الطَّالِبِ.", "Die Lektion stärkte das Selbstvertrauen des Schülers.", "ʿAzzaza ad-darsu ṯiqata aṭ-ṭālibi."],
       ["وَسَّعَ التَّاجِرُ مَتْجَرَهُ الْقَدِيمَ.", "Der Händler erweiterte sein altes Geschäft.", "Wassaʿa at-tāǧiru matǧarahū al-qadīma."],
       ["تَخَلَّى الْأَبُ عَنِ الْكُرْسِيِّ لِطِفْلِهِ.", "Der Vater verzichtete für sein Kind auf den Stuhl.", "Taḫallā al-ʾabu ʿani al-kursiyyi li-ṭiflihī."],
@@ -80,7 +80,7 @@
       ["فَاوَضَ الْوَفْدُ الْجَانِبَ الْآخَرَ بِهُدُوءٍ.", "Die Delegation verhandelte ruhig mit der anderen Seite.", "Fāwaḍa al-wafdu al-ǧāniba al-ʾāḫara bi-hudūʾin."],
       ["بَادَلَ الصَّدِيقَانِ الْهَدَايَا.", "Die beiden Freunde tauschten die Geschenke.", "Bādala aṣ-ṣadīqāni al-hadāyā."],
       ["اِلْتَقَى الْفَرِيقَانِ فِي قَاعَةِ الْمُؤْتَمَرِ.", "Die beiden Teams trafen sich im Konferenzsaal.", "Iltaqā al-farīqāni fī qāʿati al-muʾtamari."],
-      ["تَعَارَفَ الطُّلَّابُ عَلَى بَعْضِهِمْ.", "Die Schüler lernten einander kennen.", "Taʿārafa aṭ-ṭullābu ʿalā baʿḍihim."],
+      ["تَعَارَفَ الطُّلَّابُ فِي أَوَّلِ يَوْمٍ.", "Die Schüler lernten sich am ersten Tag kennen.", "Taʿārafa aṭ-ṭullābu fī ʾawwali yawmin."],
       ["تَعَرَّفَ الزَّائِرُ عَلَى الْمَدِينَةِ.", "Der Besucher lernte die Stadt kennen.", "Taʿarrafa az-zāʾiru ʿalā al-madīnati."]
     ]
   },
